@@ -2787,7 +2787,7 @@ msgstr "Number of posts"
 #: admin/manage-pages.php:73
 #, php-format
 msgid "浏览 %s"
-msgstr "%s views"
+msgstr "View %s"
 
 #: admin/manage-metas.php:71
 #: admin/manage-metas.php:73
