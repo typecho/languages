@@ -1,0 +1,3466 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tyecho 0.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-15 22:37+0800\n"
+"PO-Revision-Date: 2013-12-16 02:48+0800\n"
+"Last-Translator: Jakukyo Friel <weakish@gmail.com>\n"
+"Language-Team: typecho\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _t;_e;_n\n"
+"X-Poedit-Basepath: /home/weakish/typecho/\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: install.php:171
+msgid "UTF-8"
+msgstr "UTF-8"
+
+#: install.php:172
+msgid "Typecho 安装程序"
+msgstr "Typecho Installer"
+
+#: install.php:181
+msgid "欢迎使用"
+msgstr "Welcome to use"
+
+#: install.php:182
+msgid "初始化配置"
+msgstr "Initialize configuration"
+
+#: install.php:183
+msgid "开始安装"
+msgstr "Begin to install"
+
+#: install.php:184
+msgid "安装成功"
+msgstr "Successfully installed."
+
+#: install.php:193
+#: install.php:238
+#: install.php:361
+msgid "安装失败!"
+msgstr "Fails to install!"
+
+#: install.php:196
+#: install.php:241
+msgid "您没有上传 config.inc.php 文件，请您重新安装！"
+msgstr "You have not uploaded config.inc.php, please reinstall typecho."
+
+#: install.php:196
+#: install.php:241
+msgid "重新安装 &raquo;"
+msgstr "reinstall &raquo;"
+
+#: install.php:200
+msgid "安装成功!"
+msgstr "Successfully installed！"
+
+#: install.php:204
+msgid "您选择了使用原有的数据, 您的用户名和密码和原来的一致"
+msgstr "Since you choose to use the original data, your uesrname and password would be the same."
+
+#: install.php:207
+msgid "您的用户名是"
+msgstr "You username is"
+
+#: install.php:208
+msgid "您的密码是"
+msgstr "You password is"
+
+#: install.php:218
+msgid "您可以将下面两个链接保存到您的收藏夹"
+msgstr "You can save the following two links as your bookmarks"
+
+#: install.php:228
+msgid "点击这里访问您的控制面板"
+msgstr "Click here to access your dashboard."
+
+#: install.php:229
+msgid "点击这里查看您的 Blog"
+msgstr "Click here to view your blog."
+
+#: install.php:233
+msgid "希望您能尽情享用 Typecho 带来的乐趣!"
+msgstr "I hope you can enjoy Typecho!"
+
+#: install.php:273
+msgid "28800"
+msgstr "28800"
+
+#: install.php:328
+msgid "默认分类"
+msgstr "default category"
+
+#: install.php:328
+msgid "只是一个默认分类"
+msgstr "this is only a default category"
+
+#: install.php:335
+#: install.php:592
+msgid "欢迎使用 Typecho"
+msgstr "welcome to use Typecho"
+
+#: install.php:336
+msgid "如果您看到这篇文章,表示您的 blog 已经安装成功."
+msgstr "If you have seen this post, your blog is successfully installed."
+
+#: install.php:339
+msgid "关于"
+msgstr "About"
+
+#: install.php:340
+msgid "本页面由 Typecho 创建, 这只是个测试页面."
+msgstr "This page is created by Typecho, it's a test page only."
+
+#: install.php:381
+msgid "已经删除完原有数据"
+msgstr "original data deleted"
+
+#: install.php:382
+msgid "继续安装 &raquo;"
+msgstr "continue to install &raquo;"
+
+#: install.php:392
+msgid "安装程序检查到原有数据表已经存在."
+msgstr "Installer detected that a database table already existed."
+
+#: install.php:393
+msgid "删除原有数据"
+msgstr "delete original data"
+
+#: install.php:394
+msgid "或者"
+msgstr "or"
+
+#: install.php:394
+msgid "使用原有数据"
+msgstr "use original data"
+
+#: install.php:397
+#, php-format
+msgid "安装程序捕捉到以下错误: \"%s\". 程序被终止, 请检查您的配置信息."
+msgstr "Installer catches this error: \"%s\". The program is terminated. Please check your configuration."
+
+#: install.php:419
+msgid "确认您的配置"
+msgstr "Confirm your configuration."
+
+#: install.php:421
+msgid "数据库配置"
+msgstr "database configuration"
+
+#: install.php:427
+msgid "没有检测到您手动创建的配置文件, 请检查后再次创建"
+msgstr "No configure file you created manually has been detected. Please check it and create it again."
+
+#: install.php:432
+msgid "请填写您的网站地址"
+msgstr "Please enter your website URL"
+
+#: install.php:435
+#: install.php:573
+msgid "请填写您的用户名"
+msgstr "Please enter your username"
+
+#: install.php:438
+msgid "请填写您的邮箱地址"
+msgstr "Please enter your email address"
+
+#: install.php:441
+msgid "用户名长度超过限制, 请不要超过 32 个字符"
+msgstr "Your username is too long, please limit it with in 32 characters"
+
+#: install.php:444
+msgid "邮箱长度超过限制, 请不要超过 200 个字符"
+msgstr "Your email address is too long, please limit it within 200 characters"
+
+#: install.php:477
+msgid "对不起，无法连接数据库，请先检查数据库配置再继续进行安装"
+msgstr "Sorry, typecho cannot connect to database. Please check your database configuration, then continue to install."
+
+#: install.php:481
+#, php-format
+msgid "安装程序捕捉到以下错误: \" %s \". 程序被终止, 请检查您的配置信息."
+msgstr "Installer catches this error: \"%s\". The program is terminated. Please check your configuration."
+
+#: install.php:518
+msgid "安装程序无法自动创建 <strong>config.inc.php</strong> 文件"
+msgstr "Installer cannot create <strong>config.inc.php</strong> file automatically."
+
+#: install.php:519
+msgid "您可以在网站根目录下手动创建 <strong>config.inc.php</strong> 文件, 并复制如下代码至其中"
+msgstr "You can create  <strong>config.inc.php</strong>  file under the root directory of the website, and copy the following code in it"
+
+#: install.php:537
+msgid "数据库适配器"
+msgstr "Database adapter"
+
+#: install.php:539
+msgid "Mysql 原生函数适配器"
+msgstr "MySQL native function adapter"
+
+#: install.php:540
+msgid "SQLite 原生函数适配器 (SQLite 2.x)"
+msgstr "SQLite native function adapter (SQLite 2.x)"
+
+#: install.php:541
+msgid "Pgsql 原生函数适配器"
+msgstr "Pgsql native function adapter"
+
+#: install.php:542
+msgid "Pdo 驱动 Mysql 适配器"
+msgstr "Pdo driver Mysql adapter"
+
+#: install.php:543
+msgid "Pdo 驱动 SQLite 适配器 (SQLite 3.x)"
+msgstr "Pdo driver mysql adapter (SQLite 3.x)"
+
+#: install.php:544
+msgid "Pdo 驱动 PostgreSql 适配器"
+msgstr "Pdo driver PostgreSql adapter"
+
+#: install.php:546
+msgid "请根据您的数据库类型选择合适的适配器"
+msgstr "Please choose the adapter according to your database type."
+
+#: install.php:550
+msgid "数据库前缀"
+msgstr "database prefix"
+
+#: install.php:552
+msgid "默认前缀是 \"typecho_\""
+msgstr "the default prefix is \"typecho_\""
+
+#: install.php:563
+msgid "创建您的管理员帐号"
+msgstr "create your admin account"
+
+#: install.php:566
+msgid "网站地址"
+msgstr "website URL"
+
+#: install.php:568
+msgid "这是程序自动匹配的网站路径, 如果不正确请修改它"
+msgstr "This is the auto matched website URL. If it is wrong, please edit it."
+
+#: install.php:571
+msgid "用户名"
+msgstr "username"
+
+#: install.php:576
+msgid "登录密码"
+msgstr "login password"
+
+#: install.php:578
+msgid "请填写您的登录密码, 如果留空系统将为您随机生成一个"
+msgstr "Please enter your login password. If you leave it blank, typecho will generate a random one for you."
+
+#: install.php:581
+msgid "邮件地址"
+msgstr "email address"
+
+#: install.php:583
+msgid "请填写一个您的常用邮箱"
+msgstr "Please enter an email address which you regularly use."
+
+#: install.php:588
+msgid "确认, 开始安装 &raquo;"
+msgstr "Confirm, start to install &raquo;"
+
+#: install.php:594
+msgid "安装说明"
+msgstr "Install instructions"
+
+#: install.php:595
+msgid "本安装程序将自动检测服务器环境是否符合最低配置需求. 如果不符合, 将在上方出现提示信息, 请按照提示信息检查您的主机配置. 如果服务器环境符合要求, 将在下方出现 \"开始下一步\" 的按钮, 点击此按钮即可一步完成安装."
+msgstr "This installer will detect if the server environment meet the minimum requirements automatically. If not, it will notify you at the header of the page. Please check your host configuration according to the notification. If your server environment meets the requirements, a \"next step\" button will appear below. Click it to finish your installation. "
+
+#: install.php:596
+msgid "许可及协议"
+msgstr "Terms and license"
+
+#: install.php:597
+msgid ""
+"Typecho 基于 <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> 协议发布,我们允许用户在 GPL 协议许可的范围内使用,拷贝,修改和分发此程序.\n"
+"您可以自由地将其用于商业以及非商业用途."
+msgstr ""
+"Typecho is licensed under <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> . We allow users use, copy, modify and redistribute this program under GPL.\n"
+"You can use it commercially and non-commercially as GPL permits."
+
+#: install.php:599
+msgid ""
+"Typecho 软件由其社区提供支持,核心开发团队负责维护程序日常开发工作以及新特性的制定.如果您遇到使用上的问题,\n"
+"程序中的 BUG,以及期许的新功能,欢迎您在社区中交流或者直接向我们贡献代码.对于贡献突出者,他的名字将出现在贡献者名单中."
+msgstr ""
+"Typecho is supported by its community. The core developers are responsible for the route developing and  new features planing. \n"
+"If you have problems in using typecho, find bugs in the program,  or have a idea of new features, we welcome you to communicate in community or contribute code to us directly. Established contributors will be listed."
+
+#: install.php:602
+msgid "我准备好了, 开始下一步 &raquo;"
+msgstr "I am ready for next step &raquo;"
+
+#: usr/themes/default/functions.php:4
+msgid "站点LOGO地址"
+msgstr "website logo URL"
+
+#: usr/themes/default/functions.php:4
+msgid "在这里填入一个图片URL地址, 以在网站标题前加上一个LOGO"
+msgstr "Enter the URL for the logo which will appear before the title of the website."
+
+#: usr/themes/default/functions.php:8
+msgid "显示最新文章"
+msgstr "show recent posts"
+
+#: usr/themes/default/functions.php:9
+msgid "显示最近回复"
+msgstr "show recent comments"
+
+#: usr/themes/default/functions.php:10
+msgid "显示分类"
+msgstr "show categories"
+
+#: usr/themes/default/functions.php:11
+msgid "显示归档"
+msgstr "show archive"
+
+#: usr/themes/default/functions.php:12
+msgid "显示其它杂项"
+msgstr "show other items"
+
+#: usr/themes/default/functions.php:13
+msgid "侧边栏显示"
+msgstr "show in sidebar"
+
+#: usr/themes/default/404.php:6
+msgid "页面没找到"
+msgstr "Page not found."
+
+#: usr/themes/default/404.php:7
+msgid "你想查看的页面已被转移或删除了，要不要搜索看看："
+msgstr "The page you want to view has been moved or deleted. Want to search it?"
+
+#: usr/themes/default/404.php:10
+#: usr/themes/default/header.php:49
+msgid "搜索"
+msgstr "search"
+
+#: usr/themes/default/post.php:7
+#: usr/themes/default/archive.php:15
+#: usr/themes/default/index.php:19
+msgid "作者："
+msgstr "Author:"
+
+#: usr/themes/default/post.php:8
+#: usr/themes/default/archive.php:16
+#: usr/themes/default/index.php:20
+msgid "时间："
+msgstr "Time:"
+
+#: usr/themes/default/post.php:9
+#: usr/themes/default/archive.php:17
+#: usr/themes/default/index.php:21
+msgid "分类："
+msgstr "Category:"
+
+#: usr/themes/default/post.php:14
+msgid "标签："
+msgstr "Tags:"
+
+#: usr/themes/default/archive.php:5
+#: usr/themes/default/header.php:9
+#, php-format
+msgid "分类 %s 下的文章"
+msgstr "Posts under category %s"
+
+#: usr/themes/default/archive.php:6
+#: usr/themes/default/header.php:10
+#, php-format
+msgid "包含关键字 %s 的文章"
+msgstr "Posts include the keyword %s"
+
+#: usr/themes/default/archive.php:7
+#: usr/themes/default/header.php:11
+#, php-format
+msgid "标签 %s 下的文章"
+msgstr "Posts tagged with %s"
+
+#: usr/themes/default/archive.php:8
+#: usr/themes/default/header.php:12
+#, php-format
+msgid "%s 发布的文章"
+msgstr "%s published posts"
+
+#: usr/themes/default/archive.php:27
+msgid "没有找到内容"
+msgstr "No content found."
+
+#: usr/themes/default/sidebar.php:4
+msgid "最新文章"
+msgstr "Recent posts"
+
+#: usr/themes/default/sidebar.php:14
+msgid "最近回复"
+msgstr "Recent replies"
+
+#: usr/themes/default/sidebar.php:26
+msgid "分类"
+msgstr "Category"
+
+#: usr/themes/default/sidebar.php:36
+msgid "归档"
+msgstr "Archive"
+
+#: usr/themes/default/sidebar.php:46
+msgid "其它"
+msgstr "Other"
+
+#: usr/themes/default/sidebar.php:49
+msgid "进入后台"
+msgstr "Enter the control panel"
+
+#: usr/themes/default/sidebar.php:50
+#: usr/themes/default/comments.php:21
+msgid "退出"
+msgstr "Quit"
+
+#: usr/themes/default/sidebar.php:52
+msgid "登录"
+msgstr "Login"
+
+#: usr/themes/default/sidebar.php:54
+msgid "文章 RSS"
+msgstr "RSS for posts"
+
+#: usr/themes/default/sidebar.php:55
+msgid "评论 RSS"
+msgstr "RSS for comments"
+
+#: usr/themes/default/comments.php:4
+msgid "暂无评论"
+msgstr "No comments yet."
+
+#: usr/themes/default/comments.php:4
+msgid "仅有一条评论"
+msgstr "Only one comment."
+
+#: usr/themes/default/comments.php:4
+#, php-format
+msgid "已有 %d 条评论"
+msgstr "%d comments."
+
+#: usr/themes/default/comments.php:18
+msgid "添加新评论"
+msgstr "Add a new comment."
+
+#: usr/themes/default/comments.php:21
+msgid "登录身份："
+msgstr "Login as:"
+
+#: usr/themes/default/comments.php:24
+msgid "称呼"
+msgstr " Name"
+
+#: usr/themes/default/comments.php:28
+msgid "Email"
+msgstr "Email"
+
+#: usr/themes/default/comments.php:32
+msgid "网站"
+msgstr "Website"
+
+#: usr/themes/default/comments.php:33
+msgid "http://"
+msgstr "http://"
+
+#: usr/themes/default/comments.php:37
+msgid "内容"
+msgstr "Content"
+
+#: usr/themes/default/comments.php:41
+msgid "提交评论"
+msgstr "Submit comment."
+
+#: usr/themes/default/comments.php:46
+msgid "评论已关闭"
+msgstr "Comments are closed."
+
+#: usr/themes/default/footer.php:9
+msgid "由 <a href=\"http://www.typecho.org\">Typecho</a> 强力驱动"
+msgstr "Proudly powered by <a href=\"http://www.typecho.org\">Typecho</a>."
+
+#: usr/themes/default/header.php:30
+msgid "当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href=\"http://browsehappy.com/\">升级你的浏览器</a>"
+msgstr "Your browser <strong>is not supported</strong> . Please <a href=\"http://browsehappy.com/\">update your browser</a>."
+
+#: usr/themes/default/header.php:47
+msgid "搜索关键字"
+msgstr "Search keywords."
+
+#: usr/themes/default/header.php:48
+msgid "输入关键字搜索"
+msgstr "Enter keywords to search:"
+
+#: usr/themes/default/header.php:54
+msgid "首页"
+msgstr "Front page"
+
+#: usr/plugins/HelloWorld/Plugin.php:44
+msgid "说点什么"
+msgstr "Say something"
+
+#: var/Upgrade.php:111
+msgid "config.inc.php 文件无法写入, 请将它的权限设置为可写"
+msgstr "Can not write to config.inc.php, please add write permission to it."
+
+#: var/Upgrade.php:351
+#, php-format
+msgid "上传目录无法写入, 请手动将安装目录下的 %s 目录的权限设置为可写然后继续升级"
+msgstr "Cannot write into upload directory. Please set the permission of %s directory (under installation directory) to writable, then continue to upgrade."
+
+#: var/Upgrade.php:356
+#, php-format
+msgid "上传目录无法创建, 请手动创建安装目录下的 %s 目录, 并将它的权限设置为可写然后继续升级"
+msgstr "Cannot create upload directory. Please create %s directory under installation directory manually, and set its permission to writable, then continue to upgrade."
+
+#: var/Upgrade.php:542
+msgid "建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"http://typecho.org/upgrade/9.7.2\">以下优化步骤</a>"
+msgstr "After upgrade to  Typecho 0.7/9.7.2 + ,  we recommend that you follow the <a href=\"http://typecho.org/upgrade/9.7.2\">steps for optimization</a> immediately."
+
+#: var/Helper.php:47
+msgid "无法禁用插件"
+msgstr "Cannot disable the plugin."
+
+#: var/Typecho/I18n.php:136
+msgid "刚刚"
+msgstr "right now"
+
+#: var/Typecho/I18n.php:138
+#, php-format
+msgid "%d秒前"
+msgstr "%d seconds ago"
+
+#: var/Typecho/I18n.php:143
+#, php-format
+msgid "%d分钟前"
+msgstr "%d minutes ago"
+
+#: var/Typecho/I18n.php:147
+#, php-format
+msgid "%d小时前"
+msgstr "%d hours ago"
+
+#: var/Typecho/I18n.php:152
+#, php-format
+msgid "昨天 %s"
+msgstr "yesterday %s"
+
+#: var/Typecho/I18n.php:158
+#, php-format
+msgid "%d天前"
+msgstr "%d days ago"
+
+#: var/Typecho/I18n.php:163
+msgid "n月j日"
+msgstr "n - j"
+
+#: var/Typecho/I18n.php:166
+msgid "Y年m月d日"
+msgstr "Y - m - d"
+
+#: var/Widget/Upgrade.php:107
+msgid "升级已经完成"
+msgstr "Completed upgrading."
+
+#: var/Widget/Menu.php:103
+msgid "控制台"
+msgstr "Console"
+
+#: var/Widget/Menu.php:103
+msgid "撰写"
+msgstr "Write"
+
+#: var/Widget/Menu.php:103
+msgid "管理"
+msgstr "Admin"
+
+#: var/Widget/Menu.php:103
+msgid "设置"
+msgstr "Configuration"
+
+#: var/Widget/Menu.php:107
+#, php-format
+msgid "登录到%s"
+msgstr "Login to %s"
+
+#: var/Widget/Menu.php:108
+msgid "注册"
+msgstr "Register"
+
+#: var/Widget/Menu.php:108
+#, php-format
+msgid "注册到%s"
+msgstr "Register at %s"
+
+#: var/Widget/Menu.php:111
+msgid "概要"
+msgstr "Overview"
+
+#: var/Widget/Menu.php:111
+msgid "网站概要"
+msgstr "Website overview"
+
+#: var/Widget/Menu.php:112
+msgid "个人设置"
+msgstr "Preferences"
+
+#: var/Widget/Menu.php:113
+msgid "插件"
+msgstr "Plugins"
+
+#: var/Widget/Menu.php:113
+msgid "插件管理"
+msgstr "manage plugins"
+
+#: var/Widget/Menu.php:115
+msgid "外观"
+msgstr "Appearance"
+
+#: var/Widget/Menu.php:115
+msgid "网站外观"
+msgstr "Website appearances"
+
+#: var/Widget/Menu.php:118
+msgid "升级"
+msgstr "Upgrade"
+
+#: var/Widget/Menu.php:118
+msgid "升级程序"
+msgstr "Upgrade program"
+
+#: var/Widget/Menu.php:119
+msgid "欢迎"
+msgstr "Welcome"
+
+#: var/Widget/Menu.php:122
+msgid "撰写文章"
+msgstr "Write a post"
+
+#: var/Widget/Menu.php:122
+msgid "撰写新文章"
+msgstr "Write a new post"
+
+#: var/Widget/Menu.php:124
+msgid "创建页面"
+msgstr "Create a page"
+
+#: var/Widget/Menu.php:124
+msgid "创建新页面"
+msgstr "Create a new page"
+
+#: var/Widget/Menu.php:128
+msgid "文章"
+msgstr "Posts"
+
+#: var/Widget/Menu.php:128
+msgid "管理文章"
+msgstr "Manage posts"
+
+#: var/Widget/Menu.php:130
+msgid "独立页面"
+msgstr "Pages"
+
+#: var/Widget/Menu.php:130
+msgid "管理独立页面"
+msgstr "Manage pages"
+
+#: var/Widget/Menu.php:131
+#: var/Widget/Menu.php:142
+msgid "评论"
+msgstr "Comments"
+
+#: var/Widget/Menu.php:131
+msgid "管理评论"
+msgstr "Manage comments."
+
+#: var/Widget/Menu.php:133
+msgid "标签和分类"
+msgstr "Tags and categories."
+
+#: var/Widget/Menu.php:134
+msgid "文件"
+msgstr "Files."
+
+#: var/Widget/Menu.php:134
+msgid "管理文件"
+msgstr "Manage files."
+
+#: var/Widget/Menu.php:136
+msgid "用户"
+msgstr "Users"
+
+#: var/Widget/Menu.php:136
+msgid "管理用户"
+msgstr "Manage users"
+
+#: var/Widget/Menu.php:137
+msgid "新增用户"
+msgstr "Add users"
+
+#: var/Widget/Menu.php:141
+msgid "基本"
+msgstr "Basic"
+
+#: var/Widget/Menu.php:141
+msgid "基本设置"
+msgstr "Basic configuration."
+
+#: var/Widget/Menu.php:142
+msgid "评论设置"
+msgstr "Comments configuration."
+
+#: var/Widget/Menu.php:143
+msgid "阅读"
+msgstr "Read"
+
+#: var/Widget/Menu.php:143
+msgid "阅读设置"
+msgstr "Reading configuration."
+
+#: var/Widget/Menu.php:144
+msgid "永久链接"
+msgstr "Permalink"
+
+#: var/Widget/Menu.php:144
+msgid "永久链接设置"
+msgstr "Permalink  configuration"
+
+#: var/Widget/XmlRpc.php:206
+msgid "软件名称"
+msgstr "Software name"
+
+#: var/Widget/XmlRpc.php:211
+msgid "软件版本"
+msgstr "Software version"
+
+#: var/Widget/XmlRpc.php:216
+msgid "博客地址"
+msgstr "Blog URL"
+
+#: var/Widget/XmlRpc.php:223
+msgid "时区"
+msgstr "Timezone"
+
+#: var/Widget/XmlRpc.php:228
+msgid "博客标题"
+msgstr "Blog title"
+
+#: var/Widget/XmlRpc.php:233
+msgid "博客关键字"
+msgstr "Blog keywords"
+
+#: var/Widget/XmlRpc.php:238
+msgid "日期格式"
+msgstr "Date format"
+
+#: var/Widget/XmlRpc.php:243
+msgid "时间格式"
+msgstr "Time format"
+
+#: var/Widget/XmlRpc.php:248
+msgid "是否允许注册"
+msgstr "Allow registration or not."
+
+#: var/Widget/XmlRpc.php:268
+msgid "权限不足"
+msgstr "Permission error."
+
+#: var/Widget/XmlRpc.php:272
+msgid "无法登陆, 密码错误"
+msgstr "Cannot login. Wrong password."
+
+#: var/Widget/XmlRpc.php:727
+#: var/Widget/XmlRpc.php:750
+msgid "草稿"
+msgstr "Drafts"
+
+#: var/Widget/XmlRpc.php:728
+#: var/Widget/XmlRpc.php:772
+msgid "待审核"
+msgstr "To review"
+
+#: var/Widget/XmlRpc.php:729
+#: var/Widget/XmlRpc.php:751
+msgid "已发布"
+msgstr "Published"
+
+#: var/Widget/XmlRpc.php:773
+msgid "显示"
+msgstr "Show"
+
+#: var/Widget/XmlRpc.php:774
+msgid "垃圾"
+msgstr "Spam"
+
+#: var/Widget/XmlRpc.php:894
+#: var/Widget/XmlRpc.php:1060
+msgid "评论不存在"
+msgstr "Comments do not exist."
+
+#: var/Widget/XmlRpc.php:898
+msgid "没有获取评论的权限"
+msgstr "No permission to get the comments."
+
+#: var/Widget/XmlRpc.php:1028
+msgid "无法编辑此评论"
+msgstr "Cannot edit this comment."
+
+#: var/Widget/XmlRpc.php:1094
+#: var/Widget/XmlRpc.php:1856
+#: var/Widget/XmlRpc.php:1935
+msgid "这个目标地址不存在"
+msgstr "Target URL does not exist."
+
+#: var/Widget/XmlRpc.php:1153
+msgid "未命名文档"
+msgstr "Unnamed document"
+
+#: var/Widget/XmlRpc.php:1441
+msgid "上传失败"
+msgstr "Failed to upload."
+
+#: var/Widget/XmlRpc.php:1825
+#: var/Widget/XmlRpc.php:1843
+#: var/Widget/XmlRpc.php:1847
+msgid "源地址服务器错误"
+msgstr "Source server is wrong."
+
+#: var/Widget/XmlRpc.php:1838
+msgid "源地址不支持PingBack"
+msgstr "Source URL does not support PingBack."
+
+#: var/Widget/XmlRpc.php:1898
+msgid "源地址中不包括目标地址"
+msgstr "Source URL does not include target URL."
+
+#: var/Widget/XmlRpc.php:1929
+msgid "PingBack已经存在"
+msgstr "PingBack already exist."
+
+#: var/Widget/XmlRpc.php:1932
+msgid "目标地址禁止Ping"
+msgstr "Target URL forbids Ping."
+
+#: var/Widget/Ajax.php:78
+#: var/Widget/Ajax.php:119
+#: var/Widget/User.php:265
+msgid "禁止访问"
+msgstr "Access forbidden."
+
+#: var/Widget/Feedback.php:54
+msgid "父级评论不存在"
+msgstr "Parent comment does not exist."
+
+#: var/Widget/Feedback.php:60
+msgid "必须填写用户名"
+msgstr "You must enter a username."
+
+#: var/Widget/Feedback.php:61
+#: var/Widget/Register.php:30
+msgid "请不要在用户名中使用特殊字符"
+msgstr "Please do not include special characters in username."
+
+#: var/Widget/Feedback.php:62
+msgid "您所使用的用户名已经被注册,请登录后再次提交"
+msgstr "You username is already registered. Please login."
+
+#: var/Widget/Feedback.php:63
+msgid "用户名最多包含200个字符"
+msgstr "A username cannot exceed 200 characters."
+
+#: var/Widget/Feedback.php:66
+msgid "必须填写电子邮箱地址"
+msgstr "You must enter an email address."
+
+#: var/Widget/Feedback.php:69
+msgid "邮箱地址不合法"
+msgstr "Email address is invalid."
+
+#: var/Widget/Feedback.php:70
+#: var/Widget/Register.php:35
+msgid "电子邮箱最多包含200个字符"
+msgstr "Email address cannot exceed 200 characters."
+
+#: var/Widget/Feedback.php:73
+msgid "必须填写个人主页"
+msgstr "You must enter your homepage."
+
+#: var/Widget/Feedback.php:75
+msgid "个人主页地址格式错误"
+msgstr "Your homepage URL is invalid."
+
+#: var/Widget/Feedback.php:76
+msgid "个人主页地址最多包含200个字符"
+msgstr "Homepage URL cannot exceed 200 characters."
+
+#: var/Widget/Feedback.php:78
+msgid "必须填写评论内容"
+msgstr "You must enter comment content."
+
+#: var/Widget/Feedback.php:162
+#: var/Widget/Feedback.php:330
+msgid "找不到内容"
+msgstr "Cannot find content."
+
+#: var/Widget/Feedback.php:202
+msgid "禁止重复提交"
+msgstr "Repeated submits are not allowed."
+
+#: var/Widget/Feedback.php:276
+msgid "对不起,此内容的反馈被禁止."
+msgstr "Sorry, the content of this feedback is not allowed."
+
+#: var/Widget/Feedback.php:284
+#: var/Widget/Feedback.php:299
+#: var/Widget/Feedback.php:302
+msgid "评论来源页错误."
+msgstr "The source of comments is wrong."
+
+#: var/Widget/Feedback.php:317
+msgid "对不起, 您的发言过于频繁, 请稍侯再次发布."
+msgstr "Sorry, you commented too frequently. Please post your comment later."
+
+#: var/Widget/Feedback.php:324
+msgid "对不起,此内容的引用被禁止."
+msgstr "Sorry, citing this content is not allowed."
+
+#: var/Widget/Register.php:27
+msgid "必须填写用户名称"
+msgstr "You must enter a username."
+
+#: var/Widget/Register.php:28
+msgid "用户名至少包含2个字符"
+msgstr "Username contains at least 2 characters."
+
+#: var/Widget/Register.php:29
+msgid "用户名最多包含32个字符"
+msgstr "Username must contain at most 32 characters."
+
+#: var/Widget/Register.php:31
+msgid "用户名已经存在"
+msgstr "Username already exist."
+
+#: var/Widget/Register.php:32
+msgid "必须填写电子邮箱"
+msgstr "You must enter an email address."
+
+#: var/Widget/Register.php:33
+msgid "电子邮箱地址已经存在"
+msgstr "Email address already exist."
+
+#: var/Widget/Register.php:34
+msgid "电子邮箱格式错误"
+msgstr "Email address is invalid."
+
+#: var/Widget/Register.php:39
+msgid "必须填写密码"
+msgstr "You must enter a password."
+
+#: var/Widget/Register.php:40
+msgid "为了保证账户安全, 请输入至少六位的密码"
+msgstr "For the security of your account, please choose a password which contains at least 6 characters."
+
+#: var/Widget/Register.php:41
+msgid "为了便于记忆, 密码长度请不要超过十八位"
+msgstr "For the convenience of memory, please choose a password which contains at most 18 characters."
+
+#: var/Widget/Register.php:42
+msgid "两次输入的密码不一致"
+msgstr "Passwords are not matched."
+
+#: var/Widget/Register.php:80
+#, php-format
+msgid "用户 <strong>%s</strong> 已经成功注册, 密码为 <strong>%s</strong>"
+msgstr "User <strong>%s</strong> registered successfully, password is <strong>%s</strong>."
+
+#: var/Widget/Options.php:474
+#: var/Widget/Options.php:494
+#, php-format
+msgid "插件%s的配置信息没有找到"
+msgstr "No configuration information has been found for plugin %s."
+
+#: var/Widget/Archive.php:280
+msgid "聚合页不存在"
+msgstr "Aggregation page does not exist."
+
+#: var/Widget/Archive.php:285
+msgid "zh-CN"
+msgstr "zh-CN"
+
+#: var/Widget/Archive.php:792
+#: var/Widget/Do.php:85
+msgid "请求的地址不存在"
+msgstr "Requested URL does not exist."
+
+#: var/Widget/Archive.php:873
+msgid "分类不存在"
+msgstr "This category does not exist."
+
+#: var/Widget/Archive.php:941
+msgid "标签不存在"
+msgstr "This tag does not exist."
+
+#: var/Widget/Archive.php:1000
+msgid "作者不存在"
+msgstr "The author does not exist."
+
+#: var/Widget/Archive.php:1063
+#, php-format
+msgid "%d年%d月%d日"
+msgstr "%d - %d - %d"
+
+#: var/Widget/Archive.php:1074
+#, php-format
+msgid "%d年%d月"
+msgstr "%d - %d"
+
+#: var/Widget/Archive.php:1085
+#, php-format
+msgid "%d年"
+msgstr "%d"
+
+#: var/Widget/Archive.php:1895
+#, php-format
+msgid "%s 的评论"
+msgstr "Comments of %s"
+
+#: var/Widget/Login.php:38
+msgid "请输入用户名"
+msgstr "Please enter username"
+
+#: var/Widget/Login.php:39
+msgid "请输入密码"
+msgstr "Please enter password"
+
+#: var/Widget/Login.php:63
+msgid "用户名或密码无效"
+msgstr "Username or password is invalid."
+
+#: var/Widget/Abstract/Contents.php:696
+msgid "对不起,您输入的密码错误"
+msgstr "Sorry, the password is wrong."
+
+#: var/Widget/Abstract/Contents.php:705
+msgid "请输入密码访问"
+msgstr "Please enter the password to access:"
+
+#: var/Widget/Abstract/Contents.php:707
+msgid "提交"
+msgstr "Submit"
+
+#: var/Widget/Abstract/Contents.php:710
+msgid "此内容被密码保护"
+msgstr "The content is protected by a password."
+
+#: var/Widget/Abstract/Comments.php:110
+msgid "内容被隐藏"
+msgstr "The content is hidden."
+
+#: var/Widget/Plugins/Edit.php:95
+msgid "无法启用插件"
+msgstr "Cannot enable plugins."
+
+#: var/Widget/Plugins/Edit.php:128
+#, php-format
+msgid "<a href=\"%s\">%s</a> 无法在此版本的typecho下正常工作"
+msgstr "<a href=\"%s\">%s</a> cannot work under this version of typecho."
+
+#: var/Widget/Plugins/Edit.php:138
+msgid "插件已经被启用"
+msgstr "Plugin enabled."
+
+#: var/Widget/Plugins/Edit.php:205
+msgid "插件已经被禁用"
+msgstr "Plugin disabled."
+
+#: var/Widget/Plugins/Edit.php:235
+msgid "插件设置已经保存"
+msgstr "Plugin configuration saved."
+
+#: var/Widget/Plugins/Config.php:55
+msgid "插件不存在"
+msgstr "Plugin does not exist."
+
+#: var/Widget/Plugins/Config.php:72
+#, php-format
+msgid "设置插件 %s"
+msgstr "Configure plugin %s"
+
+#: var/Widget/Plugins/Config.php:92
+#: var/Widget/Users/Profile.php:356
+msgid "无法配置插件"
+msgstr "Cannot configure plugin."
+
+#: var/Widget/Plugins/Config.php:109
+#: var/Widget/Users/Profile.php:134
+#: var/Widget/Users/Profile.php:173
+msgid "保存设置"
+msgstr "Save configuration."
+
+#: var/Widget/Metas/Category/Edit.php:130
+msgid "分类名称 *"
+msgstr "Category name*"
+
+#: var/Widget/Metas/Category/Edit.php:134
+msgid "分类缩略名"
+msgstr "Category abbreviation"
+
+#: var/Widget/Metas/Category/Edit.php:135
+msgid "分类缩略名用于创建友好的链接形式,建议使用字母,数字,下划线和横杠."
+msgstr "Category abbreviation is used in creating friendly url, we recommend you use alphanumerics, underlines, and dashes."
+
+#: var/Widget/Metas/Category/Edit.php:140
+msgid "分类描述"
+msgstr "Category description."
+
+#: var/Widget/Metas/Category/Edit.php:140
+msgid "此文字用于描述分类,在有的主题中它会被显示."
+msgstr "This text is used for describe category, it will be shown in certain themes."
+
+#: var/Widget/Metas/Category/Edit.php:171
+msgid "编辑分类"
+msgstr "Edit a category."
+
+#: var/Widget/Metas/Category/Edit.php:175
+msgid "增加分类"
+msgstr "Add a new category."
+
+#: var/Widget/Metas/Category/Edit.php:185
+msgid "必须填写分类名称"
+msgstr "You must enter a name for category."
+
+#: var/Widget/Metas/Category/Edit.php:186
+msgid "分类名称已经存在"
+msgstr "Category already exist."
+
+#: var/Widget/Metas/Category/Edit.php:187
+msgid "分类名称无法被转换为缩略名"
+msgstr "This category name cannot be converted to an abbreviation."
+
+#: var/Widget/Metas/Category/Edit.php:188
+#: var/Widget/Metas/Tag/Edit.php:184
+msgid "缩略名已经存在"
+msgstr "Abbreviation already exists."
+
+#: var/Widget/Metas/Category/Edit.php:192
+#: var/Widget/Metas/Category/Edit.php:305
+#: var/Widget/Metas/Category/Edit.php:383
+msgid "分类主键不存在"
+msgstr "Category key does not exist."
+
+#: var/Widget/Metas/Category/Edit.php:227
+#, php-format
+msgid "分类 <a href=\"%s\">%s</a> 已经被增加"
+msgstr "Category <a href=\"%s\">%s</a> added."
+
+#: var/Widget/Metas/Category/Edit.php:260
+#, php-format
+msgid "分类 <a href=\"%s\">%s</a> 已经被更新"
+msgstr "Category <a href=\"%s\">%s</a> updated."
+
+#: var/Widget/Metas/Category/Edit.php:288
+msgid "分类已经删除"
+msgstr "Category deleted."
+
+#: var/Widget/Metas/Category/Edit.php:288
+msgid "没有分类被删除"
+msgstr "No category to delete."
+
+#: var/Widget/Metas/Category/Edit.php:306
+msgid "请选择需要合并的分类"
+msgstr "Please choose categories to combine."
+
+#: var/Widget/Metas/Category/Edit.php:320
+msgid "分类已经合并"
+msgstr "Categories combined."
+
+#: var/Widget/Metas/Category/Edit.php:322
+#: var/Widget/Metas/Category/Edit.php:366
+msgid "没有选择任何分类"
+msgstr "No category selected."
+
+#: var/Widget/Metas/Category/Edit.php:346
+msgid "分类排序已经完成"
+msgstr "Categories sorted."
+
+#: var/Widget/Metas/Category/Edit.php:364
+msgid "分类刷新已经完成"
+msgstr "Categories refreshed."
+
+#: var/Widget/Metas/Category/Edit.php:401
+#, php-format
+msgid "<a href=\"%s\">%s</a> 已经被设为默认分类"
+msgstr "<a href=\"%s\">%s</a> has been set to the default category."
+
+#: var/Widget/Metas/Tag/Edit.php:132
+msgid "标签名称 *"
+msgstr "Tag name *"
+
+#: var/Widget/Metas/Tag/Edit.php:132
+msgid "这是标签在站点中显示的名称.可以使用中文,如 \"地球\"."
+msgstr "This is the tag name shown in website."
+
+#: var/Widget/Metas/Tag/Edit.php:137
+msgid "标签缩略名"
+msgstr "Tag abbreviation"
+
+#: var/Widget/Metas/Tag/Edit.php:137
+msgid "标签缩略名用于创建友好的链接形式, 如果留空则默认使用标签名称."
+msgstr "Abbreviation is used to create friendly URL. If you leave it blank, tag name will be used."
+
+#: var/Widget/Metas/Tag/Edit.php:167
+msgid "编辑标签"
+msgstr "Edit tags."
+
+#: var/Widget/Metas/Tag/Edit.php:171
+msgid "增加标签"
+msgstr "Add a new tag."
+
+#: var/Widget/Metas/Tag/Edit.php:181
+msgid "必须填写标签名称"
+msgstr "You must enter a name for tag."
+
+#: var/Widget/Metas/Tag/Edit.php:182
+msgid "标签名称已经存在"
+msgstr "Tag already exist."
+
+#: var/Widget/Metas/Tag/Edit.php:183
+msgid "标签名称无法被转换为缩略名"
+msgstr "Tag name cannot be converted to an abbreviation."
+
+#: var/Widget/Metas/Tag/Edit.php:188
+msgid "标签主键不存在"
+msgstr "Tag key does not exist."
+
+#: var/Widget/Metas/Tag/Edit.php:220
+#, php-format
+msgid "标签 <a href=\"%s\">%s</a> 已经被增加"
+msgstr "Tag <a href=\"%s\">%s</a> added."
+
+#: var/Widget/Metas/Tag/Edit.php:252
+#, php-format
+msgid "标签 <a href=\"%s\">%s</a> 已经被更新"
+msgstr "Tag <a href=\"%s\">%s</a> updated."
+
+#: var/Widget/Metas/Tag/Edit.php:280
+msgid "标签已经删除"
+msgstr "Tag  deleted."
+
+#: var/Widget/Metas/Tag/Edit.php:280
+msgid "没有标签被删除"
+msgstr "No tag to be deleted."
+
+#: var/Widget/Metas/Tag/Edit.php:296
+msgid "请填写需要合并到的标签"
+msgstr "Please choose tags to be combined."
+
+#: var/Widget/Metas/Tag/Edit.php:302
+msgid "合并到的标签名不合法"
+msgstr "The name for combining tags is invalid."
+
+#: var/Widget/Metas/Tag/Edit.php:312
+msgid "标签已经合并"
+msgstr "Tags are combined."
+
+#: var/Widget/Metas/Tag/Edit.php:314
+#: var/Widget/Metas/Tag/Edit.php:337
+msgid "没有选择任何标签"
+msgstr "No tag has been selected."
+
+#: var/Widget/Metas/Tag/Edit.php:335
+msgid "标签刷新已经完成"
+msgstr "Tags refreshed."
+
+#: var/Widget/Users/Edit.php:51
+#: var/Widget/Users/Edit.php:189
+msgid "用户不存在"
+msgstr "This user does not exist."
+
+#: var/Widget/Users/Edit.php:64
+#, php-format
+msgid "编辑用户 %s"
+msgstr "Edit %s"
+
+#: var/Widget/Users/Edit.php:97
+msgid "用户名 *"
+msgstr "Username *"
+
+#: var/Widget/Users/Edit.php:97
+msgid "此用户名将作为用户登录时所用的名称."
+msgstr "This username will be used for login."
+
+#: var/Widget/Users/Edit.php:98
+msgid "请不要与系统中现有的用户名重复."
+msgstr "Please do not use a username which already exist."
+
+#: var/Widget/Users/Edit.php:102
+#: var/Widget/Users/Profile.php:57
+msgid "电子邮箱地址 *"
+msgstr "Email address *"
+
+#: var/Widget/Users/Edit.php:102
+#: var/Widget/Users/Profile.php:57
+msgid "电子邮箱地址将作为此用户的主要联系方式."
+msgstr "Email address will be used for contact."
+
+#: var/Widget/Users/Edit.php:103
+#: var/Widget/Users/Profile.php:58
+msgid "请不要与系统中现有的电子邮箱地址重复."
+msgstr "Please do not use an email address which already exist."
+
+#: var/Widget/Users/Edit.php:107
+msgid "用户昵称"
+msgstr "Nickname"
+
+#: var/Widget/Users/Edit.php:107
+#: var/Widget/Users/Profile.php:48
+msgid "用户昵称可以与用户名不同, 用于前台显示."
+msgstr "Nickname can be different with username. It will be shown on website."
+
+#: var/Widget/Users/Edit.php:108
+#: var/Widget/Users/Profile.php:49
+msgid "如果你将此项留空, 将默认使用用户名."
+msgstr "If you leave this blank, typecho will use your username by default."
+
+#: var/Widget/Users/Edit.php:112
+#: var/Widget/Users/Profile.php:213
+msgid "用户密码"
+msgstr "User password."
+
+#: var/Widget/Users/Edit.php:112
+#: var/Widget/Users/Profile.php:213
+msgid "为此用户分配一个密码."
+msgstr "Give this user a password."
+
+#: var/Widget/Users/Edit.php:113
+#: var/Widget/Users/Profile.php:214
+msgid "建议使用特殊字符与字母的混编样式,以增加系统安全性."
+msgstr "For security, we recommend you use a password combining special characters and alphanumeric."
+
+#: var/Widget/Users/Edit.php:118
+#: var/Widget/Users/Profile.php:219
+msgid "用户密码确认"
+msgstr "Confirm your password."
+
+#: var/Widget/Users/Edit.php:118
+#: var/Widget/Users/Profile.php:219
+msgid "请确认你的密码, 与上面输入的密码保持一致."
+msgstr "Please confirm your password. It should be same as the one you typed above."
+
+#: var/Widget/Users/Edit.php:123
+#: var/Widget/Users/Profile.php:53
+msgid "个人主页地址"
+msgstr "Homepage"
+
+#: var/Widget/Users/Edit.php:123
+#: var/Widget/Users/Profile.php:53
+msgid "此用户的个人主页地址, 请用 <code>http://</code> 开头."
+msgstr "User's homepage, beginning with <code>http://</code> ."
+
+#: var/Widget/Users/Edit.php:127
+msgid "访问者"
+msgstr "Visitors"
+
+#: var/Widget/Users/Edit.php:128
+msgid "关注者"
+msgstr "Followers"
+
+#: var/Widget/Users/Edit.php:128
+msgid "贡献者"
+msgstr "Contributors"
+
+#: var/Widget/Users/Edit.php:128
+msgid "编辑"
+msgstr "Editors"
+
+#: var/Widget/Users/Edit.php:128
+msgid "管理员"
+msgstr "Admin"
+
+#: var/Widget/Users/Edit.php:129
+msgid "用户组"
+msgstr "User groups"
+
+#: var/Widget/Users/Edit.php:129
+msgid "不同的用户组拥有不同的权限."
+msgstr "Different user group has different permissions."
+
+#: var/Widget/Users/Edit.php:130
+msgid "具体的权限分配表请<a href=\"http://docs.typecho.org/develop/acl\">参考这里</a>."
+msgstr "Please <a href=\"http://docs.typecho.org/develop/acl\">refer this</a> for details on permissions."
+
+#: var/Widget/Users/Edit.php:147
+msgid "编辑用户"
+msgstr "Edit a user"
+
+#: var/Widget/Users/Edit.php:157
+msgid "增加用户"
+msgstr "Add a user"
+
+#: var/Widget/Users/Edit.php:168
+#: var/Widget/Users/Profile.php:75
+msgid "昵称已经存在"
+msgstr "Nickname already exist."
+
+#: var/Widget/Users/Edit.php:181
+msgid "用户密码 *"
+msgstr "Password *"
+
+#: var/Widget/Users/Edit.php:182
+msgid "用户密码确认 *"
+msgstr "Confirm password *"
+
+#: var/Widget/Users/Edit.php:188
+msgid "用户主键不存在"
+msgstr "User key does not exist."
+
+#: var/Widget/Users/Edit.php:220
+#, php-format
+msgid "用户 %s 已经被增加"
+msgstr "User %s added."
+
+#: var/Widget/Users/Edit.php:254
+#, php-format
+msgid "用户 %s 已经被更新"
+msgstr "User %s updated."
+
+#: var/Widget/Users/Edit.php:285
+msgid "用户已经删除"
+msgstr "User deleted."
+
+#: var/Widget/Users/Edit.php:285
+msgid "没有用户被删除"
+msgstr "No user to delete."
+
+#: var/Widget/Users/Profile.php:48
+msgid "昵称"
+msgstr "Nickname"
+
+#: var/Widget/Users/Profile.php:66
+msgid "更新我的档案"
+msgstr "Update my profile."
+
+#: var/Widget/Users/Profile.php:98
+#: var/Widget/Users/Profile.php:106
+msgid "关闭"
+msgstr "Close."
+
+#: var/Widget/Users/Profile.php:98
+#: var/Widget/Users/Profile.php:106
+msgid "打开"
+msgstr "Open"
+
+#: var/Widget/Users/Profile.php:99
+msgid "使用 Markdown 语法编辑和解析内容"
+msgstr "Edit and parse content in Markdown syntax"
+
+#: var/Widget/Users/Profile.php:100
+msgid "使用 <a href=\"http://daringfireball.net/projects/markdown/\">Markdown</a> 语法能够使您的撰写过程更加简便直观."
+msgstr "Use <a href=\"http://daringfireball.net/projects/markdown/\">Markdown</a> for a more convenient and straight forward writing experience."
+
+#: var/Widget/Users/Profile.php:101
+msgid "此功能开启不会影响以前没有使用 Markdown 语法编辑的内容."
+msgstr "Enable this function will not interfere with contents edited before without Markdown syntax."
+
+#: var/Widget/Users/Profile.php:107
+msgid "自动保存"
+msgstr "Auto save."
+
+#: var/Widget/Users/Profile.php:107
+msgid "自动保存功能可以更好地保护你的文章不会丢失."
+msgstr "Auto saving can protect your post from accidents."
+
+#: var/Widget/Users/Profile.php:125
+msgid "可以被评论"
+msgstr "Commentable"
+
+#: var/Widget/Users/Profile.php:125
+msgid "可以被引用"
+msgstr "Citable"
+
+#: var/Widget/Users/Profile.php:125
+msgid "出现在聚合中"
+msgstr "Shown in aggregation."
+
+#: var/Widget/Users/Profile.php:126
+msgid "默认允许"
+msgstr "Allow by default."
+
+#: var/Widget/Users/Profile.php:126
+msgid "设置你经常使用的默认允许权限"
+msgstr "Set default allowed permissions which you use regularly."
+
+#: var/Widget/Users/Profile.php:228
+msgid "更新密码"
+msgstr "Update your password."
+
+#: var/Widget/Users/Profile.php:262
+msgid "您的档案已经更新"
+msgstr "Your profile has been updated."
+
+#: var/Widget/Users/Profile.php:302
+msgid "设置已经保存"
+msgstr "Your configuration has been saved."
+
+#: var/Widget/Users/Profile.php:329
+msgid "密码已经成功修改"
+msgstr "Password has been edited successfully."
+
+#: var/Widget/Users/Profile.php:386
+#, php-format
+msgid "%s 设置已经保存"
+msgstr "Configuration of %s  saved."
+
+#: var/Widget/Comments/Edit.php:92
+msgid "评论已经被标记为待审核"
+msgstr "This comment is await for review."
+
+#: var/Widget/Comments/Edit.php:92
+msgid "没有评论被标记为待审核"
+msgstr "No comment is await for review."
+
+#: var/Widget/Comments/Edit.php:117
+msgid "评论已经被标记为垃圾"
+msgstr "This comment has be marked as spam."
+
+#: var/Widget/Comments/Edit.php:117
+msgid "没有评论被标记为垃圾"
+msgstr "No comments have been marked as spam."
+
+#: var/Widget/Comments/Edit.php:142
+msgid "评论已经被通过"
+msgstr "This comment is published."
+
+#: var/Widget/Comments/Edit.php:142
+msgid "没有评论被通过"
+msgstr "No comment to be publish."
+
+#: var/Widget/Comments/Edit.php:183
+msgid "删除评论成功"
+msgstr "Succeed to delete the comment."
+
+#: var/Widget/Comments/Edit.php:188
+msgid "删除评论失败"
+msgstr "Fails to delete comments."
+
+#: var/Widget/Comments/Edit.php:194
+msgid "评论已经被删除"
+msgstr "Comments deleted."
+
+#: var/Widget/Comments/Edit.php:194
+msgid "没有评论被删除"
+msgstr "No comment to delete."
+
+#: var/Widget/Comments/Edit.php:223
+msgid "所有垃圾评论已经被删除"
+msgstr "Spam deleted."
+
+#: var/Widget/Comments/Edit.php:223
+msgid "没有垃圾评论被删除"
+msgstr "No spam to delete."
+
+#: var/Widget/Comments/Edit.php:253
+msgid "获取评论失败"
+msgstr "Fails to fetch comments."
+
+#: var/Widget/Comments/Edit.php:299
+msgid "修评论失败"
+msgstr "Fails to edit comments."
+
+#: var/Widget/Comments/Edit.php:354
+msgid "回复评论失败"
+msgstr "Fails to reply to a comment."
+
+#: var/Widget/Comments/Admin.php:70
+#, php-format
+msgid "%s的评论"
+msgstr "Comment of %s"
+
+#: var/Widget/Comments/Admin.php:73
+msgid "内容不存在"
+msgstr "Content does not exist."
+
+#: var/Widget/Comments/Admin.php:144
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: var/Widget/Comments/Admin.php:144
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: var/Widget/Comments/Archive.php:402
+#: var/Widget/Comments/Archive.php:460
+msgid "回复"
+msgstr "Reply"
+
+#: var/Widget/Comments/Archive.php:403
+msgid "您的评论正等待审核！"
+msgstr "Your comment is await for review!"
+
+#: var/Widget/Comments/Archive.php:481
+msgid "取消回复"
+msgstr "Cancel the comment"
+
+#: var/Widget/Options/Discussion.php:37
+msgid "评论日期格式"
+msgstr "Comment date format"
+
+#: var/Widget/Options/Discussion.php:37
+msgid "这是一个默认的格式,当你在模板中调用显示评论日期方法时, 如果没有指定日期格式, 将按照此格式输出."
+msgstr "This is a default format. When you call the show comment date method in templates, this format will be used, if you do not specify any date format."
+
+#: var/Widget/Options/Discussion.php:38
+msgid "具体写法请参考 <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP 日期格式写法</a>."
+msgstr "Refer <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP date format</a> for details."
+
+#: var/Widget/Options/Discussion.php:44
+msgid "评论列表数目"
+msgstr "Comment list length"
+
+#: var/Widget/Options/Discussion.php:44
+msgid "此数目用于指定显示在侧边栏中的评论列表数目."
+msgstr "This number specifies how many comments to display in the comment list of the sidebar"
+
+#: var/Widget/Options/Discussion.php:46
+#: var/Widget/Options/Reading.php:125
+#: var/Widget/Options/Reading.php:131
+msgid "请填入一个数字"
+msgstr "Please enter a number"
+
+#: var/Widget/Options/Discussion.php:49
+msgid "仅显示评论, 不显示 Pingback 和 Trackback"
+msgstr "Only display comments, without Pingback and Trackback"
+
+#: var/Widget/Options/Discussion.php:50
+msgid "在评论中使用Markdown语法"
+msgstr "Allow markdown syntax in comments."
+
+#: var/Widget/Options/Discussion.php:51
+msgid "评论者名称显示时自动加上其个人主页链接"
+msgstr "Automatically link commentators to their personal homepage."
+
+#: var/Widget/Options/Discussion.php:52
+msgid "对评论者个人主页链接使用 <a href=\"http://en.wikipedia.org/wiki/Nofollow\">nofollow 属性</a>"
+msgstr "Use <a href=\"http://en.wikipedia.org/wiki/Nofollow\">nofollow attribute</a> for links to commentators' homepage. "
+
+#: var/Widget/Options/Discussion.php:53
+#, php-format
+msgid "启用 <a href=\"http://gravatar.com\">Gravatar</a> 头像服务, 最高显示评级为 %s 的头像"
+msgstr "Enable <a href=\"http://gravatar.com\">Gravatar</a> avatar service. Display avatars rated above %s."
+
+#: var/Widget/Options/Discussion.php:64
+msgid "第一页"
+msgstr "First"
+
+#: var/Widget/Options/Discussion.php:65
+msgid "最后一页"
+msgstr "Last"
+
+#: var/Widget/Options/Discussion.php:60
+#, php-format
+msgid "启用分页, 并且每页显示 %s 篇评论, 在列出时将 %s 作为默认显示"
+msgstr "Enable pages for comments, display %s comments per page, and use  %s as the default display."
+
+#: var/Widget/Options/Discussion.php:67
+#, php-format
+msgid "启用评论回复, 以 %s 层作为每个评论最多的回复层数"
+msgstr "Enable replying to comments. Allow %s depth of comments."
+
+#: var/Widget/Options/Discussion.php:71
+msgid "较新的"
+msgstr "Newer"
+
+#: var/Widget/Options/Discussion.php:72
+msgid "较旧的"
+msgstr "Older"
+
+#: var/Widget/Options/Discussion.php:70
+#, php-format
+msgid "将 %s 的评论显示在前面"
+msgstr "Display %s comments first."
+
+#: var/Widget/Options/Discussion.php:105
+msgid "评论显示"
+msgstr "Comments display."
+
+#: var/Widget/Options/Discussion.php:110
+msgid "所有评论必须经过审核"
+msgstr "All comments must be reviewed."
+
+#: var/Widget/Options/Discussion.php:111
+msgid "评论者之前须有评论通过了审核"
+msgstr "Commentators must have a comment which passed review before."
+
+#: var/Widget/Options/Discussion.php:112
+msgid "必须填写邮箱"
+msgstr "You must enter an email address."
+
+#: var/Widget/Options/Discussion.php:113
+msgid "必须填写网址"
+msgstr "You must enter a website URL."
+
+#: var/Widget/Options/Discussion.php:114
+msgid "检查评论来源页 URL 是否与文章链接一致"
+msgstr "Check if the source URL of the comment is coherent with the post link."
+
+#: var/Widget/Options/Discussion.php:115
+#, php-format
+msgid "在文章发布 %s 天以后自动关闭评论"
+msgstr "Automatically close comments %s days after the publication. "
+
+#: var/Widget/Options/Discussion.php:118
+#, php-format
+msgid "同一 IP 发布评论的时间间隔限制为 %s 分钟"
+msgstr "Comments interval is %s minutes for the same IP."
+
+#: var/Widget/Options/Discussion.php:153
+msgid "评论提交"
+msgstr "Submit comment."
+
+#: var/Widget/Options/Discussion.php:159
+msgid "允许使用的HTML标签和属性"
+msgstr "Allowed HTML tags and attributes"
+
+#: var/Widget/Options/Discussion.php:159
+msgid "默认的用户评论不允许填写任何的HTML标签, 你可以在这里填写允许使用的HTML标签."
+msgstr "By default, in comments users are not allowed to use any HTML tags. You can enter allowed HTML tags here:"
+
+#: var/Widget/Options/Discussion.php:160
+#, php-format
+msgid "比如: %s"
+msgstr "e.g. %s"
+
+#: var/Widget/Options/General.php:36
+msgid "站点名称"
+msgstr "Site name"
+
+#: var/Widget/Options/General.php:36
+msgid "站点的名称将显示在网页的标题处."
+msgstr "Site name will be displayed in the title of the web page."
+
+#: var/Widget/Options/General.php:40
+msgid "站点描述"
+msgstr "Site description"
+
+#: var/Widget/Options/General.php:40
+msgid "站点描述将显示在网页代码的头部."
+msgstr "Site description will be displayed in the header of the web page."
+
+#: var/Widget/Options/General.php:44
+msgid "关键词"
+msgstr "Keywords"
+
+#: var/Widget/Options/General.php:44
+msgid "请以半角逗号 \",\" 分割多个关键字."
+msgstr "Please split multiple keywords with comma \",\"."
+
+#: var/Widget/Options/General.php:48
+msgid "不允许"
+msgstr "Forbid"
+
+#: var/Widget/Options/General.php:48
+msgid "允许"
+msgstr "Allow"
+
+#: var/Widget/Options/General.php:49
+msgid "允许访问者注册到你的网站, 默认的注册用户不享有任何写入权限."
+msgstr "Allow users to register at your site. By default registered users cannot post."
+
+#: var/Widget/Options/General.php:54
+msgid "格林威治(子午线)标准时间 (GMT)"
+msgstr "Greenwich Mean Time （GMT）"
+
+#: var/Widget/Options/General.php:55
+msgid "中欧标准时间 阿姆斯特丹,荷兰,法国 (GMT +1)"
+msgstr "Central European Time, West African Time  (GMT +1)"
+
+#: var/Widget/Options/General.php:56
+msgid "东欧标准时间 布加勒斯特,塞浦路斯,希腊 (GMT +2)"
+msgstr "Eastern European Time, Central African Time (GMT +2)"
+
+#: var/Widget/Options/General.php:57
+msgid "莫斯科时间 伊拉克,埃塞俄比亚,马达加斯加 (GMT +3)"
+msgstr "Moscow Standard Time, Eastern African Time (GMT +3)"
+
+#: var/Widget/Options/General.php:58
+msgid "第比利斯时间 阿曼,毛里塔尼亚,留尼汪岛 (GMT +4)"
+msgstr "Gulf Standard Time, Samara Standard Time (GMT +4)"
+
+#: var/Widget/Options/General.php:59
+msgid "新德里时间 巴基斯坦,马尔代夫 (GMT +5)"
+msgstr "Pakistan Standard Time, Yekaterinburg Standard Time (GMT +5)"
+
+#: var/Widget/Options/General.php:60
+msgid "科伦坡时间 孟加拉 (GMT +6)"
+msgstr " Bangladesh Time, Bhutan Time, Novosibirsk Standard Time (GMT +6)"
+
+#: var/Widget/Options/General.php:61
+msgid "曼谷雅加达 柬埔寨,苏门答腊,老挝 (GMT +7)"
+msgstr "Indochina Time, Krasnoyarsk Standard Time (GMT +7)"
+
+#: var/Widget/Options/General.php:62
+msgid "北京时间 香港,新加坡,越南 (GMT +8)"
+msgstr "Chinese Standard Time, Australian Western Standard Time, Irkutsk Standard Time (GMT +8)"
+
+#: var/Widget/Options/General.php:63
+msgid "东京平壤时间 西伊里安,摩鹿加群岛 (GMT +9)"
+msgstr "Japan Standard Time, Korea Standard Time, Chita Standard Time  (GMT +9)"
+
+#: var/Widget/Options/General.php:64
+msgid "悉尼关岛时间 塔斯马尼亚岛,新几内亚 (GMT +10)"
+msgstr "Australian Eastern Standard Time, Vladivostok Standard Time (GMT +10)"
+
+#: var/Widget/Options/General.php:65
+msgid "所罗门群岛 库页岛 (GMT +11)"
+msgstr "Solomon Island Time, Magadan Standard Time (GMT +11)"
+
+#: var/Widget/Options/General.php:66
+msgid "惠灵顿时间 新西兰,斐济群岛 (GMT +12)"
+msgstr "New Zealand Time, Fiji Time, Kamchatka Standard Time (GMT +12)"
+
+#: var/Widget/Options/General.php:67
+msgid "佛德尔群岛 亚速尔群岛,葡属几内亚 (GMT -1)"
+msgstr "Azores Standard Time, Cape Verde Time, Eastern Greenland Time (GMT -1)"
+
+#: var/Widget/Options/General.php:68
+msgid "大西洋中部时间 格陵兰 (GMT -2)"
+msgstr "Fernando de Noronha Time, South Georgia &amp; the South Sandwich Islands Time (GMT -2)"
+
+#: var/Widget/Options/General.php:69
+msgid "布宜诺斯艾利斯 乌拉圭,法属圭亚那 (GMT -3)"
+msgstr "Amazon Standard Time, Central Greenland Time  (GMT -3)"
+
+#: var/Widget/Options/General.php:70
+msgid "智利巴西 委内瑞拉,玻利维亚 (GMT -4)"
+msgstr "Atlantic Standard Time (GMT -4)"
+
+#: var/Widget/Options/General.php:71
+msgid "纽约渥太华 古巴,哥伦比亚,牙买加 (GMT -5)"
+msgstr "Eastern Standard Time (GMT -5)"
+
+#: var/Widget/Options/General.php:72
+msgid "墨西哥城时间 洪都拉斯,危地马拉,哥斯达黎加 (GMT -6)"
+msgstr "Central Standard Time (GMT -6)"
+
+#: var/Widget/Options/General.php:73
+msgid "美国丹佛时间 (GMT -7)"
+msgstr "Mountain Standard Time (GMT -7)"
+
+#: var/Widget/Options/General.php:74
+msgid "美国旧金山时间 (GMT -8)"
+msgstr "Pacific Standard Time (GMT -8)"
+
+#: var/Widget/Options/General.php:75
+msgid "阿拉斯加时间 (GMT -9)"
+msgstr "Alaska Standard Time, Gambier Island Time (GMT -9)"
+
+#: var/Widget/Options/General.php:76
+msgid "夏威夷群岛 (GMT -10)"
+msgstr "Hawaii-Aleutian Standard Time, Cook Island Time  (GMT -10)"
+
+#: var/Widget/Options/General.php:77
+msgid "东萨摩亚群岛 (GMT -11)"
+msgstr "Niue Time, Samoa Standard Time (GMT -11)"
+
+#: var/Widget/Options/General.php:78
+msgid "艾尼威托克岛 (GMT -12)"
+msgstr "Baker Island Time  (GMT -12)"
+
+#: var/Widget/Options/General.php:109
+msgid "图片文件"
+msgstr "Image files"
+
+#: var/Widget/Options/General.php:110
+msgid "多媒体文件"
+msgstr "Media files"
+
+#: var/Widget/Options/General.php:111
+msgid "常用档案文件"
+msgstr "Common archival files"
+
+#: var/Widget/Options/General.php:112
+#, php-format
+msgid "其他格式 %s"
+msgstr "Other %s"
+
+#: var/Widget/Options/General.php:116
+msgid "允许上传的文件类型"
+msgstr "File types allowed for upload."
+
+#: var/Widget/Options/General.php:116
+#, php-format
+msgid "用逗号 \",\" 将后缀名隔开, 例如: %s"
+msgstr "Split file extensions with comma \",\", e.g. %s"
+
+#: var/Widget/Options/Reading.php:37
+msgid "文章日期格式"
+msgstr "Post date format"
+
+#: var/Widget/Options/Reading.php:37
+msgid "此格式用于指定显示在文章归档中的日期默认显示格式."
+msgstr "This format can be used to specify the default date display format in archives."
+
+#: var/Widget/Options/Reading.php:38
+msgid "在某些主题中这个格式可能不会生效, 因为主题作者可以自定义日期格式."
+msgstr "In some themes, this format may not have effects, since theme authors can use customized date formats. "
+
+#: var/Widget/Options/Reading.php:39
+msgid "请参考 <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP 日期格式写法</a>."
+msgstr "Please refer <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP date format</a>."
+
+#: var/Widget/Options/Reading.php:49
+msgid "显示最新发布的文章"
+msgstr "Display recent posts."
+
+#: var/Widget/Options/Reading.php:55
+#, php-format
+msgid "同时将文章列表页路径更改为 %s"
+msgstr "Change the path to the list page of posts to %s"
+
+#: var/Widget/Options/Reading.php:77
+#, php-format
+msgid "使用 %s 页面作为首页"
+msgstr "Use %s as the front page."
+
+#: var/Widget/Options/Reading.php:101
+#, php-format
+msgid "直接调用 %s 模板文件"
+msgstr "Use %s template files."
+
+#: var/Widget/Options/Reading.php:118
+msgid "站点首页"
+msgstr "Front page of site."
+
+#: var/Widget/Options/Reading.php:123
+msgid "文章列表数目"
+msgstr "Length of post list."
+
+#: var/Widget/Options/Reading.php:123
+msgid "此数目用于指定显示在侧边栏中的文章列表数目."
+msgstr "This number specifies how many posts will be displayed in the post list of the sidebar."
+
+#: var/Widget/Options/Reading.php:129
+msgid "每页文章数目"
+msgstr "Posts number per page."
+
+#: var/Widget/Options/Reading.php:129
+msgid "此数目用于指定文章归档输出时每页显示的文章数目."
+msgstr "This number specifies how many posts will be displayed in one page."
+
+#: var/Widget/Options/Reading.php:134
+msgid "仅输出摘要"
+msgstr "Only abstracts."
+
+#: var/Widget/Options/Reading.php:134
+msgid "全文输出"
+msgstr "Full text."
+
+#: var/Widget/Options/Reading.php:135
+msgid "聚合全文输出"
+msgstr "Aggregated full text"
+
+#: var/Widget/Options/Reading.php:135
+msgid "如果你不希望在聚合中输出文章全文,请使用仅输出摘要选项."
+msgstr "If you do not want to show full text in aggregations, please choose \"Only abstracts\"."
+
+#: var/Widget/Options/Reading.php:136
+msgid "摘要的文字取决于你在文章中使用分隔符的位置."
+msgstr "Abstracts depends on the separating tag used in the post."
+
+#: var/Widget/Options/Permalink.php:208
+msgid "不启用"
+msgstr "Disable."
+
+#: var/Widget/Options/Permalink.php:208
+msgid "启用"
+msgstr "Enable."
+
+#: var/Widget/Options/Permalink.php:209
+msgid "是否使用地址重写功能"
+msgstr "Use URL rewrite or not."
+
+#: var/Widget/Options/Permalink.php:209
+msgid "地址重写即 rewrite 功能是某些服务器软件提供的优化内部连接的功能."
+msgstr "URL rewrite function is provided by certain servers."
+
+#: var/Widget/Options/Permalink.php:210
+msgid "打开此功能可以让你的链接看上去完全是静态地址."
+msgstr "Enable this function can make your links look like static path."
+
+#: var/Widget/Options/Permalink.php:212
+msgid "重写功能检测失败, 请检查你的服务器设置"
+msgstr "Unable to detect the rewrite function, please check your server configuration."
+
+#: var/Widget/Options/Permalink.php:218
+msgid "我们检测到你使用了apache服务器, 但是程序无法在根目录创建.htaccess文件, 这可能是产生这个错误的原因."
+msgstr "We detected that you are using Apache, but typecho cannot create .htaccess file under the root directory, which may causes this error."
+
+#: var/Widget/Options/Permalink.php:219
+msgid "请调整你的目录权限, 或者手动创建一个.htaccess文件."
+msgstr "Please adjust your directory permissions, or create .htaccess manually."
+
+#: var/Widget/Options/Permalink.php:222
+#, php-format
+msgid "如果你仍然想启用此功能, <a href=\"%s\">请点击这里</a>"
+msgstr "If you still want to enable this function, <a href=\"%s\">please click here</a>."
+
+#: var/Widget/Options/Permalink.php:225
+msgid "默认风格"
+msgstr "Default style"
+
+#: var/Widget/Options/Permalink.php:226
+msgid "wordpress风格"
+msgstr "wordpress style"
+
+#: var/Widget/Options/Permalink.php:227
+msgid "按日期归档"
+msgstr "Archived by date."
+
+#: var/Widget/Options/Permalink.php:228
+msgid "按分类归档"
+msgstr "Archived by categories."
+
+#: var/Widget/Options/Permalink.php:241
+msgid "个性化定义"
+msgstr "Customization."
+
+#: var/Widget/Options/Permalink.php:244
+msgid "自定义文章路径"
+msgstr "Customize post path."
+
+#: var/Widget/Options/Permalink.php:244
+msgid "可用参数: <code>{cid}</code> 日志 ID, <code>{slug}</code> 日志缩略名, <code>{category}</code> 分类, <code>{year}</code> 年, <code>{month}</code> 月, <code>{day}</code> 日"
+msgstr "Available parameters: <code>{cid}</code> post ID, <code>{slug}</code> <code>{category}</code> , <code>{year}</code> , <code>{month}</code> , <code>{day}</code> "
+
+#: var/Widget/Options/Permalink.php:245
+msgid "选择一种合适的文章静态路径风格, 使得你的网站链接更加友好."
+msgstr "Use a static path style to make links of your site more friendly."
+
+#: var/Widget/Options/Permalink.php:246
+msgid "一旦你选择了某种链接风格请不要轻易修改它."
+msgstr "Do not edit it once you have chosen a style."
+
+#: var/Widget/Options/Permalink.php:253
+msgid "独立页面路径"
+msgstr "Page path"
+
+#: var/Widget/Options/Permalink.php:253
+msgid "可用参数: <code>{cid}</code> 页面 ID、<code>{slug}</code> 页面缩略名"
+msgstr "Available parameters: <code>{cid}</code> page ID、<code>{slug}</code>."
+
+#: var/Widget/Options/Permalink.php:254
+#: var/Widget/Options/Permalink.php:260
+msgid "请在路径中至少包含上述的一项参数."
+msgstr "Please include at least one parameter in path."
+
+#: var/Widget/Options/Permalink.php:256
+msgid "独立页面路径中没有包含 {cid} 或者 {slug} "
+msgstr "No {cid} or {slug}  found in page path."
+
+#: var/Widget/Options/Permalink.php:259
+msgid "分类路径"
+msgstr "Category path"
+
+#: var/Widget/Options/Permalink.php:259
+msgid "可用参数: <code>{mid}</code> 分类 ID、<code>{slug}</code> 分类缩略名"
+msgstr "Available parameters: <code>{mid}</code> category ID、<code>{slug}</code>."
+
+#: var/Widget/Options/Permalink.php:262
+msgid "分类路径中没有包含 {mid} 或者 {slug} "
+msgstr "No {mid} or {slug}  found in category path."
+
+#: var/Widget/Options/Permalink.php:315
+msgid "自定义链接与现有规则存在冲突! 它可能影响解析效率, 建议你重新分配一个规则."
+msgstr "Customized URL conflicts with current rule. It may affect the parsing. We recommend that you use a new rule."
+
+#: var/Widget/Themes/Edit.php:65
+msgid "外观已经改变"
+msgstr "Appearance changed."
+
+#: var/Widget/Themes/Edit.php:68
+msgid "您选择的风格不存在"
+msgstr "The style you chosen does not exist."
+
+#: var/Widget/Themes/Edit.php:88
+#, php-format
+msgid "文件 %s 的更改已经保存"
+msgstr "File %s saved."
+
+#: var/Widget/Themes/Edit.php:90
+#, php-format
+msgid "文件 %s 无法被写入"
+msgstr "Cannot write file %s."
+
+#: var/Widget/Themes/Edit.php:94
+msgid "您编辑的文件不存在"
+msgstr "The file you are editing does not exist."
+
+#: var/Widget/Themes/Edit.php:134
+msgid "外观设置已经保存"
+msgstr "Appearance configuration saved."
+
+#: var/Widget/Themes/Files.php:84
+#, php-format
+msgid "编辑文件 %s"
+msgstr "Edit file %s"
+
+#: var/Widget/Themes/Config.php:32
+msgid "外观配置功能不存在"
+msgstr "Appearance configuration does not exist."
+
+#: var/Widget/Themes/Config.php:44
+#, php-format
+msgid "设置外观 %s"
+msgstr "Configure appearance %s"
+
+#: var/Widget/Contents/Attachment/Edit.php:57
+msgid "文件不存在"
+msgstr "File does not exist."
+
+#: var/Widget/Contents/Attachment/Edit.php:59
+msgid "没有编辑权限"
+msgstr "No edit permission."
+
+#: var/Widget/Contents/Attachment/Edit.php:120
+msgid "标题 *"
+msgstr "Title *"
+
+#: var/Widget/Contents/Attachment/Edit.php:124
+msgid "缩略名"
+msgstr "Abbreviation"
+
+#: var/Widget/Contents/Attachment/Edit.php:125
+msgid "文件缩略名用于创建友好的链接形式,建议使用字母,数字,下划线和横杠."
+msgstr "File abbreviations are used to create friendly URL. We recommend that you use alphanumeric, underlines and dashes."
+
+#: var/Widget/Contents/Attachment/Edit.php:130
+msgid "描述"
+msgstr "Description"
+
+#: var/Widget/Contents/Attachment/Edit.php:130
+msgid "此文字用于描述文件,在有的主题中它会被显示."
+msgstr "This text is used to describe files. It will be displayed in certain themes."
+
+#: var/Widget/Contents/Attachment/Edit.php:142
+msgid "提交修改"
+msgstr "Submit edit."
+
+#: var/Widget/Contents/Attachment/Edit.php:147
+#, php-format
+msgid "你确认删除文件 %s 吗?"
+msgstr "Delete file %s?"
+
+#: var/Widget/Contents/Attachment/Edit.php:148
+msgid "删除文件"
+msgstr "Delete file."
+
+#: var/Widget/Contents/Attachment/Edit.php:151
+msgid "必须填写文件标题"
+msgstr "You must enter a name for file."
+
+#: var/Widget/Contents/Attachment/Edit.php:152
+msgid "文件标题无法被转换为缩略名"
+msgstr "The file name cannot be converted to an abbreviation."
+
+#: var/Widget/Contents/Attachment/Edit.php:198
+#, php-format
+msgid "文件 <a href=\"%s\">%s</a> 已经被更新"
+msgstr "File <a href=\"%s\">%s</a> updated."
+
+#: var/Widget/Contents/Attachment/Edit.php:199
+#, php-format
+msgid "未归档文件 %s 已经被更新"
+msgstr "Unarchived file %s updated."
+
+#: var/Widget/Contents/Attachment/Edit.php:249
+#: var/Widget/Contents/Attachment/Edit.php:253
+msgid "文件已经被删除"
+msgstr "File deleted."
+
+#: var/Widget/Contents/Attachment/Edit.php:250
+#: var/Widget/Contents/Attachment/Edit.php:253
+msgid "没有文件被删除"
+msgstr "No file to delete."
+
+#: var/Widget/Contents/Page/Edit.php:55
+msgid "页面不存在"
+msgstr "Page does not exist."
+
+#: var/Widget/Contents/Page/Edit.php:73
+msgid "未命名页面"
+msgstr "Unnamed page."
+
+#: var/Widget/Contents/Page/Edit.php:92
+#, php-format
+msgid "页面 \"<a href=\"%s\">%s</a>\" 已经发布"
+msgstr "Page \"<a href=\"%s\">%s</a>\" published."
+
+#: var/Widget/Contents/Page/Edit.php:113
+#: var/Widget/Contents/Post/Edit.php:750
+#, php-format
+msgid "草稿 \"%s\" 已经被保存"
+msgstr "Draft \"%s\" saved."
+
+#: var/Widget/Contents/Page/Edit.php:172
+msgid "页面已经被删除"
+msgstr "Pages deleted."
+
+#: var/Widget/Contents/Page/Edit.php:172
+msgid "没有页面被删除"
+msgstr "No page to delete."
+
+#: var/Widget/Contents/Page/Edit.php:211
+#: var/Widget/Contents/Post/Edit.php:859
+msgid "草稿已经被删除"
+msgstr "Drafts deleted."
+
+#: var/Widget/Contents/Page/Edit.php:211
+#: var/Widget/Contents/Post/Edit.php:859
+msgid "没有草稿被删除"
+msgstr "No draft to delete."
+
+#: var/Widget/Contents/Page/Edit.php:239
+msgid "页面排序已经完成"
+msgstr "Page sorted."
+
+#: var/Widget/Contents/Post/Edit.php:379
+msgid "文章不存在"
+msgstr "Post does not exist."
+
+#: var/Widget/Contents/Post/Edit.php:472
+#, php-format
+msgid "编辑 %s"
+msgstr "Edit %s"
+
+#: var/Widget/Contents/Post/Edit.php:725
+#, php-format
+msgid "文章 \"<a href=\"%s\">%s</a>\" 已经发布"
+msgstr "Post \"<a href=\"%s\">%s</a>\" published."
+
+#: var/Widget/Contents/Post/Edit.php:726
+#, php-format
+msgid "文章 \"%s\" 等待审核"
+msgstr "Post \"%s\" await for review."
+
+#: var/Widget/Contents/Post/Edit.php:820
+msgid "文章已经被删除"
+msgstr "Post deleted."
+
+#: var/Widget/Contents/Post/Edit.php:820
+msgid "没有文章被删除"
+msgstr "No post to delete."
+
+#: var/Widget/Contents/Post/Admin.php:85
+#, php-format
+msgid "%s的文章"
+msgstr "Post by %s."
+
+#: install/Mysql.php:5
+#: install/Mysql.php:25
+#: install/Mysql.php:61
+#, php-format
+msgid "系统将为您自动匹配 %s 环境的安装选项"
+msgstr "We will match installation options for your %s  environment automatically."
+
+#: install/Mysql.php:10
+#: install/Mysql.php:53
+#: install/Mysql.php:83
+#: install/Mysql.php:123
+#: install/Pgsql.php:26
+msgid "utf8"
+msgstr "utf8"
+
+#: install/Mysql.php:28
+msgid "应用API Key"
+msgstr "Application API Key"
+
+#: install/Mysql.php:37
+msgid "应用Secret Key"
+msgstr "Application Secret Key"
+
+#: install/Mysql.php:45
+#: install/Mysql.php:76
+#: install/Mysql.php:117
+#: install/Pgsql.php:22
+msgid "数据库名"
+msgstr "Database name."
+
+#: install/Mysql.php:47
+msgid "可以在MySQL服务的管理页面看到您创建的数据库名称"
+msgstr "You can see the database name you created in the admin page of MySQL services."
+
+#: install/Mysql.php:63
+msgid "数据库实例名"
+msgstr "Database instance name."
+
+#: install/Mysql.php:65
+msgid "请填入您在Cloud SQL面板中创建的数据库实例名称"
+msgstr "Please enter the database instance name you created in Cloud SQL panel."
+
+#: install/Mysql.php:68
+#: install/Mysql.php:108
+#: install/Pgsql.php:13
+msgid "数据库用户名"
+msgstr "Database username"
+
+#: install/Mysql.php:72
+#: install/Mysql.php:113
+#: install/Pgsql.php:18
+msgid "数据库密码"
+msgstr "Database password"
+
+#: install/Mysql.php:78
+msgid "请填入您在Cloud SQL的实例中创建的数据库名称"
+msgstr "Please enter the database name you created in Cloud SQL instance."
+
+#: install/Mysql.php:98
+#: install/Pgsql.php:3
+msgid "数据库地址"
+msgstr "Database path"
+
+#: install/Mysql.php:100
+#: install/Mysql.php:110
+#: install/Pgsql.php:5
+#: install/Pgsql.php:15
+#, php-format
+msgid "您可能会使用 \"%s\""
+msgstr "You may use \"%s\""
+
+#: install/Mysql.php:103
+#: install/Pgsql.php:8
+msgid "数据库端口"
+msgstr "Database port"
+
+#: install/Mysql.php:105
+#: install/Pgsql.php:10
+msgid "如果您不知道此选项的意义, 请保留默认设置"
+msgstr "If you do not understand this option, please keep the default."
+
+#: install/Mysql.php:119
+#: install/Pgsql.php:24
+msgid "请您指定数据库名称"
+msgstr "Please specify the database name."
+
+#: install/SQLite.php:4
+msgid "数据库文件路径"
+msgstr "Database file path"
+
+#: install/SQLite.php:6
+#, php-format
+msgid "\"%s\" 是我们为您自动生成的地址"
+msgstr "\"%s\" is the address that we generate for you automatically."
+
+#: admin/menu.php:10
+#, php-format
+msgid "最后登录: %s"
+msgstr "Last login: %s"
+
+#: admin/menu.php:12
+msgid "登出"
+msgstr "Logout"
+
+#: admin/write-js.php:11
+msgid "现在"
+msgstr "Now"
+
+#: admin/write-js.php:12
+msgid "上一月"
+msgstr "Last month"
+
+#: admin/write-js.php:13
+msgid "下一月"
+msgstr "Next month"
+
+#: admin/write-js.php:14
+msgid "一月"
+msgstr "Jun"
+
+#: admin/write-js.php:14
+msgid "二月"
+msgstr "Feb"
+
+#: admin/write-js.php:14
+msgid "三月"
+msgstr "Mar"
+
+#: admin/write-js.php:14
+msgid "四月"
+msgstr "Apr"
+
+#: admin/write-js.php:15
+msgid "五月"
+msgstr "May"
+
+#: admin/write-js.php:15
+msgid "六月"
+msgstr "Jun"
+
+#: admin/write-js.php:15
+msgid "七月"
+msgstr "Jul"
+
+#: admin/write-js.php:15
+msgid "八月"
+msgstr "Aug"
+
+#: admin/write-js.php:16
+msgid "九月"
+msgstr "Sept"
+
+#: admin/write-js.php:16
+msgid "十月"
+msgstr "Oct"
+
+#: admin/write-js.php:16
+msgid "十一月"
+msgstr "Nov"
+
+#: admin/write-js.php:16
+msgid "十二月"
+msgstr "Sept"
+
+#: admin/write-js.php:17
+msgid "星期日"
+msgstr "Sun"
+
+#: admin/write-js.php:17
+msgid "星期一"
+msgstr "Mon"
+
+#: admin/write-js.php:17
+msgid "星期二"
+msgstr "Tue"
+
+#: admin/write-js.php:18
+msgid "星期三"
+msgstr "Wed"
+
+#: admin/write-js.php:18
+msgid "星期四"
+msgstr "Thu"
+
+#: admin/write-js.php:18
+msgid "星期五"
+msgstr "Fri"
+
+#: admin/write-js.php:18
+msgid "星期六"
+msgstr "Sat"
+
+#: admin/write-js.php:19
+msgid "周日"
+msgstr "Sun"
+
+#: admin/write-js.php:19
+msgid "周一"
+msgstr "Mon"
+
+#: admin/write-js.php:19
+msgid "周二"
+msgstr "Tue"
+
+#: admin/write-js.php:19
+msgid "周三"
+msgstr "Wed"
+
+#: admin/write-js.php:20
+msgid "周四"
+msgstr "Thu"
+
+#: admin/write-js.php:20
+msgid "周五"
+msgstr "Fri"
+
+#: admin/write-js.php:20
+msgid "周六"
+msgstr "Sat"
+
+#: admin/write-js.php:21
+msgid "日"
+msgstr "Sun"
+
+#: admin/write-js.php:21
+msgid "一"
+msgstr "Mon"
+
+#: admin/write-js.php:21
+msgid "二"
+msgstr "Tue"
+
+#: admin/write-js.php:21
+msgid "三"
+msgstr "Wed"
+
+#: admin/write-js.php:22
+msgid "四"
+msgstr "Thu"
+
+#: admin/write-js.php:22
+msgid "五"
+msgstr "Fri"
+
+#: admin/write-js.php:22
+msgid "六"
+msgstr "S"
+
+#: admin/write-js.php:23
+msgid "完成"
+msgstr "Done"
+
+#: admin/write-js.php:24
+msgid "选择时间"
+msgstr "Select time"
+
+#: admin/write-js.php:25
+msgid "时间"
+msgstr "Time"
+
+#: admin/write-js.php:26
+msgid "时"
+msgstr "hour"
+
+#: admin/write-js.php:27
+msgid "上午"
+msgstr "a.m."
+
+#: admin/write-js.php:28
+msgid "下午"
+msgstr "p.m."
+
+#: admin/write-js.php:29
+msgid "分"
+msgstr "min"
+
+#: admin/write-js.php:30
+msgid "秒"
+msgstr "sec"
+
+#: admin/write-js.php:76
+msgid "请输入标签名"
+msgstr "Please enter tag name"
+
+#: admin/write-js.php:77
+msgid "此标签不存在, 按回车创建"
+msgstr "This tag does not exist. Press enter to create it."
+
+#: admin/write-js.php:161
+msgid "正在保存"
+msgstr "Saving..."
+
+#: admin/write-js.php:166
+msgid "内容已经保存"
+msgstr "Saved."
+
+#: admin/write-js.php:180
+msgid "内容尚未保存"
+msgstr "Unsaved."
+
+#: admin/write-js.php:180
+msgid "上次保存时间"
+msgstr "Last save"
+
+#: admin/write-js.php:199
+msgid "内容已经改变尚未保存, 您确认要离开此页面吗?"
+msgstr "Changes are not saved. Are you sure to leave this page?"
+
+#: admin/write-js.php:241
+msgid "您确认要删除这份草稿吗?"
+msgstr "Delete this draft?"
+
+#: admin/editor-js.php:15
+msgid "加粗"
+msgstr "Bold"
+
+#: admin/editor-js.php:16
+msgid "加粗文字"
+msgstr "Bold text"
+
+#: admin/editor-js.php:18
+msgid "斜体"
+msgstr "Italic"
+
+#: admin/editor-js.php:19
+msgid "斜体文字"
+msgstr "Italic text"
+
+#: admin/editor-js.php:21
+msgid "链接"
+msgstr "Link"
+
+#: admin/editor-js.php:22
+msgid "请输入链接描述"
+msgstr "Please enter link description."
+
+#: admin/editor-js.php:24
+msgid "引用"
+msgstr "Cite"
+
+#: admin/editor-js.php:25
+msgid "引用文字"
+msgstr "Cite text"
+
+#: admin/editor-js.php:27
+msgid "代码"
+msgstr "Code"
+
+#: admin/editor-js.php:28
+msgid "请输入代码"
+msgstr "Please insert code."
+
+#: admin/editor-js.php:30
+msgid "图片"
+msgstr "Image"
+
+#: admin/editor-js.php:31
+msgid "请输入图片描述"
+msgstr "Please enter image description."
+
+#: admin/editor-js.php:33
+msgid "数字列表"
+msgstr "Numeric lists"
+
+#: admin/editor-js.php:34
+msgid "普通列表"
+msgstr "Unordered list"
+
+#: admin/editor-js.php:35
+msgid "列表项目"
+msgstr "List items"
+
+#: admin/editor-js.php:37
+msgid "标题"
+msgstr "Title"
+
+#: admin/editor-js.php:38
+msgid "标题文字"
+msgstr "Title text"
+
+#: admin/editor-js.php:40
+msgid "分割线"
+msgstr "Separator"
+
+#: admin/editor-js.php:41
+msgid "摘要分割线"
+msgstr "Abstract separator"
+
+#: admin/editor-js.php:43
+msgid "撤销"
+msgstr "Undo"
+
+#: admin/editor-js.php:44
+#: admin/editor-js.php:45
+msgid "重做"
+msgstr "Redo"
+
+#: admin/editor-js.php:47
+msgid "全屏"
+msgstr "Fullscreen"
+
+#: admin/editor-js.php:48
+msgid "退出全屏"
+msgstr "Quit fullscreen"
+
+#: admin/editor-js.php:49
+msgid "此浏览器不支持全屏操作"
+msgstr "Your browser does not support fullscreen"
+
+#: admin/editor-js.php:51
+msgid "插入图片"
+msgstr "Insert images."
+
+#: admin/editor-js.php:51
+msgid "请在下方的输入框内输入要插入的远程图片地址"
+msgstr "Please enter the image URL:"
+
+#: admin/editor-js.php:51
+msgid "您也可以使用编辑器下方的文件上传功能插入本地图片"
+msgstr "You can also use the upload function below the editor to insert local images."
+
+#: admin/editor-js.php:52
+msgid "插入链接"
+msgstr "Insert a link."
+
+#: admin/editor-js.php:52
+msgid "请在下方的输入框内输入要插入的链接地址"
+msgstr "Please enter the link URL:"
+
+#: admin/editor-js.php:54
+msgid "确定"
+msgstr "OK"
+
+#: admin/editor-js.php:55
+msgid "取消"
+msgstr "Cancel"
+
+#: admin/editor-js.php:57
+msgid "Markdown语法帮助"
+msgstr "Markdown syntax help"
+
+#: admin/options-theme.php:13
+msgid "可以使用的外观"
+msgstr "Available appearances"
+
+#: admin/options-theme.php:14
+msgid "编辑当前外观"
+msgstr "Edit current appearance"
+
+#: admin/options-theme.php:15
+msgid "设置外观"
+msgstr "Configure appearance"
+
+#: admin/manage-metas.php:14
+#: admin/write-post.php:93
+msgid "标签"
+msgstr "Tag"
+
+#: admin/manage-metas.php:25
+#: admin/manage-metas.php:93
+#: admin/manage-pages.php:16
+msgid "全选"
+msgstr "Select all"
+
+#: admin/manage-metas.php:27
+#: admin/manage-metas.php:95
+#: admin/plugins.php:29
+#: admin/plugins.php:95
+#: admin/manage-pages.php:18
+msgid "操作"
+msgstr "Operations"
+
+#: admin/manage-metas.php:27
+#: admin/manage-metas.php:95
+#: admin/manage-pages.php:18
+msgid "选中项"
+msgstr "Selected"
+
+#: admin/manage-metas.php:29
+msgid "此分类下的所有内容将被删除, 你确认要删除这些分类吗?"
+msgstr "All contents under these categories will be deleted, are you sure?"
+
+#: admin/manage-metas.php:29
+#: admin/manage-metas.php:97
+#: admin/manage-pages.php:20
+#: admin/file-upload-js.php:62
+msgid "删除"
+msgstr "Delete"
+
+#: admin/manage-metas.php:30
+msgid "刷新分类可能需要等待较长时间, 你确认要刷新这些分类吗?"
+msgstr "Refresh these categories may take a while, are you sure?"
+
+#: admin/manage-metas.php:30
+#: admin/manage-metas.php:98
+msgid "刷新"
+msgstr "Refresh"
+
+#: admin/manage-metas.php:32
+#: admin/manage-metas.php:100
+msgid "合并到"
+msgstr "Combine to"
+
+#: admin/manage-metas.php:54
+#: admin/plugins.php:25
+#: admin/plugins.php:91
+msgid "名称"
+msgstr "Name"
+
+#: admin/manage-metas.php:57
+msgid "文章数"
+msgstr "Number of posts"
+
+#: admin/manage-metas.php:66
+#: admin/manage-pages.php:73
+#, php-format
+msgid "浏览 %s"
+msgstr "%s views"
+
+#: admin/manage-metas.php:71
+#: admin/manage-metas.php:73
+msgid "默认"
+msgstr "default"
+
+#: admin/manage-metas.php:73
+msgid "设为默认"
+msgstr "set to default"
+
+#: admin/manage-metas.php:81
+msgid "没有任何分类"
+msgstr "No category."
+
+#: admin/manage-metas.php:97
+msgid "你确认要删除这些标签吗?"
+msgstr "Delete these tags?"
+
+#: admin/manage-metas.php:98
+msgid "刷新标签可能需要等待较长时间, 你确认要刷新这些标签吗?"
+msgstr "Refresh these tags may take a while, are you sure?"
+
+#: admin/manage-metas.php:118
+msgid "没有任何标签"
+msgstr "No tag."
+
+#: admin/copyright.php:5
+#, php-format
+msgid "由 <a href=\"http://typecho.org\">%s</a> 强力驱动, 版本 %s (%s)"
+msgstr "Proudly powered by  <a href=\"http://typecho.org\">%s</a> version %s (%s)"
+
+#: admin/copyright.php:8
+msgid "帮助文档"
+msgstr "Help"
+
+#: admin/copyright.php:9
+msgid "支持论坛"
+msgstr "Support"
+
+#: admin/copyright.php:10
+msgid "报告错误"
+msgstr "Issue"
+
+#: admin/copyright.php:11
+msgid "资源下载"
+msgstr "Download"
+
+#: admin/plugins.php:13
+msgid "启用的插件"
+msgstr "Enabled plugins"
+
+#: admin/plugins.php:27
+#: admin/plugins.php:93
+msgid "版本"
+msgstr "Version"
+
+#: admin/plugins.php:28
+#: admin/plugins.php:94
+#: admin/manage-pages.php:52
+msgid "作者"
+msgstr "Author"
+
+#: admin/plugins.php:37
+#, php-format
+msgid "%s 无法在此版本的typecho下正常工作"
+msgstr "%s cannot work under this version of typecho"
+
+#: admin/plugins.php:51
+#: admin/plugins.php:67
+#, php-format
+msgid "你确认要禁用插件 %s 吗?"
+msgstr "Are you sure to disable plugin %s ?"
+
+#: admin/plugins.php:51
+#: admin/plugins.php:67
+#: admin/plugins.php:114
+msgid "禁用"
+msgstr "Disable"
+
+#: admin/plugins.php:56
+msgid "即插即用"
+msgstr "Plug and play."
+
+#: admin/plugins.php:66
+msgid "此插件文件已经损坏或者被不安全移除, 强烈建议你禁用它"
+msgstr "The files of this plugin has been damaged or removed unsafely. Disabling it is highly recommended."
+
+#: admin/plugins.php:79
+msgid "禁用的插件"
+msgstr "Disabled plugins."
+
+#: admin/plugins.php:124
+msgid "没有安装插件"
+msgstr "Uninstalled plugins."
+
+#: admin/manage-pages.php:20
+msgid "你确认要删除这些页面吗?"
+msgstr "Are you sure to delete this pages?"
+
+#: admin/manage-pages.php:27
+msgid "&laquo; 取消筛选"
+msgstr "&laquo; cancel the filtering"
+
+#: admin/manage-pages.php:29
+msgid "请输入关键字"
+msgstr "Please enter keywords"
+
+#: admin/manage-pages.php:30
+msgid "筛选"
+msgstr "Filter"
+
+#: admin/manage-pages.php:53
+msgid "日期"
+msgstr "Date"
+
+#: admin/manage-pages.php:69
+#: admin/write-post.php:108
+#: admin/write-page.php:95
+msgid "隐藏"
+msgstr "Hide"
+
+#: admin/manage-pages.php:82
+#, php-format
+msgid "保存于 %s"
+msgstr "Saved  at %s"
+
+#: admin/manage-pages.php:92
+msgid "没有任何页面"
+msgstr "No page."
+
+#: admin/write-post.php:15
+#, php-format
+msgid "你正在编辑的是保存于 %s 的草稿, 你也可以 <a href=\"%s\">删除它</a>"
+msgstr "You are editing a draft saved at  %s , you may <a href=\"%s\">delete it</a>."
+
+#: admin/write-post.php:37
+#: admin/write-page.php:33
+msgid "网址缩略名"
+msgstr "URL abbreviation"
+
+#: admin/write-post.php:41
+msgid "文章内容"
+msgstr "Post content"
+
+#: admin/write-post.php:50
+#: admin/write-page.php:45
+msgid "保存草稿"
+msgstr "Save draft"
+
+#: admin/write-post.php:51
+msgid "发布文章"
+msgstr "publish"
+
+#: admin/write-post.php:63
+#: admin/write-page.php:57
+msgid "选项"
+msgstr "Options"
+
+#: admin/write-post.php:64
+#: admin/write-page.php:58
+msgid "附件"
+msgstr "Attachments"
+
+#: admin/write-post.php:70
+#: admin/write-page.php:63
+msgid "发布日期"
+msgstr "Publish date"
+
+#: admin/write-post.php:99
+#: admin/write-page.php:88
+msgid "高级选项"
+msgstr "Advance options"
+
+#: admin/write-post.php:103
+#: admin/write-page.php:91
+msgid "公开度"
+msgstr "Publicity"
+
+#: admin/write-post.php:107
+#: admin/write-page.php:94
+msgid "公开"
+msgstr "Public"
+
+#: admin/write-post.php:109
+msgid "密码保护"
+msgstr "Protected by password"
+
+#: admin/write-post.php:110
+msgid "私密"
+msgstr "Private"
+
+#: admin/write-post.php:117
+msgid "内容密码"
+msgstr "Content password"
+
+#: admin/write-post.php:123
+#: admin/write-page.php:101
+msgid "权限控制"
+msgstr "Permissions"
+
+#: admin/write-post.php:126
+#: admin/write-page.php:104
+msgid "允许评论"
+msgstr "Allow comments"
+
+#: admin/write-post.php:128
+#: admin/write-page.php:106
+msgid "允许被引用"
+msgstr "Allow cited"
+
+#: admin/write-post.php:130
+#: admin/write-page.php:108
+msgid "允许在聚合中出现"
+msgstr "Allow aggregate"
+
+#: admin/write-post.php:135
+msgid "引用通告"
+msgstr "Citation notification"
+
+#: admin/write-post.php:137
+msgid "每一行一个引用地址, 用回车隔开"
+msgstr "One cited URL per line"
+
+#: admin/write-post.php:148
+#, php-format
+msgid "本文由 <a href=\"%s\">%s</a> 撰写"
+msgstr "Written by <a href=\"%s\">%s</a>"
+
+#: admin/write-post.php:150
+#: admin/write-page.php:121
+#, php-format
+msgid "最后更新于 %s"
+msgstr " Last updated at %s"
+
+#: admin/file-upload-js.php:26
+#: admin/media.php:61
+#, php-format
+msgid "文件上传失败, 请确认文件尺寸没有超过 %s 并且服务器文件目录可以写入"
+msgstr "Failed to upload the file. Please make sure that the size of the file does not exceed %s,  and the file directory on server is writable."
+
+#: admin/file-upload-js.php:59
+msgid "点击插入文件"
+msgstr "Click to insert a file."
+
+#: admin/file-upload-js.php:85
+#: admin/file-upload-js.php:156
+#: admin/media.php:162
+#, php-format
+msgid "文件 %s 的类型不被支持"
+msgstr "File type %s is not supported."
+
+#: admin/file-upload-js.php:131
+#: admin/media.php:137
+msgid "浏览器不支持拖拽上传"
+msgstr "You browser does not support drag and drop."
+
+#: admin/file-upload-js.php:134
+#, php-format
+msgid "一次上传的文件不能多于%d个"
+msgstr "Cannot upload more than %d files at once."
+
+#: admin/file-upload-js.php:150
+#: admin/media.php:156
+#, php-format
+msgid "文件尺寸不能超过 %s"
+msgstr "File size cannot exceed %s ."
+
+#: admin/file-upload-js.php:196
+#, php-format
+msgid "确认要删除文件 %s 吗?"
+msgstr "Are you sure to delete file %s ?"
+
+#: admin/theme-editor.php:20
+#, php-format
+msgid "编辑%s外观"
+msgstr "Edit the appearance of %s."
+
+#: admin/theme-editor.php:32
+msgid "编辑源码"
+msgstr "Edit source."
+
+#: admin/theme-editor.php:38
+msgid "保存文件"
+msgstr "Save file."
+
+#: admin/theme-editor.php:40
+msgid "此文件无法写入"
+msgstr "Cannot write this file."
+
+#: admin/page-title.php:6
+msgid "新增"
+msgstr "Add"
+
+#: admin/media.php:92
+#, php-format
+msgid "文件 %s 已经替换"
+msgstr "File %s replaced."
+
+#: admin/media.php:102
+#, php-format
+msgid "文件 %s 的类型与要替换的原文件不一致"
+msgstr "The type of file %s is not the same as the original file."
+
+#: admin/media.php:140
+msgid "一次只能上传一个文件"
+msgstr "You can only upload one file at a time."
+
+#: admin/write-page.php:15
+#, php-format
+msgid "当前正在编辑的是保存于%s的草稿, 你可以<a href=\"%s\">删除它</a>"
+msgstr "You are editing a draft saved at  %s , you may <a href=\"%s\">delete it</a>."
+
+#: admin/write-page.php:37
+msgid "页面内容"
+msgstr "Page content"
+
+#: admin/write-page.php:46
+msgid "发布页面"
+msgstr "Publish page"
+
+#: admin/write-page.php:68
+msgid "页面顺序"
+msgstr "Page order"
+
+#: admin/write-page.php:70
+msgid "为你的自定义页面设定一个序列值以后, 能够使得它们按此值从小到大排列"
+msgstr "Set an index of your customized pages, so they are sortable from small index to big index."
+
+#: admin/write-page.php:74
+msgid "自定义模板"
+msgstr "Customize template"
+
+#: admin/write-page.php:77
+msgid "不选择"
+msgstr "Unselected"
+
+#: admin/write-page.php:83
+msgid "如果你为此页面选择了一个自定义模板, 系统将按照你选择的模板文件展现它"
+msgstr "If you choose a customized template, typecho will render it according to your selected template file"
+
+#: admin/write-page.php:119
+#, php-format
+msgid "本页面由 <a href=\"%s\">%s</a> 创建"
+msgstr "This page is created by <a href=\"%s\">%s</a>."
+
+#: admin/login.php:23
+#: admin/login.php:24
+msgid "密码"
+msgstr "Password"
+
+#: admin/login.php:31
+msgid "记住我"
+msgstr "Remember me"
+
+#: admin/login.php:36
+msgid "返回首页"
+msgstr "Return to frontpage"
+
+#: admin/login.php:39
+msgid "用户注册"
+msgstr "Register"
+
+#: admin/upgrade.php:15
+msgid "检测到新版本!"
+msgstr "New version detected."
+
+#: admin/upgrade.php:17
+msgid "您已经更新了系统程序, 我们还需要执行一些后续步骤来完成升级"
+msgstr "You have already updated the program, we still need some steps to finish the upgrade"
+
+#: admin/upgrade.php:18
+#, php-format
+msgid "此程序将把您的系统从 <strong>%s</strong> 升级到 <strong>%s</strong>"
+msgstr "Your system will be upgrade from <strong>%s</strong> to <strong>%s</strong>."
+
+#: admin/upgrade.php:19
+msgid "在升级之前强烈建议先备份您的数据"
+msgstr "Backup your data before upgrade is highly recommended."
+
+#: admin/upgrade.php:21
+msgid "完成升级 &raquo;"
+msgstr "Finish upgrade &raquo;"
+
+#: admin/register.php:36
+msgid "用户登录"
+msgstr "Login"
+
+#: admin/header.php:24
+#, php-format
+msgid "%s - %s - Powered by Typecho"
+msgstr "%s - %s - Powered by Typecho"
+
+#: admin/custom-fields-js.php:17
+msgid "确认要删除此字段吗?"
+msgstr "Are you sure to delete this field?"
+
+#: admin/custom-fields-js.php:30
+#: admin/custom-fields.php:25
+#: admin/custom-fields.php:48
+#: admin/custom-fields.php:49
+msgid "字段名称"
+msgstr "Field name"
+
+#: admin/custom-fields-js.php:32
+#: admin/custom-fields.php:31
+#: admin/custom-fields.php:54
+msgid "字符"
+msgstr "Character"
+
+#: admin/custom-fields-js.php:33
+#: admin/custom-fields.php:32
+#: admin/custom-fields.php:55
+msgid "整数"
+msgstr "Integer"
+
+#: admin/custom-fields-js.php:34
+#: admin/custom-fields.php:33
+#: admin/custom-fields.php:56
+msgid "小数"
+msgstr "Float"
+
+#: admin/custom-fields-js.php:36
+#: admin/custom-fields.php:37
+#: admin/custom-fields.php:60
+#: admin/custom-fields.php:61
+msgid "字段值"
+msgstr "Field name"
+
+#: admin/manage-comments.php:18
+msgid "所有"
+msgstr "All"
+
+#: admin/manage-comments.php:19
+msgid "我的"
+msgstr "My"
+
+#: admin/manage-comments.php:24
+msgid "已通过"
+msgstr "Passed"
+
+#: admin/manage-comments.php:55
+#: admin/manage-comments.php:148
+#: admin/manage-comments.php:150
+#: admin/manage-comments.php:197
+msgid "通过"
+msgstr "Pass"
+
+#: admin/manage-comments.php:57
+#: admin/manage-comments.php:199
+msgid "标记垃圾"
+msgstr "Mark it as spam"
+
+#: admin/manage-comments.php:58
+#: admin/manage-comments.php:200
+msgid "你确认要删除这些评论吗?"
+msgstr "Are you sure to delete these comments?"
+
+#: admin/manage-comments.php:60
+#: admin/manage-comments.php:202
+msgid "你确认要删除所有垃圾评论吗?"
+msgstr "Are you sure to delete all these spam?"
+
+#: admin/manage-comments.php:60
+#: admin/manage-comments.php:202
+msgid "删除所有垃圾评论"
+msgstr "Delete all spam"
+
+#: admin/manage-comments.php:171
+#, php-format
+msgid "你确认要删除%s的评论吗?"
+msgstr "Are you sure to delete comments by %s ?"
+
+#: admin/manage-comments.php:178
+msgid "没有评论"
+msgstr "No comment."
+
+#: admin/manage-comments.php:306
+msgid "电子邮箱"
+msgstr "Email"
+
+#: admin/manage-comments.php:308
+msgid "个人主页"
+msgstr "Homepage"
+
+#: admin/manage-medias.php:23
+#: admin/manage-medias.php:98
+msgid "你确认要删除这些文件吗?"
+msgstr "Are you sure to delete these files?"
+
+#: admin/manage-medias.php:52
+msgid "文件名"
+msgstr "Filename"
+
+#: admin/manage-medias.php:53
+msgid "上传者"
+msgstr "Uploader"
+
+#: admin/manage-medias.php:54
+msgid "所属文章"
+msgstr "Accompanying post "
+
+#: admin/manage-medias.php:75
+msgid "未归档"
+msgstr "Unarchived"
+
+#: admin/manage-medias.php:83
+msgid "没有任何文件"
+msgstr "No file"
+
+#: admin/welcome.php:14
+#, php-format
+msgid "欢迎您使用 \"%s\" 管理后台: "
+msgstr "Welcome to use the control panel of  \"%s\" "
+
+#: admin/welcome.php:16
+msgid "强烈建议更改你的默认密码"
+msgstr "Change your default password is highly recommended."
+
+#: admin/welcome.php:18
+msgid "撰写第一篇日志"
+msgstr "Write my first post."
+
+#: admin/welcome.php:19
+#: admin/welcome.php:21
+msgid "查看我的站点"
+msgstr "View my blog."
+
+#: admin/welcome.php:24
+msgid "让我直接开始使用吧 &raquo;"
+msgstr "I want to start to use it immediately &raquo;"
+
+#: admin/custom-fields.php:7
+msgid "自定义字段"
+msgstr "Customize fields"
+
+#: admin/custom-fields.php:29
+#: admin/custom-fields.php:52
+msgid "字段类型"
+msgstr "Field type"
+
+#: admin/custom-fields.php:70
+msgid "+添加字段"
+msgstr "+Add a field"
+
+#: admin/custom-fields.php:71
+msgid "自定义字段可以扩展你的模板功能, 使用方法参见 <a href=\"http://docs.typecho.org/help/custom-fields\">帮助文档</a>"
+msgstr "Customized fields can extend your template. Refer <a href=\"http://docs.typecho.org/help/custom-fields\">documentation</a> for more information."
+
+#: admin/manage-posts.php:20
+#: admin/manage-posts.php:130
+msgid "你确认要删除这些文章吗?"
+msgstr "Are you sure to delete these posts?"
+
+#: admin/manage-posts.php:30
+msgid "所有分类"
+msgstr "All categories"
+
+#: admin/manage-posts.php:115
+msgid "没有任何文章"
+msgstr "No post"
+
+#: admin/file-upload.php:16
+#, php-format
+msgid "拖放文件到这里<br>或者 %s选择文件上传%s"
+msgstr "Drag your files here <br>or %s select files to upload %s"
+
+#: admin/manage-users.php:18
+#: admin/manage-users.php:97
+msgid "你确认要删除这些用户吗?"
+msgstr "Are you sure to delete these users?"
+
+#: admin/manage-users.php:49
+msgid "电子邮件"
+msgstr "Email"
+
+#: admin/manage-users.php:63
+msgid "暂无"
+msgstr "None yet"
+
+#: admin/profile.php:14
+msgid "在 Gravatar 上修改头像"
+msgstr "Edit your avatar on Gravatar."
+
+#: admin/profile.php:18
+#, php-format
+msgid "目前有 <em>%s</em> 篇 Blog,并有 <em>%s</em> 条关于你的评论在已设定的 <em>%s</em> 个分类中."
+msgstr "Currently there are <em>%s</em>  blog posts, and  <em>%s</em> comments about you under  this category <em>%s</em> ."
+
+#: admin/profile.php:29
+msgid "个人资料"
+msgstr "Profile"
+
+#: admin/profile.php:36
+msgid "撰写设置"
+msgstr "Compose configuration."
+
+#: admin/profile.php:44
+msgid "密码修改"
+msgstr "Change password"
+
+#: admin/index.php:13
+#, php-format
+msgid "目前有 <em>%s</em> 篇日志, 并有 <em>%s</em> 条关于你的评论在 <em>%s</em> 个分类中."
+msgstr "Currently there are <em>%s</em>  blog posts, and  <em>%s</em> comments about you under  this category <em>%s</em> ."
+
+#: admin/index.php:15
+msgid "使用下面的链接开始你的故事吧:"
+msgstr "Use the following link to begin your story."
+
+#: admin/index.php:21
+msgid "待审核的评论"
+msgstr "Comments await for review."
+
+#: admin/index.php:25
+msgid "待审核评论"
+msgstr "Comments await for review."
+
+#: admin/index.php:30
+#: admin/index.php:34
+msgid "垃圾评论"
+msgstr "Spam"
+
+#: admin/index.php:39
+msgid "更换外观"
+msgstr "Change appearance"
+
+#: admin/index.php:40
+msgid "系统设置"
+msgstr "System configuration"
+
+#: admin/index.php:43
+msgid "更新我的资料"
+msgstr "Update my profile"
+
+#: admin/index.php:49
+msgid "您当前使用的版本是"
+msgstr "You are using"
+
+#: admin/index.php:50
+msgid "官方最新版本是"
+msgstr "The latest version is"
+
+#: admin/index.php:58
+msgid "最近发布的文章"
+msgstr "Recent posts"
+
+#: admin/index.php:69
+msgid "暂时没有文章"
+msgstr "No post yet."
+
+#: admin/index.php:77
+msgid "最近得到的回复"
+msgstr "Recent comments"
+
+#: admin/index.php:89
+msgid "暂时没有回复"
+msgstr "No comments yet."
+
+#: admin/index.php:97
+msgid "官方最新日志"
+msgstr "Latest official blog posts."
+
+#: admin/index.php:100
+msgid "读取中..."
+msgstr "Reading..."
+
+#: admin/index.php:139
+#, php-format
+msgid "您当前使用的版本是 %s"
+msgstr "You are using %s"
+
+#: admin/index.php:141
+#, php-format
+msgid "官方最新版本是 %s"
+msgstr "The latest version is %s"
+
