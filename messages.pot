@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Typecho 0.9/13.12.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-17 02:10+0000\n"
+"POT-Creation-Date: 2013-12-17 22:59+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1295,19 +1295,19 @@ msgid "刚刚"
 msgstr ""
 
 #, php-format
-msgid "%d秒前"
+msgid "一秒前"
 msgid_plural "%d秒前"
 msgstr[0] ""
 msgstr[1] ""
 
 #, php-format
-msgid "%d分钟前"
+msgid "一分钟前"
 msgid_plural "%d分钟前"
 msgstr[0] ""
 msgstr[1] ""
 
 #, php-format
-msgid "%d小时前"
+msgid "一小时前"
 msgid_plural "%d小时前"
 msgstr[0] ""
 msgstr[1] ""
@@ -1316,9 +1316,8 @@ msgstr[1] ""
 msgid "昨天 %s"
 msgstr ""
 
-#, php-format
-msgid "%d天前"
-msgid_plural "%d天前"
+msgid "一天前"
+msgid_plural "%天前"
 msgstr[0] ""
 msgstr[1] ""
 
