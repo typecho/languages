@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Typecho 0.9/13.12.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-17 22:59+0800\n"
+"POT-Creation-Date: 2013-12-18 00:20+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -378,6 +378,12 @@ msgstr ""
 msgid "Markdown语法帮助"
 msgstr ""
 
+msgid "撰写"
+msgstr ""
+
+msgid "预览"
+msgstr ""
+
 msgid "页面不存在"
 msgstr ""
 
@@ -716,6 +722,9 @@ msgid "最后登录: %s"
 msgstr ""
 
 msgid "登出"
+msgstr ""
+
+msgid "网站"
 msgstr ""
 
 msgid "可以使用的外观"
@@ -1202,9 +1211,6 @@ msgstr ""
 msgid "称呼"
 msgstr ""
 
-msgid "网站"
-msgstr ""
-
 msgid "http://"
 msgstr ""
 
@@ -1428,9 +1434,6 @@ msgid "用户名或密码无效"
 msgstr ""
 
 msgid "控制台"
-msgstr ""
-
-msgid "撰写"
 msgstr ""
 
 msgid "管理"
