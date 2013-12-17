@@ -1,5 +1,5 @@
 Typecho 多语言翻译
 =========
 
-根据自己翻译的语言建立标准的目录名，比如简体中文就是`zh_CN`，前缀为语言名，后缀为国家或地区名字。
-将自翻译好后的工程以pull request的方式提交到主线，等待官方开发者审核后合并。
+请参考
+http://docs.typecho.org/translate/start
