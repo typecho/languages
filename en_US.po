@@ -3,11 +3,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Typecho 0.9/13.12.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-17 02:10+0000\n"
+"POT-Creation-Date: 2013-12-18 00:20+0800\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2013-12-17 07:35-0500\n"
+"PO-Revision-Date: 2013-12-17 08:48-0500\n"
 "Last-Translator: Jakukyo Friel <weakish@gmail.com>\n"
 "Language-Team: typecho\n"
 "Language: en-US\n"
@@ -419,6 +419,12 @@ msgstr "Cancel"
 msgid "Markdown语法帮助"
 msgstr "Markdown syntax help"
 
+msgid "撰写"
+msgstr "Write"
+
+msgid "预览"
+msgstr "Preview"
+
 msgid "页面不存在"
 msgstr "Page does not exist."
 
@@ -493,7 +499,7 @@ msgid "更换外观"
 msgstr "Change appearance"
 
 msgid "系统设置"
-msgstr "System configuration"
+msgstr "System settings"
 
 msgid "更新我的资料"
 msgstr "Update my profile"
@@ -767,6 +773,9 @@ msgstr "Last login: %s"
 msgid "登出"
 msgstr "Logout"
 
+msgid "网站"
+msgstr "Website"
+
 msgid "可以使用的外观"
 msgstr "Available appearances"
 
@@ -774,7 +783,7 @@ msgid "编辑当前外观"
 msgstr "Edit current appearance"
 
 msgid "设置外观"
-msgstr "Configure appearance"
+msgstr "Setup Appearance"
 
 msgid "新增"
 msgstr "Add"
@@ -793,7 +802,7 @@ msgid "%s 无法在此版本的typecho下正常工作"
 msgstr "%s cannot work under this version of typecho"
 
 msgid "设置"
-msgstr "Configuration"
+msgstr "Settings"
 
 #, php-format
 msgid "你确认要禁用插件 %s 吗?"
@@ -832,7 +841,7 @@ msgid "个人资料"
 msgstr "Profile"
 
 msgid "撰写设置"
-msgstr "Compose configuration."
+msgstr "Composing settings."
 
 msgid "密码修改"
 msgstr "Change password"
@@ -1269,9 +1278,6 @@ msgstr "Quit"
 msgid "称呼"
 msgstr " Name"
 
-msgid "网站"
-msgstr "Website"
-
 msgid "http://"
 msgstr "http://"
 
@@ -1375,32 +1381,31 @@ msgid "刚刚"
 msgstr "right now"
 
 #, php-format
-msgid "%d秒前"
+msgid "一秒前"
 msgid_plural "%d秒前"
-msgstr[0] "%d seconds ago"
+msgstr[0] "one second ago"
 msgstr[1] "%d seconds ago"
 
 #, php-format
-msgid "%d分钟前"
+msgid "一分钟前"
 msgid_plural "%d分钟前"
-msgstr[0] "%d minutes ago"
-msgstr[1] "%d分钟前"
+msgstr[0] "one minute ago"
+msgstr[1] "%d minutes ago"
 
 #, php-format
-msgid "%d小时前"
+msgid "一小时前"
 msgid_plural "%d小时前"
-msgstr[0] "%d hours ago"
+msgstr[0] "one hour ago"
 msgstr[1] "%d hours ago"
 
 #, php-format
 msgid "昨天 %s"
 msgstr "yesterday %s"
 
-#, php-format
-msgid "%d天前"
-msgid_plural "%d天前"
-msgstr[0] "%d days ago"
-msgstr[1] "%d天前"
+msgid "一天前"
+msgid_plural "%天前"
+msgstr[0] "one day ago"
+msgstr[1] "one days ago"
 
 msgid "n月j日"
 msgstr "n - j"
@@ -1511,9 +1516,6 @@ msgstr "Username or password is invalid."
 msgid "控制台"
 msgstr "Console"
 
-msgid "撰写"
-msgstr "Write"
-
 msgid "管理"
 msgstr "Admin"
 
@@ -1604,22 +1606,22 @@ msgid "基本"
 msgstr "Basic"
 
 msgid "基本设置"
-msgstr "Basic configuration."
+msgstr "Basic settings."
 
 msgid "评论设置"
-msgstr "Comments configuration."
+msgstr "Comments settings."
 
 msgid "阅读"
 msgstr "Read"
 
 msgid "阅读设置"
-msgstr "Reading configuration."
+msgstr "Reading settings."
 
 msgid "永久链接"
 msgstr "Permalink"
 
 msgid "永久链接设置"
-msgstr "Permalink  configuration"
+msgstr "Permalink settings"
 
 #, php-format
 msgid "插件%s的配置信息没有找到"
@@ -2171,10 +2173,10 @@ msgid "比如: %s"
 msgstr "e.g. %s"
 
 msgid "保存设置"
-msgstr "Save configuration."
+msgstr "Save settings."
 
 msgid "设置已经保存"
-msgstr "Your configuration has been saved."
+msgstr "Your settings has been saved."
 
 msgid "站点名称"
 msgstr "Site name"
@@ -2472,7 +2474,7 @@ msgstr "Plugin does not exist."
 
 #, php-format
 msgid "设置插件 %s"
-msgstr "Configure plugin %s"
+msgstr "Setup plugin %s"
 
 msgid "无法配置插件"
 msgstr "Cannot configure plugin."
@@ -2491,14 +2493,14 @@ msgid "插件已经被禁用"
 msgstr "Plugin disabled."
 
 msgid "插件设置已经保存"
-msgstr "Plugin configuration saved."
+msgstr "Plugin settings saved."
 
 msgid "外观配置功能不存在"
 msgstr "Appearance configuration does not exist."
 
 #, php-format
 msgid "设置外观 %s"
-msgstr "Configure appearance %s"
+msgstr "Setup appearance %s"
 
 msgid "外观已经改变"
 msgstr "Appearance changed."
@@ -2518,7 +2520,7 @@ msgid "您编辑的文件不存在"
 msgstr "The file you are editing does not exist."
 
 msgid "外观设置已经保存"
-msgstr "Appearance configuration saved."
+msgstr "Appearance settings saved."
 
 #, php-format
 msgid "编辑文件 %s"
@@ -2675,4 +2677,4 @@ msgstr "Password has been edited successfully."
 
 #, php-format
 msgid "%s 设置已经保存"
-msgstr "Configuration of %s  saved."
+msgstr "Settings of %s  saved."
