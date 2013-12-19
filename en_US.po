@@ -1403,9 +1403,9 @@ msgid "昨天 %s"
 msgstr "yesterday %s"
 
 msgid "一天前"
-msgid_plural "%天前"
+msgid_plural "%d天前"
 msgstr[0] "one day ago"
-msgstr[1] "one days ago"
+msgstr[1] "%d days ago"
 
 msgid "n月j日"
 msgstr "n - j"
@@ -1420,7 +1420,7 @@ msgid "聚合页不存在"
 msgstr "Aggregation page does not exist."
 
 msgid "zh-CN"
-msgstr "zh-CN"
+msgstr "en-US"
 
 msgid "请求的地址不存在"
 msgstr "Requested URL does not exist."
@@ -1703,7 +1703,7 @@ msgstr "Allow registration or not."
 msgid "权限不足"
 msgstr "Permission error."
 
-msgid "无法登陆, 密码错误"
+msgid "无法登录, 密码错误"
 msgstr "Cannot login. Wrong password."
 
 msgid "已发布"
