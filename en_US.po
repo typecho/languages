@@ -39,7 +39,7 @@ msgid "安装成功"
 msgstr "Successfully installed."
 
 msgid "安装失败!"
-msgstr "Fails to install!"
+msgstr "installation Failled!"
 
 msgid "您没有上传 config.inc.php 文件，请您重新安装！"
 msgstr "You have not uploaded config.inc.php, please reinstall typecho."
@@ -53,16 +53,16 @@ msgstr "Successfully installed！"
 msgid "您选择了使用原有的数据, 您的用户名和密码和原来的一致"
 msgstr ""
 "Since you choose to use the original data, your uesrname and password would "
-"be the same."
+"remain unchanged."
 
 msgid "您的用户名是"
-msgstr "You username is"
+msgstr "Your username is"
 
 msgid "您的密码是"
-msgstr "You password is"
+msgstr "Your password is"
 
 msgid "您可以将下面两个链接保存到您的收藏夹"
-msgstr "You can save the following two links as your bookmarks"
+msgstr "You can save the following two links in your favorite"
 
 msgid "点击这里访问您的控制面板"
 msgstr "Click here to access your dashboard."
@@ -83,10 +83,10 @@ msgid "只是一个默认分类"
 msgstr "this is only a default category"
 
 msgid "欢迎使用 Typecho"
-msgstr "welcome to use Typecho"
+msgstr "welcome to Typecho"
 
 msgid "如果您看到这篇文章,表示您的 blog 已经安装成功."
-msgstr "If you have seen this post, your blog is successfully installed."
+msgstr "If you can see this post, your blog is successfully installed."
 
 msgid "关于"
 msgstr "About"
@@ -95,7 +95,7 @@ msgid "本页面由 Typecho 创建, 这只是个测试页面."
 msgstr "This page is created by Typecho, it's a test page only."
 
 msgid "已经删除完原有数据"
-msgstr "original data deleted"
+msgstr "all original data deleted"
 
 msgid "继续安装 &raquo;"
 msgstr "continue to install &raquo;"
@@ -115,7 +115,7 @@ msgstr "use original data"
 #, php-format
 msgid "安装程序捕捉到以下错误: \"%s\". 程序被终止, 请检查您的配置信息."
 msgstr ""
-"Installer catches this error: \"%s\". The program is terminated. Please "
+"Installer detects this error: \"%s\". The program is terminated. Please "
 "check your configuration."
 
 msgid "确认您的配置"
@@ -139,7 +139,7 @@ msgid "请填写您的邮箱地址"
 msgstr "Please enter your email address"
 
 msgid "用户名长度超过限制, 请不要超过 32 个字符"
-msgstr "Your username is too long, please limit it with in 32 characters"
+msgstr "Your username is too long, please limit it within 32 characters"
 
 msgid "邮箱长度超过限制, 请不要超过 200 个字符"
 msgstr "Your email address is too long, please limit it within 200 characters"
@@ -147,12 +147,12 @@ msgstr "Your email address is too long, please limit it within 200 characters"
 msgid "对不起，无法连接数据库，请先检查数据库配置再继续进行安装"
 msgstr ""
 "Sorry, typecho cannot connect to database. Please check your database "
-"configuration, then continue to install."
+"configuration before continuing."
 
 #, php-format
 msgid "安装程序捕捉到以下错误: \" %s \". 程序被终止, 请检查您的配置信息."
 msgstr ""
-"Installer catches this error: \"%s\". The program is terminated. Please "
+"Installer detects this error: \"%s\". The program is terminated. Please "
 "check your configuration."
 
 msgid "安装程序无法自动创建 <strong>config.inc.php</strong> 文件"
@@ -161,8 +161,8 @@ msgstr ""
 
 msgid "您可以在网站根目录下手动创建 <strong>config.inc.php</strong> 文件, 并复制如下代码至其中"
 msgstr ""
-"You can create  <strong>config.inc.php</strong>  file under the root "
-"directory of the website, and copy the following code in it"
+"You can manually create  <strong>config.inc.php</strong>  file under the root "
+"directory of the website, and add the following code in it"
 
 msgid "数据库适配器"
 msgstr "Database adapter"
@@ -201,7 +201,7 @@ msgid "网站地址"
 msgstr "website URL"
 
 msgid "这是程序自动匹配的网站路径, 如果不正确请修改它"
-msgstr "This is the auto matched website URL. If it is wrong, please edit it."
+msgstr "This is the auto matched website URL. If it is incorrect, please edit it."
 
 msgid "用户名"
 msgstr "username"
@@ -212,29 +212,29 @@ msgstr "login password"
 msgid "请填写您的登录密码, 如果留空系统将为您随机生成一个"
 msgstr ""
 "Please enter your login password. If you leave it blank, typecho will "
-"generate a random one for you."
+"randomly generate it for you."
 
 msgid "邮件地址"
 msgstr "email address"
 
 msgid "请填写一个您的常用邮箱"
-msgstr "Please enter an email address which you regularly use."
+msgstr "Please enter an email address you regularly use."
 
 msgid "确认, 开始安装 &raquo;"
-msgstr "Confirm, start to install &raquo;"
+msgstr "Confirm and start to install &raquo;"
 
 msgid "安装说明"
-msgstr "Install instructions"
+msgstr "Installation instructions"
 
 msgid ""
 "本安装程序将自动检测服务器环境是否符合最低配置需求. 如果不符合, 将在上方出现提示信息, 请按照提示信息检查您的主机配置. 如果服务器环境符合要求, "
 "将在下方出现 \"开始下一步\" 的按钮, 点击此按钮即可一步完成安装."
 msgstr ""
-"This installer will detect if the server environment meet the minimum "
-"requirements automatically. If not, it will notify you at the header of the "
+"This installer will auto examine if the server environment meet the minimum "
+"requirements. If not, you will be notified at the header of the "
 "page. Please check your host configuration according to the notification. If "
 "your server environment meets the requirements, a \"next step\" button will "
-"appear below. Click it to finish your installation. "
+"appear below. Click it to finish your one-step installation. "
 
 msgid "许可及协议"
 msgstr "Terms and license"
@@ -244,16 +244,16 @@ msgid ""
 "我们允许用户在 GPL 协议许可的范围内使用, 拷贝, 修改和分发此程序."
 msgstr ""
 "Typecho is licensed under <a href=\"http://www.gnu.org/copyleft/gpl."
-"html\">GPL</a> . We allow users use, copy, modify and redistribute this "
+"html\">GPL</a> . We allow users to use, copy, modify and redistribute this "
 "program under GPL."
 
 msgid "在GPL许可的范围内，您可以自由地将其用于商业以及非商业用途."
-msgstr "You can use it commercially and non-commercially as GPL perm its.\""
+msgstr "You can use it commercially and non-commercially under the permission of GPL.""
 
 msgid "Typecho 软件由其社区提供支持, 核心开发团队负责维护程序日常开发工作以及新特性的制定."
 msgstr ""
 "Typecho is supported by its community. The core developers are responsible "
-"for the route developing and  new features planing."
+"for the routine development and new features planing."
 
 msgid "如果您遇到使用上的问题, 程序中的 BUG, 以及期许的新功能, 欢迎您在社区中交流或者直接向我们贡献代码."
 msgstr ""
@@ -262,10 +262,10 @@ msgstr ""
 "contribute code to us directly."
 
 msgid "对于贡献突出者, 他的名字将出现在贡献者名单中."
-msgstr " Established contributors will be listed."
+msgstr " Pre-eminent contributors will be credited."
 
 msgid "我准备好了, 开始下一步 &raquo;"
-msgstr "I am ready for next step &raquo;"
+msgstr "I am ready. Begin next step &raquo;"
 
 #, php-format
 msgid "由 <a href=\"http://typecho.org\">%s</a> 强力驱动, 版本 %s (%s)"
@@ -279,7 +279,7 @@ msgid "支持论坛"
 msgstr "Support"
 
 msgid "报告错误"
-msgstr "Issue"
+msgstr "Report bugs"
 
 msgid "资源下载"
 msgstr "Download"
@@ -300,7 +300,7 @@ msgid "小数"
 msgstr "Float"
 
 msgid "字段值"
-msgstr "Field name"
+msgstr "Field value"
 
 msgid "删除"
 msgstr "Delete"
@@ -318,7 +318,7 @@ msgid ""
 "自定义字段可以扩展你的模板功能, 使用方法参见 <a href=\"http://docs.typecho.org/help/custom-"
 "fields\">帮助文档</a>"
 msgstr ""
-"Customized fields can extend your template. Refer <a href=\"http://docs."
+"Customized fields can extend your template's functions. Refer to <a href=\"http://docs."
 "typecho.org/help/custom-fields\">documentation</a> for more information."
 
 msgid "加粗"
@@ -477,8 +477,8 @@ msgstr ""
 #, php-format
 msgid "目前有 <em>%s</em> 篇日志, 并有 <em>%s</em> 条关于你的评论在 <em>%s</em> 个分类中."
 msgstr ""
-"Currently there are <em>%s</em>  blog posts, and  <em>%s</em> comments about "
-"you under  this category <em>%s</em> ."
+"Currently there are <em>%s</em> posts, and  <em>%s</em> comments about "
+"you under category <em>%s</em> ."
 
 msgid "使用下面的链接开始你的故事吧:"
 msgstr "Use the following link to begin your story."
@@ -487,10 +487,10 @@ msgid "撰写新文章"
 msgstr "Write a new post"
 
 msgid "待审核的评论"
-msgstr "Comments await for review."
+msgstr "Comments awaiting review."
 
 msgid "待审核评论"
-msgstr "Comments await for review."
+msgstr "Comments awaiting review."
 
 msgid "垃圾评论"
 msgstr "Spam"
@@ -505,10 +505,10 @@ msgid "更新我的资料"
 msgstr "Update my profile"
 
 msgid "您当前使用的版本是"
-msgstr "You are using"
+msgstr "The version you are using is"
 
 msgid "官方最新版本是"
-msgstr "The latest version is"
+msgstr "The latest official version is"
 
 msgid "最近发布的文章"
 msgstr "Recent posts"
@@ -534,7 +534,7 @@ msgstr "You are using %s"
 
 #, php-format
 msgid "官方最新版本是 %s"
-msgstr "The latest version is %s"
+msgstr "The latest official version is %s"
 
 msgid "密码"
 msgstr "Password"
@@ -546,7 +546,7 @@ msgid "记住我"
 msgstr "Remember me"
 
 msgid "返回首页"
-msgstr "Return to frontpage"
+msgstr "Return to index page"
 
 msgid "用户注册"
 msgstr "Register"
@@ -558,10 +558,10 @@ msgid "我的"
 msgstr "My"
 
 msgid "已通过"
-msgstr "Passed"
+msgstr "Approved"
 
 msgid "待审核"
-msgstr "To review"
+msgstr "Awaiting approval"
 
 msgid "垃圾"
 msgstr "Spam"
@@ -659,7 +659,7 @@ msgid "此分类下的所有内容将被删除, 你确认要删除这些分类�
 msgstr "All contents under these categories will be deleted, are you sure?"
 
 msgid "刷新分类可能需要等待较长时间, 你确认要刷新这些分类吗?"
-msgstr "Refresh these categories may take a while, are you sure?"
+msgstr "Refresh these categories may take a long time, are you sure?"
 
 msgid "刷新"
 msgstr "Refresh"
@@ -689,13 +689,13 @@ msgid "你确认要删除这些标签吗?"
 msgstr "Delete these tags?"
 
 msgid "刷新标签可能需要等待较长时间, 你确认要刷新这些标签吗?"
-msgstr "Refresh these tags may take a while, are you sure?"
+msgstr "Refresh these tags may take a long time, are you sure?"
 
 msgid "没有任何标签"
 msgstr "No tag."
 
 msgid "你确认要删除这些页面吗?"
-msgstr "Are you sure to delete this pages?"
+msgstr "Are you sure to delete thiese pages?"
 
 msgid "日期"
 msgstr "Date"
@@ -761,7 +761,7 @@ msgstr "File %s replaced."
 
 #, php-format
 msgid "文件 %s 的类型与要替换的原文件不一致"
-msgstr "The type of file %s is not the same as the original file."
+msgstr "The type of file %s is different from the original file."
 
 msgid "一次只能上传一个文件"
 msgstr "You can only upload one file at a time."
@@ -820,7 +820,7 @@ msgstr "Plug and play."
 msgid "此插件文件已经损坏或者被不安全移除, 强烈建议你禁用它"
 msgstr ""
 "The files of this plugin has been damaged or removed unsafely. Disabling it "
-"is highly recommended."
+"is strongly recommended."
 
 msgid "禁用的插件"
 msgstr "Disabled plugins."
@@ -835,7 +835,7 @@ msgstr "Edit your avatar on Gravatar."
 msgid "目前有 <em>%s</em> 篇 Blog,并有 <em>%s</em> 条关于你的评论在已设定的 <em>%s</em> 个分类中."
 msgstr ""
 "Currently there are <em>%s</em>  blog posts, and  <em>%s</em> comments about "
-"you under  this category <em>%s</em> ."
+"you under established <em>%s</em> catagories."
 
 msgid "个人资料"
 msgstr "Profile"
@@ -882,7 +882,7 @@ msgstr ""
 "Your system will be upgrade from <strong>%s</strong> to <strong>%s</strong>."
 
 msgid "在升级之前强烈建议先备份您的数据"
-msgstr "Backup your data before upgrade is highly recommended."
+msgstr "Backup your data before upgrade is strongly recommended."
 
 msgid "完成升级 &raquo;"
 msgstr "Finish upgrade &raquo;"
@@ -892,7 +892,7 @@ msgid "欢迎您使用 \"%s\" 管理后台: "
 msgstr "Welcome to use the control panel of  \"%s\" "
 
 msgid "强烈建议更改你的默认密码"
-msgstr "Change your default password is highly recommended."
+msgstr "Changing your default password is strongly recommended."
 
 msgid "撰写第一篇日志"
 msgstr "Write my first post."
@@ -1094,7 +1094,7 @@ msgid "自定义模板"
 msgstr "Customize template"
 
 msgid "不选择"
-msgstr "Unselected"
+msgstr "Deselect"
 
 msgid "如果你为此页面选择了一个自定义模板, 系统将按照你选择的模板文件展现它"
 msgstr ""
