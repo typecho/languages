@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Typecho 0.9/13.12.12\n"
+"Project-Id-Version: Typecho 0.9/14.2.24\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-18 00:20+0800\n"
+"POT-Creation-Date: 2014-02-28 10:27+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -360,7 +360,7 @@ msgstr ""
 msgid "请在下方的输入框内输入要插入的远程图片地址"
 msgstr ""
 
-msgid "您也可以使用编辑器下方的文件上传功能插入本地图片"
+msgid "您也可以使用附件功能插入上传的本地图片"
 msgstr ""
 
 msgid "插入链接"
@@ -378,17 +378,41 @@ msgstr ""
 msgid "Markdown语法帮助"
 msgstr ""
 
+msgid "附件"
+msgstr ""
+
 msgid "撰写"
 msgstr ""
 
 msgid "预览"
 msgstr ""
 
+msgid "这篇文章不是由Markdown语法创建的, 继续使用Markdown编辑它吗?"
+msgstr ""
+
+msgid "是"
+msgstr ""
+
+msgid "否"
+msgstr ""
+
 msgid "页面不存在"
 msgstr ""
 
+msgid "文件大小超过限制"
+msgstr ""
+
+msgid "文件扩展名不被支持"
+msgstr ""
+
+msgid "文件已经上传过"
+msgstr ""
+
+msgid "上传出现错误"
+msgstr ""
+
 #, php-format
-msgid "文件上传失败, 请确认文件尺寸没有超过 %s 并且服务器文件目录可以写入"
+msgid "%s 上传失败"
 msgstr ""
 
 msgid "点击插入文件"
@@ -397,19 +421,7 @@ msgstr ""
 msgid "编辑"
 msgstr ""
 
-#, php-format
-msgid "文件 %s 的类型不被支持"
-msgstr ""
-
-msgid "浏览器不支持拖拽上传"
-msgstr ""
-
-#, php-format
-msgid "一次上传的文件不能多于%d个"
-msgstr ""
-
-#, php-format
-msgid "文件尺寸不能超过 %s"
+msgid "允许上传的文件"
 msgstr ""
 
 #, php-format
@@ -428,10 +440,10 @@ msgid "当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为�
 msgstr ""
 
 #, php-format
-msgid "目前有 <em>%s</em> 篇日志, 并有 <em>%s</em> 条关于你的评论在 <em>%s</em> 个分类中."
+msgid "目前有 <em>%s</em> 篇文章, 并有 <em>%s</em> 条关于你的评论在 <em>%s</em> 个分类中."
 msgstr ""
 
-msgid "使用下面的链接开始你的故事吧:"
+msgid "点击下面的链接快速开始:"
 msgstr ""
 
 msgid "撰写新文章"
@@ -447,6 +459,9 @@ msgid "垃圾评论"
 msgstr ""
 
 msgid "更换外观"
+msgstr ""
+
+msgid "插件管理"
 msgstr ""
 
 msgid "系统设置"
@@ -493,13 +508,68 @@ msgstr ""
 msgid "登录"
 msgstr ""
 
-msgid "记住我"
+msgid "下次自动登录"
 msgstr ""
 
 msgid "返回首页"
 msgstr ""
 
 msgid "用户注册"
+msgstr ""
+
+msgid "全选"
+msgstr ""
+
+msgid "操作"
+msgstr ""
+
+msgid "选中项"
+msgstr ""
+
+msgid "此分类下的所有内容将被删除, 你确认要删除这些分类吗?"
+msgstr ""
+
+msgid "刷新分类可能需要等待较长时间, 你确认要刷新这些分类吗?"
+msgstr ""
+
+msgid "刷新"
+msgstr ""
+
+msgid "合并到"
+msgstr ""
+
+msgid "名称"
+msgstr ""
+
+msgid "子分类"
+msgstr ""
+
+msgid "缩略名"
+msgstr ""
+
+msgid "文章数"
+msgstr ""
+
+#, php-format
+msgid "浏览 %s"
+msgstr ""
+
+#, php-format
+msgid "一个分类"
+msgid_plural "%d个分类"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "新增"
+msgstr ""
+
+msgid "默认"
+msgstr ""
+
+msgid "设为默认"
+msgstr ""
+
+msgid "没有任何分类"
 msgstr ""
 
 msgid "所有"
@@ -515,15 +585,6 @@ msgid "待审核"
 msgstr ""
 
 msgid "垃圾"
-msgstr ""
-
-msgid "全选"
-msgstr ""
-
-msgid "操作"
-msgstr ""
-
-msgid "选中项"
 msgstr ""
 
 msgid "通过"
@@ -578,6 +639,12 @@ msgstr ""
 msgid "你确认要删除这些文件吗?"
 msgstr ""
 
+msgid "您确认要清理未归档的文件吗?"
+msgstr ""
+
+msgid "清理未归档文件"
+msgstr ""
+
 msgid "文件名"
 msgstr ""
 
@@ -590,59 +657,10 @@ msgstr ""
 msgid "发布日期"
 msgstr ""
 
-#, php-format
-msgid "浏览 %s"
-msgstr ""
-
 msgid "未归档"
 msgstr ""
 
 msgid "没有任何文件"
-msgstr ""
-
-msgid "分类"
-msgstr ""
-
-msgid "标签"
-msgstr ""
-
-msgid "此分类下的所有内容将被删除, 你确认要删除这些分类吗?"
-msgstr ""
-
-msgid "刷新分类可能需要等待较长时间, 你确认要刷新这些分类吗?"
-msgstr ""
-
-msgid "刷新"
-msgstr ""
-
-msgid "合并到"
-msgstr ""
-
-msgid "名称"
-msgstr ""
-
-msgid "缩略名"
-msgstr ""
-
-msgid "文章数"
-msgstr ""
-
-msgid "默认"
-msgstr ""
-
-msgid "设为默认"
-msgstr ""
-
-msgid "没有任何分类"
-msgstr ""
-
-msgid "你确认要删除这些标签吗?"
-msgstr ""
-
-msgid "刷新标签可能需要等待较长时间, 你确认要刷新这些标签吗?"
-msgstr ""
-
-msgid "没有任何标签"
 msgstr ""
 
 msgid "你确认要删除这些页面吗?"
@@ -670,6 +688,9 @@ msgstr ""
 msgid "所有分类"
 msgstr ""
 
+msgid "分类"
+msgstr ""
+
 msgid "私密"
 msgstr ""
 
@@ -677,6 +698,15 @@ msgid "密码保护"
 msgstr ""
 
 msgid "没有任何文章"
+msgstr ""
+
+msgid "你确认要删除这些标签吗?"
+msgstr ""
+
+msgid "刷新标签可能需要等待较长时间, 你确认要刷新这些标签吗?"
+msgstr ""
+
+msgid "没有任何标签"
 msgstr ""
 
 msgid "你确认要删除这些用户吗?"
@@ -711,13 +741,6 @@ msgid "文件 %s 已经替换"
 msgstr ""
 
 #, php-format
-msgid "文件 %s 的类型与要替换的原文件不一致"
-msgstr ""
-
-msgid "一次只能上传一个文件"
-msgstr ""
-
-#, php-format
 msgid "最后登录: %s"
 msgstr ""
 
@@ -734,9 +757,6 @@ msgid "编辑当前外观"
 msgstr ""
 
 msgid "设置外观"
-msgstr ""
-
-msgid "新增"
 msgstr ""
 
 msgid "启用的插件"
@@ -762,9 +782,6 @@ msgstr ""
 msgid "禁用"
 msgstr ""
 
-msgid "启用"
-msgstr ""
-
 msgid "即插即用"
 msgstr ""
 
@@ -774,6 +791,9 @@ msgstr ""
 msgid "禁用的插件"
 msgstr ""
 
+msgid "启用"
+msgstr ""
+
 msgid "没有安装插件"
 msgstr ""
 
@@ -781,7 +801,7 @@ msgid "在 Gravatar 上修改头像"
 msgstr ""
 
 #, php-format
-msgid "目前有 <em>%s</em> 篇 Blog,并有 <em>%s</em> 条关于你的评论在已设定的 <em>%s</em> 个分类中."
+msgid "目前有 <em>%s</em> 篇日志, 并有 <em>%s</em> 条关于你的评论在 <em>%s</em> 个分类中."
 msgstr ""
 
 msgid "个人资料"
@@ -988,10 +1008,10 @@ msgstr ""
 msgid "正在保存"
 msgstr ""
 
-msgid "内容已经保存"
+msgid "已保存"
 msgstr ""
 
-msgid "内容尚未保存"
+msgid "尚未保存"
 msgstr ""
 
 msgid "上次保存时间"
@@ -1020,9 +1040,6 @@ msgid "发布页面"
 msgstr ""
 
 msgid "选项"
-msgstr ""
-
-msgid "附件"
 msgstr ""
 
 msgid "页面顺序"
@@ -1079,6 +1096,9 @@ msgstr ""
 msgid "发布文章"
 msgstr ""
 
+msgid "标签"
+msgstr ""
+
 msgid "内容密码"
 msgstr ""
 
@@ -1111,10 +1131,13 @@ msgstr ""
 msgid "可以在MySQL服务的管理页面看到您创建的数据库名称"
 msgstr ""
 
-msgid "数据库实例名"
+msgid "数据库地址"
 msgstr ""
 
-msgid "请填入您在Cloud SQL面板中创建的数据库实例名称"
+msgid "您可以访问 RDS 控制台获取详细信息"
+msgstr ""
+
+msgid "数据库端口"
 msgstr ""
 
 msgid "数据库用户名"
@@ -1123,17 +1146,17 @@ msgstr ""
 msgid "数据库密码"
 msgstr ""
 
-msgid "请填入您在Cloud SQL的实例中创建的数据库名称"
+msgid "数据库实例名"
 msgstr ""
 
-msgid "数据库地址"
+msgid "请填入您在Cloud SQL面板中创建的数据库实例名称"
+msgstr ""
+
+msgid "请填入您在Cloud SQL的实例中创建的数据库名称"
 msgstr ""
 
 #, php-format
 msgid "您可能会使用 \"%s\""
-msgstr ""
-
-msgid "数据库端口"
 msgstr ""
 
 msgid "如果您不知道此选项的意义, 请保留默认设置"
@@ -1155,7 +1178,7 @@ msgstr ""
 msgid "页面没找到"
 msgstr ""
 
-msgid "你想查看的页面已被转移或删除了，要不要搜索看看："
+msgid "你想查看的页面已被转移或删除了, 要不要搜索看看: "
 msgstr ""
 
 msgid "搜索"
@@ -1177,13 +1200,13 @@ msgstr ""
 msgid "%s 发布的文章"
 msgstr ""
 
-msgid "作者："
+msgid "作者: "
 msgstr ""
 
-msgid "时间："
+msgid "时间: "
 msgstr ""
 
-msgid "分类："
+msgid "分类: "
 msgstr ""
 
 msgid "没有找到内容"
@@ -1202,7 +1225,7 @@ msgstr ""
 msgid "添加新评论"
 msgstr ""
 
-msgid "登录身份："
+msgid "登录身份: "
 msgstr ""
 
 msgid "退出"
@@ -1256,7 +1279,7 @@ msgstr ""
 msgid "首页"
 msgstr ""
 
-msgid "标签："
+msgid "标签: "
 msgstr ""
 
 msgid "最新文章"
@@ -1322,6 +1345,7 @@ msgstr[1] ""
 msgid "昨天 %s"
 msgstr ""
 
+#, php-format
 msgid "一天前"
 msgid_plural "%d天前"
 msgstr[0] ""
@@ -1459,9 +1483,6 @@ msgstr ""
 msgid "插件"
 msgstr ""
 
-msgid "插件管理"
-msgstr ""
-
 msgid "外观"
 msgstr ""
 
@@ -1504,7 +1525,13 @@ msgstr ""
 msgid "管理评论"
 msgstr ""
 
-msgid "标签和分类"
+msgid "管理分类"
+msgstr ""
+
+msgid "新增分类"
+msgstr ""
+
+msgid "管理标签"
 msgstr ""
 
 msgid "文件"
@@ -1584,6 +1611,9 @@ msgstr ""
 msgid "用户 <strong>%s</strong> 已经成功注册, 密码为 <strong>%s</strong>"
 msgstr ""
 
+msgid "一次不安全的跳转已经被阻止"
+msgstr ""
+
 msgid "升级已经完成"
 msgstr ""
 
@@ -1594,6 +1624,18 @@ msgid "软件版本"
 msgstr ""
 
 msgid "博客地址"
+msgstr ""
+
+msgid "博客首页地址"
+msgstr ""
+
+msgid "登录地址"
+msgstr ""
+
+msgid "管理区域的地址"
+msgstr ""
+
+msgid "文章缩略图"
 msgstr ""
 
 msgid "时区"
@@ -1617,7 +1659,13 @@ msgstr ""
 msgid "权限不足"
 msgstr ""
 
-msgid "无法登录, 密码错误"
+msgid "无法登陆, 密码错误"
+msgstr ""
+
+msgid "无法添加分类"
+msgstr ""
+
+msgid "标准"
 msgstr ""
 
 msgid "已发布"
@@ -1636,6 +1684,9 @@ msgid "无法编辑此评论"
 msgstr ""
 
 msgid "这个目标地址不存在"
+msgstr ""
+
+msgid "无法添加评论"
 msgstr ""
 
 msgid "未命名文档"
@@ -1783,6 +1834,12 @@ msgstr ""
 msgid "没有文件被删除"
 msgstr ""
 
+msgid "未归档文件已经被清理"
+msgstr ""
+
+msgid "没有未归档文件被清理"
+msgstr ""
+
 msgid "未命名页面"
 msgstr ""
 
@@ -1837,19 +1894,32 @@ msgstr ""
 msgid "没有文章被删除"
 msgstr ""
 
+msgid "返回父级分类"
+msgstr ""
+
+#, php-format
+msgid "管理 %s 的子分类"
+msgstr ""
+
 msgid "分类名称 *"
 msgstr ""
 
 msgid "分类缩略名"
 msgstr ""
 
-msgid "分类缩略名用于创建友好的链接形式,建议使用字母,数字,下划线和横杠."
+msgid "分类缩略名用于创建友好的链接形式, 建议使用字母, 数字, 下划线和横杠."
+msgstr ""
+
+msgid "父级分类"
+msgstr ""
+
+msgid "此分类将归档在您选择的父级分类下."
 msgstr ""
 
 msgid "分类描述"
 msgstr ""
 
-msgid "此文字用于描述分类,在有的主题中它会被显示."
+msgid "此文字用于描述分类, 在有的主题中它会被显示."
 msgstr ""
 
 msgid "编辑分类"
@@ -1901,6 +1971,18 @@ msgstr ""
 
 #, php-format
 msgid "<a href=\"%s\">%s</a> 已经被设为默认分类"
+msgstr ""
+
+#, php-format
+msgid "编辑分类 %s"
+msgstr ""
+
+#, php-format
+msgid "新增 %s 的子分类"
+msgstr ""
+
+#, php-format
+msgid "编辑标签 %s"
 msgstr ""
 
 msgid "标签名称 *"
@@ -2071,6 +2153,25 @@ msgstr ""
 msgid "站点的名称将显示在网页的标题处."
 msgstr ""
 
+msgid "请填写站点名称"
+msgstr ""
+
+msgid "站点地址"
+msgstr ""
+
+msgid "站点地址主要用于生成内容的永久链接."
+msgstr ""
+
+#, php-format
+msgid "当前地址 <strong>%s</strong> 与上述设定值不一致"
+msgstr ""
+
+msgid "请填写站点地址"
+msgstr ""
+
+msgid "请填写一个合法的URL地址"
+msgstr ""
+
 msgid "站点描述"
 msgstr ""
 
@@ -2230,7 +2331,7 @@ msgstr ""
 msgid "自定义文章路径"
 msgstr ""
 
-msgid "可用参数: <code>{cid}</code> 日志 ID, <code>{slug}</code> 日志缩略名, <code>{category}</code> 分类, <code>{year}</code> 年, <code>{month}</code> 月, <code>{day}</code> 日"
+msgid "可用参数: <code>{cid}</code> 日志 ID, <code>{slug}</code> 日志缩略名, <code>{category}</code> 分类, <code>{directory}</code> 多级分类, <code>{year}</code> 年, <code>{month}</code> 月, <code>{day}</code> 日"
 msgstr ""
 
 msgid "选择一种合适的文章静态路径风格, 使得你的网站链接更加友好."
@@ -2242,7 +2343,7 @@ msgstr ""
 msgid "独立页面路径"
 msgstr ""
 
-msgid "可用参数: <code>{cid}</code> 页面 ID、<code>{slug}</code> 页面缩略名"
+msgid "可用参数: <code>{cid}</code> 页面 ID, <code>{slug}</code> 页面缩略名"
 msgstr ""
 
 msgid "请在路径中至少包含上述的一项参数."
@@ -2254,7 +2355,7 @@ msgstr ""
 msgid "分类路径"
 msgstr ""
 
-msgid "可用参数: <code>{mid}</code> 分类 ID、<code>{slug}</code> 分类缩略名"
+msgid "可用参数: <code>{mid}</code> 分类 ID, <code>{slug}</code> 分类缩略名, <code>{directory}</code> 多级分类"
 msgstr ""
 
 msgid "分类路径中没有包含 {mid} 或者 {slug} "
