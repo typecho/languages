@@ -3,20 +3,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Typecho 0.9/13.12.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-18 00:20+0800\n"
-"PO-Revision-Date: 2013-12-19 22:23+0800\n"
-"Last-Translator: 波斯基 <i@boskijr.com>\n"
+"POT-Creation-Date: 2014-02-28 10:27+0800\n"
+"PO-Revision-Date: 2014-04-27 02:46+0800\n"
+"Last-Translator: BinotaLiu <binota@binota.org>\n"
 "Language-Team: Typecho Languages\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 1.5.4\n"
 
 msgid "UTF-8"
 msgstr "UTF-8"
@@ -28,7 +28,7 @@ msgid "欢迎使用"
 msgstr "歡迎使用"
 
 msgid "初始化配置"
-msgstr "初始化配置"
+msgstr "初始化組態設定"
 
 msgid "开始安装"
 msgstr "開始安裝"
@@ -37,7 +37,7 @@ msgid "安装成功"
 msgstr "安裝成功"
 
 msgid "安装失败!"
-msgstr "安裝失敗!"
+msgstr "安裝失敗！"
 
 msgid "您没有上传 config.inc.php 文件，请您重新安装！"
 msgstr "您沒有上傳 config.inc.php 檔案，請您重新安裝！"
@@ -46,28 +46,28 @@ msgid "重新安装 &raquo;"
 msgstr "重新安裝 &raquo;"
 
 msgid "安装成功!"
-msgstr "安裝成功!"
+msgstr "安裝成功！"
 
 msgid "您选择了使用原有的数据, 您的用户名和密码和原来的一致"
-msgstr "您選擇了使用原有的資料, 您的用戶名和密碼和原來的一致"
+msgstr "您選擇了使用原有的資料，您的使用者名稱與密碼與原來的一致"
 
 msgid "您的用户名是"
-msgstr "您的用戶名是"
+msgstr "您的使用者名稱為"
 
 msgid "您的密码是"
 msgstr "您的密碼是"
 
 msgid "您可以将下面两个链接保存到您的收藏夹"
-msgstr "您可以將下面兩個連結儲存到您的收藏夾"
+msgstr "您可以將下面兩個連結儲存到瀏覽器書籤"
 
 msgid "点击这里访问您的控制面板"
-msgstr "點擊這裡訪問您的控制面板"
+msgstr "點擊這裡瀏覽您的控制面板"
 
 msgid "点击这里查看您的 Blog"
 msgstr "點擊這裡檢視您的 Blog"
 
 msgid "希望您能尽情享用 Typecho 带来的乐趣!"
-msgstr "希望您能盡情享用 Typecho 帶來的樂趣!"
+msgstr "希望您能盡情享用 Typecho 帶來的樂趣！"
 
 msgid "28800"
 msgstr "28800"
@@ -82,22 +82,22 @@ msgid "欢迎使用 Typecho"
 msgstr "歡迎使用 Typecho"
 
 msgid "如果您看到这篇文章,表示您的 blog 已经安装成功."
-msgstr "如果您看到這篇文章,表示您的 blog 已經安裝成功."
+msgstr "如果您看到這篇文章，表示您的 blog 已經安裝成功。"
 
 msgid "关于"
 msgstr "關於"
 
 msgid "本页面由 Typecho 创建, 这只是个测试页面."
-msgstr "本頁面由 Typecho 創建, 這隻是個測試頁面."
+msgstr "本頁面由 Typecho 建立，這只是個測試頁面。"
 
 msgid "已经删除完原有数据"
-msgstr "已經刪除完原有資料"
+msgstr "已刪除完原有資料"
 
 msgid "继续安装 &raquo;"
 msgstr "繼續安裝 &raquo;"
 
 msgid "安装程序检查到原有数据表已经存在."
-msgstr "安裝程式檢查到原有資料表已經存在."
+msgstr "安裝程式檢查到原有資料表已經存在。"
 
 msgid "删除原有数据"
 msgstr "刪除原有資料"
@@ -110,44 +110,48 @@ msgstr "使用原有資料"
 
 #, php-format
 msgid "安装程序捕捉到以下错误: \"%s\". 程序被终止, 请检查您的配置信息."
-msgstr "安裝程式捕捉到以下錯誤: \"%s\". 程式被終止, 請檢查您的配置訊息."
+msgstr "安裝程式捕捉到以下錯誤: \"%s\". 程式被終止， 請檢查您的組態設定資訊。"
 
 msgid "确认您的配置"
-msgstr "確認您的配置"
+msgstr "確認您的組態設定"
 
 msgid "数据库配置"
-msgstr "資料庫配置"
+msgstr "資料庫組態設定"
 
 msgid "没有检测到您手动创建的配置文件, 请检查后再次创建"
-msgstr "沒有檢測到您手動創建的配置檔案, 請檢查後再次創建"
+msgstr "沒有檢測到您手動建立的組態設定檔，請檢查後再次建立"
 
 msgid "请填写您的网站地址"
-msgstr "請填寫您的網站地址"
+msgstr "請填寫您的網站網址"
 
 msgid "请填写您的用户名"
-msgstr "請填寫您的用戶名"
+msgstr "請填寫您的使用者名稱"
 
 msgid "请填写您的邮箱地址"
-msgstr "請填寫您的電郵地址"
+msgstr "請填寫您的 E-Mail 位址"
 
 msgid "用户名长度超过限制, 请不要超过 32 个字符"
-msgstr "用戶名長度超過限制, 請不要超過 32 個字元"
+msgstr "使用者名稱長度超過限制，請不要超過 32 個字元"
 
 msgid "邮箱长度超过限制, 请不要超过 200 个字符"
-msgstr "電郵長度超過限制, 請不要超過 200 個字元"
+msgstr "E-Mail 長度超過限制，請不要超過 200 個字元"
 
 msgid "对不起，无法连接数据库，请先检查数据库配置再继续进行安装"
-msgstr "對不起，無法連接資料庫，請先檢查資料庫配置再繼續進行安裝"
+msgstr "對不起，無法連線到資料庫，請先檢查資料庫組態設定再繼續進行安裝"
 
 #, php-format
 msgid "安装程序捕捉到以下错误: \" %s \". 程序被终止, 请检查您的配置信息."
-msgstr "安裝程式捕捉到以下錯誤: \" %s \". 程序被終止, 請檢查您的配置訊息."
+msgstr "安裝程式捕捉到以下錯誤: \" %s \". 程序被終止，請檢查您的組態設定資訊。"
 
 msgid "安装程序无法自动创建 <strong>config.inc.php</strong> 文件"
-msgstr "安裝程式無法自動創建 <strong>config.inc.php</strong> 檔案"
+msgstr "安裝程式無法自動建立 <strong>config.inc.php</strong> 檔案"
 
-msgid "您可以在网站根目录下手动创建 <strong>config.inc.php</strong> 文件, 并复制如下代码至其中"
-msgstr "您可以在網站根目錄下手動創建 <strong>config.inc.php</strong> 檔案, 並複製如下程式碼至其中"
+msgid ""
+"您可以在网站根目录下手动创建 <strong>config.inc.php</strong> 文件, 并复制如下"
+"代码至其中"
+msgstr ""
+"您可以在網站根目錄下手動建立 <strong>config.inc.php</strong> 檔案，並複製如下"
+"程式碼至其中"
 
 msgid "数据库适配器"
 msgstr "資料庫適配器"
@@ -174,74 +178,92 @@ msgid "请根据您的数据库类型选择合适的适配器"
 msgstr "請根據您的資料庫類型選擇合適的適配器"
 
 msgid "数据库前缀"
-msgstr "資料庫前綴"
+msgstr "資料庫前置字串"
 
 msgid "默认前缀是 \"typecho_\""
-msgstr "預設前綴是 \"typecho_\""
+msgstr "預設的前置字串是 \"typecho_\""
 
 msgid "创建您的管理员帐号"
-msgstr "創建您的管理員帳號"
+msgstr "建立您的管理員帳號"
 
 msgid "网站地址"
-msgstr "網站地址"
+msgstr "網站網址"
 
 msgid "这是程序自动匹配的网站路径, 如果不正确请修改它"
-msgstr "這是程式自動匹配的網站路徑, 如果不正確請修改它"
+msgstr "這是程式自動取得的網站路徑，如果不正確請修改它"
 
 msgid "用户名"
-msgstr "用戶名"
+msgstr "使用者名稱"
 
 msgid "登录密码"
 msgstr "登入密碼"
 
 msgid "请填写您的登录密码, 如果留空系统将为您随机生成一个"
-msgstr "請填寫您的登入密碼, 如果留空系統將為您隨機生成一個"
+msgstr "請填寫您的登入密碼，如果留空系統將為您隨機生成一個"
 
 msgid "邮件地址"
-msgstr "郵件地址"
+msgstr "E-Mail 位址"
 
 msgid "请填写一个您的常用邮箱"
-msgstr "請填寫一個您的常用電郵"
+msgstr "請填寫一個您常用的 E-Mail"
 
 msgid "确认, 开始安装 &raquo;"
-msgstr "確認, 開始安裝 &raquo;"
+msgstr "確認，開始安裝 &raquo;"
 
 msgid "安装说明"
 msgstr "安裝說明"
 
-msgid "本安装程序将自动检测服务器环境是否符合最低配置需求. 如果不符合, 将在上方出现提示信息, 请按照提示信息检查您的主机配置. 如果服务器环境符合要求, 将在下方出现 \"开始下一步\" 的按钮, 点击此按钮即可一步完成安装."
-msgstr "本安裝程式將自動檢測伺服器環境是否符合最低配置需求. 如果不符合, 將在上方出現提示訊息, 請按照提示訊息檢查您的主機配置. 如果伺服器環境符合要求, 將在下方出現 \"開始下一步\" 的按鈕, 點擊此按鈕即可一步完成安裝."
+msgid ""
+"本安装程序将自动检测服务器环境是否符合最低配置需求. 如果不符合, 将在上方出现"
+"提示信息, 请按照提示信息检查您的主机配置. 如果服务器环境符合要求, 将在下方出"
+"现 \"开始下一步\" 的按钮, 点击此按钮即可一步完成安装."
+msgstr ""
+"本安裝程式將自動檢測伺服器環境是否符合最低配置需求。若不符合，將於上方出現提"
+"示訊息，請按照提示訊息檢查您的主機配置。如果伺服器環境符合要求，將在下方出現 "
+"「開始下一步」的按鈕，點擊此按鈕即可一步完成安裝"
 
 msgid "许可及协议"
 msgstr "許可及協議"
 
-msgid "Typecho 基于 <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> 协议发布, 我们允许用户在 GPL 协议许可的范围内使用, 拷贝, 修改和分发此程序."
-msgstr "Typecho 基於 <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> 協議發佈, 我們允許用戶在 GPL 協議許可的範圍內使用, 拷貝, 修改和分發此程式."
+msgid ""
+"Typecho 基于 <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> 协议发"
+"布, 我们允许用户在 GPL 协议许可的范围内使用, 拷贝, 修改和分发此程序."
+msgstr ""
+"Typecho 基於 <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> 協議發"
+"佈，我們允許使用者在 GPL 協議許可的範圍內使用, 拷貝, 修改和分發此程式."
 
 msgid "在GPL许可的范围内，您可以自由地将其用于商业以及非商业用途."
-msgstr "在GPL許可的範圍內，您可以自由地將其用於商業以及非商業用途."
+msgstr "在 GPL 許可的範圍內，您可以自由地將其用於商業以及非商業用途。"
 
-msgid "Typecho 软件由其社区提供支持, 核心开发团队负责维护程序日常开发工作以及新特性的制定."
-msgstr "Typecho 軟體由其社區提供支持, 核心開發團隊負責維護程式日常開發工作以及新特性的制定."
+msgid ""
+"Typecho 软件由其社区提供支持, 核心开发团队负责维护程序日常开发工作以及新特性"
+"的制定."
+msgstr ""
+"Typecho 軟體由其社群提供支持，核心開發團隊負責維護程式日常開發工作以及新特性"
+"的制定"
 
-msgid "如果您遇到使用上的问题, 程序中的 BUG, 以及期许的新功能, 欢迎您在社区中交流或者直接向我们贡献代码."
-msgstr "如果您遇到使用上的問題, 程式中的 BUG, 以及期許的新功能, 歡迎您在社區中交流或者直接向我們貢獻程式碼."
+msgid ""
+"如果您遇到使用上的问题, 程序中的 BUG, 以及期许的新功能, 欢迎您在社区中交流或"
+"者直接向我们贡献代码."
+msgstr ""
+"如果您遇到使用上的問題、程式中的 BUG、以及期許的新功能，歡迎您在社群中交流或"
+"者直接向我們貢獻程式碼"
 
 msgid "对于贡献突出者, 他的名字将出现在贡献者名单中."
-msgstr "對於貢獻突出者, 他的名字將出現在貢獻者名單中."
+msgstr "對於貢獻突出者，他的名字將出現在貢獻者名單中。"
 
 msgid "我准备好了, 开始下一步 &raquo;"
-msgstr "我準備好了, 開始下一步 &raquo;"
+msgstr "我準備好了，開始下一步 &raquo;"
 
 #, php-format
 msgid "由 <a href=\"http://typecho.org\">%s</a> 强力驱动, 版本 %s (%s)"
-msgstr "由 <a href=\"http://typecho.org\">%s</a> 強力驅動, 版本 %s (%s)"
+msgstr "由 <a href=\"http://typecho.org\">%s</a> 強力驅動，版本 %s (%s)"
 
 msgid "帮助文档"
-msgstr "幫助文檔"
+msgstr "說明文件"
 
 msgid "支持论坛"
-msgstr "支持論壇"
+msgstr "支援討論區"
 
 msgid "报告错误"
 msgstr "報告錯誤"
@@ -250,7 +272,7 @@ msgid "资源下载"
 msgstr "資源下載"
 
 msgid "确认要删除此字段吗?"
-msgstr "確認要刪除此欄位嗎?"
+msgstr "確認要刪除此欄位嗎？"
 
 msgid "字段名称"
 msgstr "欄位名稱"
@@ -271,22 +293,26 @@ msgid "删除"
 msgstr "刪除"
 
 msgid "自定义字段"
-msgstr "自定義欄位"
+msgstr "自定欄位"
 
 msgid "字段类型"
 msgstr "欄位類型"
 
 msgid "+添加字段"
-msgstr "+添加欄位"
+msgstr "+新增欄位"
 
-msgid "自定义字段可以扩展你的模板功能, 使用方法参见 <a href=\"http://docs.typecho.org/help/custom-fields\">帮助文档</a>"
-msgstr "自定義欄位可以擴展你的模板功能, 使用方法參見 <a href=\"http://docs.typecho.org/help/custom-fields\">幫助文檔</a>"
+msgid ""
+"自定义字段可以扩展你的模板功能, 使用方法参见 <a href=\"http://docs.typecho."
+"org/help/custom-fields\">帮助文档</a>"
+msgstr ""
+"自定欄位可以擴充你的樣板功能，使用方法參閱 <a href=\"http://docs.typecho.org/"
+"help/custom-fields\">說明文件</a>"
 
 msgid "加粗"
-msgstr "加粗"
+msgstr "粗體"
 
 msgid "加粗文字"
-msgstr "加粗文字"
+msgstr "粗體字"
 
 msgid "斜体"
 msgstr "斜體"
@@ -325,7 +351,7 @@ msgid "普通列表"
 msgstr "普通列表"
 
 msgid "列表项目"
-msgstr "列表項目"
+msgstr "清單項目"
 
 msgid "标题"
 msgstr "標題"
@@ -340,10 +366,10 @@ msgid "摘要分割线"
 msgstr "摘要分割線"
 
 msgid "撤销"
-msgstr "撤銷"
+msgstr "復原"
 
 msgid "重做"
-msgstr "重做"
+msgstr "取消復原"
 
 msgid "全屏"
 msgstr "全螢幕"
@@ -352,22 +378,22 @@ msgid "退出全屏"
 msgstr "結束全螢幕"
 
 msgid "此浏览器不支持全屏操作"
-msgstr "此瀏覽器不支持全螢幕操作"
+msgstr "此瀏覽器不支持全螢幕動作"
 
 msgid "插入图片"
 msgstr "插入圖片"
 
 msgid "请在下方的输入框内输入要插入的远程图片地址"
-msgstr "請在下方的輸入域內輸入要插入的遠程圖片地址"
+msgstr "請在下方的輸入框內輸入要插入的遠程圖片地址"
 
-msgid "您也可以使用编辑器下方的文件上传功能插入本地图片"
-msgstr "您也可以使用編輯器下方的檔案上傳功能插入本地圖片"
+msgid "您也可以使用附件功能插入上传的本地图片"
+msgstr "您也可以使用附件功能插入上傳的本機圖片"
 
 msgid "插入链接"
 msgstr "插入連結"
 
 msgid "请在下方的输入框内输入要插入的链接地址"
-msgstr "請在下方的輸入框內輸入要插入的連結地址"
+msgstr "請在下方的輸入框內輸入要插入的連結網址"
 
 msgid "确定"
 msgstr "確定"
@@ -376,7 +402,10 @@ msgid "取消"
 msgstr "取消"
 
 msgid "Markdown语法帮助"
-msgstr "Markdown語法幫助"
+msgstr "Markdown 語法說明"
+
+msgid "附件"
+msgstr "附件"
 
 msgid "撰写"
 msgstr "撰寫"
@@ -384,12 +413,33 @@ msgstr "撰寫"
 msgid "预览"
 msgstr "預覽"
 
+msgid "这篇文章不是由Markdown语法创建的, 继续使用Markdown编辑它吗?"
+msgstr "這篇文章不是由 Markdown 語法建立的，要繼續以 Markdown 編輯嗎？"
+
+msgid "是"
+msgstr "是"
+
+msgid "否"
+msgstr "否"
+
 msgid "页面不存在"
 msgstr "頁面不存在"
 
+msgid "文件大小超过限制"
+msgstr "檔案大小超過限制"
+
+msgid "文件扩展名不被支持"
+msgstr "不支援的副檔名"
+
+msgid "文件已经上传过"
+msgstr "檔案已經上傳過"
+
+msgid "上传出现错误"
+msgstr "上傳發生錯誤"
+
 #, php-format
-msgid "文件上传失败, 请确认文件尺寸没有超过 %s 并且服务器文件目录可以写入"
-msgstr "檔案上傳失敗, 請確認檔案尺寸沒有超過 %s 並且伺服器檔案目錄可以寫入"
+msgid "%s 上传失败"
+msgstr "%s 上傳失敗"
 
 msgid "点击插入文件"
 msgstr "點擊插入檔案"
@@ -397,20 +447,8 @@ msgstr "點擊插入檔案"
 msgid "编辑"
 msgstr "編輯"
 
-#, php-format
-msgid "文件 %s 的类型不被支持"
-msgstr "檔案 %s 的類型不被支持"
-
-msgid "浏览器不支持拖拽上传"
-msgstr "瀏覽器不支持拖拽上傳"
-
-#, php-format
-msgid "一次上传的文件不能多于%d个"
-msgstr "一次上傳的檔案不能多於%d個"
-
-#, php-format
-msgid "文件尺寸不能超过 %s"
-msgstr "檔案尺寸不能超過 %s"
+msgid "允许上传的文件"
+msgstr "允許上傳的檔案"
 
 #, php-format
 msgid "确认要删除文件 %s 吗?"
@@ -418,21 +456,29 @@ msgstr "確認要刪除檔案 %s 嗎?"
 
 #, php-format
 msgid "拖放文件到这里<br>或者 %s选择文件上传%s"
-msgstr "拖放檔案到這裡<br>或者 %s選擇文件上傳%s"
+msgstr "拖放檔案到這裡<br>或者 %s選擇檔案上傳%s"
 
 #, php-format
 msgid "%s - %s - Powered by Typecho"
 msgstr "%s - %s - Powered by Typecho"
 
-msgid "当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href=\"http://browsehappy.com/\">升级你的浏览器</a>"
-msgstr "當前網頁 <strong>不支持</strong> 你正在使用的瀏覽器. 為了正常的訪問, 請 <a href=\"http://browsehappy.com/\">升級你的瀏覽器</a>"
+msgid ""
+"当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a "
+"href=\"http://browsehappy.com/\">升级你的浏览器</a>"
+msgstr ""
+"目前網頁 <strong>不支援</strong> 你正在使用的瀏覽器。為了正常的瀏覽，請 <a "
+"href=\"http://browsehappy.com/\">升級你的瀏覽器</a>"
 
 #, php-format
-msgid "目前有 <em>%s</em> 篇日志, 并有 <em>%s</em> 条关于你的评论在 <em>%s</em> 个分类中."
-msgstr "目前有 <em>%s</em> 篇日誌, 並有 <em>%s</em> 條關於你的評論在 <em>%s</em> 個分類中."
+msgid ""
+"目前有 <em>%s</em> 篇文章, 并有 <em>%s</em> 条关于你的评论在 <em>%s</em> 个分"
+"类中."
+msgstr ""
+"目前有 <em>%s</em> 篇文章，並有 <em>%s</em> 條關於你的評論在 <em>%s</em> 個分"
+"類中."
 
-msgid "使用下面的链接开始你的故事吧:"
-msgstr "使用下面的連結開始你的故事吧:"
+msgid "点击下面的链接快速开始:"
+msgstr "點擊下方的連結快速開始："
 
 msgid "撰写新文章"
 msgstr "撰寫新文章"
@@ -449,6 +495,9 @@ msgstr "垃圾評論"
 msgid "更换外观"
 msgstr "更換外觀"
 
+msgid "插件管理"
+msgstr "外掛管理"
+
 msgid "系统设置"
 msgstr "系統設定"
 
@@ -456,7 +505,7 @@ msgid "更新我的资料"
 msgstr "更新我的資料"
 
 msgid "您当前使用的版本是"
-msgstr "您當前使用的版本是"
+msgstr "您目前使用的版本是"
 
 msgid "官方最新版本是"
 msgstr "官方最新版本是"
@@ -493,14 +542,69 @@ msgstr "密碼"
 msgid "登录"
 msgstr "登入"
 
-msgid "记住我"
-msgstr "記住我"
+msgid "下次自动登录"
+msgstr "下次自動登入"
 
 msgid "返回首页"
-msgstr "返回首頁"
+msgstr "回到首頁"
 
 msgid "用户注册"
-msgstr "用戶註冊"
+msgstr "使用者註冊"
+
+msgid "全选"
+msgstr "全選"
+
+msgid "操作"
+msgstr "操作"
+
+msgid "选中项"
+msgstr "選中項"
+
+msgid "此分类下的所有内容将被删除, 你确认要删除这些分类吗?"
+msgstr "此分類下的所有內容將被刪除，你確認要刪除這些分類嗎?"
+
+msgid "刷新分类可能需要等待较长时间, 你确认要刷新这些分类吗?"
+msgstr "重新整理分類可能需要等待較長時間，你確認要刷新這些分類嗎？"
+
+msgid "刷新"
+msgstr "重新整理"
+
+msgid "合并到"
+msgstr "合併到"
+
+msgid "名称"
+msgstr "名稱"
+
+msgid "子分类"
+msgstr "子分類"
+
+msgid "缩略名"
+msgstr "縮略名"
+
+msgid "文章数"
+msgstr "文章數"
+
+#, php-format
+msgid "浏览 %s"
+msgstr "瀏覽 %s"
+
+#, php-format
+msgid "一个分类"
+msgid_plural "%d个分类"
+msgstr[0] "一個分類"
+msgstr[1] "%d 個分類"
+
+msgid "新增"
+msgstr "新增"
+
+msgid "默认"
+msgstr "預設"
+
+msgid "设为默认"
+msgstr "設為預設"
+
+msgid "没有任何分类"
+msgstr "沒有任何分類"
 
 msgid "所有"
 msgstr "所有"
@@ -516,15 +620,6 @@ msgstr "待審核"
 
 msgid "垃圾"
 msgstr "垃圾"
-
-msgid "全选"
-msgstr "全選"
-
-msgid "操作"
-msgstr "操作"
-
-msgid "选中项"
-msgstr "選中項"
 
 msgid "通过"
 msgstr "通過"
@@ -561,16 +656,16 @@ msgstr "回覆"
 
 #, php-format
 msgid "你确认要删除%s的评论吗?"
-msgstr "你確認要刪除%s的評論嗎?"
+msgstr "你確認要刪除 %s 的評論嗎?"
 
 msgid "没有评论"
 msgstr "沒有評論"
 
 msgid "电子邮箱"
-msgstr "電子郵箱"
+msgstr "電子信箱"
 
 msgid "个人主页"
-msgstr "個人主頁"
+msgstr "個人網頁"
 
 msgid "提交"
 msgstr "送出"
@@ -578,8 +673,14 @@ msgstr "送出"
 msgid "你确认要删除这些文件吗?"
 msgstr "你確認要刪除這些檔案嗎?"
 
+msgid "您确认要清理未归档的文件吗?"
+msgstr "您確定要清除尚未歸檔的檔案嗎？"
+
+msgid "清理未归档文件"
+msgstr "清除尚未歸檔的檔案"
+
 msgid "文件名"
-msgstr "檔案名"
+msgstr "檔案名稱"
 
 msgid "上传者"
 msgstr "上傳者"
@@ -590,60 +691,11 @@ msgstr "所屬文章"
 msgid "发布日期"
 msgstr "發佈日期"
 
-#, php-format
-msgid "浏览 %s"
-msgstr "瀏覽 %s"
-
 msgid "未归档"
 msgstr "未歸檔"
 
 msgid "没有任何文件"
 msgstr "沒有任何檔案"
-
-msgid "分类"
-msgstr "分類"
-
-msgid "标签"
-msgstr "標籤"
-
-msgid "此分类下的所有内容将被删除, 你确认要删除这些分类吗?"
-msgstr "此分類下的所有內容將被刪除, 你確認要刪除這些分類嗎?"
-
-msgid "刷新分类可能需要等待较长时间, 你确认要刷新这些分类吗?"
-msgstr "刷新分類可能需要等待較長時間, 你確認要刷新這些分類嗎?"
-
-msgid "刷新"
-msgstr "刷新"
-
-msgid "合并到"
-msgstr "合併到"
-
-msgid "名称"
-msgstr "名稱"
-
-msgid "缩略名"
-msgstr "縮略名"
-
-msgid "文章数"
-msgstr "文章數"
-
-msgid "默认"
-msgstr "預設"
-
-msgid "设为默认"
-msgstr "設為預設"
-
-msgid "没有任何分类"
-msgstr "沒有任何分類"
-
-msgid "你确认要删除这些标签吗?"
-msgstr "你確認要刪除這些標籤嗎?"
-
-msgid "刷新标签可能需要等待较长时间, 你确认要刷新这些标签吗?"
-msgstr "刷新標籤可能需要等待較長時間, 你確認要刷新這些標籤嗎?"
-
-msgid "没有任何标签"
-msgstr "沒有任何標籤"
 
 msgid "你确认要删除这些页面吗?"
 msgstr "你確認要刪除這些頁面嗎?"
@@ -670,6 +722,9 @@ msgstr "你確認要刪除這些文章嗎?"
 msgid "所有分类"
 msgstr "所有分類"
 
+msgid "分类"
+msgstr "分類"
+
 msgid "私密"
 msgstr "私密"
 
@@ -679,8 +734,17 @@ msgstr "密碼保護"
 msgid "没有任何文章"
 msgstr "沒有任何文章"
 
+msgid "你确认要删除这些标签吗?"
+msgstr "你確認要刪除這些標籤嗎?"
+
+msgid "刷新标签可能需要等待较长时间, 你确认要刷新这些标签吗?"
+msgstr "重新整理標籤可能需要等待較長時間，你確認要重新整理這些標籤嗎？"
+
+msgid "没有任何标签"
+msgstr "沒有任何標籤"
+
 msgid "你确认要删除这些用户吗?"
-msgstr "你確認要刪除這些用戶嗎?"
+msgstr "你確認要刪除這些使用者嗎？"
 
 msgid "昵称"
 msgstr "暱稱"
@@ -689,7 +753,7 @@ msgid "电子邮件"
 msgstr "電子郵件"
 
 msgid "用户组"
-msgstr "用戶組"
+msgstr "使用者群組"
 
 msgid "暂无"
 msgstr "暫無"
@@ -708,14 +772,7 @@ msgstr "訪問者"
 
 #, php-format
 msgid "文件 %s 已经替换"
-msgstr "檔案 %s 已經替換"
-
-#, php-format
-msgid "文件 %s 的类型与要替换的原文件不一致"
-msgstr "檔案 %s 的類型與要替換的原文件不一致"
-
-msgid "一次只能上传一个文件"
-msgstr "一次只能上傳一個檔案"
+msgstr "檔案 %s 已取代"
 
 #, php-format
 msgid "最后登录: %s"
@@ -731,13 +788,10 @@ msgid "可以使用的外观"
 msgstr "可以使用的外觀"
 
 msgid "编辑当前外观"
-msgstr "編輯當前外觀"
+msgstr "編輯目前外觀"
 
 msgid "设置外观"
 msgstr "設定外觀"
-
-msgid "新增"
-msgstr "新增"
 
 msgid "启用的插件"
 msgstr "啟用的外掛"
@@ -750,7 +804,7 @@ msgstr "版本"
 
 #, php-format
 msgid "%s 无法在此版本的typecho下正常工作"
-msgstr "%s 無法在此版本的typecho下正常工作"
+msgstr "%s 無法在此版本的 Typecho 下正常工作"
 
 msgid "设置"
 msgstr "設定"
@@ -762,17 +816,17 @@ msgstr "你確認要禁用外掛 %s 嗎?"
 msgid "禁用"
 msgstr "禁用"
 
-msgid "启用"
-msgstr "啟用"
-
 msgid "即插即用"
 msgstr "即插即用"
 
 msgid "此插件文件已经损坏或者被不安全移除, 强烈建议你禁用它"
-msgstr "此外掛檔案已經損壞或者被不安全移除, 強烈建議你禁用它"
+msgstr "此外掛檔案已損壞或者被不安全移除，強烈建議你禁用它"
 
 msgid "禁用的插件"
 msgstr "禁用的外掛"
+
+msgid "启用"
+msgstr "啟用"
 
 msgid "没有安装插件"
 msgstr "沒有安裝外掛"
@@ -781,8 +835,12 @@ msgid "在 Gravatar 上修改头像"
 msgstr "在 Gravatar 上修改頭像"
 
 #, php-format
-msgid "目前有 <em>%s</em> 篇 Blog,并有 <em>%s</em> 条关于你的评论在已设定的 <em>%s</em> 个分类中."
-msgstr "目前有 <em>%s</em> 篇 Blog,並有 <em>%s</em> 條關於你的評論在已設定的 <em>%s</em> 個分類中."
+msgid ""
+"目前有 <em>%s</em> 篇日志, 并有 <em>%s</em> 条关于你的评论在 <em>%s</em> 个分"
+"类中."
+msgstr ""
+"目前有 <em>%s</em> 篇日誌，並有 <em>%s</em> 條關於你的評論在 <em>%s</em> 個分"
+"類中."
 
 msgid "个人资料"
 msgstr "個人資料"
@@ -800,11 +858,11 @@ msgid "注册"
 msgstr "註冊"
 
 msgid "用户登录"
-msgstr "用戶登入"
+msgstr "使用者登入"
 
 #, php-format
 msgid "编辑%s外观"
-msgstr "編輯%s外觀"
+msgstr "編輯 %s 外觀"
 
 msgid "编辑源码"
 msgstr "編輯源碼"
@@ -816,10 +874,10 @@ msgid "此文件无法写入"
 msgstr "此檔案無法寫入"
 
 msgid "检测到新版本!"
-msgstr "檢測到新版本!"
+msgstr "檢測到新版本！"
 
 msgid "您已经更新了系统程序, 我们还需要执行一些后续步骤来完成升级"
-msgstr "您已經更新了系統程式, 我們還需要執行一些後續步驟來完成升級"
+msgstr "您已經更新了系統程式，我們還需要執行一些後續步驟來完成升級"
 
 #, php-format
 msgid "此程序将把您的系统从 <strong>%s</strong> 升级到 <strong>%s</strong>"
@@ -842,7 +900,7 @@ msgid "撰写第一篇日志"
 msgstr "撰寫第一篇日誌"
 
 msgid "查看我的站点"
-msgstr "檢視我的站點"
+msgstr "檢視我的網址"
 
 msgid "让我直接开始使用吧 &raquo;"
 msgstr "讓我直接開始使用吧 &raquo;"
@@ -983,29 +1041,29 @@ msgid "请输入标签名"
 msgstr "請輸入標籤名"
 
 msgid "此标签不存在, 按回车创建"
-msgstr "此標籤不存在, 按回車創建"
+msgstr "此標籤不存在，按 Enter 鍵建立"
 
 msgid "正在保存"
 msgstr "正在儲存"
 
-msgid "内容已经保存"
-msgstr "內容已經儲存"
+msgid "已保存"
+msgstr "已儲存"
 
-msgid "内容尚未保存"
-msgstr "內容尚未儲存"
+msgid "尚未保存"
+msgstr "尚未儲存"
 
 msgid "上次保存时间"
 msgstr "上次儲存時間"
 
 msgid "内容已经改变尚未保存, 您确认要离开此页面吗?"
-msgstr "內容已經改變尚未儲存, 您確認要離開此頁面嗎?"
+msgstr "內容已經改變但尚未儲存，您確定要離開此頁嗎？"
 
 msgid "您确认要删除这份草稿吗?"
 msgstr "您確認要刪除這份草稿嗎?"
 
 #, php-format
 msgid "当前正在编辑的是保存于%s的草稿, 你可以<a href=\"%s\">删除它</a>"
-msgstr "當前正在編輯的是儲存於%s的草稿, 你可以<a href=\"%s\">刪除它</a>"
+msgstr "目前正在編輯的是儲存於 %s 的草稿，你可以<a href=\"%s\">刪除它</a>"
 
 msgid "网址缩略名"
 msgstr "網址縮略名"
@@ -1022,23 +1080,20 @@ msgstr "發佈頁面"
 msgid "选项"
 msgstr "選項"
 
-msgid "附件"
-msgstr "附件"
-
 msgid "页面顺序"
 msgstr "頁面順序"
 
 msgid "为你的自定义页面设定一个序列值以后, 能够使得它们按此值从小到大排列"
-msgstr "為你的自定義頁面設定一個序列值以後, 能夠使得它們按此值從小到大排列"
+msgstr "為你的自定頁設定一個序列值以後，能夠使得它們按此值從小到大排列"
 
 msgid "自定义模板"
-msgstr "自定義模板"
+msgstr "自定樣板"
 
 msgid "不选择"
 msgstr "不選擇"
 
 msgid "如果你为此页面选择了一个自定义模板, 系统将按照你选择的模板文件展现它"
-msgstr "如果你為此頁面選擇了一個自定義模板, 系統將按照你選擇的模板檔案展現它"
+msgstr "如果你為此頁選擇了一個自定樣板，系統將按照你選擇的樣板檔案展現它"
 
 msgid "高级选项"
 msgstr "高階選項"
@@ -1071,13 +1126,16 @@ msgstr "最後更新於 %s"
 
 #, php-format
 msgid "你正在编辑的是保存于 %s 的草稿, 你也可以 <a href=\"%s\">删除它</a>"
-msgstr "你正在編輯的是儲存於 %s 的草稿, 你也可以 <a href=\"%s\">刪除它</a>"
+msgstr "你正在編輯的是儲存於 %s 的草稿，你也可以 <a href=\"%s\">刪除它</a>"
 
 msgid "文章内容"
 msgstr "文章內容"
 
 msgid "发布文章"
 msgstr "發佈文章"
+
+msgid "标签"
+msgstr "標籤"
 
 msgid "内容密码"
 msgstr "內容密碼"
@@ -1086,7 +1144,7 @@ msgid "引用通告"
 msgstr "引用通告"
 
 msgid "每一行一个引用地址, 用回车隔开"
-msgstr "每一列一個引用地址, 用回車隔開"
+msgstr "每一列一個引用地址，用回車隔開"
 
 #, php-format
 msgid "本文由 <a href=\"%s\">%s</a> 撰写"
@@ -1094,50 +1152,53 @@ msgstr "本文由 <a href=\"%s\">%s</a> 撰寫"
 
 #, php-format
 msgid "系统将为您自动匹配 %s 环境的安装选项"
-msgstr "系統將為您自動匹配 %s 環境的安裝選項"
+msgstr "系統將為您自動取得 %s 環境的安裝選項"
 
 msgid "utf8"
 msgstr "utf8"
 
 msgid "应用API Key"
-msgstr "應用API Key"
+msgstr "應用 API Key"
 
 msgid "应用Secret Key"
-msgstr "應用Secret Key"
+msgstr "應用 Secret Key"
 
 msgid "数据库名"
-msgstr "資料庫名"
+msgstr "資料庫名稱"
 
 msgid "可以在MySQL服务的管理页面看到您创建的数据库名称"
-msgstr "可以在MySQL服務的管理頁面看到您創建的資料庫名稱"
+msgstr "可以在 MySQL 服務的管理頁面看到您建立的資料庫名稱"
 
-msgid "数据库实例名"
-msgstr "資料庫實例名"
+msgid "数据库地址"
+msgstr "資料庫位址"
 
-msgid "请填入您在Cloud SQL面板中创建的数据库实例名称"
-msgstr "請填入您在Cloud SQL面板中創建的資料庫實例名稱"
+msgid "您可以访问 RDS 控制台获取详细信息"
+msgstr "您可以瀏覽 RDS 控制台以取得詳細資訊"
+
+msgid "数据库端口"
+msgstr "資料庫通訊埠"
 
 msgid "数据库用户名"
-msgstr "資料庫用戶名"
+msgstr "資料庫使用者名稱"
 
 msgid "数据库密码"
 msgstr "資料庫密碼"
 
-msgid "请填入您在Cloud SQL的实例中创建的数据库名称"
-msgstr "請填入您在Cloud SQL的實例中創建的資料庫名稱"
+msgid "数据库实例名"
+msgstr "資料庫實體名稱"
 
-msgid "数据库地址"
-msgstr "資料庫地址"
+msgid "请填入您在Cloud SQL面板中创建的数据库实例名称"
+msgstr "請填入您在Cloud SQL面板中新建的資料庫實體名稱"
+
+msgid "请填入您在Cloud SQL的实例中创建的数据库名称"
+msgstr "請填入您在 Cloud SQL 的實體中建立的資料庫名稱"
 
 #, php-format
 msgid "您可能会使用 \"%s\""
 msgstr "您可能會使用 \"%s\""
 
-msgid "数据库端口"
-msgstr "資料庫埠"
-
 msgid "如果您不知道此选项的意义, 请保留默认设置"
-msgstr "如果您不知道此選項的意義, 請保留預設設定"
+msgstr "若您不知道此選項的意義，請保留預設設定"
 
 msgid "请您指定数据库名称"
 msgstr "請您指定資料庫名稱"
@@ -1147,7 +1208,7 @@ msgstr "資料庫檔案路徑"
 
 #, php-format
 msgid "\"%s\" 是我们为您自动生成的地址"
-msgstr "\"%s\" 是我們為您自動生成的地址"
+msgstr "\"%s\" 是我們為您自動產生的網址"
 
 msgid "说点什么"
 msgstr "說點什麼"
@@ -1155,7 +1216,7 @@ msgstr "說點什麼"
 msgid "页面没找到"
 msgstr "頁面沒找到"
 
-msgid "你想查看的页面已被转移或删除了，要不要搜索看看："
+msgid "你想查看的页面已被转移或删除了, 要不要搜索看看: "
 msgstr "你想檢視的頁面已被轉移或刪除了，要不要搜尋看看："
 
 msgid "搜索"
@@ -1177,13 +1238,13 @@ msgstr "標籤 %s 下的文章"
 msgid "%s 发布的文章"
 msgstr "%s 發佈的文章"
 
-msgid "作者："
+msgid "作者: "
 msgstr "作者："
 
-msgid "时间："
+msgid "时间: "
 msgstr "時間："
 
-msgid "分类："
+msgid "分类: "
 msgstr "分類："
 
 msgid "没有找到内容"
@@ -1202,7 +1263,7 @@ msgstr "已有 %d 條評論"
 msgid "添加新评论"
 msgstr "添加新評論"
 
-msgid "登录身份："
+msgid "登录身份: "
 msgstr "登入身份："
 
 msgid "退出"
@@ -1227,7 +1288,7 @@ msgid "站点LOGO地址"
 msgstr "站點LOGO地址"
 
 msgid "在这里填入一个图片URL地址, 以在网站标题前加上一个LOGO"
-msgstr "在這裡填入一個圖片URL地址, 以在網站標題前加上一個LOGO"
+msgstr "在這裡填入一個圖片URL地址，以在網站標題前加上一個LOGO"
 
 msgid "显示最新文章"
 msgstr "顯示最新文章"
@@ -1256,7 +1317,7 @@ msgstr "輸入關鍵字搜尋"
 msgid "首页"
 msgstr "首頁"
 
-msgid "标签："
+msgid "标签: "
 msgstr "標籤："
 
 msgid "最新文章"
@@ -1284,18 +1345,28 @@ msgid "无法禁用插件"
 msgstr "無法禁用外掛"
 
 msgid "config.inc.php 文件无法写入, 请将它的权限设置为可写"
-msgstr "config.inc.php 檔案無法寫入, 請將它的權限設定為可寫"
+msgstr "config.inc.php 檔案無法寫入，請將它的權限設定為可寫"
 
 #, php-format
-msgid "上传目录无法写入, 请手动将安装目录下的 %s 目录的权限设置为可写然后继续升级"
-msgstr "上傳目錄無法寫入, 請手動將安裝目錄下的 %s 目錄的權限設定為可寫然後繼續升級"
+msgid ""
+"上传目录无法写入, 请手动将安装目录下的 %s 目录的权限设置为可写然后继续升级"
+msgstr ""
+"上傳目錄無法寫入，請手動將安裝目錄下的 %s 目錄的權限設定為可寫然後繼續升級"
 
 #, php-format
-msgid "上传目录无法创建, 请手动创建安装目录下的 %s 目录, 并将它的权限设置为可写然后继续升级"
-msgstr "上傳目錄無法創建, 請手動創建安裝目錄下的 %s 目錄, 並將它的權限設定為可寫然後繼續升級"
+msgid ""
+"上传目录无法创建, 请手动创建安装目录下的 %s 目录, 并将它的权限设置为可写然后"
+"继续升级"
+msgstr ""
+"上傳目錄無法建立，請手動建立安裝目錄下的 %s 目錄，並將其權限設定為可寫然後繼"
+"續升級"
 
-msgid "建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"http://typecho.org/upgrade/9.7.2\">以下优化步骤</a>"
-msgstr "建議您在升級到 Typecho 0.7/9.7.2 以後的版本後, 立刻執行<a href=\"http://typecho.org/upgrade/9.7.2\">以下優化步驟</a>"
+msgid ""
+"建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"http://"
+"typecho.org/upgrade/9.7.2\">以下优化步骤</a>"
+msgstr ""
+"建議您在升級到 Typecho 0.7/9.7.2 以後的版本後, 立刻執行<a href=\"http://"
+"typecho.org/upgrade/9.7.2\">以下最佳化步驟</a>"
 
 msgid "刚刚"
 msgstr "剛剛"
@@ -1314,14 +1385,15 @@ msgstr[1] "%d分鐘前"
 
 #, php-format
 msgid "一小时前"
-msgid_plural "%d小時前"
+msgid_plural "%d小时前"
 msgstr[0] "一小時前"
-msgstr[1] "%d小時前"
+msgstr[1] "%d 小時前"
 
 #, php-format
 msgid "昨天 %s"
 msgstr "昨天 %s"
 
+#, php-format
 msgid "一天前"
 msgid_plural "%d天前"
 msgstr[0] "一天前"
@@ -1371,37 +1443,37 @@ msgid "%s 的评论"
 msgstr "%s 的評論"
 
 msgid "父级评论不存在"
-msgstr "父級評論不存在"
+msgstr "上級評論不存在"
 
 msgid "必须填写用户名"
-msgstr "必須填寫用戶名"
+msgstr "必須填寫使用者名稱"
 
 msgid "请不要在用户名中使用特殊字符"
-msgstr "請不要在用戶名中使用特殊字元"
+msgstr "請不要在使用者名稱中使用特殊字元"
 
 msgid "您所使用的用户名已经被注册,请登录后再次提交"
-msgstr "您所使用的用戶名已經被註冊,請登入後再次送出"
+msgstr "您所使用的使用者名稱已經被註冊，請登入後再次送出"
 
 msgid "用户名最多包含200个字符"
-msgstr "用戶名最多包含200個字元"
+msgstr "使用者名稱最多包含200個字元"
 
 msgid "必须填写电子邮箱地址"
-msgstr "必須填寫電子郵箱地址"
+msgstr "必須填寫電子郵件位址"
 
 msgid "邮箱地址不合法"
-msgstr "電郵地址不合法"
+msgstr "電子郵件位址不合法"
 
 msgid "电子邮箱最多包含200个字符"
-msgstr "電子郵箱最多包含200個字元"
+msgstr "電子郵件最多包含200個字元"
 
 msgid "必须填写个人主页"
-msgstr "必須填寫個人主頁"
+msgstr "必須填寫個人網頁"
 
 msgid "个人主页地址格式错误"
-msgstr "個人主頁地址格式錯誤"
+msgstr "個人網頁網址格式錯誤"
 
 msgid "个人主页地址最多包含200个字符"
-msgstr "個人主頁地址最多包含200個字元"
+msgstr "個人網頁網址最多包含200個字元"
 
 msgid "必须填写评论内容"
 msgstr "必須填寫評論內容"
@@ -1413,25 +1485,25 @@ msgid "禁止重复提交"
 msgstr "禁止重複送出"
 
 msgid "对不起,此内容的反馈被禁止."
-msgstr "對不起,此內容的反饋被禁止."
+msgstr "對不起，此內容的反饋被禁止。"
 
 msgid "评论来源页错误."
-msgstr "評論來源頁錯誤."
+msgstr "評論來源頁錯誤。"
 
 msgid "对不起, 您的发言过于频繁, 请稍侯再次发布."
-msgstr "對不起, 您的發言過於頻繁, 請稍侯再次發佈."
+msgstr "對不起，您的發言過於頻繁, 請稍侯再次發佈."
 
 msgid "对不起,此内容的引用被禁止."
-msgstr "對不起,此內容的引用被禁止."
+msgstr "對不起，此內容的引用被禁止。"
 
 msgid "请输入用户名"
-msgstr "請輸入用戶名"
+msgstr "請輸入使用者名稱"
 
 msgid "请输入密码"
 msgstr "請輸入密碼"
 
 msgid "用户名或密码无效"
-msgstr "用戶名或密碼無效"
+msgstr "使用者名稱或密碼無效"
 
 msgid "控制台"
 msgstr "控制台"
@@ -1459,9 +1531,6 @@ msgstr "個人設定"
 msgid "插件"
 msgstr "外掛"
 
-msgid "插件管理"
-msgstr "外掛管理"
-
 msgid "外观"
 msgstr "外觀"
 
@@ -1481,10 +1550,10 @@ msgid "撰写文章"
 msgstr "撰寫文章"
 
 msgid "创建页面"
-msgstr "創建頁面"
+msgstr "新建頁面"
 
 msgid "创建新页面"
-msgstr "創建新頁面"
+msgstr "新建新頁面"
 
 msgid "文章"
 msgstr "文章"
@@ -1504,8 +1573,14 @@ msgstr "評論"
 msgid "管理评论"
 msgstr "管理評論"
 
-msgid "标签和分类"
-msgstr "標籤和分類"
+msgid "管理分类"
+msgstr "管理分類"
+
+msgid "新增分类"
+msgstr "新增分類"
+
+msgid "管理标签"
+msgstr "管理標籤"
 
 msgid "文件"
 msgstr "檔案"
@@ -1514,13 +1589,13 @@ msgid "管理文件"
 msgstr "管理檔案"
 
 msgid "用户"
-msgstr "用戶"
+msgstr "使用者"
 
 msgid "管理用户"
-msgstr "管理用戶"
+msgstr "管理使用者"
 
 msgid "新增用户"
-msgstr "新增用戶"
+msgstr "新增使用者"
 
 msgid "基本"
 msgstr "基本"
@@ -1551,38 +1626,41 @@ msgid "必须填写用户名称"
 msgstr "必須填寫用戶名稱"
 
 msgid "用户名至少包含2个字符"
-msgstr "用戶名至少包含2個字元"
+msgstr "使用者名稱至少包含2個字元"
 
 msgid "用户名最多包含32个字符"
-msgstr "用戶名最多包含32個字元"
+msgstr "使用者名稱最多包含32個字元"
 
 msgid "用户名已经存在"
-msgstr "用戶名已經存在"
+msgstr "使用者名稱已經存在"
 
 msgid "必须填写电子邮箱"
-msgstr "必須填寫電子郵箱"
+msgstr "必須填寫電子郵件"
 
 msgid "电子邮箱地址已经存在"
-msgstr "電子郵箱地址已經存在"
+msgstr "電子郵件位址已經存在"
 
 msgid "电子邮箱格式错误"
-msgstr "電子郵箱格式錯誤"
+msgstr "電子郵件格式錯誤"
 
 msgid "必须填写密码"
 msgstr "必須填寫密碼"
 
 msgid "为了保证账户安全, 请输入至少六位的密码"
-msgstr "為了保證賬戶安全, 請輸入至少六位的密碼"
+msgstr "為了保證帳號安全，請輸入至少六位的密碼"
 
 msgid "为了便于记忆, 密码长度请不要超过十八位"
-msgstr "為了便於記憶, 密碼長度請不要超過十八位"
+msgstr "為了便於記憶，密碼長度請不要超過十八位"
 
 msgid "两次输入的密码不一致"
 msgstr "兩次輸入的密碼不一致"
 
 #, php-format
 msgid "用户 <strong>%s</strong> 已经成功注册, 密码为 <strong>%s</strong>"
-msgstr "用戶 <strong>%s</strong> 已經成功註冊, 密碼為 <strong>%s</strong>"
+msgstr "用戶 <strong>%s</strong> 已經成功註冊，密碼為 <strong>%s</strong>"
+
+msgid "一次不安全的跳转已经被阻止"
+msgstr "已阻止了不安全的重新導向"
 
 msgid "升级已经完成"
 msgstr "升級已經完成"
@@ -1594,16 +1672,28 @@ msgid "软件版本"
 msgstr "軟體版本"
 
 msgid "博客地址"
-msgstr "博客地址"
+msgstr "部落格位址"
+
+msgid "博客首页地址"
+msgstr "部落格首頁網址"
+
+msgid "登录地址"
+msgstr "登入網址"
+
+msgid "管理区域的地址"
+msgstr "管理區域的網址"
+
+msgid "文章缩略图"
+msgstr "文章縮略圖"
 
 msgid "时区"
 msgstr "時區"
 
 msgid "博客标题"
-msgstr "博客標題"
+msgstr "部落格標題"
 
 msgid "博客关键字"
-msgstr "博客關鍵字"
+msgstr "部落格關鍵字"
 
 msgid "日期格式"
 msgstr "日期格式"
@@ -1617,8 +1707,14 @@ msgstr "是否允許註冊"
 msgid "权限不足"
 msgstr "權限不足"
 
-msgid "无法登录, 密码错误"
-msgstr "無法登入, 密碼錯誤"
+msgid "无法登陆, 密码错误"
+msgstr "無法登入，密碼錯誤"
+
+msgid "无法添加分类"
+msgstr "無法新增分類"
+
+msgid "标准"
+msgstr "標準"
 
 msgid "已发布"
 msgstr "已發佈"
@@ -1638,6 +1734,9 @@ msgstr "無法編輯此評論"
 msgid "这个目标地址不存在"
 msgstr "這個目標地址不存在"
 
+msgid "无法添加评论"
+msgstr "無法新增評論"
+
 msgid "未命名文档"
 msgstr "未命名文檔"
 
@@ -1645,28 +1744,28 @@ msgid "上传失败"
 msgstr "上傳失敗"
 
 msgid "源地址服务器错误"
-msgstr "源地址伺服器錯誤"
+msgstr "來源網址伺服器錯誤"
 
 msgid "源地址不支持PingBack"
-msgstr "源地址不支持PingBack"
+msgstr "來源網址不支持PingBack"
 
 msgid "源地址中不包括目标地址"
-msgstr "源地址中不包括目標地址"
+msgstr "來源網址中不包括目標網址"
 
 msgid "PingBack已经存在"
 msgstr "PingBack已經存在"
 
 msgid "目标地址禁止Ping"
-msgstr "目標地址禁止Ping"
+msgstr "目標網址禁止Ping"
 
 msgid "内容被隐藏"
 msgstr "內容被隱藏"
 
 msgid "对不起,您输入的密码错误"
-msgstr "對不起,您輸入的密碼錯誤"
+msgstr "對不起，您輸入的密碼錯誤"
 
 msgid "请输入密码访问"
-msgstr "請輸入密碼訪問"
+msgstr "請輸入密碼瀏覽"
 
 msgid "此内容被密码保护"
 msgstr "此內容被密碼保護"
@@ -1745,17 +1844,17 @@ msgid "标题 *"
 msgstr "標題 *"
 
 msgid "文件缩略名用于创建友好的链接形式,建议使用字母,数字,下划线和横杠."
-msgstr "檔案縮略名用於創建友好的連結形式,建議使用字母,數字,下劃線和橫槓."
+msgstr "檔案縮略名用於建立友好的連結形式，建議使用字母，數字,底線和橫槓."
 
 msgid "此文字用于描述文件,在有的主题中它会被显示."
-msgstr "此文字用於描述檔案,在有的主題中它會被顯示."
+msgstr "此文字用於描述檔案，在有的主題中它會被顯示。"
 
 msgid "提交修改"
 msgstr "送出修改"
 
 #, php-format
 msgid "你确认删除文件 %s 吗?"
-msgstr "你確認刪除檔案 %s 嗎?"
+msgstr "你確定要刪除檔案 %s 嗎?"
 
 msgid "删除文件"
 msgstr "刪除檔案"
@@ -1782,6 +1881,12 @@ msgstr "檔案已經被刪除"
 
 msgid "没有文件被删除"
 msgstr "沒有檔案被刪除"
+
+msgid "未归档文件已经被清理"
+msgstr "已清除未歸檔的檔案"
+
+msgid "没有未归档文件被清理"
+msgstr "沒有尚未歸檔的檔案被清除"
 
 msgid "未命名页面"
 msgstr "未命名頁面"
@@ -1814,7 +1919,7 @@ msgid "%s的文章"
 msgstr "%s的文章"
 
 msgid "用户不存在"
-msgstr "用戶不存在"
+msgstr "使用者不存在"
 
 msgid "文章不存在"
 msgstr "文章不存在"
@@ -1837,20 +1942,33 @@ msgstr "文章已經被刪除"
 msgid "没有文章被删除"
 msgstr "沒有文章被刪除"
 
+msgid "返回父级分类"
+msgstr "回到上級分類"
+
+#, php-format
+msgid "管理 %s 的子分类"
+msgstr "管理 %s 的子分類"
+
 msgid "分类名称 *"
 msgstr "分類名稱 *"
 
 msgid "分类缩略名"
 msgstr "分類縮略名"
 
-msgid "分类缩略名用于创建友好的链接形式,建议使用字母,数字,下划线和横杠."
-msgstr "分類縮略名用於創建友好的連結形式,建議使用字母,數字,下劃線和橫槓."
+msgid "分类缩略名用于创建友好的链接形式, 建议使用字母, 数字, 下划线和横杠."
+msgstr "分類縮略名用於建立友好的連結格式，建議使用字母、數字、底線與橫槓。"
+
+msgid "父级分类"
+msgstr "上級分類"
+
+msgid "此分类将归档在您选择的父级分类下."
+msgstr "此分類歸檔在您所選的上級分類下"
 
 msgid "分类描述"
 msgstr "分類描述"
 
-msgid "此文字用于描述分类,在有的主题中它会被显示."
-msgstr "此文字用於描述分類,在有的主題中它會被顯示."
+msgid "此文字用于描述分类, 在有的主题中它会被显示."
+msgstr "此文字用於描述分類，將顯示於現有的主題中"
 
 msgid "编辑分类"
 msgstr "編輯分類"
@@ -1903,17 +2021,29 @@ msgstr "分類刷新已經完成"
 msgid "<a href=\"%s\">%s</a> 已经被设为默认分类"
 msgstr "<a href=\"%s\">%s</a> 已經被設為預設分類"
 
+#, php-format
+msgid "编辑分类 %s"
+msgstr "編輯分類 %s"
+
+#, php-format
+msgid "新增 %s 的子分类"
+msgstr "新增 %s 的子分類"
+
+#, php-format
+msgid "编辑标签 %s"
+msgstr "編輯標籤 %s"
+
 msgid "标签名称 *"
 msgstr "標籤名稱 *"
 
 msgid "这是标签在站点中显示的名称.可以使用中文,如 \"地球\"."
-msgstr "這是標籤在站點中顯示的名稱.可以使用中文,如 \"地球\"."
+msgstr "這是標籤在站點中顯示的名稱。可以使用中文，如 「地球」"
 
 msgid "标签缩略名"
 msgstr "標籤縮略名"
 
 msgid "标签缩略名用于创建友好的链接形式, 如果留空则默认使用标签名称."
-msgstr "標籤縮略名用於創建友好的連結形式, 如果留空則預設使用標籤名稱."
+msgstr "標籤縮略名用於創建友好的連結形式，如果留空則預設使用標籤名稱。"
 
 msgid "编辑标签"
 msgstr "編輯標籤"
@@ -1960,28 +2090,36 @@ msgid "没有选择任何标签"
 msgstr "沒有選擇任何標籤"
 
 msgid "标签刷新已经完成"
-msgstr "標籤刷新已經完成"
+msgstr "重新整理標籤已經完成"
 
 msgid "评论日期格式"
 msgstr "評論日期格式"
 
-msgid "这是一个默认的格式,当你在模板中调用显示评论日期方法时, 如果没有指定日期格式, 将按照此格式输出."
-msgstr "這是一個預設的格式,當你在模板中调用顯示評論日期方法時, 如果沒有指定日期格式, 將按照此格式輸出."
+msgid ""
+"这是一个默认的格式,当你在模板中调用显示评论日期方法时, 如果没有指定日期格式, "
+"将按照此格式输出."
+msgstr ""
+"這是一個預設的格式,當你在樣板中呼叫顯示評論日期方法時, 如果沒有指定日期格式, "
+"將按照此格式輸出."
 
-msgid "具体写法请参考 <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP 日期格式写法</a>."
-msgstr "具體寫法請參考 <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP 日期格式寫法</a>."
+msgid ""
+"具体写法请参考 <a href=\"http://www.php.net/manual/zh/function.date.php"
+"\">PHP 日期格式写法</a>."
+msgstr ""
+"具體寫法請參考 <a href=\"http://www.php.net/manual/zh/function.date.php"
+"\">PHP 日期格式寫法</a>."
 
 msgid "评论列表数目"
 msgstr "評論列表數目"
 
 msgid "此数目用于指定显示在侧边栏中的评论列表数目."
-msgstr "此數目用於指定顯示在側邊列中的評論列表數目."
+msgstr "此數目用於指定顯示在側邊列中的評論列表數目。"
 
 msgid "请填入一个数字"
 msgstr "請填入一個數字"
 
 msgid "仅显示评论, 不显示 Pingback 和 Trackback"
-msgstr "僅顯示評論, 不顯示 Pingback 和 Trackback"
+msgstr "僅顯示評論，不顯示 Pingback 和 Trackback"
 
 msgid "在评论中使用Markdown语法"
 msgstr "在評論中使用Markdown語法"
@@ -1989,12 +2127,20 @@ msgstr "在評論中使用Markdown語法"
 msgid "评论者名称显示时自动加上其个人主页链接"
 msgstr "評論者名稱顯示時自動加上其個人主頁連結"
 
-msgid "对评论者个人主页链接使用 <a href=\"http://en.wikipedia.org/wiki/Nofollow\">nofollow 属性</a>"
-msgstr "對評論者個人主頁連結使用 <a href=\"http://en.wikipedia.org/wiki/Nofollow\">nofollow 屬性</a>"
+msgid ""
+"对评论者个人主页链接使用 <a href=\"http://en.wikipedia.org/wiki/Nofollow"
+"\">nofollow 属性</a>"
+msgstr ""
+"對評論者個人網頁連結使用 <a href=\"http://en.wikipedia.org/wiki/Nofollow"
+"\">nofollow 屬性</a>"
 
 #, php-format
-msgid "启用 <a href=\"http://gravatar.com\">Gravatar</a> 头像服务, 最高显示评级为 %s 的头像"
-msgstr "啟用 <a href=\"http://gravatar.com\">Gravatar</a> 頭像服務, 最高顯示評級為 %s 的頭像"
+msgid ""
+"启用 <a href=\"http://gravatar.com\">Gravatar</a> 头像服务, 最高显示评级为 "
+"%s 的头像"
+msgstr ""
+"啟用 <a href=\"http://gravatar.com\">Gravatar</a> 頭像服務, 最高顯示評級為 "
+"%s 的頭像"
 
 msgid "第一页"
 msgstr "第一頁"
@@ -2004,11 +2150,11 @@ msgstr "最後一頁"
 
 #, php-format
 msgid "启用分页, 并且每页显示 %s 篇评论, 在列出时将 %s 作为默认显示"
-msgstr "啟用分頁, 並且每頁顯示 %s 篇評論, 在列出時將 %s 作為預設顯示"
+msgstr "啟用分頁，並且每頁顯示 %s 篇評論, 在列出時將 %s 作為預設顯示"
 
 #, php-format
 msgid "启用评论回复, 以 %s 层作为每个评论最多的回复层数"
-msgstr "啟用評論回覆, 以 %s 層作為每個評論最多的回覆層數"
+msgstr "啟用評論回覆，以 %s 層作為每個評論最多的回覆層數"
 
 msgid "较新的"
 msgstr "較新的"
@@ -2030,7 +2176,7 @@ msgid "评论者之前须有评论通过了审核"
 msgstr "評論者之前須有評論通過了審核"
 
 msgid "必须填写邮箱"
-msgstr "必須填寫電郵"
+msgstr "必須填寫電子郵件"
 
 msgid "必须填写网址"
 msgstr "必須填寫網址"
@@ -2052,8 +2198,10 @@ msgstr "評論送出"
 msgid "允许使用的HTML标签和属性"
 msgstr "允許使用的HTML標籤和屬性"
 
-msgid "默认的用户评论不允许填写任何的HTML标签, 你可以在这里填写允许使用的HTML标签."
-msgstr "預設的用戶評論不允許填寫任何的HTML標籤, 你可以在這裡填寫允許使用的HTML標籤."
+msgid ""
+"默认的用户评论不允许填写任何的HTML标签, 你可以在这里填写允许使用的HTML标签."
+msgstr ""
+"預設的使用者評論不允許填寫任何的HTML標籤, 你可以在這裡填寫允許使用的HTML標籤."
 
 #, php-format
 msgid "比如: %s"
@@ -2066,22 +2214,41 @@ msgid "设置已经保存"
 msgstr "設定已經儲存"
 
 msgid "站点名称"
-msgstr "站點名稱"
+msgstr "網址名稱"
 
 msgid "站点的名称将显示在网页的标题处."
-msgstr "站點的名稱將顯示在網頁的標題處."
+msgstr "網址的名稱將顯示在網頁的標題處。"
+
+msgid "请填写站点名称"
+msgstr "請填寫網站名稱"
+
+msgid "站点地址"
+msgstr "網站網址"
+
+msgid "站点地址主要用于生成内容的永久链接."
+msgstr "網站網址主要用於產生內容的永久網址"
+
+#, php-format
+msgid "当前地址 <strong>%s</strong> 与上述设定值不一致"
+msgstr "目前網址 <strong>%s</srong> 與上述設定值不一致"
+
+msgid "请填写站点地址"
+msgstr "請填寫網站網址"
+
+msgid "请填写一个合法的URL地址"
+msgstr "請填寫一個合法的 URL 位址"
 
 msgid "站点描述"
-msgstr "站點描述"
+msgstr "網站描述"
 
 msgid "站点描述将显示在网页代码的头部."
-msgstr "站點描述將顯示在網頁程式碼的頭部."
+msgstr "網站描述將顯示在網頁程式碼的頭部。"
 
 msgid "关键词"
 msgstr "關鍵詞"
 
 msgid "请以半角逗号 \",\" 分割多个关键字."
-msgstr "請以半形逗號 \",\" 分割多個關鍵字."
+msgstr "請以半形逗號「,」分割多個關鍵字."
 
 msgid "不允许"
 msgstr "不允許"
@@ -2090,64 +2257,64 @@ msgid "允许"
 msgstr "允許"
 
 msgid "允许访问者注册到你的网站, 默认的注册用户不享有任何写入权限."
-msgstr "允許訪問者註冊到你的網站, 預設的註冊用戶不享有任何寫入權限."
+msgstr "允許訪問者註冊到你的網站，預設的註冊使用者不享有任何寫入權限。"
 
 msgid "格林威治(子午线)标准时间 (GMT)"
 msgstr "格林威治(子午線)標準時間 (GMT)"
 
 msgid "中欧标准时间 阿姆斯特丹,荷兰,法国 (GMT +1)"
-msgstr "中歐標準時間 阿姆斯特丹,荷蘭,法國 (GMT +1)"
+msgstr "中歐標準時間 阿姆斯特丹，荷蘭,法國 (GMT +1)"
 
 msgid "东欧标准时间 布加勒斯特,塞浦路斯,希腊 (GMT +2)"
-msgstr "東歐標準時間 布加勒斯特,塞普勒斯,希臘 (GMT +2)"
+msgstr "東歐標準時間 布加勒斯特，塞普勒斯,希臘 (GMT +2)"
 
 msgid "莫斯科时间 伊拉克,埃塞俄比亚,马达加斯加 (GMT +3)"
-msgstr "莫斯科時間 伊拉克,衣索比亞,馬達加斯加 (GMT +3)"
+msgstr "莫斯科時間 伊拉克，衣索比亞,馬達加斯加 (GMT +3)"
 
 msgid "第比利斯时间 阿曼,毛里塔尼亚,留尼汪岛 (GMT +4)"
-msgstr "第比利斯時間 阿曼,茅利塔尼亞,留尼汪島 (GMT +4)"
+msgstr "第比利斯時間 阿曼，茅利塔尼亞,留尼汪島 (GMT +4)"
 
 msgid "新德里时间 巴基斯坦,马尔代夫 (GMT +5)"
-msgstr "新德里時間 巴基斯坦,馬爾地夫 (GMT +5)"
+msgstr "新德里時間 巴基斯坦，馬爾地夫 (GMT +5)"
 
 msgid "科伦坡时间 孟加拉 (GMT +6)"
 msgstr "科倫坡時間 孟加拉 (GMT +6)"
 
 msgid "曼谷雅加达 柬埔寨,苏门答腊,老挝 (GMT +7)"
-msgstr "曼谷雅加達 柬埔寨,蘇門答臘,寮國 (GMT +7)"
+msgstr "曼谷雅加達 柬埔寨，蘇門答臘,寮國 (GMT +7)"
 
 msgid "北京时间 香港,新加坡,越南 (GMT +8)"
-msgstr "北京時間 香港,新加坡,越南 (GMT +8)"
+msgstr "台北時間 北京，香港,新加坡,越南 (GMT +8)"
 
 msgid "东京平壤时间 西伊里安,摩鹿加群岛 (GMT +9)"
-msgstr "東京平壤時間 西伊裡安,摩鹿加群島 (GMT +9)"
+msgstr "東京平壤時間 西伊裡安，摩鹿加群島 (GMT +9)"
 
 msgid "悉尼关岛时间 塔斯马尼亚岛,新几内亚 (GMT +10)"
-msgstr "悉尼關島時間 塔斯馬尼亞島,新幾內亞 (GMT +10)"
+msgstr "悉尼關島時間 塔斯馬尼亞島，新幾內亞 (GMT +10)"
 
 msgid "所罗门群岛 库页岛 (GMT +11)"
 msgstr "索羅門羣島 庫頁島 (GMT +11)"
 
 msgid "惠灵顿时间 新西兰,斐济群岛 (GMT +12)"
-msgstr "惠靈頓時間 紐西蘭,斐濟群島 (GMT +12)"
+msgstr "惠靈頓時間 紐西蘭，斐濟群島 (GMT +12)"
 
 msgid "佛德尔群岛 亚速尔群岛,葡属几内亚 (GMT -1)"
-msgstr "佛德爾群島 亞速爾群島,葡屬幾內亞 (GMT -1)"
+msgstr "佛德爾群島 亞速爾群島，葡屬幾內亞 (GMT -1)"
 
 msgid "大西洋中部时间 格陵兰 (GMT -2)"
 msgstr "大西洋中部時間 格陵蘭 (GMT -2)"
 
 msgid "布宜诺斯艾利斯 乌拉圭,法属圭亚那 (GMT -3)"
-msgstr "布宜諾斯艾利斯 烏拉圭,法屬蓋亞那 (GMT -3)"
+msgstr "布宜諾斯艾利斯 烏拉圭，法屬蓋亞那 (GMT -3)"
 
 msgid "智利巴西 委内瑞拉,玻利维亚 (GMT -4)"
-msgstr "智利巴西 委內瑞拉,玻利維亞 (GMT -4)"
+msgstr "智利巴西 委內瑞拉，玻利維亞 (GMT -4)"
 
 msgid "纽约渥太华 古巴,哥伦比亚,牙买加 (GMT -5)"
-msgstr "紐約渥太華 古巴,哥倫比亞,牙買加 (GMT -5)"
+msgstr "紐約渥太華 古巴，哥倫比亞,牙買加 (GMT -5)"
 
 msgid "墨西哥城时间 洪都拉斯,危地马拉,哥斯达黎加 (GMT -6)"
-msgstr "墨西哥城時間 宏都拉斯,瓜地馬拉,哥斯大黎加 (GMT -6)"
+msgstr "墨西哥城時間 宏都拉斯，瓜地馬拉,哥斯大黎加 (GMT -6)"
 
 msgid "美国丹佛时间 (GMT -7)"
 msgstr "美國丹佛時間 (GMT -7)"
@@ -2185,38 +2352,42 @@ msgstr "允許上傳的檔案類型"
 
 #, php-format
 msgid "用逗号 \",\" 将后缀名隔开, 例如: %s"
-msgstr "用逗號 \",\" 將副檔名隔開, 例如: %s"
+msgstr "用逗號「，」將副檔名隔開, 例如: %s"
 
 msgid "不启用"
 msgstr "不啟用"
 
 msgid "是否使用地址重写功能"
-msgstr "是否使用地址重寫功能"
+msgstr "是否使用網址 Rewrite 功能"
 
 msgid "地址重写即 rewrite 功能是某些服务器软件提供的优化内部连接的功能."
-msgstr "地址重寫即 rewrite 功能是某些伺服器軟體提供的優化內部連接的功能."
+msgstr "Rewrite 功能是某些伺服器軟體提供的最佳化內部連接的功能。"
 
 msgid "打开此功能可以让你的链接看上去完全是静态地址."
-msgstr "開啟此功能可以讓你的連結看上去完全是靜態地址."
+msgstr "開啟此功能可以讓你的連結看上去完全是靜態地址。"
 
 msgid "重写功能检测失败, 请检查你的服务器设置"
-msgstr "重寫功能檢測失敗, 請檢查你的伺服器設定"
+msgstr "重寫功能檢測失敗，請檢查你的伺服器設定"
 
-msgid "我们检测到你使用了apache服务器, 但是程序无法在根目录创建.htaccess文件, 这可能是产生这个错误的原因."
-msgstr "我們檢測到你使用了apache伺服器, 但是程式無法在根目錄創建.htaccess檔案, 這可能是產生這個錯誤的原因."
+msgid ""
+"我们检测到你使用了apache服务器, 但是程序无法在根目录创建.htaccess文件, 这可能"
+"是产生这个错误的原因."
+msgstr ""
+"我們檢測到你使用了 Apache 伺服器, 但是程式無法在根目錄創建 .htaccess 檔案, 這"
+"可能是產生這個錯誤的原因."
 
 msgid "请调整你的目录权限, 或者手动创建一个.htaccess文件."
-msgstr "請調整你的目錄權限, 或者手動創建一個.htaccess檔案."
+msgstr "請調整你的目錄權限，或者手動建立一個.htaccess檔案."
 
 #, php-format
 msgid "如果你仍然想启用此功能, <a href=\"%s\">请点击这里</a>"
-msgstr "如果你仍然想啟用此功能, <a href=\"%s\">請點擊這裡</a>"
+msgstr "如果你仍然想啟用此功能，<a href=\"%s\">請點擊這裡</a>"
 
 msgid "默认风格"
 msgstr "預設風格"
 
 msgid "wordpress风格"
-msgstr "wordpress風格"
+msgstr "Wordpress 風格"
 
 msgid "按日期归档"
 msgstr "按日期歸檔"
@@ -2228,25 +2399,31 @@ msgid "个性化定义"
 msgstr "個性化定義"
 
 msgid "自定义文章路径"
-msgstr "自定義文章路徑"
+msgstr "自定文章路徑"
 
-msgid "可用参数: <code>{cid}</code> 日志 ID, <code>{slug}</code> 日志缩略名, <code>{category}</code> 分类, <code>{year}</code> 年, <code>{month}</code> 月, <code>{day}</code> 日"
-msgstr "可用參數: <code>{cid}</code> 日誌 ID, <code>{slug}</code> 日誌縮略名, <code>{category}</code> 分類, <code>{year}</code> 年, <code>{month}</code> 月, <code>{day}</code> 日"
+msgid ""
+"可用参数: <code>{cid}</code> 日志 ID, <code>{slug}</code> 日志缩略名, "
+"<code>{category}</code> 分类, <code>{directory}</code> 多级分类, <code>{year}"
+"</code> 年, <code>{month}</code> 月, <code>{day}</code> 日"
+msgstr ""
+"可用參數：<code>{cid}</code> 日誌 ID、<code>{slug}</code> 日誌縮略名、"
+"<code>{category}</code> 分類、<code>{directory}</code> 多級分類、<code>{year}"
+"</code> 年、<code>{month}</code> 月、<code>{day}</code> 日"
 
 msgid "选择一种合适的文章静态路径风格, 使得你的网站链接更加友好."
-msgstr "選擇一種合適的文章靜態路徑風格, 使得你的網站連結更加友好."
+msgstr "選擇一種合適的文章靜態路徑風格，使得你的網站連結更加友好。"
 
 msgid "一旦你选择了某种链接风格请不要轻易修改它."
-msgstr "一旦你選擇了某種連結風格請不要輕易修改它."
+msgstr "一旦你選擇了某種連結風格請不要輕易修改它。"
 
 msgid "独立页面路径"
 msgstr "獨立頁面路徑"
 
-msgid "可用参数: <code>{cid}</code> 页面 ID、<code>{slug}</code> 页面缩略名"
+msgid "可用参数: <code>{cid}</code> 页面 ID, <code>{slug}</code> 页面缩略名"
 msgstr "可用參數: <code>{cid}</code> 頁面 ID、<code>{slug}</code> 頁面縮略名"
 
 msgid "请在路径中至少包含上述的一项参数."
-msgstr "請在路徑中至少包含上述的一項參數."
+msgstr "請在路徑中至少包含上述的一項參數。"
 
 msgid "独立页面路径中没有包含 {cid} 或者 {slug} "
 msgstr "獨立頁面路徑中沒有包含 {cid} 或者 {slug} "
@@ -2254,26 +2431,36 @@ msgstr "獨立頁面路徑中沒有包含 {cid} 或者 {slug} "
 msgid "分类路径"
 msgstr "分類路徑"
 
-msgid "可用参数: <code>{mid}</code> 分类 ID、<code>{slug}</code> 分类缩略名"
-msgstr "可用參數: <code>{mid}</code> 分類 ID、<code>{slug}</code> 分類縮略名"
+msgid ""
+"可用参数: <code>{mid}</code> 分类 ID, <code>{slug}</code> 分类缩略名, "
+"<code>{directory}</code> 多级分类"
+msgstr ""
+"可用參數: <code>{mid}</code> 分類 ID、<code>{slug}</code> 分類縮略名、"
+"<code>{directory}</code> 多級分類"
 
 msgid "分类路径中没有包含 {mid} 或者 {slug} "
 msgstr "分類路徑中沒有包含 {mid} 或者 {slug} "
 
-msgid "自定义链接与现有规则存在冲突! 它可能影响解析效率, 建议你重新分配一个规则."
-msgstr "自定義連結與現有規則存在衝突! 它可能影響解析效率, 建議你重新分配一個規則."
+msgid ""
+"自定义链接与现有规则存在冲突! 它可能影响解析效率, 建议你重新分配一个规则."
+msgstr ""
+"自定義連結與現有規則存在衝突! 它可能影響解析效率, 建議你重新分配一個規則."
 
 msgid "文章日期格式"
 msgstr "文章日期格式"
 
 msgid "此格式用于指定显示在文章归档中的日期默认显示格式."
-msgstr "此格式用於指定顯示在文章歸檔中的日期預設顯示格式."
+msgstr "此格式用於指定顯示在文章歸檔中的日期預設顯示格式。"
 
 msgid "在某些主题中这个格式可能不会生效, 因为主题作者可以自定义日期格式."
-msgstr "在某些主題中這個格式可能不會生效, 因為主題作者可以自定義日期格式."
+msgstr "在某些主題中這個格式可能不會生效，因為主題作者可以自定義日期格式。"
 
-msgid "请参考 <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP 日期格式写法</a>."
-msgstr "請參考 <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP 日期格式寫法</a>."
+msgid ""
+"请参考 <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP 日期格"
+"式写法</a>."
+msgstr ""
+"請參考 <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP 日期格"
+"式寫法</a>."
 
 msgid "显示最新发布的文章"
 msgstr "顯示最新發佈的文章"
@@ -2288,22 +2475,22 @@ msgstr "使用 %s 頁面作為首頁"
 
 #, php-format
 msgid "直接调用 %s 模板文件"
-msgstr "直接调用 %s 模板檔案"
+msgstr "直接呼叫 %s 樣板檔案"
 
 msgid "站点首页"
-msgstr "站點首頁"
+msgstr "網站首頁"
 
 msgid "文章列表数目"
 msgstr "文章列表數目"
 
 msgid "此数目用于指定显示在侧边栏中的文章列表数目."
-msgstr "此數目用於指定顯示在側邊列中的文章列表數目."
+msgstr "此數目用於指定顯示在側邊列中的文章列表數目。"
 
 msgid "每页文章数目"
 msgstr "每頁文章數目"
 
 msgid "此数目用于指定文章归档输出时每页显示的文章数目."
-msgstr "此數目用於指定文章歸檔輸出時每頁顯示的文章數目."
+msgstr "此數目用於指定文章歸檔輸出時每頁顯示的文章數目。"
 
 msgid "仅输出摘要"
 msgstr "僅輸出摘要"
@@ -2315,10 +2502,10 @@ msgid "聚合全文输出"
 msgstr "聚合全文輸出"
 
 msgid "如果你不希望在聚合中输出文章全文,请使用仅输出摘要选项."
-msgstr "如果你不希望在聚合中輸出文章全文,請使用僅輸出摘要選項."
+msgstr "如果你不希望在聚合中輸出文章全文，請使用僅輸出摘要選項。"
 
 msgid "摘要的文字取决于你在文章中使用分隔符的位置."
-msgstr "摘要的文字取決於你在文章中使用分隔符的位置."
+msgstr "摘要的文字取決於你在文章中使用分隔符的位置。"
 
 msgid "插件不存在"
 msgstr "外掛不存在"
@@ -2382,90 +2569,94 @@ msgid "编辑用户 %s"
 msgstr "編輯用戶 %s"
 
 msgid "用户名 *"
-msgstr "用戶名 *"
+msgstr "使用者名稱 *"
 
 msgid "此用户名将作为用户登录时所用的名称."
-msgstr "此用戶名將作為用戶登入時所用的名稱."
+msgstr "此用戶名將作為用戶登入時所用的名稱。"
 
 msgid "请不要与系统中现有的用户名重复."
-msgstr "請不要與系統中現有的用戶名重複."
+msgstr "請不要與系統中現有的用戶名重複。"
 
 msgid "电子邮箱地址 *"
-msgstr "電子郵箱地址 *"
+msgstr "電子郵件位址 *"
 
 msgid "电子邮箱地址将作为此用户的主要联系方式."
-msgstr "電子郵箱地址將作為此用戶的主要聯繫方式."
+msgstr "電子郵件位址將作為此使用者的主要聯繫方式。"
 
 msgid "请不要与系统中现有的电子邮箱地址重复."
-msgstr "請不要與系統中現有的電子郵箱地址重複."
+msgstr "請不要與系統中現有的電子郵箱地址重複。"
 
 msgid "用户昵称"
-msgstr "用戶暱稱"
+msgstr "使用者暱稱"
 
 msgid "用户昵称可以与用户名不同, 用于前台显示."
-msgstr "用戶暱稱可以與用戶名不同, 用於前台顯示."
+msgstr "使用者暱稱可以與使用者名稱不同，用於前台顯示。"
 
 msgid "如果你将此项留空, 将默认使用用户名."
-msgstr "如果你將此項留空, 將預設使用用戶名."
+msgstr "如果你將此項留空，將預設使用使用者名稱。"
 
 msgid "用户密码"
-msgstr "用戶密碼"
+msgstr "使用者密碼"
 
 msgid "为此用户分配一个密码."
-msgstr "為此用戶分配一個密碼."
+msgstr "為此使用者分配一個密碼。"
 
 msgid "建议使用特殊字符与字母、数字的混编样式,以增加系统安全性."
-msgstr "建議使用特殊字元與字母、數字的混編樣式,以增加系統安全性."
+msgstr "建議使用特殊字元與字母、數字的混編樣式，以增加系統安全性。"
 
 msgid "用户密码确认"
-msgstr "用戶密碼確認"
+msgstr "使用者密碼確認"
 
 msgid "请确认你的密码, 与上面输入的密码保持一致."
-msgstr "請確認你的密碼, 與上面輸入的密碼保持一致."
+msgstr "請確認你的密碼，與上面輸入的密碼保持一致。"
 
 msgid "个人主页地址"
-msgstr "個人主頁地址"
+msgstr "個人網頁網址"
 
 msgid "此用户的个人主页地址, 请用 <code>http://</code> 开头."
-msgstr "此用戶的個人主頁地址, 請用 <code>http://</code> 開頭."
+msgstr "此使用者的個人網頁網址，請用 <code>http://</code> 開頭。"
 
 msgid "不同的用户组拥有不同的权限."
-msgstr "不同的用戶組擁有不同的權限."
+msgstr "不同的使用者群組擁有不同的權限。"
 
-msgid "具体的权限分配表请<a href=\"http://docs.typecho.org/develop/acl\">参考这里</a>."
-msgstr "具體的權限分配表請<a href=\"http://docs.typecho.org/develop/acl\">參考這裡</a>."
+msgid ""
+"具体的权限分配表请<a href=\"http://docs.typecho.org/develop/acl\">参考这里</"
+"a>."
+msgstr ""
+"詳細的權限分配表請<a href=\"http://docs.typecho.org/develop/acl\">參考這裡</"
+"a>."
 
 msgid "编辑用户"
-msgstr "編輯用戶"
+msgstr "編輯使用者"
 
 msgid "增加用户"
-msgstr "增加用戶"
+msgstr "增加使用者"
 
 msgid "昵称已经存在"
 msgstr "暱稱已經存在"
 
 msgid "用户密码 *"
-msgstr "用戶密碼 *"
+msgstr "使用者密碼 *"
 
 msgid "用户密码确认 *"
-msgstr "用戶密碼確認 *"
+msgstr "使用者密碼確認 *"
 
 msgid "用户主键不存在"
-msgstr "用戶主鍵不存在"
+msgstr "使用者主鍵不存在"
 
 #, php-format
 msgid "用户 %s 已经被增加"
-msgstr "用戶 %s 已經被增加"
+msgstr "使用者 %s 已經被增加"
 
 #, php-format
 msgid "用户 %s 已经被更新"
-msgstr "用戶 %s 已經被更新"
+msgstr "使用者 %s 已經被更新"
 
 msgid "用户已经删除"
-msgstr "用戶已經刪除"
+msgstr "使用者已經刪除"
 
 msgid "没有用户被删除"
-msgstr "沒有用戶被刪除"
+msgstr "沒有使用者被刪除"
 
 msgid "更新我的档案"
 msgstr "更新我的檔案"
@@ -2479,17 +2670,21 @@ msgstr "開啟"
 msgid "使用 Markdown 语法编辑和解析内容"
 msgstr "使用 Markdown 語法編輯和解析內容"
 
-msgid "使用 <a href=\"http://daringfireball.net/projects/markdown/\">Markdown</a> 语法能够使您的撰写过程更加简便直观."
-msgstr "使用 <a href=\"http://daringfireball.net/projects/markdown/\">Markdown</a> 語法能夠使您的撰寫過程更加簡便直觀."
+msgid ""
+"使用 <a href=\"http://daringfireball.net/projects/markdown/\">Markdown</a> 语"
+"法能够使您的撰写过程更加简便直观."
+msgstr ""
+"使用 <a href=\"http://daringfireball.net/projects/markdown/\">Markdown</a> 語"
+"法能夠使您的撰寫過程更加簡便直觀."
 
 msgid "此功能开启不会影响以前没有使用 Markdown 语法编辑的内容."
-msgstr "此功能開啟不會影響以前沒有使用 Markdown 語法編輯的內容."
+msgstr "此功能開啟不會影響以前沒有使用 Markdown 語法編輯的內容。"
 
 msgid "自动保存"
 msgstr "自動儲存"
 
 msgid "自动保存功能可以更好地保护你的文章不会丢失."
-msgstr "自動儲存功能可以更好地保護你的文章不會遺失."
+msgstr "自動儲存功能可以更好地保護你的文章不會遺失。"
 
 msgid "可以被评论"
 msgstr "可以被評論"
@@ -2518,3 +2713,52 @@ msgstr "密碼已經成功修改"
 #, php-format
 msgid "%s 设置已经保存"
 msgstr "%s 設定已經儲存"
+
+#~ msgid "文件上传失败, 请确认文件尺寸没有超过 %s 并且服务器文件目录可以写入"
+#~ msgstr "檔案上傳失敗，請確認檔案尺寸沒有超過 %s 並且伺服器檔案目錄可以寫入"
+
+#~ msgid "浏览器不支持拖拽上传"
+#~ msgstr "瀏覽器不支持拖拽上傳"
+
+#~ msgid "一次上传的文件不能多于%d个"
+#~ msgstr "一次上傳的檔案不能多於%d個"
+
+#~ msgid "文件尺寸不能超过 %s"
+#~ msgstr "檔案尺寸不能超過 %s"
+
+#~ msgid "使用下面的链接开始你的故事吧:"
+#~ msgstr "使用下面的連結開始你的故事吧:"
+
+#~ msgid "记住我"
+#~ msgstr "記住我"
+
+#~ msgid "文件 %s 的类型与要替换的原文件不一致"
+#~ msgstr "檔案 %s 的類型與要替換的原文件不一致"
+
+#~ msgid "一次只能上传一个文件"
+#~ msgstr "一次只能上傳一個檔案"
+
+#~ msgid ""
+#~ "目前有 <em>%s</em> 篇 Blog,并有 <em>%s</em> 条关于你的评论在已设定的 <em>"
+#~ "%s</em> 个分类中."
+#~ msgstr ""
+#~ "目前有 <em>%s</em> 篇 Blog,並有 <em>%s</em> 條關於你的評論在已設定的 <em>"
+#~ "%s</em> 個分類中."
+
+#~ msgid "内容已经保存"
+#~ msgstr "內容已經儲存"
+
+#~ msgid "作者："
+#~ msgstr "作者："
+
+#~ msgid "时间："
+#~ msgstr "時間："
+
+#~ msgid "分类："
+#~ msgstr "分類："
+
+#~ msgid "标签："
+#~ msgstr "標籤："
+
+#~ msgid "标签和分类"
+#~ msgstr "標籤和分類"
