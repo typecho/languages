@@ -248,7 +248,7 @@ msgstr ""
 "program under GPL."
 
 msgid "在GPL许可的范围内，您可以自由地将其用于商业以及非商业用途."
-msgstr "You can use it commercially and non-commercially under the permission of GPL.""
+msgstr "You can use it commercially and non-commercially under the permission of GPL."
 
 msgid "Typecho 软件由其社区提供支持, 核心开发团队负责维护程序日常开发工作以及新特性的制定."
 msgstr ""
