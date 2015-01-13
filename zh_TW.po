@@ -110,7 +110,7 @@ msgstr "使用原有資料"
 
 #, php-format
 msgid "安装程序捕捉到以下错误: \"%s\". 程序被终止, 请检查您的配置信息."
-msgstr "安裝程式捕捉到以下錯誤: \"%s\". 程式被終止， 請檢查您的組態設定資訊。"
+msgstr "安裝程式捕捉到以下錯誤：\"%s\". 程式被終止，請檢查您的組態設定資訊。"
 
 msgid "确认您的配置"
 msgstr "確認您的組態設定"
@@ -141,7 +141,7 @@ msgstr "對不起，無法連線到資料庫，請先檢查資料庫組態設定
 
 #, php-format
 msgid "安装程序捕捉到以下错误: \" %s \". 程序被终止, 请检查您的配置信息."
-msgstr "安裝程式捕捉到以下錯誤: \" %s \". 程序被終止，請檢查您的組態設定資訊。"
+msgstr "安裝程式捕捉到以下錯誤：\" %s \". 程序被終止，請檢查您的組態設定資訊。"
 
 msgid "安装程序无法自动创建 <strong>config.inc.php</strong> 文件"
 msgstr "安裝程式無法自動建立 <strong>config.inc.php</strong> 檔案"
@@ -160,7 +160,7 @@ msgid "Mysql 原生函数适配器"
 msgstr "Mysql 原生函式適配器"
 
 msgid "SQLite 原生函数适配器 (SQLite 2.x)"
-msgstr "SQLite 原生函式適配器 (SQLite 2.x)"
+msgstr "SQLite 原生函式適配器（SQLite 2.x）"
 
 msgid "Pgsql 原生函数适配器"
 msgstr "Pgsql 原生函式適配器"
@@ -169,7 +169,7 @@ msgid "Pdo 驱动 Mysql 适配器"
 msgstr "Pdo 驅動 Mysql 適配器"
 
 msgid "Pdo 驱动 SQLite 适配器 (SQLite 3.x)"
-msgstr "Pdo 驅動 SQLite 適配器 (SQLite 3.x)"
+msgstr "Pdo 驅動 SQLite 適配器（SQLite 3.x）"
 
 msgid "Pdo 驱动 PostgreSql 适配器"
 msgstr "Pdo 驅動 PostgreSql 適配器"
@@ -220,7 +220,7 @@ msgid ""
 msgstr ""
 "本安裝程式將自動檢測伺服器環境是否符合最低配置需求。若不符合，將於上方出現提"
 "示訊息，請按照提示訊息檢查您的主機配置。如果伺服器環境符合要求，將在下方出現 "
-"「開始下一步」的按鈕，點擊此按鈕即可一步完成安裝"
+"「開始下一步」的按鈕，點擊此按鈕即可一步完成安裝。"
 
 msgid "许可及协议"
 msgstr "許可及協議"
@@ -230,7 +230,7 @@ msgid ""
 "布, 我们允许用户在 GPL 协议许可的范围内使用, 拷贝, 修改和分发此程序."
 msgstr ""
 "Typecho 基於 <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> 協議發"
-"佈，我們允許使用者在 GPL 協議許可的範圍內使用, 拷貝, 修改和分發此程式."
+"佈，我們允許使用者在 GPL 協議許可的範圍內使用、拷貝、修改和分發此程式。"
 
 msgid "在GPL许可的范围内，您可以自由地将其用于商业以及非商业用途."
 msgstr "在 GPL 許可的範圍內，您可以自由地將其用於商業以及非商業用途。"
@@ -240,14 +240,14 @@ msgid ""
 "的制定."
 msgstr ""
 "Typecho 軟體由其社群提供支持，核心開發團隊負責維護程式日常開發工作以及新特性"
-"的制定"
+"的制定。"
 
 msgid ""
 "如果您遇到使用上的问题, 程序中的 BUG, 以及期许的新功能, 欢迎您在社区中交流或"
 "者直接向我们贡献代码."
 msgstr ""
 "如果您遇到使用上的問題、程式中的 BUG、以及期許的新功能，歡迎您在社群中交流或"
-"者直接向我們貢獻程式碼"
+"者直接向我們貢獻程式碼。"
 
 msgid "对于贡献突出者, 他的名字将出现在贡献者名单中."
 msgstr "對於貢獻突出者，他的名字將出現在貢獻者名單中。"
@@ -452,7 +452,7 @@ msgstr "允許上傳的檔案"
 
 #, php-format
 msgid "确认要删除文件 %s 吗?"
-msgstr "確認要刪除檔案 %s 嗎?"
+msgstr "確認要刪除檔案 %s 嗎？"
 
 #, php-format
 msgid "拖放文件到这里<br>或者 %s选择文件上传%s"
@@ -475,7 +475,7 @@ msgid ""
 "类中."
 msgstr ""
 "目前有 <em>%s</em> 篇文章，並有 <em>%s</em> 條關於你的評論在 <em>%s</em> 個分"
-"類中."
+"類中。"
 
 msgid "点击下面的链接快速开始:"
 msgstr "點擊下方的連結快速開始："
@@ -526,7 +526,7 @@ msgid "官方最新日志"
 msgstr "官方最新日誌"
 
 msgid "读取中..."
-msgstr "讀取中..."
+msgstr "讀取中…"
 
 #, php-format
 msgid "您当前使用的版本是 %s"
@@ -561,7 +561,7 @@ msgid "选中项"
 msgstr "選中項"
 
 msgid "此分类下的所有内容将被删除, 你确认要删除这些分类吗?"
-msgstr "此分類下的所有內容將被刪除，你確認要刪除這些分類嗎?"
+msgstr "此分類下的所有內容將被刪除，你確認要刪除這些分類嗎？"
 
 msgid "刷新分类可能需要等待较长时间, 你确认要刷新这些分类吗?"
 msgstr "重新整理分類可能需要等待較長時間，你確認要重新整理這些分類嗎？"
@@ -628,10 +628,10 @@ msgid "标记垃圾"
 msgstr "標記垃圾"
 
 msgid "你确认要删除这些评论吗?"
-msgstr "你確認要刪除這些評論嗎?"
+msgstr "你確認要刪除這些評論嗎？"
 
 msgid "你确认要删除所有垃圾评论吗?"
-msgstr "你確認要刪除所有垃圾評論嗎?"
+msgstr "你確認要刪除所有垃圾評論嗎？"
 
 msgid "删除所有垃圾评论"
 msgstr "刪除所有垃圾評論"
@@ -656,7 +656,7 @@ msgstr "回覆"
 
 #, php-format
 msgid "你确认要删除%s的评论吗?"
-msgstr "你確認要刪除 %s 的評論嗎?"
+msgstr "你確認要刪除 %s 的評論嗎？"
 
 msgid "没有评论"
 msgstr "沒有評論"
@@ -671,7 +671,7 @@ msgid "提交"
 msgstr "送出"
 
 msgid "你确认要删除这些文件吗?"
-msgstr "你確認要刪除這些檔案嗎?"
+msgstr "你確認要刪除這些檔案嗎？"
 
 msgid "您确认要清理未归档的文件吗?"
 msgstr "您確定要清除尚未歸檔的檔案嗎？"
@@ -698,7 +698,7 @@ msgid "没有任何文件"
 msgstr "沒有任何檔案"
 
 msgid "你确认要删除这些页面吗?"
-msgstr "你確認要刪除這些頁面嗎?"
+msgstr "你確認要刪除這些頁面嗎？"
 
 msgid "日期"
 msgstr "日期"
@@ -717,7 +717,7 @@ msgid "没有任何页面"
 msgstr "沒有任何頁面"
 
 msgid "你确认要删除这些文章吗?"
-msgstr "你確認要刪除這些文章嗎?"
+msgstr "你確認要刪除這些文章嗎？"
 
 msgid "所有分类"
 msgstr "所有分類"
@@ -735,7 +735,7 @@ msgid "没有任何文章"
 msgstr "沒有任何文章"
 
 msgid "你确认要删除这些标签吗?"
-msgstr "你確認要刪除這些標籤嗎?"
+msgstr "你確認要刪除這些標籤嗎？"
 
 msgid "刷新标签可能需要等待较长时间, 你确认要刷新这些标签吗?"
 msgstr "重新整理標籤可能需要等待較長時間，你確認要重新整理這些標籤嗎？"
@@ -776,7 +776,7 @@ msgstr "檔案 %s 已取代"
 
 #, php-format
 msgid "最后登录: %s"
-msgstr "最後登入: %s"
+msgstr "最後登入：%s"
 
 msgid "登出"
 msgstr "登出"
@@ -811,7 +811,7 @@ msgstr "設定"
 
 #, php-format
 msgid "你确认要禁用插件 %s 吗?"
-msgstr "你確認要禁用外掛 %s 嗎?"
+msgstr "你確認要禁用外掛 %s 嗎？"
 
 msgid "禁用"
 msgstr "禁用"
@@ -840,7 +840,7 @@ msgid ""
 "类中."
 msgstr ""
 "目前有 <em>%s</em> 篇日誌，並有 <em>%s</em> 條關於你的評論在 <em>%s</em> 個分"
-"類中."
+"類中。"
 
 msgid "个人资料"
 msgstr "個人資料"
@@ -891,7 +891,7 @@ msgstr "完成升級 &raquo;"
 
 #, php-format
 msgid "欢迎您使用 \"%s\" 管理后台: "
-msgstr "歡迎您使用 \"%s\" 管理後台: "
+msgstr "歡迎您使用 \"%s\" 管理後台："
 
 msgid "强烈建议更改你的默认密码"
 msgstr "強烈建議更改你的預設密碼"
@@ -1059,7 +1059,7 @@ msgid "内容已经改变尚未保存, 您确认要离开此页面吗?"
 msgstr "內容已經改變但尚未儲存，您確定要離開此頁嗎？"
 
 msgid "您确认要删除这份草稿吗?"
-msgstr "您確認要刪除這份草稿嗎?"
+msgstr "您確認要刪除這份草稿嗎？"
 
 #, php-format
 msgid "当前正在编辑的是保存于%s的草稿, 你可以<a href=\"%s\">删除它</a>"
@@ -1188,7 +1188,7 @@ msgid "数据库实例名"
 msgstr "資料庫實例名稱"
 
 msgid "请填入您在Cloud SQL面板中创建的数据库实例名称"
-msgstr "請填入您在Cloud SQL面板中新建的資料庫實例名稱"
+msgstr "請填入您在 Cloud SQL 面板中新建的資料庫實例名稱"
 
 msgid "请填入您在Cloud SQL的实例中创建的数据库名称"
 msgstr "請填入您在 Cloud SQL 的實例中建立的資料庫名稱"
@@ -1285,10 +1285,10 @@ msgid "由 <a href=\"http://www.typecho.org\">Typecho</a> 强力驱动"
 msgstr "由 <a href=\"http://www.typecho.org\">Typecho</a> 強力驅動"
 
 msgid "站点LOGO地址"
-msgstr "站點LOGO地址"
+msgstr "站點 LOGO 地址"
 
 msgid "在这里填入一个图片URL地址, 以在网站标题前加上一个LOGO"
-msgstr "在這裡填入一個圖片URL地址，以在網站標題前加上一個LOGO"
+msgstr "在這裡填入一個圖片URL地址，以在網站標題前加上一個 LOGO"
 
 msgid "显示最新文章"
 msgstr "顯示最新文章"
@@ -1375,13 +1375,13 @@ msgstr "剛剛"
 msgid "一秒前"
 msgid_plural "%d秒前"
 msgstr[0] "一秒前"
-msgstr[1] "%d秒前"
+msgstr[1] "%d 秒前"
 
 #, php-format
 msgid "一分钟前"
 msgid_plural "%d分钟前"
 msgstr[0] "一分鐘前"
-msgstr[1] "%d分鐘前"
+msgstr[1] "%d 分鐘前"
 
 #, php-format
 msgid "一小时前"
@@ -1397,13 +1397,13 @@ msgstr "昨天 %s"
 msgid "一天前"
 msgid_plural "%d天前"
 msgstr[0] "一天前"
-msgstr[1] "%d天前"
+msgstr[1] "%d 天前"
 
 msgid "n月j日"
-msgstr "n月j日"
+msgstr "n 月 j 日"
 
 msgid "Y年m月d日"
-msgstr "Y年m月d日"
+msgstr "Y 年 m 月 d 日"
 
 msgid "禁止访问"
 msgstr "禁止訪問"
@@ -1428,15 +1428,15 @@ msgstr "作者不存在"
 
 #, php-format
 msgid "%d年%d月%d日"
-msgstr "%d年%d月%d日"
+msgstr "%d 年 %d 月 %d 日"
 
 #, php-format
 msgid "%d年%d月"
-msgstr "%d年%d月"
+msgstr "%d 年 %d 月"
 
 #, php-format
 msgid "%d年"
-msgstr "%d年"
+msgstr "%d 年"
 
 #, php-format
 msgid "%s 的评论"
@@ -1455,7 +1455,7 @@ msgid "您所使用的用户名已经被注册,请登录后再次提交"
 msgstr "您所使用的使用者名稱已經被註冊，請登入後再次送出"
 
 msgid "用户名最多包含200个字符"
-msgstr "使用者名稱最多包含200個字元"
+msgstr "使用者名稱最多包含 200 個字元"
 
 msgid "必须填写电子邮箱地址"
 msgstr "必須填寫電子郵件位址"
@@ -1464,7 +1464,7 @@ msgid "邮箱地址不合法"
 msgstr "電子郵件位址不合法"
 
 msgid "电子邮箱最多包含200个字符"
-msgstr "電子郵件最多包含200個字元"
+msgstr "電子郵件最多包含 200 個字元"
 
 msgid "必须填写个人主页"
 msgstr "必須填寫個人網頁"
@@ -1491,7 +1491,7 @@ msgid "评论来源页错误."
 msgstr "評論來源頁錯誤。"
 
 msgid "对不起, 您的发言过于频繁, 请稍侯再次发布."
-msgstr "對不起，您的發言過於頻繁, 請稍侯再次發佈."
+msgstr "對不起，您的發言過於頻繁，請稍侯再次發佈。"
 
 msgid "对不起,此内容的引用被禁止."
 msgstr "對不起，此內容的引用被禁止。"
@@ -1513,11 +1513,11 @@ msgstr "管理"
 
 #, php-format
 msgid "登录到%s"
-msgstr "登入到%s"
+msgstr "登入到 %s"
 
 #, php-format
 msgid "注册到%s"
-msgstr "註冊到%s"
+msgstr "註冊到 %s"
 
 msgid "概要"
 msgstr "概要"
@@ -1620,16 +1620,16 @@ msgstr "永久連結設定"
 
 #, php-format
 msgid "插件%s的配置信息没有找到"
-msgstr "外掛%s的配置訊息沒有找到"
+msgstr "外掛 %s 的配置訊息沒有找到"
 
 msgid "必须填写用户名称"
 msgstr "必須填寫用戶名稱"
 
 msgid "用户名至少包含2个字符"
-msgstr "使用者名稱至少包含2個字元"
+msgstr "使用者名稱至少包含 2 個字元"
 
 msgid "用户名最多包含32个字符"
-msgstr "使用者名稱最多包含32個字元"
+msgstr "使用者名稱最多包含 32 個字元"
 
 msgid "用户名已经存在"
 msgstr "使用者名稱已經存在"
@@ -1747,16 +1747,16 @@ msgid "源地址服务器错误"
 msgstr "來源網址伺服器錯誤"
 
 msgid "源地址不支持PingBack"
-msgstr "來源網址不支持PingBack"
+msgstr "來源網址不支持 PingBack"
 
 msgid "源地址中不包括目标地址"
 msgstr "來源網址中不包括目標網址"
 
 msgid "PingBack已经存在"
-msgstr "PingBack已經存在"
+msgstr "PingBack 已經存在"
 
 msgid "目标地址禁止Ping"
-msgstr "目標網址禁止Ping"
+msgstr "目標網址禁止 Ping"
 
 msgid "内容被隐藏"
 msgstr "內容被隱藏"
@@ -1844,7 +1844,7 @@ msgid "标题 *"
 msgstr "標題 *"
 
 msgid "文件缩略名用于创建友好的链接形式,建议使用字母,数字,下划线和横杠."
-msgstr "檔案縮略名用於建立友好的連結形式，建議使用字母，數字,底線和橫槓."
+msgstr "檔案縮略名用於建立友好的連結形式，建議使用字母、數字、底線和橫槓。"
 
 msgid "此文字用于描述文件,在有的主题中它会被显示."
 msgstr "此文字用於描述檔案，在有的主題中它會被顯示。"
@@ -1854,7 +1854,7 @@ msgstr "送出修改"
 
 #, php-format
 msgid "你确认删除文件 %s 吗?"
-msgstr "你確定要刪除檔案 %s 嗎?"
+msgstr "你確定要刪除檔案 %s 嗎？"
 
 msgid "删除文件"
 msgstr "刪除檔案"
@@ -1916,7 +1916,7 @@ msgstr "頁面排序已經完成"
 
 #, php-format
 msgid "%s的文章"
-msgstr "%s的文章"
+msgstr "%s 的文章"
 
 msgid "用户不存在"
 msgstr "使用者不存在"
@@ -1962,13 +1962,13 @@ msgid "父级分类"
 msgstr "上級分類"
 
 msgid "此分类将归档在您选择的父级分类下."
-msgstr "此分類歸檔在您所選的上級分類下"
+msgstr "此分類歸檔在您所選的上級分類下。"
 
 msgid "分类描述"
 msgstr "分類描述"
 
 msgid "此文字用于描述分类, 在有的主题中它会被显示."
-msgstr "此文字用於描述分類，將顯示於現有的主題中"
+msgstr "此文字用於描述分類，將顯示於現有的主題中。"
 
 msgid "编辑分类"
 msgstr "編輯分類"
@@ -2037,7 +2037,7 @@ msgid "标签名称 *"
 msgstr "標籤名稱 *"
 
 msgid "这是标签在站点中显示的名称.可以使用中文,如 \"地球\"."
-msgstr "這是標籤在站點中顯示的名稱。可以使用中文，如 「地球」"
+msgstr "這是標籤在站點中顯示的名稱。可以使用中文，如 「地球」。"
 
 msgid "标签缩略名"
 msgstr "標籤縮略名"
@@ -2099,15 +2099,15 @@ msgid ""
 "这是一个默认的格式,当你在模板中调用显示评论日期方法时, 如果没有指定日期格式, "
 "将按照此格式输出."
 msgstr ""
-"這是一個預設的格式,當你在樣板中呼叫顯示評論日期方法時, 如果沒有指定日期格式, "
-"將按照此格式輸出."
+"這是一個預設的格式,當你在樣板中呼叫顯示評論日期方法時，如果沒有指定日期格式，"
+"將按照此格式輸出。"
 
 msgid ""
 "具体写法请参考 <a href=\"http://www.php.net/manual/zh/function.date.php"
 "\">PHP 日期格式写法</a>."
 msgstr ""
 "具體寫法請參考 <a href=\"http://www.php.net/manual/zh/function.date.php"
-"\">PHP 日期格式寫法</a>."
+"\">PHP 日期格式寫法</a>。"
 
 msgid "评论列表数目"
 msgstr "評論列表數目"
@@ -2122,7 +2122,7 @@ msgid "仅显示评论, 不显示 Pingback 和 Trackback"
 msgstr "僅顯示評論，不顯示 Pingback 和 Trackback"
 
 msgid "在评论中使用Markdown语法"
-msgstr "在評論中使用Markdown語法"
+msgstr "在評論中使用 Markdown 語法"
 
 msgid "评论者名称显示时自动加上其个人主页链接"
 msgstr "評論者名稱顯示時自動加上其個人主頁連結"
@@ -2139,7 +2139,7 @@ msgid ""
 "启用 <a href=\"http://gravatar.com\">Gravatar</a> 头像服务, 最高显示评级为 "
 "%s 的头像"
 msgstr ""
-"啟用 <a href=\"http://gravatar.com\">Gravatar</a> 頭像服務, 最高顯示評級為 "
+"啟用 <a href=\"http://gravatar.com\">Gravatar</a> 頭像服務，最高顯示評級為 "
 "%s 的頭像"
 
 msgid "第一页"
@@ -2196,16 +2196,16 @@ msgid "评论提交"
 msgstr "評論送出"
 
 msgid "允许使用的HTML标签和属性"
-msgstr "允許使用的HTML標籤和屬性"
+msgstr "允許使用的 HTML 標籤和屬性"
 
 msgid ""
 "默认的用户评论不允许填写任何的HTML标签, 你可以在这里填写允许使用的HTML标签."
 msgstr ""
-"預設的使用者評論不允許填寫任何的HTML標籤, 你可以在這裡填寫允許使用的HTML標籤."
+"預設的使用者評論不允許填寫任何的 HTML 標籤，你可以在這裡填寫允許使用的 HTML 標籤。"
 
 #, php-format
 msgid "比如: %s"
-msgstr "比如: %s"
+msgstr "比如：%s"
 
 msgid "保存设置"
 msgstr "儲存設定"
@@ -2226,7 +2226,7 @@ msgid "站点地址"
 msgstr "網站網址"
 
 msgid "站点地址主要用于生成内容的永久链接."
-msgstr "網站網址主要用於產生內容的永久網址"
+msgstr "網站網址主要用於產生內容的永久網址。"
 
 #, php-format
 msgid "当前地址 <strong>%s</strong> 与上述设定值不一致"
@@ -2248,7 +2248,7 @@ msgid "关键词"
 msgstr "關鍵詞"
 
 msgid "请以半角逗号 \",\" 分割多个关键字."
-msgstr "請以半形逗號「,」分割多個關鍵字."
+msgstr "請以半形逗號「,」分割多個關鍵字。"
 
 msgid "不允许"
 msgstr "不允許"
@@ -2260,79 +2260,79 @@ msgid "允许访问者注册到你的网站, 默认的注册用户不享有任�
 msgstr "允許訪問者註冊到你的網站，預設的註冊使用者不享有任何寫入權限。"
 
 msgid "格林威治(子午线)标准时间 (GMT)"
-msgstr "格林威治(子午線)標準時間 (GMT)"
+msgstr "格林威治（子午線）標準時間（GMT）"
 
 msgid "中欧标准时间 阿姆斯特丹,荷兰,法国 (GMT +1)"
-msgstr "中歐標準時間 阿姆斯特丹，荷蘭,法國 (GMT +1)"
+msgstr "中歐標準時間 阿姆斯特丹，荷蘭，法國（GMT +1）"
 
 msgid "东欧标准时间 布加勒斯特,塞浦路斯,希腊 (GMT +2)"
-msgstr "東歐標準時間 布加勒斯特，塞普勒斯,希臘 (GMT +2)"
+msgstr "東歐標準時間 布加勒斯特，塞普勒斯，希臘（GMT +2）"
 
 msgid "莫斯科时间 伊拉克,埃塞俄比亚,马达加斯加 (GMT +3)"
-msgstr "莫斯科時間 伊拉克，衣索比亞,馬達加斯加 (GMT +3)"
+msgstr "莫斯科時間 伊拉克，衣索比亞，馬達加斯加（GMT +3）"
 
 msgid "第比利斯时间 阿曼,毛里塔尼亚,留尼汪岛 (GMT +4)"
-msgstr "第比利斯時間 阿曼，茅利塔尼亞,留尼汪島 (GMT +4)"
+msgstr "第比利斯時間 阿曼，茅利塔尼亞，留尼汪島（GMT +4）"
 
 msgid "新德里时间 巴基斯坦,马尔代夫 (GMT +5)"
-msgstr "新德里時間 巴基斯坦，馬爾地夫 (GMT +5)"
+msgstr "新德里時間 巴基斯坦，馬爾地夫（GMT +5）"
 
 msgid "科伦坡时间 孟加拉 (GMT +6)"
-msgstr "科倫坡時間 孟加拉 (GMT +6)"
+msgstr "科倫坡時間 孟加拉（GMT +6）"
 
 msgid "曼谷雅加达 柬埔寨,苏门答腊,老挝 (GMT +7)"
-msgstr "曼谷雅加達 柬埔寨，蘇門答臘,寮國 (GMT +7)"
+msgstr "曼谷雅加達 柬埔寨，蘇門答臘，寮國（GMT +7）"
 
 msgid "北京时间 香港,新加坡,越南 (GMT +8)"
-msgstr "台北時間 北京，香港,新加坡,越南 (GMT +8)"
+msgstr "台北時間 北京，香港，新加坡，越南（GMT +8）"
 
 msgid "东京平壤时间 西伊里安,摩鹿加群岛 (GMT +9)"
-msgstr "東京平壤時間 西伊裡安，摩鹿加群島 (GMT +9)"
+msgstr "東京平壤時間 西伊裡安，摩鹿加群島（GMT +9）"
 
 msgid "悉尼关岛时间 塔斯马尼亚岛,新几内亚 (GMT +10)"
-msgstr "悉尼關島時間 塔斯馬尼亞島，新幾內亞 (GMT +10)"
+msgstr "悉尼關島時間 塔斯馬尼亞島，新幾內亞（GMT +10）"
 
 msgid "所罗门群岛 库页岛 (GMT +11)"
-msgstr "索羅門羣島 庫頁島 (GMT +11)"
+msgstr "索羅門羣島 庫頁島（GMT +11）"
 
 msgid "惠灵顿时间 新西兰,斐济群岛 (GMT +12)"
-msgstr "惠靈頓時間 紐西蘭，斐濟群島 (GMT +12)"
+msgstr "惠靈頓時間 紐西蘭，斐濟群島（GMT +12)"
 
 msgid "佛德尔群岛 亚速尔群岛,葡属几内亚 (GMT -1)"
-msgstr "佛德爾群島 亞速爾群島，葡屬幾內亞 (GMT -1)"
+msgstr "佛德爾群島 亞速爾群島，葡屬幾內亞（GMT -1）"
 
 msgid "大西洋中部时间 格陵兰 (GMT -2)"
-msgstr "大西洋中部時間 格陵蘭 (GMT -2)"
+msgstr "大西洋中部時間 格陵蘭（GMT -2）"
 
 msgid "布宜诺斯艾利斯 乌拉圭,法属圭亚那 (GMT -3)"
-msgstr "布宜諾斯艾利斯 烏拉圭，法屬蓋亞那 (GMT -3)"
+msgstr "布宜諾斯艾利斯 烏拉圭，法屬蓋亞那（GMT -3）"
 
 msgid "智利巴西 委内瑞拉,玻利维亚 (GMT -4)"
-msgstr "智利巴西 委內瑞拉，玻利維亞 (GMT -4)"
+msgstr "智利巴西 委內瑞拉，玻利維亞（GMT -4）"
 
 msgid "纽约渥太华 古巴,哥伦比亚,牙买加 (GMT -5)"
-msgstr "紐約渥太華 古巴，哥倫比亞,牙買加 (GMT -5)"
+msgstr "紐約渥太華 古巴，哥倫比亞，牙買加（GMT -5）"
 
 msgid "墨西哥城时间 洪都拉斯,危地马拉,哥斯达黎加 (GMT -6)"
-msgstr "墨西哥城時間 宏都拉斯，瓜地馬拉,哥斯大黎加 (GMT -6)"
+msgstr "墨西哥城時間 宏都拉斯，瓜地馬拉，哥斯大黎加（GMT -6）"
 
 msgid "美国丹佛时间 (GMT -7)"
-msgstr "美國丹佛時間 (GMT -7)"
+msgstr "美國丹佛時間（GMT -7）"
 
 msgid "美国旧金山时间 (GMT -8)"
-msgstr "美國舊金山時間 (GMT -8)"
+msgstr "美國舊金山時間（GMT -8）"
 
 msgid "阿拉斯加时间 (GMT -9)"
-msgstr "阿拉斯加時間 (GMT -9)"
+msgstr "阿拉斯加時間（GMT -9）"
 
 msgid "夏威夷群岛 (GMT -10)"
-msgstr "夏威夷群島 (GMT -10)"
+msgstr "夏威夷群島（GMT -10）"
 
 msgid "东萨摩亚群岛 (GMT -11)"
-msgstr "東薩摩亞群島 (GMT -11)"
+msgstr "東薩摩亞群島（GMT -11）"
 
 msgid "艾尼威托克岛 (GMT -12)"
-msgstr "艾尼威托克島 (GMT -12)"
+msgstr "艾尼威托克島 （GMT -12）"
 
 msgid "图片文件"
 msgstr "圖片檔案"
@@ -2352,7 +2352,7 @@ msgstr "允許上傳的檔案類型"
 
 #, php-format
 msgid "用逗号 \",\" 将后缀名隔开, 例如: %s"
-msgstr "用逗號「，」將副檔名隔開, 例如: %s"
+msgstr "用逗號「，」將副檔名隔開, 例如：%s"
 
 msgid "不启用"
 msgstr "不啟用"
@@ -2420,7 +2420,7 @@ msgid "独立页面路径"
 msgstr "獨立頁面路徑"
 
 msgid "可用参数: <code>{cid}</code> 页面 ID, <code>{slug}</code> 页面缩略名"
-msgstr "可用參數: <code>{cid}</code> 頁面 ID、<code>{slug}</code> 頁面縮略名"
+msgstr "可用參數：<code>{cid}</code> 頁面 ID、<code>{slug}</code> 頁面縮略名"
 
 msgid "请在路径中至少包含上述的一项参数."
 msgstr "請在路徑中至少包含上述的一項參數。"
@@ -2435,7 +2435,7 @@ msgid ""
 "可用参数: <code>{mid}</code> 分类 ID, <code>{slug}</code> 分类缩略名, "
 "<code>{directory}</code> 多级分类"
 msgstr ""
-"可用參數: <code>{mid}</code> 分類 ID、<code>{slug}</code> 分類縮略名、"
+"可用參數：<code>{mid}</code> 分類 ID、<code>{slug}</code> 分類縮略名、"
 "<code>{directory}</code> 多級分類"
 
 msgid "分类路径中没有包含 {mid} 或者 {slug} "
@@ -2444,7 +2444,7 @@ msgstr "分類路徑中沒有包含 {mid} 或者 {slug} "
 msgid ""
 "自定义链接与现有规则存在冲突! 它可能影响解析效率, 建议你重新分配一个规则."
 msgstr ""
-"自定義連結與現有規則存在衝突! 它可能影響解析效率, 建議你重新分配一個規則."
+"自定義連結與現有規則存在衝突！它可能影響解析效率，建議你重新分配一個規則."
 
 msgid "文章日期格式"
 msgstr "文章日期格式"
@@ -2727,7 +2727,7 @@ msgstr "%s 設定已經儲存"
 #~ msgstr "檔案尺寸不能超過 %s"
 
 #~ msgid "使用下面的链接开始你的故事吧:"
-#~ msgstr "使用下面的連結開始你的故事吧:"
+#~ msgstr "使用下面的連結開始你的故事吧："
 
 #~ msgid "记住我"
 #~ msgstr "記住我"
@@ -2742,7 +2742,7 @@ msgstr "%s 設定已經儲存"
 #~ "目前有 <em>%s</em> 篇 Blog,并有 <em>%s</em> 条关于你的评论在已设定的 <em>"
 #~ "%s</em> 个分类中."
 #~ msgstr ""
-#~ "目前有 <em>%s</em> 篇 Blog,並有 <em>%s</em> 條關於你的評論在已設定的 <em>"
+#~ "目前有 <em>%s</em> 篇 Blog，並有 <em>%s</em> 條關於你的評論在已設定的 <em>"
 #~ "%s</em> 個分類中."
 
 #~ msgid "内容已经保存"
