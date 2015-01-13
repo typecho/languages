@@ -71,7 +71,7 @@ msgid "点击这里查看您的 Blog"
 msgstr "Click here to view your blog."
 
 msgid "希望您能尽情享用 Typecho 带来的乐趣!"
-msgstr "I hope you can enjoy Typecho!"
+msgstr "I hope you will enjoy Typecho!"
 
 msgid "28800"
 msgstr "28800"
@@ -869,7 +869,7 @@ msgid "此文件无法写入"
 msgstr "Cannot write this file."
 
 msgid "检测到新版本!"
-msgstr "New version detected."
+msgstr "A newer version has been detected."
 
 msgid "您已经更新了系统程序, 我们还需要执行一些后续步骤来完成升级"
 msgstr ""
