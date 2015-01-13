@@ -1185,13 +1185,13 @@ msgid "数据库密码"
 msgstr "資料庫密碼"
 
 msgid "数据库实例名"
-msgstr "資料庫實體名稱"
+msgstr "資料庫實例名稱"
 
 msgid "请填入您在Cloud SQL面板中创建的数据库实例名称"
-msgstr "請填入您在Cloud SQL面板中新建的資料庫實體名稱"
+msgstr "請填入您在Cloud SQL面板中新建的資料庫實例名稱"
 
 msgid "请填入您在Cloud SQL的实例中创建的数据库名称"
-msgstr "請填入您在 Cloud SQL 的實體中建立的資料庫名稱"
+msgstr "請填入您在 Cloud SQL 的實例中建立的資料庫名稱"
 
 #, php-format
 msgid "您可能会使用 \"%s\""
