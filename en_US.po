@@ -27,7 +27,7 @@ msgid "Typecho 安装程序"
 msgstr "Typecho Installer"
 
 msgid "欢迎使用"
-msgstr "Welcome to use"
+msgstr "Welcome"
 
 msgid "初始化配置"
 msgstr "Initialize configuration"
@@ -71,7 +71,7 @@ msgid "点击这里查看您的 Blog"
 msgstr "Click here to view your blog."
 
 msgid "希望您能尽情享用 Typecho 带来的乐趣!"
-msgstr "I hope you can enjoy Typecho!"
+msgstr "I hope you will enjoy Typecho!"
 
 msgid "28800"
 msgstr "28800"
@@ -83,7 +83,7 @@ msgid "只是一个默认分类"
 msgstr "this is only a default category"
 
 msgid "欢迎使用 Typecho"
-msgstr "welcome to Typecho"
+msgstr "Welcome to Typecho"
 
 msgid "如果您看到这篇文章,表示您的 blog 已经安装成功."
 msgstr "If you can see this post, your blog is successfully installed."
@@ -257,7 +257,7 @@ msgstr ""
 
 msgid "如果您遇到使用上的问题, 程序中的 BUG, 以及期许的新功能, 欢迎您在社区中交流或者直接向我们贡献代码."
 msgstr ""
-"If you have problems in using typecho, find bugs in the program,  or have a "
+"If you have problems in using typecho, find bugs in the program, or have a "
 "idea of new features, we welcome you to communicate in community or "
 "contribute code to us directly."
 
@@ -869,7 +869,7 @@ msgid "此文件无法写入"
 msgstr "Cannot write this file."
 
 msgid "检测到新版本!"
-msgstr "New version detected."
+msgstr "A newer version has been detected."
 
 msgid "您已经更新了系统程序, 我们还需要执行一些后续步骤来完成升级"
 msgstr ""
@@ -889,7 +889,7 @@ msgstr "Finish upgrade &raquo;"
 
 #, php-format
 msgid "欢迎您使用 \"%s\" 管理后台: "
-msgstr "Welcome to use the control panel of  \"%s\" "
+msgstr "Welcome to the control panel of  \"%s\" "
 
 msgid "强烈建议更改你的默认密码"
 msgstr "Changing your default password is strongly recommended."
