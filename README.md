@@ -1,7 +1,7 @@
 
 # How to install language for your Typecho
 
-1. Download your language file ( end with `.mo` ) from [tree/mo](https://github.com/typecho/languages/tree/mo)
+1. Download your language file ( end with `.mo` ) from [tree/mo](https://github.com/typecho/languages/releases)
 
 2. Upload it to path `/usr/langs` in your Typecho. If that folder doesn't exist, you can create it before upload it.
 
