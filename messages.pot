@@ -1,3 +1,4 @@
+
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Typecho
 # This file is distributed under the same license as the PACKAGE package.
@@ -2081,7 +2082,7 @@ msgstr ""
 msgid "仅显示评论, 不显示 Pingback 和 Trackback"
 msgstr ""
 
-msgid "在评论中使用Markdown语法"
+msgid "在评论中使用 Markdown 语法"
 msgstr ""
 
 msgid "评论者名称显示时自动加上其个人主页链接"
@@ -2134,6 +2135,9 @@ msgid "必须填写网址"
 msgstr ""
 
 msgid "检查评论来源页 URL 是否与文章链接一致"
+msgstr ""
+
+msgid "开启反垃圾保护"
 msgstr ""
 
 #, php-format
