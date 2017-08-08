@@ -7,11 +7,11 @@
 
 3. Go to control panel of Typecho to switch to your language. It often locates at `http://your-blog-url.com/admin/options-general.php`
 
-# 如何给 Typecho 安装语言包
+# How to install a language pack for Typecho
 
-1. 从 [tree/mo](https://github.com/typecho/languages/tree/mo) 分支中下载已经编译好对应语言的 `.mo` 文件。
-2. 上传该文件到 Typecho 的 `/usr/langs` 文件夹中。如果文件夹不存在，请自行创建。
-3. 进入 Typecho 后台切换语言，选项位于 `设置 - 基本` 中。
+1. Download the `.mo` file that corresponds to your language from  [tree/mo](https://github.com/typecho/languages/tree/mo).
+2. Upload the file to the Typecho `/usr/langs` directory. If the directory does not exist, you can create it yourself.
+3. Switch to the language you want to use from Options -> General in Typecho backend
 
 # Multi-language Translation to Typecho
 
@@ -20,7 +20,6 @@
 3. Push update to your forked repo, and then pull a request to offical repo which named `typecho/languages`.
 
 
-# Typecho 多语言翻译
+# Typecho Multilingual Translation
 
-请参考
-http://docs.typecho.org/translate/start
+Please see http://docs.typecho.org/translate/start
