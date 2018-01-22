@@ -1,0 +1,2663 @@
+# Translated by Onur Kahveci <onurkahveci@gmail.com>, 2018. 
+msgid ""
+msgstr ""
+"Project-Id-Version: Typecho 0.9/13.12.12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-18 00:20+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-01-22 11:36+0300\n"
+"Last-Translator: Onur Kahveci <onurkahveci@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: \n"
+"Language: tr_TR\n"
+"X-Generator: Poedit 2.0.6\n"
+
+msgid "lang"
+msgstr "Turkish"
+
+msgid "UTF-8"
+msgstr "UTF-8"
+
+msgid "Typecho 安装程序"
+msgstr "Typecho Kurulum"
+
+msgid "欢迎使用"
+msgstr "Merhaba"
+
+msgid "初始化配置"
+msgstr "İlk Ayarlar"
+
+msgid "开始安装"
+msgstr "Kurulumu Başlat"
+
+msgid "安装成功"
+msgstr "Yükleme başarılı."
+
+msgid "安装失败!"
+msgstr "Kurulum Hatası!"
+
+msgid "您没有上传 config.inc.php 文件，请您重新安装！"
+msgstr "config.inc.php dosyasını yüklememişsiniz, lütfen typecho’yu yeniden kurmayı deneyin."
+
+msgid "重新安装 &raquo;"
+msgstr "yeniden kurun &raquo;"
+
+msgid "安装成功!"
+msgstr "Başarılı bir şekilde kuruldu！"
+
+msgid "您选择了使用原有的数据, 您的用户名和密码和原来的一致"
+msgstr ""
+"Orjinal verileri kullanmayı seçtiğiniz için, kullanıcı adı ve şifreniz değişmeden "
+"kalacaktır."
+
+msgid "您的用户名是"
+msgstr "Kullanıcı adınız"
+
+msgid "您的密码是"
+msgstr "Parolanız"
+
+msgid "您可以将下面两个链接保存到您的收藏夹"
+msgstr "Aşağıdaki iki adresi favorilerinize ekleyebilirsiniz."
+
+msgid "点击这里访问您的控制面板"
+msgstr "Panelinize ulaşmak için buraya tıklayınız."
+
+msgid "点击这里查看您的 Blog"
+msgstr "Blogunuzu görmek için buraya tıklayınız."
+
+msgid "希望您能尽情享用 Typecho 带来的乐趣!"
+msgstr "Umarım Typecho hoşunuza gitmiştir!"
+
+msgid "28800"
+msgstr "28800"
+
+msgid "默认分类"
+msgstr "varsayılan kategori"
+
+msgid "只是一个默认分类"
+msgstr "bu yalnızca varsayılan kategoridir"
+
+msgid "欢迎使用 Typecho"
+msgstr "Typecho’ya hoş geldiniz."
+
+msgid "如果您看到这篇文章,表示您的 blog 已经安装成功."
+msgstr "Bu gönderiyi görüyorsanız blogunuz başarıyla yüklenmiştir."
+
+msgid "关于"
+msgstr "Hakkında"
+
+msgid "本页面由 Typecho 创建, 这只是个测试页面."
+msgstr "Bu sayfa Typecho tarafından oluşturulmuştur, sadece deneme sayfasıdır."
+
+msgid "已经删除完原有数据"
+msgstr "tüm orjinal veriler silinmiştir"
+
+msgid "继续安装 &raquo;"
+msgstr "kuruluma devam et &raquo;"
+
+msgid "安装程序检查到原有数据表已经存在."
+msgstr "Kurulum daha önceden veritabanı dosyaları olduğunu tespit etti."
+
+msgid "删除原有数据"
+msgstr "orjinal verileri sil"
+
+msgid "或者"
+msgstr "ya da"
+
+msgid "使用原有数据"
+msgstr "orjinal verileri kullan"
+
+#, php-format
+msgid "安装程序捕捉到以下错误: \"%s\". 程序被终止, 请检查您的配置信息."
+msgstr ""
+"Kurulum şu hatayı tespit etti: “%s”. Program sonlandırıldı. Lütfen ayarları kontrol ediniz."
+
+msgid "确认您的配置"
+msgstr "Ayarlarınızı doğrulayın."
+
+msgid "数据库配置"
+msgstr "veritabanı ayarları"
+
+msgid "没有检测到您手动创建的配置文件, 请检查后再次创建"
+msgstr "Ayar dosyası tespit edilemedi. Lütfen tekrar oluşturup tekrar deneyin."
+
+msgid "请填写您的网站地址"
+msgstr "Lütfen site URL’nizi giriniz."
+
+msgid "请填写您的用户名"
+msgstr "Lütfen kullanıcı adınızı giriniz."
+
+msgid "请填写您的邮箱地址"
+msgstr "Lütfen E-posta adresinizi giriniz."
+
+msgid "用户名长度超过限制, 请不要超过 32 个字符"
+msgstr "Kullanıcı adınız çok uzun, lütfen 32 karakterlik limite uyunuz."
+
+msgid "邮箱长度超过限制, 请不要超过 200 个字符"
+msgstr "E-posta adresiniz çok uzun lütfen 200 karakterlik sınıra uyunuz."
+
+msgid "对不起，无法连接数据库，请先检查数据库配置再继续进行安装"
+msgstr ""
+"Hata, typecho database’e bağlantı kuramadı. Lütfen database ayarlarınızı tekrar gözden "
+"geçirin."
+
+#, php-format
+msgid "安装程序捕捉到以下错误: \" %s \". 程序被终止, 请检查您的配置信息."
+msgstr ""
+"Kurulum şu hatayı tespit etti: \"%s\". Program sonlandırıldı. Lütfen ayarları kontrol "
+"ediniz."
+
+msgid "安装程序无法自动创建 <strong>config.inc.php</strong> 文件"
+msgstr ""
+"Kurulum dosyası <strong>config.inc.php</strong> dosyasını otomatik olarak oluşturamadı."
+
+msgid ""
+"您可以在网站根目录下手动创建 <strong>config.inc.php</strong> 文件, 并复制如下代码至其中"
+msgstr ""
+"Websitenizin ana dizinine aşağıdaki kodu ekleyerek <strong>config.inc.php</strong> 'i el "
+"ile de oluşturabilirsiniz."
+
+msgid "数据库适配器"
+msgstr "Veritabanı bağdaştırıcısı"
+
+msgid "Mysql 原生函数适配器"
+msgstr "MySQL ana fonksiyon bağdaştırıcısı"
+
+msgid "SQLite 原生函数适配器 (SQLite 2.x)"
+msgstr "SQLite ana fonksiyon bağdaştırıcısı(SQLite 2.x)"
+
+msgid "Pgsql 原生函数适配器"
+msgstr "Pgsql ana fonksiyon bağdaştırıcısı"
+
+msgid "Pdo 驱动 Mysql 适配器"
+msgstr "Pdo sürücüsü Mysql bağdaştırıcısı"
+
+msgid "Pdo 驱动 SQLite 适配器 (SQLite 3.x)"
+msgstr "Pdo sürücüsü mysql bağdaştırıcısı (SQLite 3.x)"
+
+msgid "Pdo 驱动 PostgreSql 适配器"
+msgstr "Pdo sürücüsü PostgreSql bağdaştırıcısı"
+
+msgid "请根据您的数据库类型选择合适的适配器"
+msgstr "Veritabanı tipinize göre ilgili bağdaştırıcı ayarlarını seçiniz."
+
+msgid "数据库前缀"
+msgstr "veritabanı öneki"
+
+msgid "默认前缀是 \"typecho_\""
+msgstr "varsayılan önek \"typecho_\""
+
+msgid "创建您的管理员帐号"
+msgstr "Admin hesabınızı oluşturunuz"
+
+msgid "网站地址"
+msgstr "Site URL’si"
+
+msgid "这是程序自动匹配的网站路径, 如果不正确请修改它"
+msgstr ""
+"Bu adres otomatik olarak eşleştirilmiş internet sitesi URL’nizdir. Eğer doğru değil ise "
+"düzenleyiniz."
+
+msgid "用户名"
+msgstr "kullanıcı adı"
+
+msgid "登录密码"
+msgstr "giriş parolası"
+
+msgid "请填写您的登录密码, 如果留空系统将为您随机生成一个"
+msgstr ""
+"Lütfen bir parola giriniz. Eğer boş bırakırsanız typecho rastgele bir şifre yaratacaktır."
+
+msgid "邮件地址"
+msgstr "E-posta adresi"
+
+msgid "请填写一个您的常用邮箱"
+msgstr "Lütfen sıklıkla kullandığınız email adresinizi giriniz."
+
+msgid "确认, 开始安装 &raquo;"
+msgstr "Onayla ve yüklemeye başla &raquo;"
+
+msgid "安装说明"
+msgstr "Kurulum talimatları"
+
+msgid ""
+"本安装程序将自动检测服务器环境是否符合最低配置需求. 如果不符合, 将在上方出现提示信息, 请按照"
+"提示信息检查您的主机配置. 如果服务器环境符合要求, 将在下方出现 \"开始下一步\" 的按钮, 点击此"
+"按钮即可一步完成安装."
+msgstr ""
+"Bu kurulumcu otomatik olarak sunucu ortamınızın minimum şartları karşılayıp karşılamadığına "
+"karar verecektir. Eğer karşılamıyor ise sayfa başında size bir bildirim gelecektir. Lütfen "
+"bu bildirim doğrultusunda sunucu ayarlarını kontrol ediniz. Eğer sunucu ortamınız şartları "
+"karşılıyorsa “sonraki adım” butonu ortaya çıkacaktır. Bu butona tıklayarak tek-adım "
+"kurulumunuzu sonlandırabilirsiniz."
+
+msgid "许可及协议"
+msgstr "Şartlar ve lisans"
+
+msgid ""
+"Typecho 基于 <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> 协议发布, 我们允许用户"
+"在 GPL 协议许可的范围内使用, 拷贝, 修改和分发此程序."
+msgstr ""
+"Typecho <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> lisansı altındadır. "
+"Kullanıcılarımız GPL lisansı altında kullanmak, kopyalamak, değiştirmek ve tekrar dağıtma "
+"hakkına sahiptir."
+
+msgid "在GPL许可的范围内，您可以自由地将其用于商业以及非商业用途."
+msgstr "GPL lisansı altında ticari ya da ticari olmayan şekilde kullanabilirsiniz."
+
+msgid "Typecho 软件由其社区提供支持, 核心开发团队负责维护程序日常开发工作以及新特性的制定."
+msgstr ""
+"Typecho kendi topluluğu tarafından desteklenmektedir. Çekirdek geliştiriciler rutin "
+"geliştirmek ve yeni özellik planlamak ile yükümlüdürler."
+
+msgid ""
+"如果您遇到使用上的问题, 程序中的 BUG, 以及期许的新功能, 欢迎您在社区中交流或者直接向我们贡献"
+"代码."
+msgstr ""
+"Typecho kullanırken problem yaşıyorsanız, programda hata bulduysanız, yeni bir fikriniz var "
+"ise topluluğumuzda iletişime geçmeniz ya da kodumuza katkı yapmanız rica olunur."
+
+msgid "对于贡献突出者, 他的名字将出现在贡献者名单中."
+msgstr "Yapılan tüm katkılar belirtilecektir."
+
+msgid "我准备好了, 开始下一步 &raquo;"
+msgstr "Hazırım. Sonraki adıma geç &raquo;"
+
+#, php-format
+msgid "由 <a href=\"http://typecho.org\">%s</a> 强力驱动, 版本 %s (%s)"
+msgstr ""
+"<a href=\"http://typecho.org\">%s</a> tarafından gururla desteklenmektedir. Sürüm %s (%s)"
+
+msgid "帮助文档"
+msgstr "Yardım"
+
+msgid "支持论坛"
+msgstr "Destek"
+
+msgid "报告错误"
+msgstr "Hataları raporla"
+
+msgid "资源下载"
+msgstr "İndir"
+
+msgid "确认要删除此字段吗?"
+msgstr "Bu alanı silmek istediğinize emin misiniz"
+
+msgid "字段名称"
+msgstr "Alan adı"
+
+msgid "字符"
+msgstr "Karakter"
+
+msgid "整数"
+msgstr "Rakam"
+
+msgid "小数"
+msgstr "Ondalık"
+
+msgid "字段值"
+msgstr "Alan değeri"
+
+msgid "删除"
+msgstr "Sil"
+
+msgid "自定义字段"
+msgstr "Alanları özelleştir"
+
+msgid "字段类型"
+msgstr "Alan çeşidi"
+
+msgid "+添加字段"
+msgstr "+Bir alan ekle"
+
+msgid ""
+"自定义字段可以扩展你的模板功能, 使用方法参见 <a href=\"http://docs.typecho.org/help/custom-"
+"fields\">帮助文档</a>"
+msgstr ""
+"Özelleştirilmiş alanlar temanızın fonksiyonlarını genişletebilir. <a href=\"http://docs."
+"typecho.org/help/custom-fields\">Bu dökümanı</a> inceleyerek daha fazla bilgi "
+"edinebilirsiniz."
+
+msgid "加粗"
+msgstr "Kalın"
+
+msgid "加粗文字"
+msgstr "Kalın yazı"
+
+msgid "斜体"
+msgstr "Yatay"
+
+msgid "斜体文字"
+msgstr "Yatay yazı"
+
+msgid "链接"
+msgstr "Link"
+
+msgid "请输入链接描述"
+msgstr "Lütfen link açıklamanızı giriniz."
+
+msgid "引用"
+msgstr "Alıntı"
+
+msgid "引用文字"
+msgstr "Alıntı yazısı"
+
+msgid "代码"
+msgstr "Kod"
+
+msgid "请输入代码"
+msgstr "Lütfen kodunuzu giriniz."
+
+msgid "图片"
+msgstr "Resim"
+
+msgid "请输入图片描述"
+msgstr "Lütfen resim açıklamanızı giriniz."
+
+msgid "数字列表"
+msgstr "Numaralı listeler"
+
+msgid "普通列表"
+msgstr "Sıralanmamış liste"
+
+msgid "列表项目"
+msgstr "Maddeleri sırala"
+
+msgid "标题"
+msgstr "Başlık"
+
+msgid "标题文字"
+msgstr "Başlık yazısı"
+
+msgid "分割线"
+msgstr "Ayırıcı"
+
+msgid "摘要分割线"
+msgstr "Özet ayırıcı"
+
+msgid "撤销"
+msgstr "Geri al"
+
+msgid "重做"
+msgstr "Yinele"
+
+msgid "全屏"
+msgstr "Tam ekran"
+
+msgid "退出全屏"
+msgstr "Tam ekrandan çık"
+
+msgid "此浏览器不支持全屏操作"
+msgstr "Tarayıcınız tam ekranı desteklemiyor"
+
+msgid "插入图片"
+msgstr "Resmi giriniz."
+
+msgid "请在下方的输入框内输入要插入的远程图片地址"
+msgstr "Resim URL’sini giriniz:"
+
+msgid "您也可以使用编辑器下方的文件上传功能插入本地图片"
+msgstr ""
+"Düzenleyicinin altındaki yükleme fonksiyonunu kullanarak kendi cihazınızdaki resimleri de "
+"ekleyebilirsiniz."
+
+msgid "插入链接"
+msgstr "Linki giriniz."
+
+msgid "请在下方的输入框内输入要插入的链接地址"
+msgstr "Link adresini giriniz:"
+
+msgid "确定"
+msgstr "Tamam"
+
+msgid "取消"
+msgstr "İptal"
+
+msgid "Markdown语法帮助"
+msgstr "Markdown sözdizimi yardım"
+
+msgid "撰写"
+msgstr "Yaz"
+
+msgid "预览"
+msgstr "Önizle"
+
+msgid "页面不存在"
+msgstr "Sayfa mevcut değil."
+
+#, php-format
+msgid "文件上传失败, 请确认文件尺寸没有超过 %s 并且服务器文件目录可以写入"
+msgstr ""
+"Dosya yükleme başarısız oldu. Lütfen dosya boyutunun %s limitini geçmediğinden ve "
+"sunucudaki dosya dizininin yazılabilir olduğundan emin olunuz."
+
+msgid "点击插入文件"
+msgstr "Dosya eklemek için tıklayınız."
+
+msgid "编辑"
+msgstr "Düzenleyiciler"
+
+#, php-format
+msgid "文件 %s 的类型不被支持"
+msgstr "Dosya çeşidi olarak %s desteklenmemektedir."
+
+msgid "浏览器不支持拖拽上传"
+msgstr "Tarayıcınız sürükle ve bırak işlevini desteklemiyor."
+
+#, php-format
+msgid "一次上传的文件不能多于%d个"
+msgstr "%d adetten fazla dosya tek seferde yüklenememektedir."
+
+#, php-format
+msgid "文件尺寸不能超过 %s"
+msgstr "Dosya boyutu %s boyutu aşamaz."
+
+#, php-format
+msgid "确认要删除文件 %s 吗?"
+msgstr "%s dosyasını silmek istediğinize emin misiniz?"
+
+#, php-format
+msgid "拖放文件到这里<br>或者 %s选择文件上传%s"
+msgstr "Dosyalarınızı buraya taşıyın <br>ya da %s yüklemek için dosyaları seçin %s"
+
+#, php-format
+msgid "%s - %s - Powered by Typecho"
+msgstr "%s - %s - Typecho tarafından desteklenmektedir."
+
+msgid ""
+"当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href=\"http://"
+"browsehappy.com/\">升级你的浏览器</a>"
+msgstr ""
+"Tarayıcınız <strong>desteklenmemektedir</strong> . Lütfen <a href=\"http://browsehappy.com/"
+"\">tarayıcınızı güncelleyiniz</a>."
+
+#, php-format
+msgid "目前有 <em>%s</em> 篇日志, 并有 <em>%s</em> 条关于你的评论在 <em>%s</em> 个分类中."
+msgstr ""
+"Şu an <em>%s</em> gönderi ve <em>%s</em> yorum <em>%s</em> kategorisi altında bulunmakta."
+
+msgid "使用下面的链接开始你的故事吧:"
+msgstr "Aşağıdaki adresi kullanarak hikayenize başlayın."
+
+msgid "撰写新文章"
+msgstr "Yeni bir gönderi yaz"
+
+msgid "待审核的评论"
+msgstr "Onay bekleyen yorumlar."
+
+msgid "待审核评论"
+msgstr "Onay bekleyen yorum."
+
+msgid "垃圾评论"
+msgstr "Spam"
+
+msgid "更换外观"
+msgstr "Görünümü değiştir"
+
+msgid "系统设置"
+msgstr "Sistem özellikleri"
+
+msgid "更新我的资料"
+msgstr "Profilimi güncelle"
+
+msgid "您当前使用的版本是"
+msgstr "Sizin kullandığınız sürüm"
+
+msgid "官方最新版本是"
+msgstr "Son resmi sürüm"
+
+msgid "最近发布的文章"
+msgstr "Son gönderiler"
+
+msgid "暂时没有文章"
+msgstr "Henüz bir gönderi yok."
+
+msgid "最近得到的回复"
+msgstr "Son yorumlar"
+
+msgid "暂时没有回复"
+msgstr "Henüz bir yorum yok."
+
+msgid "官方最新日志"
+msgstr "Son resmi blog gönderileri."
+
+msgid "读取中..."
+msgstr "Okunuyor..."
+
+#, php-format
+msgid "您当前使用的版本是 %s"
+msgstr "Bu sürümü kullanıyorsunuz: %s"
+
+#, php-format
+msgid "官方最新版本是 %s"
+msgstr "Son resmi sürüm: %s"
+
+msgid "密码"
+msgstr "Parola"
+
+msgid "登录"
+msgstr "Giriş"
+
+msgid "记住我"
+msgstr "Beni hatırla"
+
+msgid "返回首页"
+msgstr "Ana sayfaya dön"
+
+msgid "用户注册"
+msgstr "Kayıt ol"
+
+msgid "所有"
+msgstr "Tüm"
+
+msgid "我的"
+msgstr "Benim"
+
+msgid "已通过"
+msgstr "Onaylanmış"
+
+msgid "待审核"
+msgstr "Onay bekliyor"
+
+msgid "垃圾"
+msgstr "Spam"
+
+msgid "全选"
+msgstr "Tümünü seç"
+
+msgid "操作"
+msgstr "Operasyonlar"
+
+msgid "选中项"
+msgstr "Seçilmiş"
+
+msgid "通过"
+msgstr "Geç"
+
+msgid "标记垃圾"
+msgstr "Spam olarak işaretle"
+
+msgid "你确认要删除这些评论吗?"
+msgstr "Bu yorumları silmek istediğinize emin misiniz?"
+
+msgid "你确认要删除所有垃圾评论吗?"
+msgstr "Tüm spamları silmek istediğinize emin misiniz?"
+
+msgid "删除所有垃圾评论"
+msgstr "Tüm spamları sil"
+
+msgid "&laquo; 取消筛选"
+msgstr "&laquo; filtrelemeyi iptal et."
+
+msgid "请输入关键字"
+msgstr "Lütfen anahtar kelimeleri giriniz"
+
+msgid "筛选"
+msgstr "Filtrele"
+
+msgid "作者"
+msgstr "Yazar"
+
+msgid "内容"
+msgstr "İçerik"
+
+msgid "回复"
+msgstr "Yanıtla"
+
+#, php-format
+msgid "你确认要删除%s的评论吗?"
+msgstr "%s tarafından oluşturulan yorumları silmek istediğinizden emin misiniz?"
+
+msgid "没有评论"
+msgstr "Yorum yok."
+
+msgid "电子邮箱"
+msgstr "E-posta"
+
+msgid "个人主页"
+msgstr "Ana sayfa"
+
+msgid "提交"
+msgstr "Gönder"
+
+msgid "你确认要删除这些文件吗?"
+msgstr "Bu dosyaları silmek istediğinizden emin misiniz?"
+
+msgid "文件名"
+msgstr "Dosya adı"
+
+msgid "上传者"
+msgstr "Yükleyici"
+
+msgid "所属文章"
+msgstr "İlgili gönderi"
+
+msgid "发布日期"
+msgstr "Yayımlanma zamanı"
+
+#, php-format
+msgid "浏览 %s"
+msgstr "%s Görüntüle"
+
+msgid "未归档"
+msgstr "Arşivden Çıkarılmış"
+
+msgid "没有任何文件"
+msgstr "Dosya yok"
+
+msgid "分类"
+msgstr "Kategori"
+
+msgid "标签"
+msgstr "Etiket"
+
+msgid "此分类下的所有内容将被删除, 你确认要删除这些分类吗?"
+msgstr "Bu kategorilerin altındaki tüm içerikler silinecektir, emin misiniz?"
+
+msgid "刷新分类可能需要等待较长时间, 你确认要刷新这些分类吗?"
+msgstr "Bu kategorileri yenilemek uzun sürebilir, emin misiniz?"
+
+msgid "刷新"
+msgstr "Yenile"
+
+msgid "合并到"
+msgstr "Birleştirme"
+
+msgid "名称"
+msgstr "İsim"
+
+msgid "缩略名"
+msgstr "Kısaltma"
+
+msgid "文章数"
+msgstr "Gönderi sayısı"
+
+msgid "默认"
+msgstr "varsayılan"
+
+msgid "设为默认"
+msgstr "varsayılana ayarla"
+
+msgid "没有任何分类"
+msgstr "Kategori yok."
+
+msgid "你确认要删除这些标签吗?"
+msgstr "Bu etiketleri sil?"
+
+msgid "刷新标签可能需要等待较长时间, 你确认要刷新这些标签吗?"
+msgstr "Bu etiketleri güncellemek uzun sürebilir, emin misiniz?"
+
+msgid "没有任何标签"
+msgstr "Etiket yok."
+
+msgid "你确认要删除这些页面吗?"
+msgstr "Bu sayfaları silmek istediğinize emin misiniz?"
+
+msgid "日期"
+msgstr "Gün"
+
+msgid "草稿"
+msgstr "Taslaklar"
+
+msgid "隐藏"
+msgstr "Gizle"
+
+#, php-format
+msgid "保存于 %s"
+msgstr "%s tarihinde kaydedildi."
+
+msgid "没有任何页面"
+msgstr "Sayfa yok."
+
+msgid "你确认要删除这些文章吗?"
+msgstr "Bu gönderileri silmek istediğinize emin misiniz?"
+
+msgid "所有分类"
+msgstr "Tüm kategoriler"
+
+msgid "私密"
+msgstr "Gizli"
+
+msgid "密码保护"
+msgstr "Parola ile korunmakta"
+
+msgid "没有任何文章"
+msgstr "Gönderi yok"
+
+msgid "你确认要删除这些用户吗?"
+msgstr "Bu kullanıcıları silmek istediğinizden emin misiniz?"
+
+msgid "昵称"
+msgstr "Rumuz"
+
+msgid "电子邮件"
+msgstr "E-Posta"
+
+msgid "用户组"
+msgstr "Kullanıcı grupları"
+
+msgid "暂无"
+msgstr "Henüz yok"
+
+msgid "管理员"
+msgstr "Admin"
+
+msgid "贡献者"
+msgstr "Katkıda Bulunanlar"
+
+msgid "关注者"
+msgstr "Takipçiler"
+
+msgid "访问者"
+msgstr "Misafirler"
+
+#, php-format
+msgid "文件 %s 已经替换"
+msgstr "%s dosyası yer değiştirmiştir."
+
+#, php-format
+msgid "文件 %s 的类型与要替换的原文件不一致"
+msgstr "%s dosyasının türü orjinal dosyadan farklıdır."
+
+msgid "一次只能上传一个文件"
+msgstr "Tek seferde yalnızca bir dosya yükleyebilirsiniz."
+
+#, php-format
+msgid "最后登录: %s"
+msgstr "Son giriş: %s"
+
+msgid "登出"
+msgstr "Çıkış yap"
+
+msgid "网站"
+msgstr "Websitesi"
+
+msgid "可以使用的外观"
+msgstr "Kullanılabilir görünümler"
+
+msgid "编辑当前外观"
+msgstr "Şuanki görünümü düzenle"
+
+msgid "设置外观"
+msgstr "Görünümü Kur"
+
+msgid "新增"
+msgstr "Ekle"
+
+msgid "启用的插件"
+msgstr "Aktif edilen eklentiler"
+
+msgid "描述"
+msgstr "Tanıtım"
+
+msgid "版本"
+msgstr "Sürüm"
+
+#, php-format
+msgid "%s 无法在此版本的typecho下正常工作"
+msgstr "%s typecho’nun bu sürümüyle uyumlu değildir"
+
+msgid "设置"
+msgstr "Ayarlar"
+
+#, php-format
+msgid "你确认要禁用插件 %s 吗?"
+msgstr "%s eklentisini devre dışı bırakmak istediğinize emin misiniz ?"
+
+msgid "禁用"
+msgstr "Devre dışı bırak"
+
+msgid "启用"
+msgstr "Aktif et."
+
+msgid "即插即用"
+msgstr "Tak, çalıştır."
+
+msgid "此插件文件已经损坏或者被不安全移除, 强烈建议你禁用它"
+msgstr ""
+"Bu eklentinin dosyaları zarar görmüş ya da silinmiş. Eklentiyi devredışı bırakmanız tavsiye "
+"edilir."
+
+msgid "禁用的插件"
+msgstr "Devredışı bırakılan eklentiler. "
+
+msgid "没有安装插件"
+msgstr "Kaldırılmış eklentiler."
+
+msgid "在 Gravatar 上修改头像"
+msgstr "Avatar’ınızı Gravatar’da değiştirin."
+
+#, php-format
+msgid ""
+"目前有 <em>%s</em> 篇 Blog,并有 <em>%s</em> 条关于你的评论在已设定的 <em>%s</em> 个分类中."
+msgstr ""
+"Şu an hakkınızda <em>%s</em> blog gönderisi ve <em>%s</em> yorum <em>%s</em> kategoride "
+"bulunmaktadır."
+
+msgid "个人资料"
+msgstr "Profil"
+
+msgid "撰写设置"
+msgstr "Dizgi ayarları."
+
+msgid "密码修改"
+msgstr "Şifreyi değiştir"
+
+msgid "Email"
+msgstr "E-posta"
+
+msgid "注册"
+msgstr "Kayıt Ol"
+
+msgid "用户登录"
+msgstr "Giriş"
+
+#, php-format
+msgid "编辑%s外观"
+msgstr "%s görüntüsünü düzenle."
+
+msgid "编辑源码"
+msgstr "Kaynağı düzenle."
+
+msgid "保存文件"
+msgstr "Dosyayı kaydet."
+
+msgid "此文件无法写入"
+msgstr "Bu dosyaya yazılamıyor."
+
+msgid "检测到新版本!"
+msgstr "Yeni bir sürüm saptandı."
+
+msgid "您已经更新了系统程序, 我们还需要执行一些后续步骤来完成升级"
+msgstr ""
+"Programı zaten güncelleştirdiniz, güncellemeleri bitirmek için yalnızca birkaç adıma daha "
+"ihtiyacımız var."
+
+#, php-format
+msgid "此程序将把您的系统从 <strong>%s</strong> 升级到 <strong>%s</strong>"
+msgstr "Sistem <strong>%s</strong> sürümünden <strong>%s</strong> sürümüne güncellendi."
+
+msgid "在升级之前强烈建议先备份您的数据"
+msgstr "Sistem güncellemesi öncesi verilerinizi yedeklemeniz şiddetle tavsiye edilir."
+
+msgid "完成升级 &raquo;"
+msgstr "Günellemeyi sonlandır &raquo;"
+
+#, php-format
+msgid "欢迎您使用 \"%s\" 管理后台: "
+msgstr "\"%s\" Kontrol Paneli’ne hoş geldiniz."
+
+msgid "强烈建议更改你的默认密码"
+msgstr "Varsayılan parolanızı değiştirmeniz şiddetle tavsiye edilir."
+
+msgid "撰写第一篇日志"
+msgstr "İlk gönderimi yaz."
+
+msgid "查看我的站点"
+msgstr "Blogumu görüntüle."
+
+msgid "让我直接开始使用吧 &raquo;"
+msgstr "Hemen kullanmaya başlamak istiyorum &raquo;"
+
+msgid "现在"
+msgstr "Şimdi"
+
+msgid "上一月"
+msgstr "Son ay"
+
+msgid "下一月"
+msgstr "Sonraki ay"
+
+msgid "一月"
+msgstr "Ocak"
+
+msgid "二月"
+msgstr "Şub"
+
+msgid "三月"
+msgstr "Mar"
+
+msgid "四月"
+msgstr "Nis"
+
+msgid "五月"
+msgstr "May"
+
+msgid "六月"
+msgstr "Haz"
+
+msgid "七月"
+msgstr "Tem"
+
+msgid "八月"
+msgstr "Ağu"
+
+msgid "九月"
+msgstr "Eyl"
+
+msgid "十月"
+msgstr "Ekim"
+
+msgid "十一月"
+msgstr "Kas"
+
+msgid "十二月"
+msgstr "Eyl"
+
+msgid "星期日"
+msgstr "Paz"
+
+msgid "星期一"
+msgstr "Pzt"
+
+msgid "星期二"
+msgstr "Sal"
+
+msgid "星期三"
+msgstr "Çar"
+
+msgid "星期四"
+msgstr "Per"
+
+msgid "星期五"
+msgstr "Cum"
+
+msgid "星期六"
+msgstr "Cmt"
+
+msgid "周日"
+msgstr "Paz"
+
+msgid "周一"
+msgstr "Pzt"
+
+msgid "周二"
+msgstr "Sal"
+
+msgid "周三"
+msgstr "Çar"
+
+msgid "周四"
+msgstr "Per"
+
+msgid "周五"
+msgstr "Cum"
+
+msgid "周六"
+msgstr "Cmt"
+
+msgid "日"
+msgstr "Pzr"
+
+msgid "一"
+msgstr "Pzt"
+
+msgid "二"
+msgstr "Sal"
+
+msgid "三"
+msgstr "Çar"
+
+msgid "四"
+msgstr "Per"
+
+msgid "五"
+msgstr "Cum"
+
+msgid "六"
+msgstr "Cmt"
+
+msgid "完成"
+msgstr "Tamam"
+
+msgid "选择时间"
+msgstr "Zamanı seçiniz"
+
+msgid "时间"
+msgstr "Zaman"
+
+msgid "时"
+msgstr "saat"
+
+msgid "上午"
+msgstr "öğleden önce"
+
+msgid "下午"
+msgstr "öğleden sonra"
+
+msgid "分"
+msgstr "dk"
+
+msgid "秒"
+msgstr "sn"
+
+msgid "请输入标签名"
+msgstr "Bir etiket adı giriniz"
+
+msgid "此标签不存在, 按回车创建"
+msgstr "Bu etiket mevcut değil. Oluşturmak için enter’a basınız."
+
+msgid "正在保存"
+msgstr "Kaydediliyor…"
+
+msgid "内容已经保存"
+msgstr "Kaydedildi."
+
+msgid "内容尚未保存"
+msgstr "Kayıt iptal edildi."
+
+msgid "上次保存时间"
+msgstr "Son kayıt"
+
+msgid "内容已经改变尚未保存, 您确认要离开此页面吗?"
+msgstr "Değişiklikler kaydedilmedi. Bu sayfadan ayrılmak istediğinize emin misiniz?"
+
+msgid "您确认要删除这份草稿吗?"
+msgstr "Taslağı sil?"
+
+#, php-format
+msgid "当前正在编辑的是保存于%s的草稿, 你可以<a href=\"%s\">删除它</a>"
+msgstr ""
+"%s bölümünde kayıtlı olan taslağı düzenliyorsunuz, <a href=\"%s\">buradan</a> "
+"silebilirsiniz.."
+
+msgid "网址缩略名"
+msgstr "URL kısaltma"
+
+msgid "页面内容"
+msgstr "Sayfa içeriği"
+
+msgid "保存草稿"
+msgstr "Taslağı kaydet"
+
+msgid "发布页面"
+msgstr "Sayfayı yayınla"
+
+msgid "选项"
+msgstr "Seçenekler"
+
+msgid "附件"
+msgstr "Eklentiler"
+
+msgid "页面顺序"
+msgstr "Sayfa düzeni"
+
+msgid "为你的自定义页面设定一个序列值以后, 能够使得它们按此值从小到大排列"
+msgstr ""
+"Özelleştirilmiş sayfalarınızın ana dizinini ayarlayın, böylece sayfalarınız küçük dizinden "
+"büyük dizine sıralanabilir."
+
+msgid "自定义模板"
+msgstr "Tasarımı özelleştir"
+
+msgid "不选择"
+msgstr "Seçimi kaldır"
+
+msgid "如果你为此页面选择了一个自定义模板, 系统将按照你选择的模板文件展现它"
+msgstr ""
+"Eğer özelleştirilmiş bir tasarım seçerseniz, typecho seçtiğiniz tasarım dosyasına göre "
+"sunulacaktır."
+
+msgid "高级选项"
+msgstr "Gelişmiş seçenekler"
+
+msgid "公开度"
+msgstr "Gizlilik"
+
+msgid "公开"
+msgstr "Genel"
+
+msgid "权限控制"
+msgstr "İzinler"
+
+msgid "允许评论"
+msgstr "Yorumlara izin ver"
+
+msgid "允许被引用"
+msgstr "Atıflara izin ver"
+
+msgid "允许在聚合中出现"
+msgstr "Toplanmaya izin ver"
+
+#, php-format
+msgid "本页面由 <a href=\"%s\">%s</a> 创建"
+msgstr "Bu sayfa <a href=\"%s\">%s</a> tarafından oluşturulmuştur."
+
+#, php-format
+msgid "最后更新于 %s"
+msgstr "%s zamanında son düzenlenmesi yapılmıştır."
+
+#, php-format
+msgid "你正在编辑的是保存于 %s 的草稿, 你也可以 <a href=\"%s\">删除它</a>"
+msgstr ""
+"%s adresinde kayıtlı taslağı düzenliyorsunuz, <a href=\"%s\">buradan</a> silebilirsiniz."
+
+msgid "文章内容"
+msgstr "Gönderi içeriği"
+
+msgid "发布文章"
+msgstr "paylaş"
+
+msgid "内容密码"
+msgstr "İçerik şifresi"
+
+msgid "引用通告"
+msgstr "Alıntı bildirimi"
+
+msgid "每一行一个引用地址, 用回车隔开"
+msgstr "Satır başına bir atıflanmış URL"
+
+#, php-format
+msgid "本文由 <a href=\"%s\">%s</a> 撰写"
+msgstr "<a href=\"%s\">%s</a> tarafından yazılmıştır"
+
+#, php-format
+msgid "系统将为您自动匹配 %s 环境的安装选项"
+msgstr "%s ortamınız için kurulum seçeneklerini otomatik olarak eşleştireceğiz."
+
+msgid "utf8"
+msgstr "utf8"
+
+msgid "应用API Key"
+msgstr "Uygulama API Anahtarı"
+
+msgid "应用Secret Key"
+msgstr "Uygulama Gizli Anahtarı"
+
+msgid "数据库名"
+msgstr "Veritabanı adı."
+
+msgid "可以在MySQL服务的管理页面看到您创建的数据库名称"
+msgstr ""
+"Oluşturduğunuz veritabanının adını MySQL hizmetlerinin admin sayfasından görebilirsiniz."
+
+msgid "数据库实例名"
+msgstr "Veritabanı durum adı."
+
+msgid "请填入您在Cloud SQL面板中创建的数据库实例名称"
+msgstr "Lütfen Cloud SQL panelinde bulunan veritabanı durum adını giriniz."
+
+msgid "数据库用户名"
+msgstr "Veritabanı kullanıcı adı"
+
+msgid "数据库密码"
+msgstr "Veritabanı şifresi"
+
+msgid "请填入您在Cloud SQL的实例中创建的数据库名称"
+msgstr "Lütfen Cloud SQL panelinde oluşturduğunuz veritabanı adını giriniz."
+
+msgid "数据库地址"
+msgstr "Veritabanı yolu"
+
+#, php-format
+msgid "您可能会使用 \"%s\""
+msgstr "\"%s\" kullanmanız gerekebilir"
+
+msgid "数据库端口"
+msgstr "Veritabanı portu"
+
+msgid "如果您不知道此选项的意义, 请保留默认设置"
+msgstr "Bu seçeneğin ne olduğunu anlamıyorsanız varsayılan ayarlarda olduğu gibi bırakınız."
+
+msgid "请您指定数据库名称"
+msgstr "Veritabanı adını belirtiniz."
+
+msgid "数据库文件路径"
+msgstr "Veritabanı dosya yolu"
+
+#, php-format
+msgid "\"%s\" 是我们为您自动生成的地址"
+msgstr "\"%s\" sizin için otomatik olarak oluşturduğumuz adrestir."
+
+msgid "说点什么"
+msgstr "Bir şeyler söyleyin"
+
+msgid "页面没找到"
+msgstr "Sayfa bulunamadı."
+
+msgid "你想查看的页面已被转移或删除了，要不要搜索看看："
+msgstr ""
+"Görüntülemek istediğiniz sayfa taşınmış ya da silinmiş. Aramayı denemek ister misiniz?"
+
+msgid "搜索"
+msgstr "arama"
+
+#, php-format
+msgid "分类 %s 下的文章"
+msgstr "%s kategorisindeki gönderiler"
+
+#, php-format
+msgid "包含关键字 %s 的文章"
+msgstr "%s anahar kelimeli gönderiler"
+
+#, php-format
+msgid "标签 %s 下的文章"
+msgstr "%s etiketli gönderiler"
+
+#, php-format
+msgid "%s 发布的文章"
+msgstr "%s yayınlanmış gönderiler"
+
+msgid "作者："
+msgstr "Yazar:"
+
+msgid "时间："
+msgstr "Zaman:"
+
+msgid "分类："
+msgstr "Kategori:"
+
+msgid "没有找到内容"
+msgstr "İçerik bulunamadı"
+
+msgid "暂无评论"
+msgstr "Henüz bir yorum yok."
+
+msgid "仅有一条评论"
+msgstr "Sadece bir yorum."
+
+#, php-format
+msgid "已有 %d 条评论"
+msgstr "%d yorum."
+
+msgid "添加新评论"
+msgstr "Yeni bir yorum ekle"
+
+msgid "登录身份："
+msgstr "Şu şekilde giriş yap:"
+
+msgid "退出"
+msgstr "Çıkış"
+
+msgid "称呼"
+msgstr " İsim"
+
+msgid "http://"
+msgstr "http://"
+
+msgid "提交评论"
+msgstr "Yorum Gönder."
+
+msgid "评论已关闭"
+msgstr "Yorumlar devre dışı bırakılmış."
+
+msgid "由 <a href=\"http://www.typecho.org\">Typecho</a> 强力驱动"
+msgstr "<a href=\"http://www.typecho.org\">Typecho</a> tarafından gururla desteklenmektedir."
+
+msgid "站点LOGO地址"
+msgstr "website logo URL"
+
+msgid "在这里填入一个图片URL地址, 以在网站标题前加上一个LOGO"
+msgstr "Sitenizin başlığının öncesinde gösterilecek olan logonun adresini giriniz."
+
+msgid "显示最新文章"
+msgstr "son gönderileri göster"
+
+msgid "显示最近回复"
+msgstr "son yorumları göster"
+
+msgid "显示分类"
+msgstr "kategorileri göster"
+
+msgid "显示归档"
+msgstr "arşivi göster"
+
+msgid "显示其它杂项"
+msgstr "diğer maddeleri göster"
+
+msgid "侧边栏显示"
+msgstr "kenar çubuğunda göster"
+
+msgid "搜索关键字"
+msgstr "Anahtar kelimeleri arayın."
+
+msgid "输入关键字搜索"
+msgstr "Aramak için anahtar kelimeleri giriniz:"
+
+msgid "首页"
+msgstr "Ana sayfa"
+
+msgid "标签："
+msgstr "Etiketler:"
+
+msgid "最新文章"
+msgstr "Son gönderiler"
+
+msgid "最近回复"
+msgstr "Son cevaplar"
+
+msgid "归档"
+msgstr "Arşiv"
+
+msgid "其它"
+msgstr "Diğer"
+
+msgid "进入后台"
+msgstr "Kontrol Paneline giriniz"
+
+msgid "文章 RSS"
+msgstr "gönderiler için RSS"
+
+msgid "评论 RSS"
+msgstr "yorumlar için RSS"
+
+msgid "无法禁用插件"
+msgstr "Bu eklenti devredışı bırakılamamaktadır.."
+
+msgid "config.inc.php 文件无法写入, 请将它的权限设置为可写"
+msgstr ""
+"config.inc.php dosyasına yazılamamaktadır, lütfen dosya izinlerini yazılabilir olarak "
+"ayarlayınız."
+
+#, php-format
+msgid "上传目录无法写入, 请手动将安装目录下的 %s 目录的权限设置为可写然后继续升级"
+msgstr ""
+"Yükleme dizinine yazım yapılamamaktadır. Lütfen güncellemeye başlamadan önce %s dizinine "
+"(kurulum dizininin altında) yazılabilir iznini veriniz."
+
+#, php-format
+msgid "上传目录无法创建, 请手动创建安装目录下的 %s 目录, 并将它的权限设置为可写然后继续升级"
+msgstr ""
+"Yükleme dizini oluşturulamamaktadır. Lütfen kurulum dizini altına %s dizinini kendiniz "
+"oluşturun ve güncellemeye başlamadan önce dosya iznini yazılabilir olarak ayarlayınız."
+
+msgid ""
+"建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"http://typecho.org/"
+"upgrade/9.7.2\">以下优化步骤</a>"
+msgstr ""
+"Typecho 0.7/9.7.2 + güncellemesi sonrası verimlilik açısından derhal <a href=\"http://"
+"typecho.org/upgrade/9.7.2\">bu adımları</a> takip etmenizi öneririz.."
+
+msgid "刚刚"
+msgstr "şimdi"
+
+#, php-format
+msgid "一秒前"
+msgid_plural "%d秒前"
+msgstr[0] "bir saniye önce"
+msgstr[1] "%d saniye önce"
+
+#, php-format
+msgid "一分钟前"
+msgid_plural "%d分钟前"
+msgstr[0] "bir dakika önce"
+msgstr[1] "%d dakika önce"
+
+#, php-format
+msgid "一小时前"
+msgid_plural "%d小时前"
+msgstr[0] "bir saat önce"
+msgstr[1] "%d saat önce"
+
+#, php-format
+msgid "昨天 %s"
+msgstr "dün %s"
+
+msgid "一天前"
+msgid_plural "%d天前"
+msgstr[0] "bir gün önce"
+msgstr[1] "%d gün önce"
+
+msgid "n月j日"
+msgstr "n - j"
+
+msgid "Y年m月d日"
+msgstr "a - g - Y"
+
+msgid "禁止访问"
+msgstr "Giriş engellendi."
+
+msgid "聚合页不存在"
+msgstr "Toplama sayfası mevcut değil."
+
+msgid "zh-CN"
+msgstr "tr-TR"
+
+msgid "请求的地址不存在"
+msgstr "İstenilen URL mevcut değil."
+
+msgid "分类不存在"
+msgstr "Bu kategori mevcut değil."
+
+msgid "标签不存在"
+msgstr "Bu etiket mevcut değil."
+
+msgid "作者不存在"
+msgstr "Bu yazar mevcut değil."
+
+#, php-format
+msgid "%d年%d月%d日"
+msgstr "%d - %d - %d"
+
+#, php-format
+msgid "%d年%d月"
+msgstr "%d - %d"
+
+#, php-format
+msgid "%d年"
+msgstr "%d"
+
+#, php-format
+msgid "%s 的评论"
+msgstr "%s yorumları"
+
+msgid "父级评论不存在"
+msgstr "Üst yorum mevcut değil."
+
+msgid "必须填写用户名"
+msgstr "Bir kullanıcı adı girmeniz zorunludur."
+
+msgid "请不要在用户名中使用特殊字符"
+msgstr "Lütfen kullanıcı adınızda özel karakterler kullanmayınız."
+
+msgid "您所使用的用户名已经被注册,请登录后再次提交"
+msgstr ""
+"Kullanıcı adınız daha önceden kullanılmaktadır. Lütfen giriş yapınız ve yeniden gönderiniz."
+
+msgid "用户名最多包含200个字符"
+msgstr "Bir kullanıcı adı maksimum 200 karaktere sahip olabilir."
+
+msgid "必须填写电子邮箱地址"
+msgstr "E-posta adresinizi girmeniz gerekmektedir."
+
+msgid "邮箱地址不合法"
+msgstr "E-posta adresi geçersizdir."
+
+msgid "电子邮箱最多包含200个字符"
+msgstr "E-posta adresi maksimum 200 karakter içerebilir."
+
+msgid "必须填写个人主页"
+msgstr "Site adresinizi girmeniz gerekmektedir."
+
+msgid "个人主页地址格式错误"
+msgstr "Hatalı anasayfa URL formatı"
+
+msgid "个人主页地址最多包含200个字符"
+msgstr "Site URL’niz maksimum 200 karakter içerebilir."
+
+msgid "必须填写评论内容"
+msgstr "Yorumunuza içerik girmeniz gerekmektedir."
+
+msgid "找不到内容"
+msgstr "İçerik bulunamadı."
+
+msgid "禁止重复提交"
+msgstr "Yeniden gönderime izin verilmemektedir."
+
+msgid "对不起,此内容的反馈被禁止."
+msgstr "Hata, bu içeriğin geri bildirimine izin verilmemektedir."
+
+msgid "评论来源页错误."
+msgstr "Yorumların kaynağı hatalı."
+
+msgid "对不起, 您的发言过于频繁, 请稍侯再次发布."
+msgstr "Hata, çok sık yorum yapıyorsunuz. Lütfen daha sonra tekrar göndermeyi deneyiniz."
+
+msgid "对不起,此内容的引用被禁止."
+msgstr "Üzgünüz, bu içeriğin atıfına izin verilmiyor."
+
+msgid "请输入用户名"
+msgstr "Kullanıcı adınızı giriniz."
+
+msgid "请输入密码"
+msgstr "Şifrenizi giriniz"
+
+msgid "用户名或密码无效"
+msgstr "Kullanıcı adı ya da parola hatalıdır."
+
+msgid "控制台"
+msgstr "Panel"
+
+msgid "管理"
+msgstr "Admin"
+
+#, php-format
+msgid "登录到%s"
+msgstr "%s olarak giriş yapılmış"
+
+#, php-format
+msgid "注册到%s"
+msgstr "%s 'de kayıt olmuş."
+
+msgid "概要"
+msgstr "Genel Bakış"
+
+msgid "网站概要"
+msgstr "Site Genel Bakışı"
+
+msgid "个人设置"
+msgstr "Seçenekler"
+
+msgid "插件"
+msgstr "Eklentiler"
+
+msgid "插件管理"
+msgstr "eklentileri yönet"
+
+msgid "外观"
+msgstr "Görünüm"
+
+msgid "网站外观"
+msgstr "Site görünümleri"
+
+msgid "升级"
+msgstr "Güncelleştir"
+
+msgid "升级程序"
+msgstr "Program’ı güncelleştir"
+
+msgid "欢迎"
+msgstr "Merhaba"
+
+msgid "撰写文章"
+msgstr "Gönderi yaz"
+
+msgid "创建页面"
+msgstr "Sayfa oluştur"
+
+msgid "创建新页面"
+msgstr "Yeni bir sayfa oluştur"
+
+msgid "文章"
+msgstr "Gönderiler"
+
+msgid "管理文章"
+msgstr "Gönderileri düzenle"
+
+msgid "独立页面"
+msgstr "Sayfalar"
+
+msgid "管理独立页面"
+msgstr "Sayfaları düzenle"
+
+msgid "评论"
+msgstr "Yorumlar"
+
+msgid "管理评论"
+msgstr "Yorumları düzenle."
+
+msgid "标签和分类"
+msgstr "Etiketler ve kategoriler."
+
+msgid "文件"
+msgstr "Dosyalar."
+
+msgid "管理文件"
+msgstr "Dosyaları düzenle."
+
+msgid "用户"
+msgstr "Kullanıcılar"
+
+msgid "管理用户"
+msgstr "Kullanıcıları düzenle"
+
+msgid "新增用户"
+msgstr "Kullanıcı ekle"
+
+msgid "基本"
+msgstr "Ana"
+
+msgid "基本设置"
+msgstr "Ana ayarlar."
+
+msgid "评论设置"
+msgstr "Yorum ayarları."
+
+msgid "阅读"
+msgstr "Oku"
+
+msgid "阅读设置"
+msgstr "Okuma ayarları."
+
+msgid "永久链接"
+msgstr "Permalink"
+
+msgid "永久链接设置"
+msgstr "Permalink ayarları"
+
+#, php-format
+msgid "插件%s的配置信息没有找到"
+msgstr "%s eklentisi için ayar bilgisi bulunamadı."
+
+msgid "必须填写用户名称"
+msgstr "Bir kullanıcı adı girmeniz gerekmektedir."
+
+msgid "用户名至少包含2个字符"
+msgstr "Kullanıcı adınız en az 2 karakterden oluşmalıdır."
+
+msgid "用户名最多包含32个字符"
+msgstr "Kullanıcı adınız en çok 32 karakterden oluşabilir."
+
+msgid "用户名已经存在"
+msgstr "Kullanıcı adınız daha önceden alınmış."
+
+msgid "必须填写电子邮箱"
+msgstr "E-posta adresi girmeniz gerekmektedir."
+
+msgid "电子邮箱地址已经存在"
+msgstr "E-posta adresi daha önceden mevcut."
+
+msgid "电子邮箱格式错误"
+msgstr "Geçersiz E-posta adresi"
+
+msgid "必须填写密码"
+msgstr "Bir parola girmeniz gerekmektedir."
+
+msgid "为了保证账户安全, 请输入至少六位的密码"
+msgstr "Güvenlik sebebiyle lütfen en az 6 karaktere sahip bir parola seçiniz."
+
+msgid "为了便于记忆, 密码长度请不要超过十八位"
+msgstr "Aklınızda kalabilmesi adına lütfen maksimum 18 karaktere sahip bir parola seçiniz."
+
+msgid "两次输入的密码不一致"
+msgstr "Parolalar uymamaktadır."
+
+#, php-format
+msgid "用户 <strong>%s</strong> 已经成功注册, 密码为 <strong>%s</strong>"
+msgstr ""
+"<strong>%s</strong> kullanıcısı başarıyla kayıt olmuştur. Parola: <strong>%s</strong>."
+
+msgid "升级已经完成"
+msgstr "Güncelleme tamamlandı."
+
+msgid "软件名称"
+msgstr "Yazılım adı"
+
+msgid "软件版本"
+msgstr "Yazılım sürümü"
+
+msgid "博客地址"
+msgstr "Blog URL"
+
+msgid "时区"
+msgstr "Zaman dilimi"
+
+msgid "博客标题"
+msgstr "Blog başlığı"
+
+msgid "博客关键字"
+msgstr "Blog anahtar kelimeleri"
+
+msgid "日期格式"
+msgstr "Gün formatı"
+
+msgid "时间格式"
+msgstr "Zaman formatı"
+
+msgid "是否允许注册"
+msgstr "Kayıt olmaya izin verilsin mi"
+
+msgid "权限不足"
+msgstr "İzinler çok düşük."
+
+msgid "无法登录, 密码错误"
+msgstr "Giriş yapılamamakta. Hatalı parola."
+
+msgid "已发布"
+msgstr "Yayımlanmış"
+
+msgid "显示"
+msgstr "Göster"
+
+msgid "评论不存在"
+msgstr "Yorumlar mevcut değil."
+
+msgid "没有获取评论的权限"
+msgstr "Yorumları görüntülemek için yeterli izne sahip değilsiniz."
+
+msgid "无法编辑此评论"
+msgstr "Bu yorumu düzenleyemezsiniz."
+
+msgid "这个目标地址不存在"
+msgstr "Hedef URL mevcut değil."
+
+msgid "未命名文档"
+msgstr "Adlandırılmamış döküman"
+
+msgid "上传失败"
+msgstr "Yükleme başarısız."
+
+msgid "源地址服务器错误"
+msgstr "Kaynak sunucu hatalı."
+
+msgid "源地址不支持PingBack"
+msgstr "Kaynak sunucu PingBack’i desteklemiyor."
+
+msgid "源地址中不包括目标地址"
+msgstr "Kaynak URL hedef URL’sini içermiyor."
+
+msgid "PingBack已经存在"
+msgstr "PingBack zaten mevcut."
+
+msgid "目标地址禁止Ping"
+msgstr "Hedef URL Ping’i engelliyor."
+
+msgid "内容被隐藏"
+msgstr "İçerik gizlidir."
+
+msgid "对不起,您输入的密码错误"
+msgstr "Girmiş olduğunuz parola hatalıdır."
+
+msgid "请输入密码访问"
+msgstr "Ulaşmak adına lütfen parolanızı giriniz:"
+
+msgid "此内ucceed to delete the c容被密码保护"
+msgstr "İçerik parola ile korunmaktadır."
+
+#, php-format
+msgid "%s的评论"
+msgstr "%s Yorumu"
+
+msgid "内容不存在"
+msgstr "İçerik mevcut değil."
+
+msgid "&laquo;"
+msgstr "&laquo;"
+
+msgid "&raquo;"
+msgstr "&raquo;"
+
+msgid "您的评论正等待审核！"
+msgstr "Yorumunuz onaylanmayı beklemektedir."
+
+msgid "取消回复"
+msgstr "Yorumu iptal et"
+
+msgid "评论已经被标记为待审核"
+msgstr "Yorumunuz değerlendirme altında olarak işaretlenmiştir."
+
+msgid "没有评论被标记为待审核"
+msgstr "Değerlendirmek için yorum bulunmamaktadır."
+
+msgid "评论已经被标记为垃圾"
+msgstr "Bu yorum spam olarak işaretlenmiştir."
+
+msgid "没有评论被标记为垃圾"
+msgstr "Spam olarak işaretlenen bir yorum bulunmamaktadır."
+
+msgid "评论已经被通过"
+msgstr "Bu yorum yayınlanmıştır."
+
+msgid "没有评论被通过"
+msgstr "Yayınlanacak yorum bulunamamaktadır."
+
+msgid "删除评论成功"
+msgstr "Yorum."
+
+msgid "删除评论失败"
+msgstr "yorumu silimek başarısız."
+
+msgid "评论已经被删除"
+msgstr "Yorumlar silinmiştir."
+
+msgid "没有评论被删除"
+msgstr "Silinecek yorum bulunamamıştır."
+
+msgid "所有垃圾评论已经被删除"
+msgstr "Tüm spamlar silinmiştir."
+
+msgid "没有垃圾评论被删除"
+msgstr "Silenecek spam bulunamamıştır."
+
+msgid "获取评论失败"
+msgstr "Yorumları getirmekte başarısız olunmuştur."
+
+msgid "修评论失败"
+msgstr "Yorumları düzenlemekte başarısız olunmuştur."
+
+msgid "回复评论失败"
+msgstr "Yoruma cevap atmakta başarısız olunmuştur."
+
+msgid "文件不存在"
+msgstr "Dosya mevcut değil."
+
+msgid "没有编辑权限"
+msgstr "Düzenlemeye izin verilmemektedir."
+
+msgid "标题 *"
+msgstr "Başlık *"
+
+msgid "文件缩略名用于创建友好的链接形式,建议使用字母,数字,下划线和横杠."
+msgstr ""
+"Dosya kısaltmaları kullanıcı dostu URL’ler oluşturmak için kullanılmaktadır. Alfanümerik, "
+"alt çizgi ve tire kullanabilirsiniz."
+
+msgid "此文字用于描述文件,在有的主题中它会被显示."
+msgstr "Bu yazı dosyaları tanıtmak için kullanılmaktadır. Bazı temalarda gösterilebilir."
+
+msgid "提交修改"
+msgstr "Düzenlemeyi gönder."
+
+#, php-format
+msgid "你确认删除文件 %s 吗?"
+msgstr "%s dosyasını sil?"
+
+msgid "删除文件"
+msgstr "Dosyayı sil."
+
+msgid "必须填写文件标题"
+msgstr "Dosya için bir isim girmeniz gerekmektedir."
+
+msgid "文件标题无法被转换为缩略名"
+msgstr "Bu dosya adı bir kısaltmaya çevrilememektedir."
+
+msgid "缩略名已经存在"
+msgstr "Kısaltma daha önceden mevcut."
+
+#, php-format
+msgid "文件 <a href=\"%s\">%s</a> 已经被更新"
+msgstr "<a href=\"%s\">%s</a> dosyası güncellendi."
+
+#, php-format
+msgid "未归档文件 %s 已经被更新"
+msgstr "Dışa çıkarılan %s dosyası güncellendi."
+
+msgid "文件已经被删除"
+msgstr "Dosya silindi."
+
+msgid "没有文件被删除"
+msgstr "Silinecek dosya yok."
+
+msgid "未命名页面"
+msgstr "İsimsiz sayfa."
+
+#, php-format
+msgid "页面 \"<a href=\"%s\">%s</a>\" 已经发布"
+msgstr "\"<a href=\"%s\">%s</a>\" sayfası paylaşıldı."
+
+#, php-format
+msgid "草稿 \"%s\" 已经被保存"
+msgstr "\"%s\" taslağı kaydedildi."
+
+msgid "页面已经被删除"
+msgstr "Sayfalar silindi."
+
+msgid "没有页面被删除"
+msgstr "Silinecek sayfalar bulunamadı."
+
+msgid "草稿已经被删除"
+msgstr "Taslaklar silindi."
+
+msgid "没有草稿被删除"
+msgstr "Silinecek taslak bulunamadı."
+
+msgid "页面排序已经完成"
+msgstr "Sayfa sıralandı."
+
+#, php-format
+msgid "%s的文章"
+msgstr "%s tarafından gönderilen gönderiler."
+
+msgid "用户不存在"
+msgstr "Bu kullanıcı mevcut değil."
+
+msgid "文章不存在"
+msgstr "Bu gönderi mevcut değil."
+
+#, php-format
+msgid "编辑 %s"
+msgstr "%s düzenle"
+
+#, php-format
+msgid "文章 \"<a href=\"%s\">%s</a>\" 已经发布"
+msgstr "\"<a href=\"%s\">%s</a>\" gönderisi paylaşıldı."
+
+#, php-format
+msgid "文章 \"%s\" 等待审核"
+msgstr "\"%s\" gönderisi onaylanma sürecindedir."
+
+msgid "文章已经被删除"
+msgstr "Gönderi silindi."
+
+msgid "没有文章被删除"
+msgstr "Silinecek gönderi yok."
+
+msgid "分类名称 *"
+msgstr "Kategori ismi*"
+
+msgid "分类缩略名"
+msgstr "Kategori kısaltmaları"
+
+msgid "分类缩略名用于创建友好的链接形式,建议使用字母,数字,下划线和横杠."
+msgstr ""
+"Kategori kısaltmaları kullanıcı dostu adresler oluşturmak için kullanılabilir. Rakamlar, "
+"harfler, alt çizgi ve tire kullanabilirsiniz."
+
+msgid "分类描述"
+msgstr "Kategori tanıtımı."
+
+msgid "此文字用于描述分类,在有的主题中它会被显示."
+msgstr "Bu yazı kategoriyi anlatmak için vardır, bazı temalarda gösterilecektir."
+
+msgid "编辑分类"
+msgstr "Kategoriyi düzenle."
+
+msgid "增加分类"
+msgstr "Yeni bir kategori ekle."
+
+msgid "必须填写分类名称"
+msgstr "Kategori için bir isim girmelisiniz."
+
+msgid "分类名称已经存在"
+msgstr "Kategori önceden mevcut."
+
+msgid "分类名称无法被转换为缩略名"
+msgstr "Bu kategori adı kısaltmaya dönüştürülememektedir."
+
+msgid "分类主键不存在"
+msgstr "Kategori anahtarı mevcut değil."
+
+#, php-format
+msgid "分类 <a href=\"%s\">%s</a> 已经被增加"
+msgstr "<a href=\"%s\">%s</a> kategorisi eklendi."
+
+#, php-format
+msgid "分类 <a href=\"%s\">%s</a> 已经被更新"
+msgstr "<a href=\"%s\">%s</a> kategorisi güncellendi."
+
+msgid "分类已经删除"
+msgstr "Kategori silindi."
+
+msgid "没有分类被删除"
+msgstr "Silinecek kategori yok."
+
+msgid "请选择需要合并的分类"
+msgstr "Lütfen birleştirilecek kategorileri seçiniz."
+
+msgid "分类已经合并"
+msgstr "Kategoriler birleştirildi."
+
+msgid "没有选择任何分类"
+msgstr "Hiçbir kategori seçilmedi."
+
+msgid "分类排序已经完成"
+msgstr "Kategoriler sıralandı."
+
+msgid "分类刷新已经完成"
+msgstr "Kategoriler güncellendi."
+
+#, php-format
+msgid "<a href=\"%s\">%s</a> 已经被设为默认分类"
+msgstr "<a href=\"%s\">%s</a> varsayılan kategoriye gönderildi."
+
+msgid "标签名称 *"
+msgstr "Etiket adı *"
+
+msgid "这是标签在站点中显示的名称.可以使用中文,如 \"地球\"."
+msgstr "Bu websitenizde gösterilecek olan etiket adıdır."
+
+msgid "标签缩略名"
+msgstr "Etiket kısaltmaları"
+
+msgid "标签缩略名用于创建友好的链接形式, 如果留空则默认使用标签名称."
+msgstr ""
+"Kısaltmalar kullanıcı dostu URL’ler oluşturmak için kullanılır. Boş bırakırsanız etiket adı "
+"varsayılan olarak kullanılacaktır."
+
+msgid "编辑标签"
+msgstr "Etiketleri düzenle."
+
+msgid "增加标签"
+msgstr "Yeni bir etiket ekle."
+
+msgid "必须填写标签名称"
+msgstr "Etiketiniz için bir isim girmelisiniz."
+
+msgid "标签名称已经存在"
+msgstr "Etiket önceden mevcut."
+
+msgid "标签名称无法被转换为缩略名"
+msgstr "Bu etiket adı kısaltmalara dönüştürülememektedir."
+
+msgid "标签主键不存在"
+msgstr "Etiket anahtarı mevcut değil."
+
+#, php-format
+msgid "标签 <a href=\"%s\">%s</a> 已经被增加"
+msgstr "<a href=\"%s\">%s</a> etiketi eklendi."
+
+#, php-format
+msgid "标签 <a href=\"%s\">%s</a> 已经被更新"
+msgstr "<a href=\"%s\">%s</a> etiketi güncellendi."
+
+msgid "标签已经删除"
+msgstr "Etiket silindi."
+
+msgid "没有标签被删除"
+msgstr "Silinecek etiket bulunamadı."
+
+msgid "请填写需要合并到的标签"
+msgstr "Birleştirilmesini istediğiniz etiketleri seçiniz."
+
+msgid "合并到的标签名不合法"
+msgstr "Birleştirilecek etiketlerin ismi geçersiz."
+
+msgid "标签已经合并"
+msgstr "Etiketler birleştirilmiştir."
+
+msgid "没有选择任何标签"
+msgstr "Hiçbir etiket seçilmedi."
+
+msgid "标签刷新已经完成"
+msgstr "Etiketler güncellendi."
+
+msgid "评论日期格式"
+msgstr "Yorum gün formatı"
+
+msgid ""
+"这是一个默认的格式,当你在模板中调用显示评论日期方法时, 如果没有指定日期格式, 将按照此格式输"
+"出."
+msgstr ""
+"Bu varsayılan formattır. Yorum tarihini göster methodunu temanızda kullandığınızda bu "
+"format ayrı bir gün formatı belirtmediğiniz takdirde çağrılacaktır."
+
+msgid ""
+"具体写法请参考 <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP 日期格式写法</"
+"a>."
+msgstr ""
+"Lütfen PHP gün formatı hakkında daha fazla bilgi için <a href=\"http://www.php.net/manual/"
+"zh/function.date.php\">bu dökümanı</a> inceleyiniz."
+
+msgid "评论列表数目"
+msgstr "Yorum listesi uzunluğu"
+
+msgid "此数目用于指定显示在侧边栏中的评论列表数目."
+msgstr ""
+"Bu sayı kenar çubuğunda yer alan yorum listesinde kaç adet yorumun gösterileceğini belirler."
+
+msgid "请填入一个数字"
+msgstr "Lütfen bir sayı giriniz"
+
+msgid "仅显示评论, 不显示 Pingback 和 Trackback"
+msgstr "Pingback ve Trackback olmadan yorumları göster"
+
+msgid "在评论中使用Markdown语法"
+msgstr "Yorumlarda markdown sözdizimine izin ver."
+
+msgid "评论者名称显示时自动加上其个人主页链接"
+msgstr "Yorumlayıcıları otomatik olarak onların kişisel anasayfa URL’sine yönlendir."
+
+msgid ""
+"对评论者个人主页链接使用 <a href=\"http://en.wikipedia.org/wiki/Nofollow\">nofollow 属性</a>"
+msgstr ""
+"Yorumlayıcıların ana sayfasına yönlendirmek için <a href=\"http://en.wikipedia.org/wiki/"
+"Nofollow\">Nofollow niteliğini</a> kullan."
+
+#, php-format
+msgid "启用 <a href=\"http://gravatar.com\">Gravatar</a> 头像服务, 最高显示评级为 %s 的头像"
+msgstr ""
+"<a href=\"http://gravatar.com\">Gravatar</a>’ı avatar servisi olarak aktif et. %s "
+"düzeyinden fazla oy alan avatarları göster."
+
+msgid "第一页"
+msgstr "İlk"
+
+msgid "最后一页"
+msgstr "Son"
+
+#, php-format
+msgid "启用分页, 并且每页显示 %s 篇评论, 在列出时将 %s 作为默认显示"
+msgstr ""
+"Yorumlar için sayfaları aktif et, sayfa başına %s yorum göster ve varsayılan tasarım olarak "
+"%s kullan."
+
+#, php-format
+msgid "启用评论回复, 以 %s 层作为每个评论最多的回复层数"
+msgstr "Yorumlara cevap vermeyi etkinleştir. %s sayıda yorum derinliğine izin ver."
+
+msgid "较新的"
+msgstr "Daha Yeni"
+
+msgid "较旧的"
+msgstr "Daha Eski"
+
+#, php-format
+msgid "将 %s 的评论显示在前面"
+msgstr "İlk olarak %s yorumu göster."
+
+msgid "评论显示"
+msgstr "Yorumları gösteriliyor."
+
+msgid "所有评论必须经过审核"
+msgstr "Tüm yorumlar yayınlanmadan önce onaylanmalıdır."
+
+msgid "评论者之前须有评论通过了审核"
+msgstr "Yorumlayıcılar daha önceki onaylı yorumlarda bir onaya sahip olmalıdırlar."
+
+msgid "必须填写邮箱"
+msgstr "Bir E-posta adresi girmelisiniz."
+
+msgid "必须填写网址"
+msgstr "Bir site URL’si girmelisiniz."
+
+msgid "检查评论来源页 URL 是否与文章链接一致"
+msgstr "Yorumun kaynak URL’sinin gönderi adresine uyup uymadığını kontrol ediniz."
+
+#, php-format
+msgid "在文章发布 %s 天以后自动关闭评论"
+msgstr "Yorumları yayınlandıktan %s gün sonra otomatik olarak kapat."
+
+#, php-format
+msgid "同一 IP 发布评论的时间间隔限制为 %s 分钟"
+msgstr "IP başına %s dakikada bir yorum yapılabilir."
+
+msgid "评论提交"
+msgstr "Yorumu gönder."
+
+msgid "允许使用的HTML标签和属性"
+msgstr "İzin verilen HTML etiketleri"
+
+msgid "默认的用户评论不允许填写任何的HTML标签, 你可以在这里填写允许使用的HTML标签."
+msgstr ""
+"Varsayılan olarak kullanıcılar yorumlarda HTML etiketlerini kullanamazlar. İzin verilen "
+"HTML etiketlerini buraya yazabilirsiniz:"
+
+#, php-format
+msgid "比如: %s"
+msgstr "Örnek: %s"
+
+msgid "保存设置"
+msgstr "Ayarları kaydet"
+
+msgid "设置已经保存"
+msgstr "Ayarlarınız kaydedilmiştir."
+
+msgid "站点名称"
+msgstr "Site adı"
+
+msgid "站点的名称将显示在网页的标题处."
+msgstr "Site adı web sayfanızın başlığında görüntülenecektir."
+
+msgid "站点描述"
+msgstr "Site tanıtımı"
+
+msgid "站点描述将显示在网页代码的头部."
+msgstr "Site tanıtımı web sayfanızın tepesinde görüntülenecektir."
+
+msgid "关键词"
+msgstr "Anahtar kelimeler"
+
+msgid "请以半角逗号 \",\" 分割多个关键字."
+msgstr "Lütfen birden fazla anahtar kelimeyi virgül \",\" kullanarak ayırınız."
+
+msgid "不允许"
+msgstr "Yasakla"
+
+msgid "允许"
+msgstr "İzin ver"
+
+msgid "允许访问者注册到你的网站, 默认的注册用户不享有任何写入权限."
+msgstr ""
+"Kullanıcıların sitenize kayıt olmasına izin veriniz. Varsayılan olarak kayıtlı kullanıcılar "
+"gönderi oluşturamaz."
+
+msgid "格林威治(子午线)标准时间 (GMT)"
+msgstr "Greenwich Mean Time （GMT）"
+
+msgid "中欧标准时间 阿姆斯特丹,荷兰,法国 (GMT +1)"
+msgstr "Central European Time, West African Time  (GMT +1)"
+
+msgid "东欧标准时间 布加勒斯特,塞浦路斯,希腊 (GMT +2)"
+msgstr "Eastern European Time, Central African Time (GMT +2)"
+
+msgid "莫斯科时间 伊拉克,埃塞俄比亚,马达加斯加 (GMT +3)"
+msgstr "Moscow Standard Time, Eastern African Time (GMT +3)"
+
+msgid "第比利斯时间 阿曼,毛里塔尼亚,留尼汪岛 (GMT +4)"
+msgstr "Gulf Standard Time, Samara Standard Time (GMT +4)"
+
+msgid "新德里时间 巴基斯坦,马尔代夫 (GMT +5)"
+msgstr "Pakistan Standard Time, Yekaterinburg Standard Time (GMT +5)"
+
+msgid "科伦坡时间 孟加拉 (GMT +6)"
+msgstr " Bangladesh Time, Bhutan Time, Novosibirsk Standard Time (GMT +6)"
+
+msgid "曼谷雅加达 柬埔寨,苏门答腊,老挝 (GMT +7)"
+msgstr "Indochina Time, Krasnoyarsk Standard Time (GMT +7)"
+
+msgid "北京时间 香港,新加坡,越南 (GMT +8)"
+msgstr ""
+"Chinese Standard Time, Australian Western Standard Time, Irkutsk Standard Time (GMT +8)"
+
+msgid "东京平壤时间 西伊里安,摩鹿加群岛 (GMT +9)"
+msgstr "Japan Standard Time, Korea Standard Time, Chita Standard Time  (GMT +9)"
+
+msgid "悉尼关岛时间 塔斯马尼亚岛,新几内亚 (GMT +10)"
+msgstr "Australian Eastern Standard Time, Vladivostok Standard Time (GMT +10)"
+
+msgid "所罗门群岛 库页岛 (GMT +11)"
+msgstr "Solomon Island Time, Magadan Standard Time (GMT +11)"
+
+msgid "惠灵顿时间 新西兰,斐济群岛 (GMT +12)"
+msgstr "New Zealand Time, Fiji Time, Kamchatka Standard Time (GMT +12)"
+
+msgid "佛德尔群岛 亚速尔群岛,葡属几内亚 (GMT -1)"
+msgstr "Azores Standard Time, Cape Verde Time, Eastern Greenland Time (GMT -1)"
+
+msgid "大西洋中部时间 格陵兰 (GMT -2)"
+msgstr ""
+"Fernando de Noronha Time, South Georgia &amp; the South Sandwich Islands Time (GMT -2)"
+
+msgid "布宜诺斯艾利斯 乌拉圭,法属圭亚那 (GMT -3)"
+msgstr "Amazon Standard Time, Central Greenland Time  (GMT -3)"
+
+msgid "智利巴西 委内瑞拉,玻利维亚 (GMT -4)"
+msgstr "Atlantic Standard Time (GMT -4)"
+
+msgid "纽约渥太华 古巴,哥伦比亚,牙买加 (GMT -5)"
+msgstr "Eastern Standard Time (GMT -5)"
+
+msgid "墨西哥城时间 洪都拉斯,危地马拉,哥斯达黎加 (GMT -6)"
+msgstr "Central Standard Time (GMT -6)"
+
+msgid "美国丹佛时间 (GMT -7)"
+msgstr "Mountain Standard Time (GMT -7)"
+
+msgid "美国旧金山时间 (GMT -8)"
+msgstr "Pacific Standard Time (GMT -8)"
+
+msgid "阿拉斯加时间 (GMT -9)"
+msgstr "Alaska Standard Time, Gambier Island Time (GMT -9)"
+
+msgid "夏威夷群岛 (GMT -10)"
+msgstr "Hawaii-Aleutian Standard Time, Cook Island Time  (GMT -10)"
+
+msgid "东萨摩亚群岛 (GMT -11)"
+msgstr "Niue Time, Samoa Standard Time (GMT -11)"
+
+msgid "艾尼威托克岛 (GMT -12)"
+msgstr "Baker Island Time  (GMT -12)"
+
+msgid "图片文件"
+msgstr "Resim dosyaları"
+
+msgid "多媒体文件"
+msgstr "Medya dosyaları"
+
+msgid "常用档案文件"
+msgstr "Bilindik arşiv dosyaları"
+
+#, php-format
+msgid "其他格式 %s"
+msgstr "Diğer format %s"
+
+msgid "允许上传的文件类型"
+msgstr "Yüklemeye izin verilen dosya türleri."
+
+#, php-format
+msgid "用逗号 \",\" 将后缀名隔开, 例如: %s"
+msgstr "Dosya uzantılarını virgül “,”, kullanarak ayırın Örnek: %s"
+
+msgid "不启用"
+msgstr "Devre dışı bırak."
+
+msgid "是否使用地址重写功能"
+msgstr "URL yeniden yazmayı aktif et ya da kapat."
+
+msgid "地址重写即 rewrite 功能是某些服务器软件提供的优化内部连接的功能."
+msgstr ""
+"URL yeniden yazım fonksiyonu iç bağlantıları optimize etmek adına bazı sunucular tarafından "
+"sunulmaktadır."
+
+msgid "打开此功能可以让你的链接看上去完全是静态地址."
+msgstr ""
+"Bu fonksiyonu aktif ederek linklerinizin statik dizinler olarak görünmesini "
+"sağlayabilirsiniz."
+
+msgid "重写功能检测失败, 请检查你的服务器设置"
+msgstr "Yeniden yazma fonksiyonu saptanamadı, lütfen sunucu ayarlarınızı gözden geçiriniz."
+
+msgid ""
+"我们检测到你使用了apache服务器, 但是程序无法在根目录创建.htaccess文件, 这可能是产生这个错误"
+"的原因."
+msgstr ""
+"Apache kullandığınızı tespit ettik; ancak typecho ana dizin altında .htaccess dosyası "
+"oluşturamamaktadır. Bu durum bu hatanın sebebi olabilir."
+
+msgid "请调整你的目录权限, 或者手动创建一个.htaccess文件."
+msgstr ""
+"Lütfen dosya izinlerinizi ayarlayın, ya da manuel olarak bir .htaccess dosyası oluşturun."
+
+#, php-format
+msgid "如果你仍然想启用此功能, <a href=\"%s\">请点击这里</a>"
+msgstr ""
+"Bu fonksiyonu yine de aktif etmek istiyorsanız <a href=\"%s\">lütfen buraya tıklayın</a>."
+
+msgid "默认风格"
+msgstr "Varsayılan Tasarım"
+
+msgid "wordpress风格"
+msgstr "wordpress tasarımı"
+
+msgid "按日期归档"
+msgstr "Zaman göre arşivlenmiş"
+
+msgid "按分类归档"
+msgstr "Kategoriye göre arşivlenmiş"
+
+msgid "个性化定义"
+msgstr "Kişiselleştirme."
+
+msgid "自定义文章路径"
+msgstr "Gönderi yolunu kişiselleştir."
+
+msgid ""
+"可用参数: <code>{cid}</code> 日志 ID, <code>{slug}</code> 日志缩略名, <code>{category}</"
+"code> 分类, <code>{year}</code> 年, <code>{month}</code> 月, <code>{day}</code> 日"
+msgstr ""
+"Kullanılabilir parametreler: <code>{cid}</code> post ID, <code>{slug}</code> "
+"<code>{category}</code> , <code>{year}</code> , <code>{month}</code> , <code>{day}</code> "
+
+msgid "选择一种合适的文章静态路径风格, 使得你的网站链接更加友好."
+msgstr ""
+"Daha kullanıcı dostu olması için sitenizdeki bağlantılarda statik bir dizin tasarımı "
+"kullanın."
+
+msgid "一旦你选择了某种链接风格请不要轻易修改它."
+msgstr "Bir tasarım seçildikten sonra düzenleme yapmayınız."
+
+msgid "独立页面路径"
+msgstr "Sayfa dizini"
+
+msgid "可用参数: <code>{cid}</code> 页面 ID、<code>{slug}</code> 页面缩略名"
+msgstr "Kullanılabilir parametreler: <code>{cid}</code> page ID、<code>{slug}</code>."
+
+msgid "请在路径中至少包含上述的一项参数."
+msgstr "Lütfen dizinde en az bir parametre belirleyiniz."
+
+msgid "独立页面路径中没有包含 {cid} 或者 {slug} "
+msgstr "{cid} ya da {slug} sayfa yolunda bulunamadı."
+
+msgid "分类路径"
+msgstr "Kategori dizini"
+
+msgid "可用参数: <code>{mid}</code> 分类 ID、<code>{slug}</code> 分类缩略名"
+msgstr "Kullanılabilir parametreler: <code>{mid}</code> category ID、<code>{slug}</code>."
+
+msgid "分类路径中没有包含 {mid} 或者 {slug} "
+msgstr "{mid} ya da {slug} kategori yolunda bulunamadı."
+
+msgid "自定义链接与现有规则存在冲突! 它可能影响解析效率, 建议你重新分配一个规则."
+msgstr ""
+"Özelleştirilmiş URL mevcut kuralla çakışıyor. Bu durum ayrıştırma etkinliğini "
+"etkileyebilir. Yeni bir kural belirlemenizi öneririz."
+
+msgid "文章日期格式"
+msgstr "Gönderi gün formatı"
+
+msgid "此格式用于指定显示在文章归档中的日期默认显示格式."
+msgstr ""
+"Bu format arşivlerdeki varsayılan gün gösterim formatını belirlemek için kullanılabilir."
+
+msgid "在某些主题中这个格式可能不会生效, 因为主题作者可以自定义日期格式."
+msgstr ""
+"In some themes, this format may not have effects, since theme authors can use customized "
+"date formats. "
+
+msgid ""
+"请参考 <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP 日期格式写法</a>."
+msgstr ""
+"PHP gün formatı hakkında bilgi almak için lütfen <a href=\"http://www.php.net/manual/zh/"
+"function.date.php\">bu makaleyi</a> inceleyiniz."
+
+msgid "显示最新发布的文章"
+msgstr "Display recent posts."
+
+#, php-format
+msgid "同时将文章列表页路径更改为 %s"
+msgstr "Gönderilerin listelendiği sayfanın adresini %s olarak değiştir."
+
+#, php-format
+msgid "使用 %s 页面作为首页"
+msgstr "Use %s as the front page."
+
+#, php-format
+msgid "直接调用 %s 模板文件"
+msgstr "Use %s template files."
+
+msgid "站点首页"
+msgstr "Front page of site."
+
+msgid "文章列表数目"
+msgstr "Length of post list."
+
+msgid "此数目用于指定显示在侧边栏中的文章列表数目."
+msgstr ""
+"Bu sayı kenar çubuğundaki gönderi listesinde kaç adet gönderi gösterileceğini belirler."
+
+msgid "每页文章数目"
+msgstr "number of posts per page."
+
+msgid "此数目用于指定文章归档输出时每页显示的文章数目."
+msgstr "Bu sayı her sayfada kaç adet gönderi gösterileceğini belirler."
+
+msgid "仅输出摘要"
+msgstr "Only abstracts."
+
+msgid "全文输出"
+msgstr "Full text."
+
+msgid "聚合全文输出"
+msgstr "Toplanmış tam metin"
+
+msgid "如果你不希望在聚合中输出文章全文,请使用仅输出摘要选项."
+msgstr ""
+"Toplamalarda tüm metinlerin gözükmesini istemiyorsanız lütfen “Sadece Özetler”i seçiniz."
+
+msgid "摘要的文字取决于你在文章中使用分隔符的位置."
+msgstr "Özetler gönderide kullanılan ayırıcı etiketlere bağlıdır."
+
+msgid "插件不存在"
+msgstr "Plugin does not exist."
+
+#, php-format
+msgid "设置插件 %s"
+msgstr "%s eklentisini yükle"
+
+msgid "无法配置插件"
+msgstr "Cannot configure plugin."
+
+msgid "无法启用插件"
+msgstr "Cannot enable plugins."
+
+#, php-format
+msgid "<a href=\"%s\">%s</a> 无法在此版本的typecho下正常工作"
+msgstr "<a href=\"%s\">%s</a> cannot work under this version of typecho."
+
+msgid "插件已经被启用"
+msgstr "Plugin enabled."
+
+msgid "插件已经被禁用"
+msgstr "Plugin disabled."
+
+msgid "插件设置已经保存"
+msgstr "Plugin settings saved."
+
+msgid "外观配置功能不存在"
+msgstr "Appearance configuration does not exist."
+
+#, php-format
+msgid "设置外观 %s"
+msgstr "%s görselini düzenle"
+
+msgid "外观已经改变"
+msgstr "Appearance changed."
+
+msgid "您选择的风格不存在"
+msgstr "The chosen style does not exist."
+
+#, php-format
+msgid "文件 %s 的更改已经保存"
+msgstr "File %s saved."
+
+#, php-format
+msgid "文件 %s 无法被写入"
+msgstr "Cannot write file %s."
+
+msgid "您编辑的文件不存在"
+msgstr "The file you are editing does not exist."
+
+msgid "外观设置已经保存"
+msgstr "Appearance settings saved."
+
+#, php-format
+msgid "编辑文件 %s"
+msgstr "%s dosyasını düzenle"
+
+#, php-format
+msgid "编辑用户 %s"
+msgstr "%s Düzenle"
+
+msgid "用户名 *"
+msgstr "Kullanıcı Adı *"
+
+msgid "此用户名将作为用户登录时所用的名称."
+msgstr "Bu kullanıcı adı giriş yaparken kullanılacaktır."
+
+msgid "请不要与系统中现有的用户名重复."
+msgstr "Lütfen daha önce varolan bir kullanıcı adı kullanmayınız."
+
+msgid "电子邮箱地址 *"
+msgstr "E-posta Adresiniz *"
+
+msgid "电子邮箱地址将作为此用户的主要联系方式."
+msgstr "E-posta sizinle iletişime geçilmek için kullanılacaktır."
+
+msgid "请不要与系统中现有的电子邮箱地址重复."
+msgstr "Lütfen önceden var olan bir e-posta adresi kullanmayınız."
+
+msgid "用户昵称"
+msgstr "Rumuz"
+
+msgid "用户昵称可以与用户名不同, 用于前台显示."
+msgstr ""
+"Rumuzunuz kullanıcı adınızdan farklı olabilir. Rumuzunuz sitede herkesin göreceği "
+"isminizdir."
+
+msgid "如果你将此项留空, 将默认使用用户名."
+msgstr ""
+"Burayı boş bırakırsanız, typecho varsayılan olarak sizin kullanıcı adınızı kullanacaktır."
+
+msgid "用户密码"
+msgstr "User password."
+
+msgid "为此用户分配一个密码."
+msgstr "Bu kullanıcıya bir şifre ver."
+
+msgid "建议使用特殊字符与字母、数字的混编样式,以增加系统安全性."
+msgstr ""
+"Güvenlik nedeniyle özel karakterler, rakamlar ve yazıları bir arada kullanacağınız bir "
+"parola kullanmanızı öneririz."
+
+msgid "用户密码确认"
+msgstr "Confirm your password."
+
+msgid "请确认你的密码, 与上面输入的密码保持一致."
+msgstr ""
+"Lütfen parolanızı doğrulayın. Yukarıda girdiğiniz parola ile aynı olması gerekmektedir."
+
+msgid "个人主页地址"
+msgstr "Ana Sayfa"
+
+msgid "此用户的个人主页地址, 请用 <code>http://</code> 开头."
+msgstr "Kullanıcının ana sayfası, <code>http://</code> ile başlayarak."
+
+msgid "不同的用户组拥有不同的权限."
+msgstr "Farklı kullanıcı grupları farklı izinlere sahiptir."
+
+msgid "具体的权限分配表请<a href=\"http://docs.typecho.org/develop/acl\">参考这里</a>."
+msgstr ""
+"İzinler hakkında detaylar için lütfen <a href=\"http://docs.typecho.org/develop/acl\">bunu</"
+"a> inceleyiniz."
+
+msgid "编辑用户"
+msgstr "Kullanıcı Düzenle"
+
+msgid "增加用户"
+msgstr "Kullanıcı Ekle"
+
+msgid "昵称已经存在"
+msgstr "Nickname already exists."
+
+msgid "用户密码 *"
+msgstr "Parola *"
+
+msgid "用户密码确认 *"
+msgstr "Parolayı onayla *"
+
+msgid "用户主键不存在"
+msgstr "User key does not exist."
+
+#, php-format
+msgid "用户 %s 已经被增加"
+msgstr "User %s added."
+
+#, php-format
+msgid "用户 %s 已经被更新"
+msgstr "User %s updated."
+
+msgid "用户已经删除"
+msgstr "User deleted."
+
+msgid "没有用户被删除"
+msgstr "No user to delete."
+
+msgid "更新我的档案"
+msgstr "Update my profile."
+
+msgid "关闭"
+msgstr "Kapat."
+
+msgid "打开"
+msgstr "Aç"
+
+msgid "使用 Markdown 语法编辑和解析内容"
+msgstr "İçeriğinizi Markdown sözdiziminde düzenleyin ve ayrıştırın."
+
+msgid ""
+"使用 <a href=\"http://daringfireball.net/projects/markdown/\">Markdown</a> 语法能够使您的撰"
+"写过程更加简便直观."
+msgstr ""
+"<a href=\"http://daringfireball.net/projects/markdown/\">Markdown</a>’u kullanarak daha "
+"pratik ve kolay bir yazım deneyimine sahip olun."
+
+msgid "此功能开启不会影响以前没有使用 Markdown 语法编辑的内容."
+msgstr ""
+"Bu işlevi etkinleştirmek, önceden Markdown sözdizimi olmadan düzenlenmiş içerikleri "
+"etkilemez."
+
+msgid "自动保存"
+msgstr "Otomatik kaydet."
+
+msgid "自动保存功能可以更好地保护你的文章不会丢失."
+msgstr "Otomatik kaydetme gönderilerinizi kazalardan koruyabilir."
+
+msgid "可以被评论"
+msgstr "Yorum Yapılabilir"
+
+msgid "可以被引用"
+msgstr "Atıf Yapılabilir"
+
+msgid "出现在聚合中"
+msgstr "Toplamada gösteriliyor."
+
+msgid "默认允许"
+msgstr "Varsayılan olarak izin ver."
+
+msgid "设置你经常使用的默认允许权限"
+msgstr "Düzenli kullandığınız izinleri varsayılan olarak ayarlayın."
+
+msgid "更新密码"
+msgstr "Parolayı güncelle."
+
+msgid "您的档案已经更新"
+msgstr "Profiliniz güncellendi."
+
+msgid "密码已经成功修改"
+msgstr "Parola başarıyla değiştirildi."
+
+#, php-format
+msgid "%s 设置已经保存"
+msgstr "%s ayarları kaydedildi."
