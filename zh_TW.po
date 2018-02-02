@@ -21,6 +21,9 @@ msgstr ""
 msgid "UTF-8"
 msgstr "UTF-8"
 
+msgid "lang"
+msgstr "繁体中文"
+
 msgid "Typecho 安装程序"
 msgstr "Typecho 安裝程式"
 
