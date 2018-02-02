@@ -20,6 +20,9 @@ msgstr ""
 "X-Generator: Zanata 3.0.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
+msgid "lang"
+msgstr "English"
+
 msgid "UTF-8"
 msgstr "UTF-8"
 
