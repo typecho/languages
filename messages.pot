@@ -1,15 +1,14 @@
-
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Typecho
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the Typecho package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Typecho 1.0/14.9.2\n"
+"Project-Id-Version: Typecho 1.2/18.1.29\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 05:50+0000\n"
+"POT-Creation-Date: 2018-02-03 01:05+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -238,6 +237,40 @@ msgid "对于贡献突出者, 他的名字将出现在贡献者名单中."
 msgstr ""
 
 msgid "我准备好了, 开始下一步 &raquo;"
+msgstr ""
+
+msgid "备份您的数据"
+msgstr ""
+
+msgid "此备份操作仅包含<strong>内容数据</strong>, 并不会涉及任何<strong>设置信息</strong>"
+msgstr ""
+
+msgid "如果您的数据量过大, 为了避免操作超时, 建议您直接使用数据库提供的备份工具备份数据"
+msgstr ""
+
+msgid "为了缩小备份文件体积, 建议您在备份前删除不必要的数据"
+msgstr ""
+
+msgid "开始备份 &raquo;"
+msgstr ""
+
+msgid "恢复数据"
+msgstr ""
+
+msgid "上传并恢复 &raquo;"
+msgstr ""
+
+#, php-format
+msgid "将备份文件手动上传至服务器的 %s 目录下后, 这里会出现文件选项"
+msgstr ""
+
+msgid "选择一个备份文件恢复数据"
+msgstr ""
+
+msgid "选择并恢复 &raquo;"
+msgstr ""
+
+msgid "恢复操作将清除所有现有数据, 是否继续?"
 msgstr ""
 
 #, php-format
@@ -676,6 +709,9 @@ msgstr ""
 msgid "日期"
 msgstr ""
 
+msgid "评论"
+msgstr ""
+
 msgid "草稿"
 msgstr ""
 
@@ -683,10 +719,17 @@ msgid "隐藏"
 msgstr ""
 
 #, php-format
+msgid "编辑 %s"
+msgstr ""
+
+#, php-format
 msgid "保存于 %s"
 msgstr ""
 
 msgid "没有任何页面"
+msgstr ""
+
+msgid "可用"
 msgstr ""
 
 msgid "你确认要删除这些文章吗?"
@@ -842,6 +885,18 @@ msgstr ""
 msgid "此文件无法写入"
 msgstr ""
 
+msgid "截图"
+msgstr ""
+
+msgid "详情"
+msgstr ""
+
+msgid "发现安全问题"
+msgstr ""
+
+msgid "解决完毕 &raquo;"
+msgstr ""
+
 msgid "检测到新版本!"
 msgstr ""
 
@@ -852,7 +907,8 @@ msgstr ""
 msgid "此程序将把您的系统从 <strong>%s</strong> 升级到 <strong>%s</strong>"
 msgstr ""
 
-msgid "在升级之前强烈建议先备份您的数据"
+#, php-format
+msgid "在升级之前强烈建议先<a href=\"%s\">备份您的数据</a>"
 msgstr ""
 
 msgid "完成升级 &raquo;"
@@ -1012,10 +1068,10 @@ msgstr ""
 msgid "此标签不存在, 按回车创建"
 msgstr ""
 
-msgid "正在保存"
+msgid "已保存"
 msgstr ""
 
-msgid "已保存"
+msgid "正在保存"
 msgstr ""
 
 msgid "尚未保存"
@@ -1027,6 +1083,9 @@ msgstr ""
 msgid "内容已经改变尚未保存, 您确认要离开此页面吗?"
 msgstr ""
 
+msgid "修改后的内容需要保存后才能预览, 是否保存?"
+msgstr ""
+
 msgid "您确认要删除这份草稿吗?"
 msgstr ""
 
@@ -1034,10 +1093,19 @@ msgstr ""
 msgid "当前正在编辑的是保存于%s的草稿, 你可以<a href=\"%s\">删除它</a>"
 msgstr ""
 
+msgid "当前正在编辑的是未发布的草稿"
+msgstr ""
+
 msgid "网址缩略名"
 msgstr ""
 
 msgid "页面内容"
+msgstr ""
+
+msgid "取消预览"
+msgstr ""
+
+msgid "预览页面"
 msgstr ""
 
 msgid "保存草稿"
@@ -1100,6 +1168,9 @@ msgstr ""
 msgid "文章内容"
 msgstr ""
 
+msgid "预览文章"
+msgstr ""
+
 msgid "发布文章"
 msgstr ""
 
@@ -1123,9 +1194,6 @@ msgstr ""
 msgid "系统将为您自动匹配 %s 环境的安装选项"
 msgstr ""
 
-msgid "utf8"
-msgstr ""
-
 msgid "应用API Key"
 msgstr ""
 
@@ -1138,13 +1206,11 @@ msgstr ""
 msgid "可以在MySQL服务的管理页面看到您创建的数据库名称"
 msgstr ""
 
-msgid "数据库地址"
+msgid "数据库实例名"
 msgstr ""
 
-msgid "您可以访问 RDS 控制台获取详细信息"
-msgstr ""
-
-msgid "数据库端口"
+#, php-format
+msgid "请填入您在Cloud SQL面板中创建的数据库实例名称, 示例: %s"
 msgstr ""
 
 msgid "数据库用户名"
@@ -1153,24 +1219,35 @@ msgstr ""
 msgid "数据库密码"
 msgstr ""
 
-msgid "数据库实例名"
-msgstr ""
-
-#, php-format
-msgid "请填入您在Cloud SQL面板中创建的数据库实例名称, 示例: %s"
-msgstr ""
-
 msgid "请填入您在Cloud SQL的实例中创建的数据库名称"
+msgstr ""
+
+msgid "数据库地址"
 msgstr ""
 
 #, php-format
 msgid "您可能会使用 \"%s\""
 msgstr ""
 
+msgid "数据库端口"
+msgstr ""
+
 msgid "如果您不知道此选项的意义, 请保留默认设置"
 msgstr ""
 
 msgid "请您指定数据库名称"
+msgstr ""
+
+msgid "utf8"
+msgstr ""
+
+msgid "数据库编码"
+msgstr ""
+
+msgid "选择 utf8mb4 编码至少需要 MySQL 5.5.3 版本"
+msgstr ""
+
+msgid "数据库引擎"
 msgstr ""
 
 msgid "数据库文件路径"
@@ -1254,10 +1331,10 @@ msgstr ""
 msgid "由 <a href=\"http://www.typecho.org\">Typecho</a> 强力驱动"
 msgstr ""
 
-msgid "站点LOGO地址"
+msgid "站点 LOGO 地址"
 msgstr ""
 
-msgid "在这里填入一个图片URL地址, 以在网站标题前加上一个LOGO"
+msgid "在这里填入一个图片 URL 地址, 以在网站标题前加上一个 LOGO"
 msgstr ""
 
 msgid "显示最新文章"
@@ -1405,6 +1482,31 @@ msgstr ""
 msgid "%s 的评论"
 msgstr ""
 
+msgid "无法读取备份文件"
+msgstr ""
+
+msgid "备份文件格式错误"
+msgstr ""
+
+msgid "恢复数据出现错误"
+msgstr ""
+
+msgid "数据恢复完成"
+msgstr ""
+
+#, php-format
+msgid "恢复过程中遇到如下错误: %s"
+msgstr ""
+
+msgid "备份文件上传失败"
+msgstr ""
+
+msgid "没有选择任何备份文件"
+msgstr ""
+
+msgid "备份文件不存在"
+msgstr ""
+
 msgid "父级评论不存在"
 msgstr ""
 
@@ -1417,7 +1519,7 @@ msgstr ""
 msgid "您所使用的用户名已经被注册,请登录后再次提交"
 msgstr ""
 
-msgid "用户名最多包含200个字符"
+msgid "用户名最多包含150个字符"
 msgstr ""
 
 msgid "必须填写电子邮箱地址"
@@ -1426,7 +1528,7 @@ msgstr ""
 msgid "邮箱地址不合法"
 msgstr ""
 
-msgid "电子邮箱最多包含200个字符"
+msgid "电子邮箱最多包含150个字符"
 msgstr ""
 
 msgid "必须填写个人主页"
@@ -1435,7 +1537,7 @@ msgstr ""
 msgid "个人主页地址格式错误"
 msgstr ""
 
-msgid "个人主页地址最多包含200个字符"
+msgid "个人主页地址最多包含255个字符"
 msgstr ""
 
 msgid "必须填写评论内容"
@@ -1500,6 +1602,9 @@ msgstr ""
 msgid "网站外观"
 msgstr ""
 
+msgid "备份"
+msgstr ""
+
 msgid "升级"
 msgstr ""
 
@@ -1528,9 +1633,6 @@ msgid "独立页面"
 msgstr ""
 
 msgid "管理独立页面"
-msgstr ""
-
-msgid "评论"
 msgstr ""
 
 msgid "管理评论"
@@ -1606,6 +1708,9 @@ msgstr ""
 msgid "电子邮箱格式错误"
 msgstr ""
 
+msgid "电子邮箱最多包含64个字符"
+msgstr ""
+
 msgid "必须填写密码"
 msgstr ""
 
@@ -1620,6 +1725,14 @@ msgstr ""
 
 #, php-format
 msgid "用户 <strong>%s</strong> 已经成功注册, 密码为 <strong>%s</strong>"
+msgstr ""
+
+#, php-format
+msgid "您正在运行一个不安全的安装脚本 <strong>%s</strong>, 请用新版中的对应文件替代或者直接删除它"
+msgstr ""
+
+#, php-format
+msgid "当前网站的入口文件 <strong>%s</strong> 与最新版中的不一致, 请更新"
 msgstr ""
 
 msgid "升级已经完成"
@@ -1882,10 +1995,6 @@ msgid "用户不存在"
 msgstr ""
 
 msgid "文章不存在"
-msgstr ""
-
-#, php-format
-msgid "编辑 %s"
 msgstr ""
 
 #, php-format
@@ -2220,6 +2329,18 @@ msgid "允许"
 msgstr ""
 
 msgid "允许访问者注册到你的网站, 默认的注册用户不享有任何写入权限."
+msgstr ""
+
+msgid "关闭"
+msgstr ""
+
+msgid "仅关闭 Pingback 接口"
+msgstr ""
+
+msgid "打开"
+msgstr ""
+
+msgid "XMLRPC 接口"
 msgstr ""
 
 msgid "lang"
@@ -2610,12 +2731,6 @@ msgstr ""
 msgid "更新我的档案"
 msgstr ""
 
-msgid "关闭"
-msgstr ""
-
-msgid "打开"
-msgstr ""
-
 msgid "使用 Markdown 语法编辑和解析内容"
 msgstr ""
 
@@ -2623,6 +2738,12 @@ msgid "使用 <a href=\"http://daringfireball.net/projects/markdown/\">Markdown<
 msgstr ""
 
 msgid "此功能开启不会影响以前没有使用 Markdown 语法编辑的内容."
+msgstr ""
+
+msgid "在 XMLRPC 接口中使用 Markdown 语法"
+msgstr ""
+
+msgid "对于完全支持 <a href=\"http://daringfireball.net/projects/markdown/\">Markdown</a> 语法写作的离线编辑器, 打开此选项后将避免内容被转换为 HTML."
 msgstr ""
 
 msgid "自动保存"
