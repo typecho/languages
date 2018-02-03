@@ -1,8 +1,4 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Typecho
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Translated by Joseph Ace Tigas <josephacetigas_bsme@yahoo.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Typecho 1.0/14.9.2\n"
@@ -15,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
+"Last-Translator: Joseph Ace Tigas <josephacetigas_bsme@yahoo.com>\n"
 "Language: fil_PH\n"
 
 msgid "UTF-8"
