@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Typecho 1.2/18.1.29\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-03 12:30+0800\n"
-"PO-Revision-Date: 2018-02-07 21:02-0400\n"
+"PO-Revision-Date: 2018-02-07 22:48-0400\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -656,7 +656,7 @@ msgid "名称"
 msgstr "Nombre"
 
 msgid "子分类"
-msgstr ""
+msgstr "Subcategorias"
 
 msgid "缩略名"
 msgstr "Abreviación"
@@ -751,7 +751,7 @@ msgid "提交"
 msgstr "Enviar"
 
 msgid "你确认要删除这些文件吗?"
-msgstr ""
+msgstr "¿Estás seguro de borrar estos archivos?"
 
 msgid "您确认要清理未归档的文件吗?"
 msgstr ""
@@ -760,206 +760,209 @@ msgid "清理未归档文件"
 msgstr ""
 
 msgid "文件名"
-msgstr ""
+msgstr "Nombre del archivo"
 
 msgid "上传者"
-msgstr ""
+msgstr "Quien subió el archivo"
 
 msgid "所属文章"
-msgstr ""
+msgstr "Publicación de acompañamiento"
 
 msgid "发布日期"
-msgstr ""
+msgstr "Fecha de publicación"
 
 msgid "未归档"
-msgstr ""
+msgstr "Sin archivar"
 
 msgid "没有任何文件"
-msgstr ""
+msgstr "Sin archivo"
 
 msgid "你确认要删除这些页面吗?"
-msgstr ""
+msgstr "¿Estás seguro de borrar estas páginas?"
 
 msgid "日期"
-msgstr ""
+msgstr "Fecha"
 
 msgid "评论"
-msgstr ""
+msgstr "Para comentarios"
 
 msgid "草稿"
-msgstr ""
+msgstr "Borradores"
 
 msgid "隐藏"
-msgstr ""
+msgstr "Esconder"
 
 #, php-format
 msgid "编辑 %s"
-msgstr ""
+msgstr "Editar %s"
 
 #, php-format
 msgid "保存于 %s"
-msgstr ""
+msgstr "Guardado en %s"
 
 msgid "没有任何页面"
-msgstr ""
+msgstr "Sin página"
 
 msgid "可用"
-msgstr ""
+msgstr "Disponible"
 
 msgid "你确认要删除这些文章吗?"
-msgstr ""
+msgstr "¿Estás seguro de borrar estas publicaciones?"
 
 msgid "所有分类"
-msgstr ""
+msgstr "Todas las categorias"
 
 msgid "分类"
-msgstr ""
+msgstr "Categorias"
 
 msgid "私密"
-msgstr ""
+msgstr "Privado"
 
 msgid "密码保护"
-msgstr ""
+msgstr "Protegido con contraseña"
 
 msgid "没有任何文章"
 msgstr ""
 
 msgid "你确认要删除这些标签吗?"
-msgstr ""
+msgstr "¿Borrar estas etiquetas?"
 
 msgid "刷新标签可能需要等待较长时间, 你确认要刷新这些标签吗?"
 msgstr ""
+"Actualizar estas etiquetas puede tomar un largo tiempo, ¿estás seguro?"
 
 msgid "没有任何标签"
-msgstr ""
+msgstr "sin etiqueta"
 
 msgid "你确认要删除这些用户吗?"
-msgstr ""
+msgstr "¿Estás seguro de borrar estos usuarios?"
 
 msgid "昵称"
-msgstr ""
+msgstr "Nickname"
 
 msgid "电子邮件"
-msgstr ""
+msgstr "Correo"
 
 msgid "用户组"
-msgstr ""
+msgstr "Grupos de usuarios"
 
 msgid "暂无"
-msgstr ""
+msgstr "Ninguno aún"
 
 msgid "管理员"
-msgstr ""
+msgstr "Administrador"
 
 msgid "贡献者"
-msgstr ""
+msgstr "Colaboradores"
 
 msgid "关注者"
-msgstr ""
+msgstr "Seguidores"
 
 msgid "访问者"
-msgstr ""
+msgstr "Visitantes"
 
 #, php-format
 msgid "文件 %s 已经替换"
-msgstr ""
+msgstr "Archivos %s reemplazados"
 
 #, php-format
 msgid "最后登录: %s"
-msgstr ""
+msgstr "Último inicio de sesión %s"
 
 msgid "登出"
-msgstr ""
+msgstr "Cerrar sesión"
 
 msgid "网站"
-msgstr ""
+msgstr "Sitio web"
 
 msgid "可以使用的外观"
-msgstr ""
+msgstr "Apariencias disponibles"
 
 msgid "编辑当前外观"
-msgstr ""
+msgstr "Editar apariencia actual"
 
 msgid "设置外观"
-msgstr ""
+msgstr "Establecer apariencia"
 
 msgid "启用的插件"
-msgstr ""
+msgstr "Plugins habilitados"
 
 msgid "描述"
-msgstr ""
+msgstr "Descripción"
 
 msgid "版本"
-msgstr ""
+msgstr "Versión"
 
 #, php-format
 msgid "%s 无法在此版本的typecho下正常工作"
-msgstr ""
+msgstr "%s no se puede trabajar con esta versión de typecho"
 
 msgid "设置"
-msgstr ""
+msgstr "Configuraciones"
 
 #, php-format
 msgid "你确认要禁用插件 %s 吗?"
-msgstr ""
+msgstr "¿Estás seguro de deshabilitar estos plugins %s?"
 
 msgid "禁用"
-msgstr ""
+msgstr "Deshabilitar"
 
 msgid "即插即用"
-msgstr ""
+msgstr "Conectar y empezar"
 
 msgid "此插件文件已经损坏或者被不安全移除, 强烈建议你禁用它"
 msgstr ""
 
 msgid "禁用的插件"
-msgstr ""
+msgstr "Deshabilitar plugins"
 
 msgid "启用"
-msgstr ""
+msgstr "Habilitar"
 
 msgid "没有安装插件"
-msgstr ""
+msgstr "Plugins desintalados"
 
 msgid "在 Gravatar 上修改头像"
-msgstr ""
+msgstr "Editar tu avatar en Gravatar"
 
 #, php-format
 msgid ""
 "目前有 <em>%s</em> 篇日志, 并有 <em>%s</em> 条关于你的评论在 <em>%s</em> "
 "个分类中."
 msgstr ""
+"Actualmente hay <em>%s</em> publicaciones de blogs, <em>%s</em> "
+"comentarios sobre ti en las categorías <em>%s</em> establecidas"
 
 msgid "个人资料"
-msgstr ""
+msgstr "Perfil"
 
 msgid "撰写设置"
-msgstr ""
+msgstr "Composición de las configuraciones"
 
 msgid "密码修改"
-msgstr ""
+msgstr "Cambiar contraseña"
 
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 msgid "注册"
-msgstr ""
+msgstr "Registrar"
 
 msgid "用户登录"
-msgstr ""
+msgstr "Iniciar sesión"
 
 #, php-format
 msgid "编辑%s外观"
-msgstr ""
+msgstr "Editar la apariencia de %s"
 
 msgid "编辑源码"
-msgstr ""
+msgstr "Editar la fuente"
 
 msgid "保存文件"
-msgstr ""
+msgstr "Guardar el archivo"
 
 msgid "此文件无法写入"
-msgstr ""
+msgstr "No puedes escribir en este archivo"
 
 msgid "截图"
 msgstr ""
@@ -998,185 +1001,187 @@ msgid "强烈建议更改你的默认密码"
 msgstr ""
 
 msgid "撰写第一篇日志"
-msgstr ""
+msgstr "Escribir mi primera publicación"
 
 msgid "查看我的站点"
-msgstr ""
+msgstr "Ver mi blog"
 
 msgid "让我直接开始使用吧 &raquo;"
-msgstr ""
+msgstr "Quiero empezar a utilizarlo inmediatamente &raquo;"
 
 msgid "现在"
-msgstr ""
+msgstr "Ahora"
 
 msgid "上一月"
-msgstr ""
+msgstr "Mes pasado"
 
 msgid "下一月"
-msgstr ""
+msgstr "próximo mes"
 
 msgid "一月"
-msgstr ""
+msgstr "Ene"
 
 msgid "二月"
-msgstr ""
+msgstr "Feb"
 
 msgid "三月"
-msgstr ""
+msgstr "Mar"
 
 msgid "四月"
-msgstr ""
+msgstr "Abr"
 
 msgid "五月"
-msgstr ""
+msgstr "May"
 
 msgid "六月"
-msgstr ""
+msgstr "Jun"
 
 msgid "七月"
-msgstr ""
+msgstr "Jul"
 
 msgid "八月"
-msgstr ""
+msgstr "Ago"
 
 msgid "九月"
-msgstr ""
+msgstr "Sep"
 
 msgid "十月"
-msgstr ""
+msgstr "Oct"
 
 msgid "十一月"
-msgstr ""
+msgstr "Nov"
 
 msgid "十二月"
-msgstr ""
+msgstr "Dic"
 
 msgid "星期日"
-msgstr ""
+msgstr "Domingo"
 
 msgid "星期一"
-msgstr ""
+msgstr "Lunes"
 
 msgid "星期二"
-msgstr ""
+msgstr "Martes"
 
 msgid "星期三"
-msgstr ""
+msgstr "Miercoles"
 
 msgid "星期四"
-msgstr ""
+msgstr "Jueves"
 
 msgid "星期五"
-msgstr ""
+msgstr "Viernes"
 
 msgid "星期六"
-msgstr ""
+msgstr "Sababo"
 
 msgid "周日"
-msgstr ""
+msgstr "Dom"
 
 msgid "周一"
-msgstr ""
+msgstr "Lun"
 
 msgid "周二"
-msgstr ""
+msgstr "Mar"
 
 msgid "周三"
-msgstr ""
+msgstr "Mie"
 
 msgid "周四"
-msgstr ""
+msgstr "Jue"
 
 msgid "周五"
-msgstr ""
+msgstr "Vie"
 
 msgid "周六"
-msgstr ""
+msgstr "Sab"
 
 msgid "日"
-msgstr ""
+msgstr "Día"
 
 msgid "一"
-msgstr ""
+msgstr "Uno"
 
 msgid "二"
-msgstr ""
+msgstr "Dos"
 
 msgid "三"
-msgstr ""
+msgstr "Tres"
 
 msgid "四"
-msgstr ""
+msgstr "Cuatro"
 
 msgid "五"
-msgstr ""
+msgstr "Cinco"
 
 msgid "六"
-msgstr ""
+msgstr "Seis"
 
 msgid "完成"
-msgstr ""
+msgstr "Listo"
 
 msgid "选择时间"
-msgstr ""
+msgstr "Seleccionar la hora"
 
 msgid "时间"
-msgstr ""
+msgstr "Tiempo"
 
 msgid "时"
-msgstr ""
+msgstr "hora"
 
 msgid "上午"
-msgstr ""
+msgstr "a.m."
 
 msgid "下午"
-msgstr ""
+msgstr "p.m."
 
 msgid "分"
-msgstr ""
+msgstr "min"
 
 msgid "秒"
-msgstr ""
+msgstr "seg"
 
 msgid "请输入标签名"
-msgstr ""
+msgstr "Por favor introduce un nombre de etiqueta"
 
 msgid "此标签不存在, 按回车创建"
-msgstr ""
+msgstr "Esta etiqueta no exista. Presiona enter para crearla"
 
 msgid "已保存"
 msgstr ""
 
 msgid "正在保存"
-msgstr ""
+msgstr "Guardando"
 
 msgid "尚未保存"
-msgstr ""
+msgstr "Sin guardar"
 
 msgid "上次保存时间"
-msgstr ""
+msgstr "Último guardado"
 
 msgid "内容已经改变尚未保存, 您确认要离开此页面吗?"
 msgstr ""
+"Los cambios no han sido guardados, ¿Estás seguro de dejar esta página?"
 
 msgid "修改后的内容需要保存后才能预览, 是否保存?"
 msgstr ""
 
 msgid "您确认要删除这份草稿吗?"
-msgstr ""
+msgstr "¿Borrar este borrador?"
 
 #, php-format
 msgid "当前正在编辑的是保存于%s的草稿, 你可以<a href=\"%s\">删除它</a>"
 msgstr ""
+"Estas editando un borrador guardado en %s, puedes <a href=\"%s\">borrarlo"
 
 msgid "当前正在编辑的是未发布的草稿"
 msgstr ""
 
 msgid "网址缩略名"
-msgstr ""
+msgstr "Abreviación URL"
 
 msgid "页面内容"
-msgstr ""
+msgstr "Contenido de la página"
 
 msgid "取消预览"
 msgstr ""
@@ -1185,16 +1190,16 @@ msgid "预览页面"
 msgstr ""
 
 msgid "保存草稿"
-msgstr ""
+msgstr "Guardar borrador"
 
 msgid "发布页面"
-msgstr ""
+msgstr "Publicar página"
 
 msgid "选项"
-msgstr ""
+msgstr "Opciones"
 
 msgid "页面顺序"
-msgstr ""
+msgstr "Orden de la página"
 
 msgid "为你的自定义页面设定一个序列值以后, 能够使得它们按此值从小到大排列"
 msgstr ""
