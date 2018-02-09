@@ -1545,18 +1545,18 @@ msgstr ""
 #, php-format
 msgid ""
 "上传目录无法写入, 请手动将安装目录下的 %s 目录的权限设置为可写然后继续升级"
-msgstr ""
+msgstr "Ang pag-upload sa direktoryo dili mahimong isulat, palihug manwal nga i-install ang directory %s direktoryo nga gitakda sa writable ug ipadayon ang pag-upgrade"
 
 #, php-format
 msgid ""
 "上传目录无法创建, 请手动创建安装目录下的 %s 目录, 并将它的权限设置为可写然"
 "后继续升级"
-msgstr ""
+msgstr "Ang pag-upload sa direktoryo dili mahimong gimugna, palihug manwal nga paghimo sa direktoryo sa %s ubos sa direktoryo sa instalasyon, ug i-set ang mga permiso niini aron masulat ug dayon ipadayon ang pag-upgrade"
 
 msgid ""
 "建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"http://"
 "typecho.org/upgrade/9.7.2\">以下优化步骤</a>"
-msgstr ""
+msgstr "Among girekomendar nga ikaw <a href="http://typecho.org/upgrade/9.7.2"> ang mga mosunod nga mga lakang sa pag-optimize </a> sa higayon nga mag-upgrade ka sa bersyon sa Typecho 0.7 / 9.7.2 ug unya"
 
 msgid "刚刚"
 msgstr "Karon lang"
@@ -1564,1399 +1564,1399 @@ msgstr "Karon lang"
 #, php-format
 msgid "一秒前"
 msgid_plural "%d秒前"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Usa ka segundo kanhi"
+msgstr[1] "%d segundos na ang milabay"
 
 #, php-format
 msgid "一分钟前"
 msgid_plural "%d分钟前"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Usa ka minuto ang milabay"
+msgstr[1] "%d ka minuto ang milabay"
 
 #, php-format
 msgid "一小时前"
 msgid_plural "%d小时前"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Usa ka oras ang milabay"
+msgstr[1] "%d ka oras ang milabay"
 
 #, php-format
 msgid "昨天 %s"
-msgstr ""
+msgstr "Kagahapon %s"
 
 #, php-format
 msgid "一天前"
 msgid_plural "%d天前"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Usa ka adlaw ang milabay"
+msgstr[1] "%d ka adlaw ang milabay"
 
 msgid "n月j日"
-msgstr ""
+msgstr "n j j"
 
 msgid "Y年m月d日"
 msgstr "Dy nga tuig m d adlaw"
 
 msgid "禁止访问"
-msgstr ""
+msgstr "Wala'y access"
 
 msgid "聚合页不存在"
-msgstr ""
+msgstr "Ang panid sa panaghiusa wala maglungtad"
 
 msgid "zh-CN"
 msgstr ""
 
 msgid "请求的地址不存在"
-msgstr ""
+msgstr "Ang gipangayo nga adres wala maglungtad"
 
 msgid "分类不存在"
-msgstr ""
+msgstr "Ang kategoriya wala maglungtad"
 
 msgid "父级分类不存在"
-msgstr ""
+msgstr "Ang kategoriya sa ginikanan wala maglungtad"
 
 msgid "标签不存在"
-msgstr ""
+msgstr "Ang marka wala maglungtad"
 
 msgid "作者不存在"
-msgstr ""
+msgstr "Ang tagsulat wala maglungtad"
 
 #, php-format
 msgid "%d年%d月%d日"
-msgstr ""
+msgstr "%d nga tuig %d bulan %d nga adlaw"
 
 #, php-format
 msgid "%d年%d月"
-msgstr ""
+msgstr "%d nga tuig %d bulan"
 
 #, php-format
 msgid "%d年"
-msgstr ""
+msgstr "%d nga tuig"
 
 #, php-format
 msgid "%s 的评论"
-msgstr ""
+msgstr "%s's comment"
 
 msgid "无法读取备份文件"
-msgstr ""
+msgstr "Dili mabasa ang backup file"
 
 msgid "备份文件格式错误"
-msgstr ""
+msgstr "Sayop nga format sa file sa backup"
 
 msgid "恢复数据出现错误"
-msgstr ""
+msgstr "Naay usa ka sayop samtang nagpaayo sa datos"
 
 msgid "数据恢复完成"
-msgstr ""
+msgstr "Nakompleto ang pagkaayo sa datos"
 
 #, php-format
 msgid "恢复过程中遇到如下错误: %s"
-msgstr ""
+msgstr "Ang pagkaayo nahibalag sa mosunod nga sayop: %s"
 
 msgid "备份文件上传失败"
-msgstr ""
+msgstr "Ang pag-upload sa backup file napakyas"
 
 msgid "没有选择任何备份文件"
-msgstr ""
+msgstr "Wala'y gipili ang bisan unsang backup file"
 
 msgid "备份文件不存在"
-msgstr ""
+msgstr "Ang backup nga file wala maglungtad"
 
 msgid "父级评论不存在"
-msgstr ""
+msgstr "Wala'y komentaryo ang ginikanan"
 
 msgid "必须填写用户名"
-msgstr ""
+msgstr "Kinahanglan nga pun-on ang user name"
 
 msgid "请不要在用户名中使用特殊字符"
-msgstr ""
+msgstr "Palihug ayaw gamita ang espesyal nga mga karakter sa mga ngalan sa tiggamit"
 
 msgid "您所使用的用户名已经被注册,请登录后再次提交"
-msgstr ""
+msgstr "Ang imong username nakarehistro na. Palihug pag-login ug ipadala pag-usab"
 
 msgid "用户名最多包含150个字符"
-msgstr ""
+msgstr "Ang user name adunay 150 nga mga karakter"
 
 msgid "必须填写电子邮箱地址"
-msgstr ""
+msgstr "Dapat isulat ang email address"
 
 msgid "邮箱地址不合法"
-msgstr ""
+msgstr "Ang e-mail address ilegal"
 
 msgid "电子邮箱最多包含150个字符"
-msgstr ""
+msgstr "Ang email address adunay 150 nga mga karakter"
 
 msgid "必须填写个人主页"
-msgstr ""
+msgstr "Kinahanglan pun-on ang personal nga homepage"
 
 msgid "个人主页地址格式错误"
-msgstr ""
+msgstr "Sayop nga format sa address sa personal nga homepage"
 
 msgid "个人主页地址最多包含255个字符"
-msgstr ""
+msgstr "Ang address sa personal nga homepage adunay sulod nga 255 ka mga karakter"
 
 msgid "必须填写评论内容"
-msgstr ""
+msgstr "Kinahanglan nimo isulat ang komentaryo"
 
 msgid "找不到内容"
-msgstr ""
+msgstr "Dili makita ang sulod"
 
 msgid "禁止重复提交"
-msgstr ""
+msgstr "Ayaw balik pagsulti"
 
 msgid "对不起,此内容的反馈被禁止."
-msgstr ""
+msgstr "Gipanghimaraut, ang feedback sa niini nga sulod gidili."
 
 msgid "评论来源页错误."
-msgstr ""
+msgstr "Mga Kasayuran nga Gikuhaan sa Mga Komento."
 
 msgid "对不起, 您的发言过于频繁, 请稍侯再次发布."
-msgstr ""
+msgstr "Gikasubo ko, ang imong pagsulti sobra ra kaayo, palihug ibutang pag-usab."
 
 msgid "对不起,此内容的引用被禁止."
-msgstr ""
+msgstr "Pasayloa, ang paghisgot niini nga sulod gidili."
 
 msgid "请输入用户名"
-msgstr ""
+msgstr "Palihug pagsulod sa user name"
 
 msgid "请输入密码"
-msgstr ""
+msgstr "Palihug pasabta ang pasword"
 
 msgid "用户名或密码无效"
-msgstr ""
+msgstr "Dili tinuod ang user name o password"
 
 msgid "控制台"
-msgstr ""
+msgstr "Console"
 
 msgid "管理"
-msgstr ""
+msgstr "Pagdumala"
 
 #, php-format
 msgid "登录到%s"
-msgstr ""
+msgstr "Mag-log in sa% s"
 
 #, php-format
 msgid "注册到%s"
-msgstr ""
+msgstr "Magparehistro sa% s"
 
 msgid "概要"
-msgstr ""
+msgstr "Sumaryo"
 
 msgid "网站概要"
-msgstr ""
+msgstr "Buod sa Site"
 
 msgid "个人设置"
-msgstr ""
+msgstr "Personal nga mga setting"
 
 msgid "插件"
-msgstr ""
+msgstr "Mga plug-in"
 
 msgid "外观"
-msgstr ""
+msgstr "Panagway"
 
 msgid "网站外观"
-msgstr ""
+msgstr "Pagtan-aw sa website"
 
 msgid "备份"
-msgstr ""
+msgstr "Backup"
 
 msgid "升级"
-msgstr ""
+msgstr "Pag-upgrade"
 
 msgid "升级程序"
-msgstr ""
+msgstr "Pag-upgrade nga programa"
 
 msgid "欢迎"
-msgstr ""
+msgstr "Welcome"
 
 msgid "撰写文章"
-msgstr ""
+msgstr "Pagsulat og usa ka artikulo"
 
 msgid "创建页面"
-msgstr ""
+msgstr "Paghimo og usa ka panid"
 
 msgid "创建新页面"
-msgstr ""
+msgstr "Paghimo og bag-ong panid"
 
 msgid "文章"
-msgstr ""
+msgstr "Artikulo"
 
 msgid "管理文章"
-msgstr ""
+msgstr "Pagdumala sa mga artikulo"
 
 msgid "独立页面"
-msgstr ""
+msgstr "Magbulag nga panid"
 
 msgid "管理独立页面"
-msgstr ""
+msgstr "Pagdumala sa lain nga mga pahina"
 
 msgid "管理评论"
-msgstr ""
+msgstr "Ang mga komento sa pagdumala"
 
 msgid "管理分类"
-msgstr ""
+msgstr "Pagklasipikar sa pagdumala"
 
 msgid "新增分类"
-msgstr ""
+msgstr "Idugang ang kategoriya"
 
 msgid "管理标签"
-msgstr ""
+msgstr "Pamala nga tagdumala"
 
 msgid "文件"
-msgstr ""
+msgstr "File"
 
 msgid "管理文件"
-msgstr ""
+msgstr "Pagdumala sa mga dokumento"
 
 msgid "用户"
-msgstr ""
+msgstr "User"
 
 msgid "管理用户"
-msgstr ""
+msgstr "Pagdumala sa tiggamit"
 
 msgid "新增用户"
-msgstr ""
+msgstr "Idugang ang user"
 
 msgid "基本"
-msgstr ""
+msgstr "Basic"
 
 msgid "基本设置"
-msgstr ""
+msgstr "Panguna nga mga kahimtang"
 
 msgid "评论设置"
-msgstr ""
+msgstr "Pag-istoryaha"
 
 msgid "阅读"
-msgstr ""
+msgstr "Basaha"
 
 msgid "阅读设置"
-msgstr ""
+msgstr "Basaha ang mga setting"
 
 msgid "永久链接"
-msgstr ""
+msgstr "Permanenteng sumpay"
 
 msgid "永久链接设置"
-msgstr ""
+msgstr "Permanenteng sumpay sa pag-link"
 
 #, php-format
 msgid "插件%s的配置信息没有找到"
-msgstr ""
+msgstr "Ang impormasyon sa pag-configure alang sa plug-in %s wala makita"
 
 msgid "必须填写用户名称"
-msgstr ""
+msgstr "Kinahanglan nga pun-on ang user name"
 
 msgid "用户名至少包含2个字符"
-msgstr ""
+msgstr "Ang ngalan sa user adunay labing menos 2 ka karakter"
 
 msgid "用户名最多包含32个字符"
-msgstr ""
+msgstr "Ang user name adunay 32 nga mga karakter"
 
 msgid "用户名已经存在"
-msgstr ""
+msgstr "Adunay usa ka ngalan sa tiggamit"
 
 msgid "必须填写电子邮箱"
-msgstr ""
+msgstr "Kinahanglan nga pun-on ang e-mail"
 
 msgid "电子邮箱地址已经存在"
-msgstr ""
+msgstr "Anaa na ang adres sa E-mail"
 
 msgid "电子邮箱格式错误"
-msgstr ""
+msgstr "Sayop nga format sa e-mail"
 
 msgid "电子邮箱最多包含64个字符"
-msgstr ""
+msgstr "Ang email address naglangkob sa hangtod sa 64 ka mga karakter"
 
 msgid "必须填写密码"
-msgstr ""
+msgstr "Kinahanglan nga pun-on ang password"
 
 msgid "为了保证账户安全, 请输入至少六位的密码"
-msgstr ""
+msgstr "Aron mahuptan nga luwas ang imong account, palihug sulati labing menos unom ka numero sa imong password"
 
 msgid "为了便于记忆, 密码长度请不要超过十八位"
-msgstr ""
+msgstr "Aron mapadali ang panumduman, ang gitas-on sa password, palihug dili molapas sa napulog walo"
 
 msgid "两次输入的密码不一致"
-msgstr ""
+msgstr "Ang mga password nga gipasulod kaduha dili managsama"
 
 #, php-format
 msgid "用户 <strong>%s</strong> 已经成功注册, 密码为 <strong>%s</strong>"
-msgstr ""
+msgstr "Ang user <strong>%s</ strong> malampuson nga nakarehistro sa password <strong>%s</ strong>"
 
 #, php-format
 msgid ""
 "您正在运行一个不安全的安装脚本 <strong>%s</strong>, 请用新版中的对应文件替"
 "代或者直接删除它"
-msgstr ""
+msgstr "Ikaw nagpadagan sa insakto nga script sa pag-setup, <strong>%s</ strong>, pulihan kini sa katugbang nga file sa bag-ong bersyon o hingin kini direkta"
 
 #, php-format
 msgid "当前网站的入口文件 <strong>%s</strong> 与最新版中的不一致, 请更新"
-msgstr ""
+msgstr "Ang import file sa kasamtangan nga site <strong>%s</ strong> dili pareho sa labing bag-o nga bersyon, palihug pag-update"
 
 msgid "升级已经完成"
-msgstr ""
+msgstr "Natapos ang pag-upgrade"
 
 msgid "软件名称"
-msgstr ""
+msgstr "Pangalan sa Software"
 
 msgid "软件版本"
-msgstr ""
+msgstr "Software nga bersyon"
 
 msgid "博客地址"
-msgstr ""
+msgstr "Address sa blog"
 
 msgid "博客首页地址"
-msgstr ""
+msgstr "Address sa home page sa Blog"
 
 msgid "登录地址"
-msgstr ""
+msgstr "Login address"
 
 msgid "管理区域的地址"
-msgstr ""
+msgstr "Pagdumala sa dapit sa pagdumala"
 
 msgid "文章缩略图"
-msgstr ""
+msgstr "Thumbnail sa artikulo"
 
 msgid "时区"
-msgstr ""
+msgstr "Time zone"
 
 msgid "博客标题"
-msgstr ""
+msgstr "Blog title"
 
 msgid "博客关键字"
-msgstr ""
+msgstr "Blog keywords"
 
 msgid "日期格式"
-msgstr ""
+msgstr "Format sa petsa"
 
 msgid "时间格式"
-msgstr ""
+msgstr "Format sa oras"
 
 msgid "是否允许注册"
-msgstr ""
+msgstr "Kung tugutan ang pagrehistro"
 
 msgid "权限不足"
-msgstr ""
+msgstr "Dili igo nga awtoridad"
 
 msgid "无法登陆, 密码错误"
-msgstr ""
+msgstr "Dili makasulod, sayop ang pasword"
 
 msgid "无法添加分类"
-msgstr ""
+msgstr "Dili makadugang sa kategoriya"
 
 msgid "标准"
-msgstr ""
+msgstr "Standard"
 
 msgid "已发布"
-msgstr ""
+msgstr "Gi-post"
 
 msgid "显示"
-msgstr ""
+msgstr "Ipakita"
 
 msgid "评论不存在"
-msgstr ""
+msgstr "Wala'y komentaryo"
 
 msgid "没有获取评论的权限"
-msgstr ""
+msgstr "Walay permiso nga makakuha og mga komentaryo"
 
 msgid "无法编辑此评论"
-msgstr ""
+msgstr "Dili ma-edit kining komentoha"
 
 msgid "这个目标地址不存在"
-msgstr ""
+msgstr "Kini nga target nga address wala maglungtad"
 
 msgid "无法添加评论"
-msgstr ""
+msgstr "Dili makadugang sa komentaryo"
 
 msgid "未命名文档"
-msgstr ""
+msgstr "Wala'y ngalan nga dokumento"
 
 msgid "上传失败"
-msgstr ""
+msgstr "Ang pag-upload napakyas"
 
 msgid "源地址服务器错误"
-msgstr ""
+msgstr "Sayop nga sulbad sa address source"
 
 msgid "源地址不支持PingBack"
-msgstr ""
+msgstr "Ang address address wala mosuporta sa PingBack"
 
 msgid "源地址中不包括目标地址"
-msgstr ""
+msgstr "Ang address address wala maglakip sa address nga padulngan"
 
 msgid "PingBack已经存在"
-msgstr ""
+msgstr "Anaa na ang PingBack"
 
 msgid "目标地址禁止Ping"
-msgstr ""
+msgstr "Ang target address gipugngan Ping"
 
 msgid "内容被隐藏"
-msgstr ""
+msgstr "Ang sulod natago"
 
 msgid "对不起,您输入的密码错误"
-msgstr ""
+msgstr "Pasayloa, ang sayop nga imong gisulod dili sayop"
 
 msgid "请输入密码访问"
-msgstr ""
+msgstr "Palihug pagsulod sa password aron ma-access"
 
 msgid "此内容被密码保护"
-msgstr ""
+msgstr "Kini nga sulod mao ang protektado sa password"
 
 #, php-format
 msgid "%s的评论"
-msgstr ""
+msgstr "%s's comment"
 
 msgid "内容不存在"
-msgstr ""
+msgstr "Wala ang sulod"
 
 msgid "&laquo;"
-msgstr ""
+msgstr "&laquo;"
 
 msgid "&raquo;"
-msgstr ""
+msgstr "&raquo;"
 
 msgid "您的评论正等待审核!"
-msgstr ""
+msgstr "Ang imong komento nagpaabot sa pagtugot!"
 
 msgid "取消回复"
-msgstr ""
+msgstr "Cancel reply"
 
 msgid "评论已经被标记为待审核"
-msgstr ""
+msgstr "Ang mga komento gimarkahan isip pending"
 
 msgid "没有评论被标记为待审核"
-msgstr ""
+msgstr "Wala'y mga komentaryo nga gimarkahan alang sa pagribyu"
 
 msgid "评论已经被标记为垃圾"
-msgstr ""
+msgstr "Ang mga komento gimarkahan isip spam"
 
 msgid "没有评论被标记为垃圾"
-msgstr ""
+msgstr "Wala'y mga komento nga gimarkahan isip spam"
 
 msgid "评论已经被通过"
-msgstr ""
+msgstr "Ang mga komento gipasa"
 
 msgid "没有评论被通过"
-msgstr ""
+msgstr "Walay komento nga gipasa"
 
 msgid "删除评论成功"
-msgstr ""
+msgstr "Malaglag ang komentaryo"
 
 msgid "删除评论失败"
-msgstr ""
+msgstr "Gipapas ang komento"
 
 msgid "评论已经被删除"
-msgstr ""
+msgstr "Gikuha ang komento"
 
 msgid "没有评论被删除"
-msgstr ""
+msgstr "Walay komento ang nakuha"
 
 msgid "所有垃圾评论已经被删除"
-msgstr ""
+msgstr "Ang tanan nga mga komento sa spam gipapas na"
 
 msgid "没有垃圾评论被删除"
-msgstr ""
+msgstr "Walay spam ang nakuha"
 
 msgid "获取评论失败"
-msgstr ""
+msgstr "Napakyas sa pagkomento"
 
 msgid "修评论失败"
-msgstr ""
+msgstr "Gipakyas ang nagkomento"
 
 msgid "回复评论失败"
-msgstr ""
+msgstr "Ang tubag nga komentaryo napakyas"
 
 msgid "文件不存在"
-msgstr ""
+msgstr "Wala'y file"
 
 msgid "没有编辑权限"
-msgstr ""
+msgstr "Walay mga katungod sa pag-edit"
 
 msgid "标题 *"
-msgstr ""
+msgstr "Title *"
 
 msgid "文件缩略名用于创建友好的链接形式,建议使用字母,数字,下划线和横杠."
-msgstr ""
+msgstr "Ang mga abbreviation sa file gigamit sa paghimo sa mahigalaong mga porma sa mga sumpay. Girekomenda ang mga sulat, numero, underscore, ug mga bar."
 
 msgid "此文字用于描述文件,在有的主题中它会被显示."
-msgstr ""
+msgstr "Kini nga teksto gigamit sa paghulagway sa file, nga gipakita sa pipila ka mga hilisgutan."
 
 msgid "提交修改"
-msgstr ""
+msgstr "Paghatag og mga kausaban"
 
 #, php-format
 msgid "你确认删除文件 %s 吗?"
-msgstr ""
+msgstr "Sigurado ka ba nga nakuha mo ang file %s?"
 
 msgid "删除文件"
-msgstr ""
+msgstr "Pagtangtang sa file"
 
 msgid "必须填写文件标题"
-msgstr ""
+msgstr "Kinahanglan nimo pun-on ang titulo sa dokumento"
 
 msgid "文件标题无法被转换为缩略名"
-msgstr ""
+msgstr "Ang titulo sa file dili makombertir sa usa ka mubo nga ngalan"
 
 msgid "缩略名已经存在"
-msgstr ""
+msgstr "Ang abbreviated nga ngalan anaa na"
 
 #, php-format
 msgid "文件 <a href=\"%s\">%s</a> 已经被更新"
-msgstr ""
+msgstr "Ang file nga <a href="%s">%s</a> na-update"
 
 #, php-format
 msgid "未归档文件 %s 已经被更新"
-msgstr ""
+msgstr "Ang wala gibutang nga file% s na-update"
 
 msgid "文件已经被删除"
-msgstr ""
+msgstr "Gikuha ang file"
 
 msgid "没有文件被删除"
-msgstr ""
+msgstr "Walay file nga nahunong"
 
 msgid "未归档文件已经被清理"
-msgstr ""
+msgstr "Gipanghinlo ang wala mahipos nga mga file"
 
 msgid "没有未归档文件被清理"
-msgstr ""
+msgstr "Walay nahukmang mga file ang nalimpyohan"
 
 msgid "未命名页面"
-msgstr ""
+msgstr "Wala'y ngalan nga panid"
 
 #, php-format
 msgid "页面 \"<a href=\"%s\">%s</a>\" 已经发布"
-msgstr ""
+msgstr "Ang panid nga "<a href="%s">%s</a>" gipaskil"
 
 #, php-format
 msgid "草稿 \"%s\" 已经被保存"
-msgstr ""
+msgstr "Draft ang "%s" naluwas"
 
 msgid "页面已经被删除"
-msgstr ""
+msgstr "Ang panid gitangtang"
 
 msgid "没有页面被删除"
-msgstr ""
+msgstr "Walay panid ang nakuha"
 
 msgid "草稿已经被删除"
-msgstr ""
+msgstr "Gipapas na ang draft"
 
 msgid "没有草稿被删除"
-msgstr ""
+msgstr "Walay drowing nga gipapas"
 
 msgid "页面排序已经完成"
-msgstr ""
+msgstr "Na-kompleto ang pag-order sa panid"
 
 #, php-format
 msgid "%s的文章"
-msgstr ""
+msgstr "%s nga artikulo"
 
 msgid "用户不存在"
-msgstr ""
+msgstr "Ang user wala maglungtad"
 
 msgid "文章不存在"
-msgstr ""
+msgstr "Ang artikulo wala maglungtad"
 
 #, php-format
 msgid "文章 \"<a href=\"%s\">%s</a>\" 已经发布"
-msgstr ""
+msgstr "Ang artikulong "<a href="%s">%s</a>" gimantala"
 
 #, php-format
 msgid "文章 \"%s\" 等待审核"
-msgstr ""
+msgstr "Ang artikulo "%s" naghulat sa pagrepaso"
 
 msgid "文章已经被删除"
-msgstr ""
+msgstr "Ang artikulo gipapas na"
 
 msgid "没有文章被删除"
-msgstr ""
+msgstr "Walay mga artikulo nga gipapas"
 
 msgid "返回父级分类"
-msgstr ""
+msgstr "Ibalik ang klase sa ginikanan"
 
 #, php-format
 msgid "管理 %s 的子分类"
-msgstr ""
+msgstr "Pagdumala sa %s sub-categories"
 
 msgid "分类名称 *"
-msgstr ""
+msgstr "Ngalan sa Ngalan *"
 
 msgid "分类缩略名"
-msgstr ""
+msgstr "Mga abbreviation sa kategoriya"
 
 msgid "分类缩略名用于创建友好的链接形式, 建议使用字母, 数字, 下划线和横杠."
-msgstr ""
+msgstr "Ang mga pinamubo sa kategoriya gigamit sa paghimo sa mahigalaon nga mga porma sa mga sumpay. Girekomenda ang mga sulat, numero, underscore ug mga bar."
 
 msgid "父级分类"
-msgstr ""
+msgstr "Pagklasipikar sa ginikanan"
 
 msgid "此分类将归档在您选择的父级分类下."
-msgstr ""
+msgstr "Kini nga kategoriya i-archive ubos sa imong gipili nga parent category."
 
 msgid "分类描述"
-msgstr ""
+msgstr "Paghubit sa kategoriya"
 
 msgid "此文字用于描述分类, 在有的主题中它会被显示."
-msgstr ""
+msgstr "Kini nga teksto gigamit aron ihulagway ang klasipikasyon, ipakita kini sa pipila ka mga hilisgutan."
 
 msgid "编辑分类"
-msgstr ""
+msgstr "I-edit ang kategoriya"
 
 msgid "增加分类"
-msgstr ""
+msgstr "Dugangi ang klasipikasyon"
 
 msgid "必须填写分类名称"
-msgstr ""
+msgstr "Kinahanglan isulat ang ngalan sa kategoriya"
 
 msgid "分类名称已经存在"
-msgstr ""
+msgstr "Adunay ang ngalan sa kategoriya"
 
 msgid "分类名称无法被转换为缩略名"
-msgstr ""
+msgstr "Ang mga ngalan sa mga ngalan dili makombertir sa minubo nga ngalan"
 
 msgid "请不要在分类名称中使用特殊字符"
-msgstr ""
+msgstr "Palihug ayaw gamita ang espesyal nga mga karakter sa ngalan sa kategoriya"
 
 msgid "请不要在缩略名中使用特殊字符"
-msgstr ""
+msgstr "Palihug ayaw gamita ang espesyal nga mga karakter sa minubo nga ngalan"
 
 msgid "分类主键不存在"
-msgstr ""
+msgstr "Ang pangunang yawe wala maglungtad"
 
 #, php-format
 msgid "分类 <a href=\"%s\">%s</a> 已经被增加"
-msgstr ""
+msgstr "Gipadugang ang <a href="%s">%s</a> sa kategoriya"
 
 #, php-format
 msgid "分类 <a href=\"%s\">%s</a> 已经被更新"
-msgstr ""
+msgstr "Na-update ang klase nga <a href="%s">%s</a>"
 
 msgid "分类已经删除"
-msgstr ""
+msgstr "Gikuha ang kategoriya"
 
 msgid "没有分类被删除"
-msgstr ""
+msgstr "Walay kategoriya ang giwagtang"
 
 msgid "请选择需要合并的分类"
-msgstr ""
+msgstr "Palihug pilia ang kategoriya nga gitapo"
 
 msgid "分类已经合并"
-msgstr ""
+msgstr "Gipundok ang klasipikasyon"
 
 msgid "没有选择任何分类"
-msgstr ""
+msgstr "Wala magpili bisan unsang kategoriya"
 
 msgid "分类排序已经完成"
-msgstr ""
+msgstr "Ang pag-sorting nahuman na"
 
 msgid "分类刷新已经完成"
-msgstr ""
+msgstr "Nakompleto na ang refresh sa kategoriya"
 
 #, php-format
 msgid "<a href=\"%s\">%s</a> 已经被设为默认分类"
-msgstr ""
+msgstr "<a href="%s">%s</a> Gitakda nga default category"
 
 #, php-format
 msgid "编辑分类 %s"
-msgstr ""
+msgstr "I-edit ang kategorya% s"
 
 #, php-format
 msgid "新增 %s 的子分类"
-msgstr ""
+msgstr "Gidugang% s sub-category"
 
 #, php-format
 msgid "编辑标签 %s"
-msgstr ""
+msgstr "I-edit ang label% s"
 
 msgid "标签名称 *"
-msgstr ""
+msgstr "Ngalan sa tag *"
 
 msgid "这是标签在站点中显示的名称.可以使用中文,如 \"地球\"."
-msgstr ""
+msgstr "Kini ang ngalan sa label nga gipakita sa site. Mahimo gamiton ang Intsik, sama sa "Earth"."
 
 msgid "标签缩略名"
-msgstr ""
+msgstr "Ang abbreviation sa label"
 
 msgid "标签缩略名用于创建友好的链接形式, 如果留空则默认使用标签名称."
-msgstr ""
+msgstr "Ang sulud nga abbreviation gigamit aron sa paghimo sa usa ka mahigalaon nga link nga porma, nga nagbayad sa ngalan sa label kon kini blangko."
 
 msgid "编辑标签"
-msgstr ""
+msgstr "I-edit ang label"
 
 msgid "增加标签"
-msgstr ""
+msgstr "Pagdugang og usa ka label"
 
 msgid "必须填写标签名称"
-msgstr ""
+msgstr "Dapat isulat ang ngalan sa label"
 
 msgid "标签名称已经存在"
-msgstr ""
+msgstr "Ang label nga ngalan anaa na"
 
 msgid "标签名称无法被转换为缩略名"
-msgstr ""
+msgstr "Ang mga pangalan sa tag dili mahimong nakubit sa pinamubo mga ngalan"
 
 msgid "请不要标签名称中使用特殊字符"
-msgstr ""
+msgstr "Palihug ayaw gamita ang espesyal nga mga karakter sa ngalan sa label"
 
 msgid "标签主键不存在"
-msgstr ""
+msgstr "Ang nag-unang hinungdan nga marka wala maglungtad"
 
 #, php-format
 msgid "标签 <a href=\"%s\">%s</a> 已经被增加"
-msgstr ""
+msgstr "Ang marka nga <a href="%s">%s</a> nadugang"
 
 #, php-format
 msgid "标签 <a href=\"%s\">%s</a> 已经被更新"
-msgstr ""
+msgstr "Ang label nga <a href="%s">%s</a> na-update"
 
 msgid "标签已经删除"
-msgstr ""
+msgstr "Ang label gipapas na"
 
 msgid "没有标签被删除"
-msgstr ""
+msgstr "Walay mga tag nga giwagtang"
 
 msgid "请填写需要合并到的标签"
-msgstr ""
+msgstr "Palihug sulati ang marka nga pagausa"
 
 msgid "合并到的标签名不合法"
-msgstr ""
+msgstr "Ang sayop nga label nga ngalan gisagol"
 
 msgid "标签已经合并"
-msgstr ""
+msgstr "Ang mga label gisagol"
 
 msgid "没有选择任何标签"
-msgstr ""
+msgstr "Wala'y gipili nga bisan unsang label"
 
 msgid "标签刷新已经完成"
-msgstr ""
+msgstr "Natapos ang lab-as nga label"
 
 msgid "评论日期格式"
-msgstr ""
+msgstr "Pormat sa petsa sa komentaryo"
 
 msgid ""
 "这是一个默认的格式,当你在模板中调用显示评论日期方法时, 如果没有指定日期格"
 "式, 将按照此格式输出."
-msgstr ""
+msgstr "Kini usa ka default nga format, sa diha nga ikaw nagtawag sa template nga nagpakita sa paagi sa petsa sa pagkomento, kung wala nimo gihan-ay ang format sa petsa, ipagawas sumala sa kini nga format."
 
 msgid ""
 "具体写法请参考 <a href=\"http://www.php.net/manual/zh/function.date.php"
 "\">PHP 日期格式写法</a>."
-msgstr ""
+msgstr "Palihug i-refer ang mga piho nga mga pulong sa paggamit sa format sa petsa sa PHP nga <a href="http://www.php.net/manual/zh/function.date.php">."
 
 msgid "评论列表数目"
-msgstr ""
+msgstr "Ang listahan sa mga komentaryo"
 
 msgid "此数目用于指定显示在侧边栏中的评论列表数目."
-msgstr ""
+msgstr "Kini nga numero gigamit aron mahibal-an ang gidaghanon sa mga lista sa komentaryo nga gipakita sa sidebar."
 
 msgid "请填入一个数字"
-msgstr ""
+msgstr "Palihug pagsulod og numero"
 
 msgid "仅显示评论, 不显示 Pingback 和 Trackback"
-msgstr ""
+msgstr "Ipakita lamang ang mga komentaryo, ayaw ipakita ang Pingbacks ug Trackbacks"
 
 msgid "在评论中使用 Markdown 语法"
-msgstr ""
+msgstr "Paggamit sa Markdown syntax sa mga komentaryo"
 
 msgid "评论者名称显示时自动加上其个人主页链接"
-msgstr ""
+msgstr "Ang ngalan sa awtoridad awtomatikong idugang uban ang link sa iyang kaugalingong homepage"
 
 msgid ""
 "对评论者个人主页链接使用 <a href=\"http://en.wikipedia.org/wiki/Nofollow"
 "\">nofollow 属性</a>"
-msgstr ""
+msgstr "Gamita ang <a href="http://en.wikipedia.org/wiki/Nofollow"> nofollow property </a> alang sa mga link sa personal nga homepage sa mga reviewer"
 
 #, php-format
 msgid ""
 "启用 <a href=\"http://gravatar.com\">Gravatar</a> 头像服务, 最高显示评级"
 "为 %s 的头像"
-msgstr ""
+msgstr "Pag-enable sa <a href="http://gravatar.com"> Gravatar </a> nga serbisyo sa avatar ug ipakita ang avatar sa %s"
 
 msgid "第一页"
-msgstr ""
+msgstr "Unang pahina"
 
 msgid "最后一页"
-msgstr ""
+msgstr "Katapusan nga panid"
 
 #, php-format
 msgid "启用分页, 并且每页显示 %s 篇评论, 在列出时将 %s 作为默认显示"
-msgstr ""
+msgstr "Ang paging nakapahimo, nga adunay mga reviews sa %s matag panid, %s ingon nga default sa gilista"
 
 #, php-format
 msgid "启用评论回复, 以 %s 层作为每个评论最多的回复层数"
-msgstr ""
+msgstr "I-enable ang mga tubag nga mitubag uban sa %s ingon nga ang maximum nga gidaghanon sa mga tubag matag komentaryo"
 
 msgid "较新的"
-msgstr ""
+msgstr "Mas bag-o"
 
 msgid "较旧的"
-msgstr ""
+msgstr "Mas tigulang"
 
 #, php-format
 msgid "将 %s 的评论显示在前面"
-msgstr ""
+msgstr "Ipakita ang mga komento sa %s a atubangan"
 
 msgid "评论显示"
-msgstr ""
+msgstr "Ipakita ang mga komento"
 
 msgid "所有评论必须经过审核"
-msgstr ""
+msgstr "Ang tanang mga komentaryo kinahanglang usbon"
 
 msgid "评论者之前须有评论通过了审核"
-msgstr ""
+msgstr "Ang mga komentaryo kinahanglan nga milabay una sa pagrepaso"
 
 msgid "必须填写邮箱"
-msgstr ""
+msgstr "Kinahanglan pun-on ang mailbox"
 
 msgid "必须填写网址"
-msgstr ""
+msgstr "Kinahanglan nga pun-on ang website"
 
 msgid "检查评论来源页 URL 是否与文章链接一致"
-msgstr ""
+msgstr "Susiha kon ang URL sa panid sa panumduman mao ang sama nga artikulo nga link"
 
 msgid "开启反垃圾保护"
-msgstr ""
+msgstr "I-apil ang proteksyon batok sa spam"
 
 #, php-format
 msgid "在文章发布 %s 天以后自动关闭评论"
-msgstr ""
+msgstr "Kuhaa ang mga komentaryo awtomatiko pagkahuman sa pag-post sa % s"
 
 #, php-format
 msgid "同一 IP 发布评论的时间间隔限制为 %s 分钟"
-msgstr ""
+msgstr "Ang sama nga pag-publish sa interval sa komentaryo sa IP limitado ngadto sa %s minutos"
 
 msgid "评论提交"
-msgstr ""
+msgstr "Pagsumiter og mga komentaryo"
 
 msgid "允许使用的HTML标签和属性"
-msgstr ""
+msgstr "Gitugutan ang mga tag ug mga hiyas sa HTML"
 
 msgid ""
 "默认的用户评论不允许填写任何的HTML标签, 你可以在这里填写允许使用的HTML标"
 "签."
-msgstr ""
+msgstr "Ang default nga mga komento sa user wala magtugot sa bisan unsa nga mga tag sa HTML nga mapuno. Mahimo nimong pun-on ang gitugot nga mga tag sa HTML dinhi."
 
 #, php-format
 msgid "比如: %s"
-msgstr ""
+msgstr "Pananglitan: %s"
 
 msgid "保存设置"
-msgstr ""
+msgstr "Luwasa ang mga setting"
 
 msgid "设置已经保存"
-msgstr ""
+msgstr "Ang mga panalipod naluwas"
 
 msgid "站点名称"
-msgstr ""
+msgstr "Ngalan sa site"
 
 msgid "站点的名称将显示在网页的标题处."
-msgstr ""
+msgstr "Ang ngalan sa site ipakita sa titulo sa panid."
 
 msgid "请填写站点名称"
-msgstr ""
+msgstr "Palihug isulat ang ngalan sa site"
 
 msgid "请不要在站点名称中使用特殊字符"
-msgstr ""
+msgstr "Palihug ayaw gamita ang espesyal nga mga karakter sa mga pangalan sa site"
 
 msgid "站点地址"
-msgstr ""
+msgstr "Address sa site"
 
 msgid "站点地址主要用于生成内容的永久链接."
-msgstr ""
+msgstr "Ang adres sa site kasagaran gigamit aron makamugna og permanente nga sumpay sa sulod."
 
 #, php-format
 msgid "当前地址 <strong>%s</strong> 与上述设定值不一致"
-msgstr ""
+msgstr "Ang kasamtangan nga adres <strong>%s</ strong> wala mohaum sa nahimutangan sa ibabaw"
 
 msgid "请填写站点地址"
-msgstr ""
+msgstr "Palihug isulat ang address sa site"
 
 msgid "请填写一个合法的URL地址"
-msgstr ""
+msgstr "Palihug isulat ang usa ka balido nga adres sa URL"
 
 msgid "站点描述"
-msgstr ""
+msgstr "Deskripsiyon sa Site"
 
 msgid "站点描述将显示在网页代码的头部."
-msgstr ""
+msgstr "Ang paghulagway sa site ipakita sa ulo sa kodigo sa webpage."
 
 msgid "请不要在站点描述中使用特殊字符"
-msgstr ""
+msgstr "Ang paghulagway sa site ipakita sa ulo sa kodigo sa webpage"
 
 msgid "关键词"
-msgstr ""
+msgstr "Mga pulong"
 
 msgid "请以半角逗号 \",\" 分割多个关键字."
-msgstr ""
+msgstr "Palihog gamita ang comma "," aron mabahin ang daghang mga keyword."
 
 msgid "请不要在关键词中使用特殊字符"
-msgstr ""
+msgstr "Palihug ayaw gamita ang espesyal nga mga karakter sa mga keyword"
 
 msgid "不允许"
-msgstr ""
+msgstr "Dili gitugotan"
 
 msgid "允许"
-msgstr ""
+msgstr "Tugoti"
 
 msgid "允许访问者注册到你的网站, 默认的注册用户不享有任何写入权限."
-msgstr ""
+msgstr "Tugoti ang mga bisita nga magparehistro sa imong site, ang mga default nga rehistradong tiggamit walay bisan unsang pagsulat nga access."
 
 msgid "关闭"
-msgstr ""
+msgstr "Duol"
 
 msgid "仅关闭 Pingback 接口"
-msgstr ""
+msgstr "Tangtanga lang ang Pingback interface"
 
 msgid "打开"
-msgstr ""
+msgstr "Bukas"
 
 msgid "XMLRPC 接口"
-msgstr ""
+msgstr "Interface sa XMLRPC"
 
 msgid "lang"
-msgstr ""
+msgstr "lang"
 
 msgid "语言"
-msgstr ""
+msgstr "Pinulongan"
 
 msgid "所选择的语言包不存在"
-msgstr ""
+msgstr "Ang piniling pinulongan nga pinulongan wala maglungtad"
 
 msgid "格林威治(子午线)标准时间 (GMT)"
-msgstr ""
+msgstr "Greenwich Mean Time (GMT)"
 
 msgid "中欧标准时间 阿姆斯特丹,荷兰,法国 (GMT +1)"
-msgstr ""
+msgstr "Central European Standard Time Amsterdam, Netherlands, France (GMT +1)"
 
 msgid "东欧标准时间 布加勒斯特,塞浦路斯,希腊 (GMT +2)"
-msgstr ""
+msgstr "Eastern European Standard Time Bucharest, Cyprus, Greece (GMT +2)"
 
 msgid "莫斯科时间 伊拉克,埃塞俄比亚,马达加斯加 (GMT +3)"
-msgstr ""
+msgstr "Moscow time Iraq, Ethiopia, Madagascar (GMT +3)"
 
 msgid "第比利斯时间 阿曼,毛里塔尼亚,留尼汪岛 (GMT +4)"
-msgstr ""
+msgstr "Tbilisi Time Oman, Mauritania, Reunion (GMT +4)"
 
 msgid "新德里时间 巴基斯坦,马尔代夫 (GMT +5)"
-msgstr ""
+msgstr "New Delhi time Pakistan, Maldives (GMT +5)"
 
 msgid "科伦坡时间 孟加拉 (GMT +6)"
-msgstr ""
+msgstr "Colombo panahon Bengal (GMT +6)"
 
 msgid "曼谷雅加达 柬埔寨,苏门答腊,老挝 (GMT +7)"
-msgstr ""
+msgstr "Bangkok Jakarta, Cambodia, Sumatra, Laos (GMT +7)"
 
 msgid "北京时间 香港,新加坡,越南 (GMT +8)"
-msgstr ""
+msgstr "Beijing time Hong Kong, Singapore, Vietnam (GMT +8)"
 
 msgid "东京平壤时间 西伊里安,摩鹿加群岛 (GMT +9)"
-msgstr ""
+msgstr "Tokyo Pyongyang Time West Irian, Moluccas (GMT +9)"
 
 msgid "悉尼关岛时间 塔斯马尼亚岛,新几内亚 (GMT +10)"
-msgstr ""
+msgstr "Sydney, Guam Time Tasmania, New Guinea (GMT +10)"
 
 msgid "所罗门群岛 库页岛 (GMT +11)"
-msgstr ""
+msgstr "Solomon Islands Sakhalin (GMT +11)"
 
 msgid "惠灵顿时间 新西兰,斐济群岛 (GMT +12)"
-msgstr ""
+msgstr "Wellington Time New Zealand, Fiji Islands (GMT +12)"
 
 msgid "佛德尔群岛 亚速尔群岛,葡属几内亚 (GMT -1)"
-msgstr ""
+msgstr "Azores, Portuguese Guinea (GMT -1)"
 
 msgid "大西洋中部时间 格陵兰 (GMT -2)"
-msgstr ""
+msgstr "Atlantiko Sentral nga Panahon sa Greenland (GMT -2)"
 
 msgid "布宜诺斯艾利斯 乌拉圭,法属圭亚那 (GMT -3)"
-msgstr ""
+msgstr "Buenos Aires Uruguay, French Guiana (GMT -3)"
 
 msgid "智利巴西 委内瑞拉,玻利维亚 (GMT -4)"
-msgstr ""
+msgstr "Chile Brazil Venezuela, Bolivia (GMT -4)"
 
 msgid "纽约渥太华 古巴,哥伦比亚,牙买加 (GMT -5)"
-msgstr ""
+msgstr "New York Ottawa Cuba, Colombia, Jamaica (GMT -5)"
 
 msgid "墨西哥城时间 洪都拉斯,危地马拉,哥斯达黎加 (GMT -6)"
-msgstr ""
+msgstr "Panahon sa Mexico City Honduras, Guatemala, Costa Rica (GMT -6)"
 
 msgid "美国丹佛时间 (GMT -7)"
-msgstr ""
+msgstr "Denver, United States time (GMT -7)"
 
 msgid "美国旧金山时间 (GMT -8)"
-msgstr ""
+msgstr "San Francisco nga oras (GMT -8)"
 
 msgid "阿拉斯加时间 (GMT -9)"
-msgstr ""
+msgstr "Oras sa Alaska (GMT -9)"
 
 msgid "夏威夷群岛 (GMT -10)"
-msgstr ""
+msgstr "Mga Isla sa Hawaii (GMT -10)"
 
 msgid "东萨摩亚群岛 (GMT -11)"
-msgstr ""
+msgstr "Sidlakang Samoa (GMT-11)"
 
 msgid "艾尼威托克岛 (GMT -12)"
-msgstr ""
+msgstr "Ainitoke Island (GMT-12)"
 
 msgid "图片文件"
-msgstr ""
+msgstr "File sa litrato"
 
 msgid "多媒体文件"
-msgstr ""
+msgstr "Mga file sa multimedia"
 
 msgid "常用档案文件"
-msgstr ""
+msgstr "Kasagarang file"
 
 #, php-format
 msgid "其他格式 %s"
-msgstr ""
+msgstr "Ang ubang mga format %s"
 
 msgid "允许上传的文件类型"
-msgstr ""
+msgstr "Ang mga tipo sa file nga gitugutan nga i-upload"
 
 #, php-format
 msgid "用逗号 \",\" 将后缀名隔开, 例如: %s"
-msgstr ""
+msgstr "Gamita ang koma "," ngalan sa suffix, pananglitan: %s"
 
 msgid "不启用"
-msgstr ""
+msgstr "Dili mahimo"
 
 msgid "是否使用地址重写功能"
-msgstr ""
+msgstr "Kung gamiton ang pag-usab sa address nga pag-usab"
 
 msgid "地址重写即 rewrite 功能是某些服务器软件提供的优化内部连接的功能."
-msgstr ""
+msgstr "Ang pagsulat sa pagsulat pag-usab mao ang pag-usab sa gimbuhaton gihatag sa pipila ka mga server software aron ma-optimize ang function sa internal nga koneksyon."
 
 msgid "打开此功能可以让你的链接看上去完全是静态地址."
-msgstr ""
+msgstr "I-turn sa kini nga bahin aron mahimo ang imong link nga makita ang hingpit nga static nga address."
 
 msgid "重写功能检测失败, 请检查你的服务器设置"
-msgstr ""
+msgstr "Napakyas ang pag-detection sa feature detection, palihug susiha ang mga setting sa imong server"
 
 msgid ""
 "我们检测到你使用了apache服务器, 但是程序无法在根目录创建.htaccess文件, 这"
 "可能是产生这个错误的原因."
-msgstr ""
+msgstr "Namatikdan namon nga ikaw naggamit sa usa ka apache server, apan ang programa dili makahimo sa mga .htaccess nga mga file sa root directory, nga mahimo nga hinungdan sa kini nga sayop."
 
 msgid "请调整你的目录权限, 或者手动创建一个.htaccess文件."
-msgstr ""
+msgstr "Palihug usba ang imong mga permiso sa direktoryo, o pag-usob sa usa ka .htaccess file."
 
 msgid "如果你仍然想启用此功能, 请勾选这里"
-msgstr ""
+msgstr "Kung gusto nimo nga buhaton kini nga bahin, palihug susiha dinhi"
 
 msgid "默认风格"
-msgstr ""
+msgstr "Default nga estilo"
 
 msgid "wordpress风格"
-msgstr ""
+msgstr "estilo sa Wordpress"
 
 msgid "按日期归档"
-msgstr ""
+msgstr "Pag-archive sa petsa"
 
 msgid "按分类归档"
-msgstr ""
+msgstr "Archive pinaagi sa kategoriya"
 
 msgid "个性化定义"
-msgstr ""
+msgstr "Personalized nga kahulugan"
 
 msgid "自定义文章路径"
-msgstr ""
+msgstr "Custom nga dalan nga artikulo"
 
 msgid ""
 "可用参数: <code>{cid}</code> 日志 ID, <code>{slug}</code> 日志缩略名, "
 "<code>{category}</code> 分类, <code>{directory}</code> 多级分类, "
 "<code>{year}</code> 年, <code>{month}</code> 月, <code>{day}</code> 日"
-msgstr ""
+msgstr "Mga lagda nga anaa: <code> {cid} </ code> log ID, <code> {slug} </ code> log abbreviation, <code> {category} </ code> / code> multi-level taxonomy, {code} {tuig} </ code> tuig, <code> {month} </ code> bulan, <code> {day} </ code>"
 
 msgid "选择一种合适的文章静态路径风格, 使得你的网站链接更加友好."
-msgstr ""
+msgstr "Pagpili og usa ka angay nga estilo sa estilo sa static nga dalan, nga ang paghimo sa imong site nga mas mahigalaon."
 
 msgid "一旦你选择了某种链接风格请不要轻易修改它."
-msgstr ""
+msgstr "Sa higayon nga napili nimo ang usa ka estilo sa pag-link, ayaw kini usba."
 
 msgid "独立页面路径"
-msgstr ""
+msgstr "Indietroso nga pahina"
 
 msgid "可用参数: <code>{cid}</code> 页面 ID, <code>{slug}</code> 页面缩略名"
-msgstr ""
+msgstr "Mga lagda nga anaa: <code> {cid} </ code> Page ID, <code> {slug} </ code> Mga Thumbnail sa Pahina"
 
 msgid "请在路径中至少包含上述的一项参数."
-msgstr ""
+msgstr "Palihug i-apil ang labing menos usa sa mga lagda sa ibabaw sa dalan."
 
 msgid "独立页面路径中没有包含 {cid} 或者 {slug} "
-msgstr ""
+msgstr "Ang independente nga dalan sa pahina wala maglakip sa {cid} o {slug} "
 
 msgid "分类路径"
-msgstr ""
+msgstr "Ang klasipikasyon nga agianan"
 
 msgid ""
 "可用参数: <code>{mid}</code> 分类 ID, <code>{slug}</code> 分类缩略名, "
 "<code>{directory}</code> 多级分类"
-msgstr ""
+msgstr "Mga lagda nga anaa: <code> {mid} </ code> category ID, <code> {slug} </ code> abbreviation category, <code> {directory} </ code>"
 
 msgid "分类路径中没有包含 {mid} 或者 {slug} "
-msgstr ""
+msgstr "Ang mga laray sa kategoriya wala maglakip sa {mid} o {slug} "
 
 msgid ""
 "自定义链接与现有规则存在冲突! 它可能影响解析效率, 建议你重新分配一个规则."
-msgstr ""
+msgstr "Adunay panagbangi tali sa custom nga sumpay ug sa kasamtangan nga mga lagda! Mahimong makaapekto kini sa pagka-epektibo sa pag-analisar, girekomenda nga ibalhin mo ang usa ka lagda."
 
 msgid "文章日期格式"
-msgstr ""
+msgstr "Ang format sa petsa sa artikulo"
 
 msgid "此格式用于指定显示在文章归档中的日期默认显示格式."
-msgstr ""
+msgstr "Kini nga format gigamit aron mahibal-an ang petsa nga display format sa default nga makita sa archive nga artikulo."
 
 msgid "在某些主题中这个格式可能不会生效, 因为主题作者可以自定义日期格式."
-msgstr ""
+msgstr "Kini nga format dili mahimo sa pipila ka mga hilisgutan tungod kay ang subject author mahimo ipasibo ang format sa petsa."
 
 msgid ""
 "请参考 <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP 日期"
 "格式写法</a>."
-msgstr ""
+msgstr "Palihug pag-refer sa <a href="http://www.php.net/manual/en/function.date.php"> PHP Date Formatting </a>."
 
 msgid "请不要在日期格式中使用特殊字符"
-msgstr ""
+msgstr "Palihug ayaw gamita ang espesyal nga mga karakter sa format sa date"
 
 msgid "显示最新发布的文章"
-msgstr ""
+msgstr "Ipakita ang pinakabag-o nga post"
 
 #, php-format
 msgid "同时将文章列表页路径更改为 %s"
-msgstr ""
+msgstr "Usba usab ang lista sa pahina sa lista sa %s"
 
 #, php-format
 msgid "使用 %s 页面作为首页"
-msgstr ""
+msgstr "Gamita ang %s page ingon nga home page"
 
 #, php-format
 msgid "直接调用 %s 模板文件"
-msgstr ""
+msgstr "Tawga direkta ang file sa template %s"
 
 msgid "站点首页"
-msgstr ""
+msgstr "Panid sa panid"
 
 msgid "文章列表数目"
-msgstr ""
+msgstr "Numero sa lista sa artikulo"
 
 msgid "此数目用于指定显示在侧边栏中的文章列表数目."
-msgstr ""
+msgstr "Kini nga numero gigamit sa pagtino sa gidaghanon sa mga lista sa artikulo nga gipakita sa sidebar."
 
 msgid "每页文章数目"
-msgstr ""
+msgstr "Ang gidaghanon sa mga artikulo matag panid"
 
 msgid "此数目用于指定文章归档输出时每页显示的文章数目."
-msgstr ""
+msgstr "Kini nga gidaghanon gigamit aron mahibal-an ang gidaghanon sa mga artikulo nga gipakita matag panid sa diha nga ang arsip nga artikulo gipahayag."
 
 msgid "仅输出摘要"
-msgstr ""
+msgstr "Bug-os nga output lamanga"
 
 msgid "全文输出"
-msgstr ""
+msgstr "Full text output"
 
 msgid "聚合全文输出"
-msgstr ""
+msgstr "Aggregate full-text output"
 
 msgid "如果你不希望在聚合中输出文章全文,请使用仅输出摘要选项."
-msgstr ""
+msgstr "Kung dili nimo gusto nga i-print ang kinatibuk-an nga teksto sa artikulo sa kinatibuk-an, gamita ang Output Summary Only Option."
 
 msgid "摘要的文字取决于你在文章中使用分隔符的位置."
-msgstr ""
+msgstr "Ang teksto sa summary nag-agad kung asa nimo gigamit ang separator nga karakter diha sa artikulo."
 
 msgid "插件不存在"
-msgstr ""
+msgstr "Wala'y plugin"
 
 #, php-format
 msgid "设置插件 %s"
-msgstr ""
+msgstr "Ibutang ang plug-in %s"
 
 msgid "无法配置插件"
-msgstr ""
+msgstr "Dili ma-configure ang plug-in"
 
 msgid "无法启用插件"
-msgstr ""
+msgstr "Dili mahimo ang plugin"
 
 #, php-format
 msgid "<a href=\"%s\">%s</a> 无法在此版本的typecho下正常工作"
-msgstr ""
+msgstr "Ang <a href="%s">%s</a> wala magtrabaho uban niining bersyon sa typecho"
 
 msgid "插件已经被启用"
-msgstr ""
+msgstr "Gipasayon ang mga plug-in"
 
 msgid "插件已经被禁用"
-msgstr ""
+msgstr "Ang mga plug-in gipalong"
 
 msgid "插件设置已经保存"
-msgstr ""
+msgstr "Ang mga setting sa plug-in naluwas"
 
 msgid "外观配置功能不存在"
-msgstr ""
+msgstr "Ang pagsulbad sa panagway wala maglungtad"
 
 msgid "外观已经改变"
-msgstr ""
+msgstr "Ang panagway nausab"
 
 msgid "您选择的风格不存在"
-msgstr ""
+msgstr "Ang estilo nga imong gipili wala maglungtad"
 
 #, php-format
 msgid "文件 %s 的更改已经保存"
-msgstr ""
+msgstr "Ang pag-usab sa file %s naluwas"
 
 #, php-format
 msgid "文件 %s 无法被写入"
-msgstr ""
+msgstr "Ang file %s dili mahimong isulat"
 
 msgid "您编辑的文件不存在"
-msgstr ""
+msgstr "Ang imong gi-edit nga file wala maglungtad"
 
 msgid "外观设置已经保存"
-msgstr ""
+msgstr "Ang mga setting sa panagway naluwas"
 
 #, php-format
 msgid "编辑文件 %s"
-msgstr ""
+msgstr "I-edit ang file %s"
 
 #, php-format
 msgid "编辑用户 %s"
-msgstr ""
+msgstr "I-edit ang user %s"
 
 msgid "用户名 *"
-msgstr ""
+msgstr "Username *"
 
 msgid "此用户名将作为用户登录时所用的名称."
-msgstr ""
+msgstr "Kini nga user name magamit isip user login name."
 
 msgid "请不要与系统中现有的用户名重复."
-msgstr ""
+msgstr "Ayaw dobleha ang kasamtangan nga mga ngalan sa tiggamit sa sistema."
 
 msgid "电子邮箱地址 *"
-msgstr ""
+msgstr "E-mail address *"
 
 msgid "电子邮箱地址将作为此用户的主要联系方式."
-msgstr ""
+msgstr "Ang email address mao ang pangunang kontak sa niini nga tiggamit."
 
 msgid "请不要与系统中现有的电子邮箱地址重复."
-msgstr ""
+msgstr "Palihug ayaw pagdoble ang kasamtangan nga mga adres sa e-mail sa sistema."
 
 msgid "用户昵称"
-msgstr ""
+msgstr "Gitawag nga nickname"
 
 msgid "用户昵称可以与用户名不同, 用于前台显示."
-msgstr ""
+msgstr "Ang nickname sa user mahimong lahi gikan sa ngalan sa user ug mahimong magamit alang sa foreground display."
 
 msgid "如果你将此项留空, 将默认使用用户名."
-msgstr ""
+msgstr "Kon ibilin nimo kini nga blangko, ang username mahimong gamiton nga default."
 
 msgid "用户密码"
-msgstr ""
+msgstr "Sala sa user"
 
 msgid "为此用户分配一个密码."
-msgstr ""
+msgstr "Pag-assign sa usa ka password sa niini nga user."
 
 msgid "建议使用特殊字符与字母、数字的混编样式,以增加系统安全性."
-msgstr ""
+msgstr "Nagrekomendar sa paggamit sa mga espesyal nga mga karakter ug mga letra, numero, estilo sa pagsagol, aron sa pagdugang sa seguridad sa sistema."
 
 msgid "用户密码确认"
-msgstr ""
+msgstr "Pagkumpirma sa password sa user"
 
 msgid "请确认你的密码, 与上面输入的密码保持一致."
-msgstr ""
+msgstr "Palihug pamatud-i ang imong password, pinasubay sa password nga gisulod sa ibabaw."
 
 msgid "个人主页地址"
-msgstr ""
+msgstr "Adres sa personal nga panid sa balay"
 
 msgid "此用户的个人主页地址, 请用 <code>http://</code> 开头."
-msgstr ""
+msgstr "Kinahanglan magsugod ang address sa homepage sa user nga <code> http: // </ code>."
 
 msgid "不同的用户组拥有不同的权限."
-msgstr ""
+msgstr "Ang nagkalainlain nga grupo sa tiggamit adunay lain-laing mga permiso."
 
 msgid ""
 "具体的权限分配表请<a href=\"http://docs.typecho.org/develop/acl\">参考这里"
 "</a>."
-msgstr ""
+msgstr "Piho nga lote sa allocation sa katungod palihug <a href="http://docs.typecho.org/develop/acl"> paghisgot dinhi </a>."
 
 msgid "编辑用户"
-msgstr ""
+msgstr "I-edit ang user"
 
 msgid "增加用户"
-msgstr ""
+msgstr "Dugangi ang tiggamit"
 
 msgid "昵称已经存在"
-msgstr ""
+msgstr "Gitawag na ang nickname"
 
 msgid "请不要在昵称中使用特殊字符"
-msgstr ""
+msgstr "Palihug ayaw gamita ang espesyal nga mga karakter sa mga angga"
 
 msgid "用户密码 *"
-msgstr ""
+msgstr "Sala sa user *"
 
 msgid "用户密码确认 *"
-msgstr ""
+msgstr "Pagkumpirma sa password sa user *"
 
 msgid "用户主键不存在"
-msgstr ""
+msgstr "Ang pangunang yawe sa gumagamit wala maglungtad"
 
 #, php-format
 msgid "用户 %s 已经被增加"
-msgstr ""
+msgstr "Ang user %s nadugang"
 
 #, php-format
 msgid "用户 %s 已经被更新"
-msgstr ""
+msgstr "Na-update ang User %s"
 
 msgid "用户已经删除"
-msgstr ""
+msgstr "Gikuha ang user"
 
 msgid "没有用户被删除"
-msgstr ""
+msgstr "Walay tiggamit nga gipapas"
 
 msgid "更新我的档案"
-msgstr ""
+msgstr "Update ang akong file"
 
 msgid "使用 Markdown 语法编辑和解析内容"
-msgstr ""
+msgstr "Usba ug i-parse ang sulod gamit ang Markdown syntax"
 
 msgid ""
 "使用 <a href=\"http://daringfireball.net/projects/markdown/\">Markdown</"
 "a> 语法能够使您的撰写过程更加简便直观."
-msgstr ""
+msgstr "Gamita ang syntax sa <a href="http://daringfireball.net/projects/markdown/"> Markdown </a> aron sa paghimo sa imong proseso sa pagsulat nga mas sayon ​​ug mas mahanduraw."
 
 msgid "此功能开启不会影响以前没有使用 Markdown 语法编辑的内容."
-msgstr ""
+msgstr "Kini nga bahin wala mag-apekto sa sulod nga wala pa ma-edit gamit ang Markdown syntax."
 
 msgid "在 XMLRPC 接口中使用 Markdown 语法"
-msgstr ""
+msgstr "Gamita ang syntax sa Markdown sa XMLRPC interface"
 
 msgid ""
 "对于完全支持 <a href=\"http://daringfireball.net/projects/markdown/"
 "\">Markdown</a> 语法写作的离线编辑器, 打开此选项后将避免内容被转换为 HTML."
-msgstr ""
+msgstr "Alang sa mga editor sa offline nga nagsuporta sa pagsulat sa syntax sa Markdown, ang pag-turn over niini nga opsyon makapugong sa sulod nga makombertir sa HTML."
 
 msgid "自动保存"
-msgstr ""
+msgstr "Lihok awtomatiko"
 
 msgid "自动保存功能可以更好地保护你的文章不会丢失."
-msgstr ""
+msgstr "Ang auto-save nga bahin mas maayo nga makapanalipod sa imong artikulo dili mawala."
 
 msgid "可以被评论"
-msgstr ""
+msgstr "Mahimo nga magkomento"
 
 msgid "可以被引用"
-msgstr ""
+msgstr "Mahimo nga gikutlo"
 
 msgid "出现在聚合中"
-msgstr ""
+msgstr "Makita sa polimerisasyon"
 
 msgid "默认允许"
-msgstr ""
+msgstr "Tugoti nga pinaagi sa default"
 
 msgid "设置你经常使用的默认允许权限"
-msgstr ""
+msgstr "Ibutang ang default nga mga permiso nga kanunay nimong gamiton"
 
 msgid "更新密码"
-msgstr ""
+msgstr "Pag-update sa password"
 
 msgid "您的档案已经更新"
-msgstr ""
+msgstr "Na-update ang imong file"
 
 msgid "密码已经成功修改"
-msgstr ""
+msgstr "Ang pasword malampuson nga giusab"
 
 #, php-format
 msgid "%s 设置已经保存"
-msgstr ""
+msgstr "Ang mga setting sa %s nangaluwas"
