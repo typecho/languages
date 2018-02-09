@@ -2,7 +2,7 @@
 # Copyright (C) YEAR Typecho
 # This file is distributed under the same license as the Typecho package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+#Translated by Cody Gee <rosalitaevan@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Typecho 1.2/18.1.29\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
+"Last-Translator: Cody Gee <rosalitaevan@gmail.com>\n"
 "Language: ceb\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
