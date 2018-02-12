@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Typecho 1.2/18.1.29\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-03 12:30+0800\n"
-"PO-Revision-Date: 2018-02-12 06:29-0400\n"
+"PO-Revision-Date: 2018-02-12 18:07-0400\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1714,12 +1714,12 @@ msgid "对不起,此内容的反馈被禁止."
 msgstr "Désolé, les commentaires sur ce contenu sont interdits."
 
 msgid "评论来源页错误."
-msgstr "L'origine du commentaire est fausse"
+msgstr "L'origine du commentaire est fausse."
 
 msgid "对不起, 您的发言过于频繁, 请稍侯再次发布."
 msgstr ""
 "Je suis désolé, vous commentez très fréquemment, s'il vous plaît poster "
-"après"
+"après."
 
 msgid "对不起,此内容的引用被禁止."
 msgstr "Désolé, la référence à ce contenu est invalide."
@@ -1896,7 +1896,7 @@ msgstr "Les mots de passe entrés deux fois ne sont pas les mêmes"
 msgid "用户 <strong>%s</strong> 已经成功注册, 密码为 <strong>%s</strong>"
 msgstr ""
 "L'utilisateur <strong>%s</strong> a été enregistré avec le mot de passe "
-"<strong>%s</strong>."
+"<strong>%s</strong>"
 
 #, php-format
 msgid ""
@@ -2453,571 +2453,659 @@ msgid "将 %s 的评论显示在前面"
 msgstr "Afficher les commentaires de %s devant"
 
 msgid "评论显示"
-msgstr ""
+msgstr "Commentaires"
 
 msgid "所有评论必须经过审核"
-msgstr ""
+msgstr "Tous les commentaires doivent être examinés"
 
 msgid "评论者之前须有评论通过了审核"
-msgstr ""
+msgstr "Les commentaires doivent avoir été transmis avant l'examen"
 
 msgid "必须填写邮箱"
-msgstr ""
+msgstr "Doit remplir l'e-mail"
 
 msgid "必须填写网址"
-msgstr ""
+msgstr "Doit remplir le site web"
 
 msgid "检查评论来源页 URL 是否与文章链接一致"
 msgstr ""
+"Vérifiez si l'URL de la page source du commentaire est identique au lien "
+"de l'article"
 
 msgid "开启反垃圾保护"
-msgstr ""
+msgstr "Activer la protection anti-spam"
 
 #, php-format
 msgid "在文章发布 %s 天以后自动关闭评论"
 msgstr ""
+"Désactiver les commentaires automatiquement après% s jours de publication"
 
 #, php-format
 msgid "同一 IP 发布评论的时间间隔限制为 %s 分钟"
-msgstr ""
+msgstr "Le même IP de commentaire de publication est limité à %s minutes"
 
 msgid "评论提交"
-msgstr ""
+msgstr "Envoyer des commentaires"
 
 msgid "允许使用的HTML标签和属性"
-msgstr ""
+msgstr "Étiquettes et attributs HTML autorisé"
 
 msgid ""
 "默认的用户评论不允许填写任何的HTML标签, 你可以在这里填写允许使用的HTML标"
 "签."
 msgstr ""
+"Les commentaires utilisateur par défaut n'autorisent pas le remplissage "
+"de balises HTML. Vous pouvez remplir les balises HTML autorisées ici."
 
 #, php-format
 msgid "比如: %s"
-msgstr ""
+msgstr "p.e. %s"
 
 msgid "保存设置"
-msgstr ""
+msgstr "Enregistrer les paramètres"
 
 msgid "设置已经保存"
-msgstr ""
+msgstr "Les paramètres ont été enregistrés"
 
 msgid "站点名称"
-msgstr ""
+msgstr "Nom du site"
 
 msgid "站点的名称将显示在网页的标题处."
-msgstr ""
+msgstr "Le nom du site sera affiché au titre de la page."
 
 msgid "请填写站点名称"
-msgstr ""
+msgstr "S'il vous plaît remplir le nom du site"
 
 msgid "请不要在站点名称中使用特殊字符"
 msgstr ""
+"Merci de ne pas utiliser de caractères spéciaux dans les noms de sites"
 
 msgid "站点地址"
-msgstr ""
+msgstr "Adresse du site"
 
 msgid "站点地址主要用于生成内容的永久链接."
 msgstr ""
+"L'adresse du site est principalement utilisée pour générer un lien "
+"permanent vers le contenu."
 
 #, php-format
 msgid "当前地址 <strong>%s</strong> 与上述设定值不一致"
 msgstr ""
+"L'adresse actuelle <strong>%s</strong> ne correspond pas au paramètre ci-"
+"dessus"
 
 msgid "请填写站点地址"
-msgstr ""
+msgstr "S'il vous plaît remplir l'adresse du site"
 
 msgid "请填写一个合法的URL地址"
-msgstr ""
+msgstr "S'il vous plaît remplir une adresse URL valide"
 
 msgid "站点描述"
-msgstr ""
+msgstr "Description du site"
 
 msgid "站点描述将显示在网页代码的头部."
 msgstr ""
+"La description du site sera affichée en tête du code de la page Web."
 
 msgid "请不要在站点描述中使用特殊字符"
 msgstr ""
+"Merci de ne pas utiliser de caractères spéciaux dans les descriptions de "
+"site"
 
 msgid "关键词"
-msgstr ""
+msgstr "Mots clés"
 
 msgid "请以半角逗号 \",\" 分割多个关键字."
 msgstr ""
+"S'il vous plaît utiliser la virgule \",\" pour diviser plusieurs mots-"
+"clés."
 
 msgid "请不要在关键词中使用特殊字符"
-msgstr ""
+msgstr "Merci de ne pas utiliser de caractères spéciaux dans les mots-clés"
 
 msgid "不允许"
-msgstr ""
+msgstr "Non autorisé"
 
 msgid "允许"
-msgstr ""
+msgstr "Autorisé"
 
 msgid "允许访问者注册到你的网站, 默认的注册用户不享有任何写入权限."
 msgstr ""
+"Autoriser les visiteurs à s'inscrire sur votre site, les utilisateurs "
+"enregistrés par défaut n'ont aucun accès en écriture."
 
 msgid "关闭"
-msgstr ""
+msgstr "Fermer"
 
 msgid "仅关闭 Pingback 接口"
-msgstr ""
+msgstr "Uniquement désactiver l'interface Pingback"
 
 msgid "打开"
-msgstr ""
+msgstr "Ouvert"
 
 msgid "XMLRPC 接口"
-msgstr ""
+msgstr "Interface XMLRPC"
 
 msgid "lang"
-msgstr ""
+msgstr "french"
 
 msgid "语言"
-msgstr ""
+msgstr "Langage"
 
 msgid "所选择的语言包不存在"
-msgstr ""
+msgstr "Le pack de langue sélectionné n'existe pas"
 
 msgid "格林威治(子午线)标准时间 (GMT)"
-msgstr ""
+msgstr "Temps moyen de Greenwich (GMT)"
 
 msgid "中欧标准时间 阿姆斯特丹,荷兰,法国 (GMT +1)"
 msgstr ""
+"Heure normale d'Europe centrale Amsterdam, Pays-Bas, France (GMT +1)"
 
 msgid "东欧标准时间 布加勒斯特,塞浦路斯,希腊 (GMT +2)"
-msgstr ""
+msgstr "Heure normale de l'Europe de l'Est Bucarest, Chypre, Grèce (GMT +2)"
 
 msgid "莫斯科时间 伊拉克,埃塞俄比亚,马达加斯加 (GMT +3)"
-msgstr ""
+msgstr "Heure de Moscou Irak, Ethiopie, Madagascar (GMT +3)"
 
 msgid "第比利斯时间 阿曼,毛里塔尼亚,留尼汪岛 (GMT +4)"
-msgstr ""
+msgstr "Heure de Tbilisi Oman, Mauritanie, Réunion (GMT +4)"
 
 msgid "新德里时间 巴基斯坦,马尔代夫 (GMT +5)"
-msgstr ""
+msgstr "Heure de New Delhi Pakistan, Maldives (GMT +5)"
 
 msgid "科伦坡时间 孟加拉 (GMT +6)"
-msgstr ""
+msgstr "Heure de Colombo Bengal (GMT +6)"
 
 msgid "曼谷雅加达 柬埔寨,苏门答腊,老挝 (GMT +7)"
-msgstr ""
+msgstr "Heure de Bangkok, Jakarta, Cambodge, Sumatra, Laos (GMT +7)"
 
 msgid "北京时间 香港,新加坡,越南 (GMT +8)"
-msgstr ""
+msgstr "Heure de Beijing, Hong Kong, Singapour, Vietnam (GMT +8)"
 
 msgid "东京平壤时间 西伊里安,摩鹿加群岛 (GMT +9)"
-msgstr ""
+msgstr "Heure de Tokyo, Pyongyang, Heure Ouest Irian, Moluques (GMT +9)"
 
 msgid "悉尼关岛时间 塔斯马尼亚岛,新几内亚 (GMT +10)"
-msgstr ""
+msgstr "Heure de Sydney, Guam, Tasmanie, Nouvelle-Guinée (GMT +10)"
 
 msgid "所罗门群岛 库页岛 (GMT +11)"
-msgstr ""
+msgstr "Heure des Îles Salomon, Sakhalin (GMT +11)"
 
 msgid "惠灵顿时间 新西兰,斐济群岛 (GMT +12)"
-msgstr ""
+msgstr "Heure de Wellington, Nouvelle-Zélande, Îles Fidji (GMT +12)"
 
 msgid "佛德尔群岛 亚速尔群岛,葡属几内亚 (GMT -1)"
-msgstr ""
+msgstr "Heure de Açores, Guinée portugaise (GMT -1)"
 
 msgid "大西洋中部时间 格陵兰 (GMT -2)"
-msgstr ""
+msgstr "Heure de Atlantic Central, Groenland (GMT -2)"
 
 msgid "布宜诺斯艾利斯 乌拉圭,法属圭亚那 (GMT -3)"
-msgstr ""
+msgstr "Heure de Buenos Aires, Uruguay, Guyane française (GMT -3)"
 
 msgid "智利巴西 委内瑞拉,玻利维亚 (GMT -4)"
-msgstr ""
+msgstr "Heure de Chili, Brésil, Venezuela, Bolivie (GMT -4)"
 
 msgid "纽约渥太华 古巴,哥伦比亚,牙买加 (GMT -5)"
-msgstr ""
+msgstr "Heure de New York, Ottawa, Cuba, Colombie, Jamaïque (GMT -5)"
 
 msgid "墨西哥城时间 洪都拉斯,危地马拉,哥斯达黎加 (GMT -6)"
-msgstr ""
+msgstr "Heure de Mexico Honduras, Guatemala, Costa Rica (GMT -6)"
 
 msgid "美国丹佛时间 (GMT -7)"
-msgstr ""
+msgstr "Heure de Denver, États-Unis (GMT -7)"
 
 msgid "美国旧金山时间 (GMT -8)"
-msgstr ""
+msgstr "Heure de San Francisco (GMT -8)"
 
 msgid "阿拉斯加时间 (GMT -9)"
-msgstr ""
+msgstr "Heure de l'Alaska (GMT -9)"
 
 msgid "夏威夷群岛 (GMT -10)"
-msgstr ""
+msgstr "Heure des Îles Hawaii (GMT -10)"
 
 msgid "东萨摩亚群岛 (GMT -11)"
-msgstr ""
+msgstr "Heure de Samoa orientale (GMT-11)"
 
 msgid "艾尼威托克岛 (GMT -12)"
-msgstr ""
+msgstr "Heure de Île d'Ainitoke (GMT-12)"
 
 msgid "图片文件"
-msgstr ""
+msgstr "Fichier d'image"
 
 msgid "多媒体文件"
-msgstr ""
+msgstr "Fichiers multimédias"
 
 msgid "常用档案文件"
-msgstr ""
+msgstr "Fichier commun"
 
 #, php-format
 msgid "其他格式 %s"
-msgstr ""
+msgstr "Autres formats %s"
 
 msgid "允许上传的文件类型"
-msgstr ""
+msgstr "Les types de fichiers autorisés à être téléchargés"
 
 #, php-format
 msgid "用逗号 \",\" 将后缀名隔开, 例如: %s"
-msgstr ""
+msgstr "Utilisez une virgule \",\" nom du suffixe, par exemple: %s"
 
 msgid "不启用"
-msgstr ""
+msgstr "Non activé"
 
 msgid "是否使用地址重写功能"
-msgstr ""
+msgstr "Indique s'il faut utiliser la fonction de réécriture d'adresse"
 
 msgid "地址重写即 rewrite 功能是某些服务器软件提供的优化内部连接的功能."
 msgstr ""
+"La réécriture de l'adresse, c'est-à-dire la fonction de réécriture, est "
+"fournie par certains logiciels serveur pour optimiser la fonction de la "
+"connexion interne."
 
 msgid "打开此功能可以让你的链接看上去完全是静态地址."
 msgstr ""
+"Activez cette fonctionnalité pour que votre lien soit complètement "
+"statique."
 
 msgid "重写功能检测失败, 请检查你的服务器设置"
 msgstr ""
+"La fonction de remplacement de la fonction de remplacement a échoué. "
+"Veuillez vérifier les paramètres de votre serveur"
 
 msgid ""
 "我们检测到你使用了apache服务器, 但是程序无法在根目录创建.htaccess文件, 这"
 "可能是产生这个错误的原因."
 msgstr ""
+"Nous avons détecté que vous utilisez un serveur apache, mais le programme "
+"ne peut pas créer de fichiers .htaccess dans le répertoire racine, ce qui "
+"peut être la raison de cette erreur."
 
 msgid "请调整你的目录权限, 或者手动创建一个.htaccess文件."
 msgstr ""
+"Veuillez ajuster vos autorisations de répertoire ou créer manuellement un "
+"fichier .htaccess."
 
 msgid "如果你仍然想启用此功能, 请勾选这里"
 msgstr ""
+"Si vous souhaitez toujours activer cette fonctionnalité, veuillez "
+"vérifier ici"
 
 msgid "默认风格"
-msgstr ""
+msgstr "Style par défaut"
 
 msgid "wordpress风格"
-msgstr ""
+msgstr "style Wordpress"
 
 msgid "按日期归档"
-msgstr ""
+msgstr "Archive par date"
 
 msgid "按分类归档"
-msgstr ""
+msgstr "Archive par catégories"
 
 msgid "个性化定义"
-msgstr ""
+msgstr "Personnalisée"
 
 msgid "自定义文章路径"
-msgstr ""
+msgstr "Chemin d'article personnalisé"
 
 msgid ""
 "可用参数: <code>{cid}</code> 日志 ID, <code>{slug}</code> 日志缩略名, "
 "<code>{category}</code> 分类, <code>{directory}</code> 多级分类, "
 "<code>{year}</code> 年, <code>{month}</code> 月, <code>{day}</code> 日"
 msgstr ""
+"Paramètres disponibles: <code>{cid}</code> ID du post, <code>{slug}</"
+"code> abréviation du post, <code>{category}</code> catégorie, <code>{year}"
+"</code> année, <code>{month}</code> mois, <code>{jour}</code> día"
 
 msgid "选择一种合适的文章静态路径风格, 使得你的网站链接更加友好."
 msgstr ""
+"Choisissez un style de chemin statique d'article approprié, rendant les "
+"liens de votre site plus conviviaux."
 
 msgid "一旦你选择了某种链接风格请不要轻易修改它."
 msgstr ""
+"Une fois que vous avez choisi un style de lien, ne le changez pas "
+"facilement."
 
 msgid "独立页面路径"
-msgstr ""
+msgstr "Adresse de la page indépendant"
 
 msgid "可用参数: <code>{cid}</code> 页面 ID, <code>{slug}</code> 页面缩略名"
 msgstr ""
+"Paramètres disponibles: <code>{cid}</code> ID de la page, <code>{slug}</"
+"code> abréviation de la page"
 
 msgid "请在路径中至少包含上述的一项参数."
 msgstr ""
+"Veuillez inclure au moins un des paramètres ci-dessus dans le chemin."
 
 msgid "独立页面路径中没有包含 {cid} 或者 {slug} "
-msgstr ""
+msgstr "L'adresse de la page indépendante n'inclut pas {cid} ou {slug} "
 
 msgid "分类路径"
-msgstr ""
+msgstr "Adresse de la catégorie"
 
 msgid ""
 "可用参数: <code>{mid}</code> 分类 ID, <code>{slug}</code> 分类缩略名, "
 "<code>{directory}</code> 多级分类"
 msgstr ""
+"Paramètres disponibles: <code>{cid}</code> ID de la catégorie, "
+"<code>{slug}</code> abréviation de la catégorie"
 
 msgid "分类路径中没有包含 {mid} 或者 {slug} "
-msgstr ""
+msgstr "Les chemins de catégorie n'incluent pas {mid} ou {slug} "
 
 msgid ""
 "自定义链接与现有规则存在冲突! 它可能影响解析效率, 建议你重新分配一个规则."
 msgstr ""
+"Il existe un conflit entre le lien personnalisé et les règles existantes! "
+"Cela peut affecter l'efficacité de la résolution, il est recommandé de "
+"réaffecter une règle."
 
 msgid "文章日期格式"
-msgstr ""
+msgstr "Format de date du post"
 
 msgid "此格式用于指定显示在文章归档中的日期默认显示格式."
 msgstr ""
+"Ce format est utilisé pour spécifier le format d'affichage par défaut de "
+"la date à afficher dans l'archive du post."
 
 msgid "在某些主题中这个格式可能不会生效, 因为主题作者可以自定义日期格式."
 msgstr ""
+"Ce format peut ne pas fonctionner sur certains sujets car l'auteur du "
+"sujet peut personnaliser le format de la date."
 
 msgid ""
 "请参考 <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP 日期"
 "格式写法</a>."
 msgstr ""
+"Reportez-vous à la <a href=\"http://www.php.net/manual/fr/function.date."
+"php\">mise en forme de la date PHP</a>."
 
 msgid "请不要在日期格式中使用特殊字符"
-msgstr ""
+msgstr "Merci de ne pas utiliser de caractères spéciaux au format de date"
 
 msgid "显示最新发布的文章"
-msgstr ""
+msgstr "Afficher le dernier message"
 
 #, php-format
 msgid "同时将文章列表页路径更改为 %s"
 msgstr ""
+"Modifiez également le chemin de la page de la liste d'articles en %s"
 
 #, php-format
 msgid "使用 %s 页面作为首页"
-msgstr ""
+msgstr "Utiliser la page %s comme page d'accueil"
 
 #, php-format
 msgid "直接调用 %s 模板文件"
-msgstr ""
+msgstr "Appelez le fichier de modèle %s directement"
 
 msgid "站点首页"
-msgstr ""
+msgstr "Page d'accueil"
 
 msgid "文章列表数目"
-msgstr ""
+msgstr "Numéro de la liste de post"
 
 msgid "此数目用于指定显示在侧边栏中的文章列表数目."
 msgstr ""
+"Ce nombre est utilisé pour spécifier le nombre de listes de posts "
+"affichées dans la barre latérale."
 
 msgid "每页文章数目"
-msgstr ""
+msgstr "Le nombre de posts par page"
 
 msgid "此数目用于指定文章归档输出时每页显示的文章数目."
 msgstr ""
+"Ce nombre est utilisé pour spécifier le nombre de posts affichés par page "
+"lorsque l'archive du post est sortie."
 
 msgid "仅输出摘要"
-msgstr ""
+msgstr "Seul le résumé de sortie"
 
 msgid "全文输出"
-msgstr ""
+msgstr "Sortie de texte intégral"
 
 msgid "聚合全文输出"
-msgstr ""
+msgstr "Agréger la sortie de texte intégral"
 
 msgid "如果你不希望在聚合中输出文章全文,请使用仅输出摘要选项."
 msgstr ""
+"Si vous ne souhaitez pas imprimer le texte intégral du post dans son "
+"ensemble, utilisez l'option Output Summary Only."
 
 msgid "摘要的文字取决于你在文章中使用分隔符的位置."
 msgstr ""
+"Le texte du résumé dépend de l'endroit où vous utilisez le délimiteur "
+"dans le post."
 
 msgid "插件不存在"
-msgstr ""
+msgstr "Le plugin n'existe pas"
 
 #, php-format
 msgid "设置插件 %s"
-msgstr ""
+msgstr "Définir le plug-in %s"
 
 msgid "无法配置插件"
-msgstr ""
+msgstr "Impossible de configurer le plug-in"
 
 msgid "无法启用插件"
-msgstr ""
+msgstr "Impossible d'activer le plugin"
 
 #, php-format
 msgid "<a href=\"%s\">%s</a> 无法在此版本的typecho下正常工作"
 msgstr ""
+"<a href=\"%s\">%s</a> ne fonctionne pas avec cette version de Typecho"
 
 msgid "插件已经被启用"
-msgstr ""
+msgstr "Les plugins ont été activés"
 
 msgid "插件已经被禁用"
-msgstr ""
+msgstr "Les plugins ont été désactivés"
 
 msgid "插件设置已经保存"
-msgstr ""
+msgstr "Les paramètres du plug-in ont été sauvegardés"
 
 msgid "外观配置功能不存在"
-msgstr ""
+msgstr "La configuration de l'apparence n'existe pas"
 
 msgid "外观已经改变"
-msgstr ""
+msgstr "L'apparence a changé"
 
 msgid "您选择的风格不存在"
-msgstr ""
+msgstr "Le style que vous choisissez n'existe pas"
 
 #, php-format
 msgid "文件 %s 的更改已经保存"
-msgstr ""
+msgstr "La modification du fichier %s a été enregistrée"
 
 #, php-format
 msgid "文件 %s 无法被写入"
-msgstr ""
+msgstr "Le fichier %s ne peut pas être écrit"
 
 msgid "您编辑的文件不存在"
-msgstr ""
+msgstr "Votre fichier modifié n'existe pas"
 
 msgid "外观设置已经保存"
-msgstr ""
+msgstr "Les paramètres d'apparence ont été sauvegardés"
 
 #, php-format
 msgid "编辑文件 %s"
-msgstr ""
+msgstr "Modifier le fichier %s"
 
 #, php-format
 msgid "编辑用户 %s"
-msgstr ""
+msgstr "Modifier %s"
 
 msgid "用户名 *"
-msgstr ""
+msgstr "Nom d'utilisateur *"
 
 msgid "此用户名将作为用户登录时所用的名称."
 msgstr ""
+"Ce nom d'utilisateur sera utilisé comme nom de connexion de l'utilisateur."
 
 msgid "请不要与系统中现有的用户名重复."
-msgstr ""
+msgstr "Ne dupliquez pas les noms d'utilisateur existants dans le système."
 
 msgid "电子邮箱地址 *"
-msgstr ""
+msgstr "Adresse e-mail *"
 
 msgid "电子邮箱地址将作为此用户的主要联系方式."
-msgstr ""
+msgstr "L'adresse e-mail sera le contact principal pour cet utilisateur."
 
 msgid "请不要与系统中现有的电子邮箱地址重复."
 msgstr ""
+"Veuillez ne pas dupliquer les adresses e-mail existantes dans le système."
 
 msgid "用户昵称"
-msgstr ""
+msgstr "Pseudonyme de l'utilisateur"
 
 msgid "用户昵称可以与用户名不同, 用于前台显示."
 msgstr ""
+"Le surnom de l'utilisateur peut être différent du nom de l'utilisateur et "
+"peut être utilisé pour l'affichage de premier plan."
 
 msgid "如果你将此项留空, 将默认使用用户名."
 msgstr ""
+"Si vous laissez ce champ vide, le nom d'utilisateur sera utilisé par "
+"défaut."
 
 msgid "用户密码"
-msgstr ""
+msgstr "Mot de passe"
 
 msgid "为此用户分配一个密码."
-msgstr ""
+msgstr "Attribuez un mot de passe à cet utilisateur."
 
 msgid "建议使用特殊字符与字母、数字的混编样式,以增加系统安全性."
 msgstr ""
+"Recommandez l'utilisation de caractères spéciaux et de lettres, de "
+"chiffres, de style mixte pour augmenter la sécurité du système."
 
 msgid "用户密码确认"
-msgstr ""
+msgstr "Confirmation du mot de passe"
 
 msgid "请确认你的密码, 与上面输入的密码保持一致."
 msgstr ""
+"Veuillez confirmer votre mot de passe, conformément au mot de passe entré "
+"ci-dessus."
 
 msgid "个人主页地址"
-msgstr ""
+msgstr "Adresse personnelle de la page d'accueil"
 
 msgid "此用户的个人主页地址, 请用 <code>http://</code> 开头."
 msgstr ""
+"L'adresse de la page d'accueil de cet utilisateur doit commencer par "
+"<code>http://</code>."
 
 msgid "不同的用户组拥有不同的权限."
 msgstr ""
+"Les groupes d'utilisateurs différents ont des autorisations différentes."
 
 msgid ""
 "具体的权限分配表请<a href=\"http://docs.typecho.org/develop/acl\">参考这里"
 "</a>."
 msgstr ""
+"Tableau de répartition des droits spécifiques <a href=\"http://docs."
+"typecho.org/develop/acl\"> référence ici </a>."
 
 msgid "编辑用户"
-msgstr ""
+msgstr "Modifier l'utilisateur"
 
 msgid "增加用户"
-msgstr ""
+msgstr "Ajouter l'utilisateur"
 
 msgid "昵称已经存在"
-msgstr ""
+msgstr "Le surnom existe déjà"
 
 msgid "请不要在昵称中使用特殊字符"
-msgstr ""
+msgstr "Merci de ne pas utiliser de caractères spéciaux dans les surnoms"
 
 msgid "用户密码 *"
-msgstr ""
+msgstr "Mot de passe *"
 
 msgid "用户密码确认 *"
-msgstr ""
+msgstr "Confirmation de mot de passe *"
 
 msgid "用户主键不存在"
-msgstr ""
+msgstr "La clé primaire de l'utilisateur n'existe pas"
 
 #, php-format
 msgid "用户 %s 已经被增加"
-msgstr ""
+msgstr "Utilisateur %s ajouté"
 
 #, php-format
 msgid "用户 %s 已经被更新"
-msgstr ""
+msgstr "Utilisateur% s a été mis à jour"
 
 msgid "用户已经删除"
-msgstr ""
+msgstr "L'utilisateur a été supprimé"
 
 msgid "没有用户被删除"
-msgstr ""
+msgstr "Aucun utilisateur n'est supprimé"
 
 msgid "更新我的档案"
-msgstr ""
+msgstr "Mettre à jour mon fichier"
 
 msgid "使用 Markdown 语法编辑和解析内容"
-msgstr ""
+msgstr "Editer et analyser le contenu en utilisant la syntaxe de format"
 
 msgid ""
 "使用 <a href=\"http://daringfireball.net/projects/markdown/\">Markdown</"
 "a> 语法能够使您的撰写过程更加简便直观."
 msgstr ""
+"Utilisez la syntaxe <a href=\"http://daringfireball.net/projects/markdown/"
+"\"> Markdown </a> pour rendre votre processus d'écriture plus facile et "
+"plus intuitif."
 
 msgid "此功能开启不会影响以前没有使用 Markdown 语法编辑的内容."
 msgstr ""
+"Cette fonctionnalité n'affecte pas le contenu qui n'a pas été "
+"précédemment modifié à l'aide de la syntaxe Markdown."
 
 msgid "在 XMLRPC 接口中使用 Markdown 语法"
-msgstr ""
+msgstr "Utilisez la syntaxe Markdown dans l'interface XMLRPC"
 
 msgid ""
 "对于完全支持 <a href=\"http://daringfireball.net/projects/markdown/"
 "\">Markdown</a> 语法写作的离线编辑器, 打开此选项后将避免内容被转换为 HTML."
 msgstr ""
+"Activer cette option empêchera le contenu d'être converti en HTML pour "
+"les éditeurs hors ligne qui prennent en charge l'écriture de syntaxe <a "
+"href=\"http://daringfireball.net/projects/markdown/\"> Markdown </a>."
 
 msgid "自动保存"
-msgstr ""
+msgstr "Sauvegarder automatiquement"
 
 msgid "自动保存功能可以更好地保护你的文章不会丢失."
 msgstr ""
+"Fonction de sauvegarde automatique peut mieux protéger votre article ne "
+"sera pas perdu."
 
 msgid "可以被评论"
-msgstr ""
+msgstr "Peut être commenté"
 
 msgid "可以被引用"
-msgstr ""
+msgstr "Peut être cité"
 
 msgid "出现在聚合中"
-msgstr ""
+msgstr "Apparaît dans l'agrégat"
 
 msgid "默认允许"
-msgstr ""
+msgstr "Autoriser par défaut"
 
 msgid "设置你经常使用的默认允许权限"
-msgstr ""
+msgstr "Définir les autorisations par défaut que vous utilisez souvent"
 
 msgid "更新密码"
-msgstr ""
+msgstr "Mettre à jour"
 
 msgid "您的档案已经更新"
-msgstr ""
+msgstr "Votre fichier a été mis à jour"
 
 msgid "密码已经成功修改"
-msgstr ""
+msgstr "Le mot de passe a été modifié avec succès"
 
 #, php-format
 msgid "%s 设置已经保存"
-msgstr ""
+msgstr "Les paramètres %s ont été enregistrés"
