@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Typecho 1.2/18.1.29\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-03 12:30+0800\n"
-"PO-Revision-Date: 2018-02-10 18:58-0400\n"
+"PO-Revision-Date: 2018-02-11 21:24-0400\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -672,896 +672,946 @@ msgstr ""
 "attente, vous confirmez que vous souhaitez actualiser ces catégories?"
 
 msgid "刷新"
-msgstr ""
+msgstr "Actualiser"
 
 msgid "合并到"
-msgstr ""
+msgstr "Fusionner dans"
 
 msgid "名称"
-msgstr ""
+msgstr "Nom"
 
 msgid "子分类"
-msgstr ""
+msgstr "Sous-catégories"
 
 msgid "缩略名"
-msgstr ""
+msgstr "Nom abrégé"
 
 msgid "文章数"
-msgstr ""
+msgstr "Nombre de posts"
 
 #, php-format
 msgid "浏览 %s"
-msgstr ""
+msgstr "Parcourir %s"
 
 #, php-format
 msgid "一个分类"
 msgid_plural "%d个分类"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Catégorie"
+msgstr[1] "%d catégories"
 
 msgid "新增"
-msgstr ""
+msgstr "Ajouté"
 
 msgid "默认"
-msgstr ""
+msgstr "Par défaut"
 
 msgid "设为默认"
-msgstr ""
+msgstr "Définir par défaut"
 
 msgid "没有任何分类"
-msgstr ""
+msgstr "Il n'y a pas de classification"
 
 msgid "所有"
-msgstr ""
+msgstr "Tout"
 
 msgid "我的"
-msgstr ""
+msgstr "Mine"
 
 msgid "已通过"
-msgstr ""
+msgstr "Passé"
 
 msgid "待审核"
-msgstr ""
+msgstr "En cours de révision"
 
 msgid "垃圾"
-msgstr ""
+msgstr "Spam"
 
 msgid "通过"
-msgstr ""
+msgstr "Pass"
 
 msgid "标记垃圾"
-msgstr ""
+msgstr "Marquer comme spam"
 
 msgid "你确认要删除这些评论吗?"
-msgstr ""
+msgstr "Êtes-vous sûr de vouloir supprimer ces commentaires?"
 
 msgid "你确认要删除所有垃圾评论吗?"
-msgstr ""
+msgstr "Êtes-vous sûr de vouloir supprimer tous les commentaires de spam?"
 
 msgid "删除所有垃圾评论"
-msgstr ""
+msgstr "Supprimer tous les commentaires spam"
 
 msgid "&laquo; 取消筛选"
-msgstr ""
+msgstr "&laquo; annuler le filtre"
 
 msgid "请输入关键字"
-msgstr ""
+msgstr "S'il vous plaît entrer les mots-clés"
 
 msgid "筛选"
-msgstr ""
+msgstr "Filtrer"
 
 msgid "作者"
-msgstr ""
+msgstr "Auteur"
 
 msgid "内容"
-msgstr ""
+msgstr "Contenu"
 
 msgid "回复"
-msgstr ""
+msgstr "Réponse"
 
 #, php-format
 msgid "你确认要删除%s的评论吗?"
-msgstr ""
+msgstr "Êtes-vous sûr de vouloir supprimer le commentaire de %s?"
 
 msgid "没有评论"
-msgstr ""
+msgstr "Pas de commentaire"
 
 msgid "电子邮箱"
-msgstr ""
+msgstr "Email"
 
 msgid "个人主页"
-msgstr ""
+msgstr "Page d'accueil personnelle"
 
 msgid "提交"
-msgstr ""
+msgstr "Envoyer"
 
 msgid "你确认要删除这些文件吗?"
-msgstr ""
+msgstr "Êtes-vous sûr de vouloir supprimer ces fichiers?"
 
 msgid "您确认要清理未归档的文件吗?"
-msgstr ""
+msgstr "Êtes-vous sûr de vouloir supprimer les fichiers non archivés?"
 
 msgid "清理未归档文件"
-msgstr ""
+msgstr "Supprimer les fichiers non archivés"
 
 msgid "文件名"
-msgstr ""
+msgstr "Nom du fichier"
 
 msgid "上传者"
-msgstr ""
+msgstr "Uploader"
 
 msgid "所属文章"
-msgstr ""
+msgstr "Propre post"
 
 msgid "发布日期"
-msgstr ""
+msgstr "Date de publication"
 
 msgid "未归档"
-msgstr ""
+msgstr "Sans archiver"
 
 msgid "没有任何文件"
-msgstr ""
+msgstr "Sans des documents"
 
 msgid "你确认要删除这些页面吗?"
-msgstr ""
+msgstr "Êtes-vous sûr de vouloir supprimer ces pages?"
 
 msgid "日期"
-msgstr ""
+msgstr "Date"
 
 msgid "评论"
-msgstr ""
+msgstr "Commentaire"
 
 msgid "草稿"
-msgstr ""
+msgstr "Projet"
 
 msgid "隐藏"
-msgstr ""
+msgstr "Masquer"
 
 #, php-format
 msgid "编辑 %s"
-msgstr ""
+msgstr "Modifier %s"
 
 #, php-format
 msgid "保存于 %s"
-msgstr ""
+msgstr "Enregister dans %s"
 
 msgid "没有任何页面"
-msgstr ""
+msgstr "Sans pages"
 
 msgid "可用"
-msgstr ""
+msgstr "Disponible"
 
 msgid "你确认要删除这些文章吗?"
-msgstr ""
+msgstr "Êtes-vous sûr de vouloir supprimer ces posts?"
 
 msgid "所有分类"
-msgstr ""
+msgstr "Tout les catégories"
 
 msgid "分类"
-msgstr ""
+msgstr "Catégorie"
 
 msgid "私密"
-msgstr ""
+msgstr "Privé"
 
 msgid "密码保护"
-msgstr ""
+msgstr "Protége par mot de passe"
 
 msgid "没有任何文章"
-msgstr ""
+msgstr "Sans post"
 
 msgid "你确认要删除这些标签吗?"
-msgstr ""
+msgstr "Êtes-vous sûr de vouloir supprimer ces étiquettes?"
 
 msgid "刷新标签可能需要等待较长时间, 你确认要刷新这些标签吗?"
 msgstr ""
+"La actualisation des étiquettes peuvent devoir attendre longtemps, vous "
+"confirmez que vous souhaitez actualiser ces étiquettes?"
 
 msgid "没有任何标签"
-msgstr ""
+msgstr "Sans éttiquette"
 
 msgid "你确认要删除这些用户吗?"
-msgstr ""
+msgstr "Êtes-vous sûr de vouloir supprimer ces utilisateurs?"
 
 msgid "昵称"
-msgstr ""
+msgstr "Surnom"
 
 msgid "电子邮件"
-msgstr ""
+msgstr "Email"
 
 msgid "用户组"
-msgstr ""
+msgstr "Groupes d'utilisateurs"
 
 msgid "暂无"
-msgstr ""
+msgstr "Aucun"
 
 msgid "管理员"
-msgstr ""
+msgstr "Admin"
 
 msgid "贡献者"
-msgstr ""
+msgstr "Collaborateurs"
 
 msgid "关注者"
-msgstr ""
+msgstr "Abonnés"
 
 msgid "访问者"
-msgstr ""
+msgstr "Visiteurs"
 
 #, php-format
 msgid "文件 %s 已经替换"
-msgstr ""
+msgstr "Fichier %s remplacé"
 
 #, php-format
 msgid "最后登录: %s"
-msgstr ""
+msgstr "Dernière conexión: %s"
 
 msgid "登出"
-msgstr ""
+msgstr "Fermer la session"
 
 msgid "网站"
-msgstr ""
+msgstr "Site web"
 
 msgid "可以使用的外观"
-msgstr ""
+msgstr "Modifier l'apparence actuelle"
 
 msgid "编辑当前外观"
-msgstr ""
+msgstr "Configurer l'apparence"
 
 msgid "设置外观"
-msgstr ""
+msgstr "Definir l'apparence"
 
 msgid "启用的插件"
-msgstr ""
+msgstr "Plug-in activé"
 
 msgid "描述"
-msgstr ""
+msgstr "Description"
 
 msgid "版本"
-msgstr ""
+msgstr "Version"
 
 #, php-format
 msgid "%s 无法在此版本的typecho下正常工作"
-msgstr ""
+msgstr "%s ne fonctionne pas avec cette version de Typecho"
 
 msgid "设置"
-msgstr ""
+msgstr "Paramétres"
 
 #, php-format
 msgid "你确认要禁用插件 %s 吗?"
-msgstr ""
+msgstr "Êtes-vous sûr de vouloir désactiver les plugins %s?"
 
 msgid "禁用"
-msgstr ""
+msgstr "Désactiver"
 
 msgid "即插即用"
-msgstr ""
+msgstr "Connectez et activez"
 
 msgid "此插件文件已经损坏或者被不安全移除, 强烈建议你禁用它"
 msgstr ""
+"Ce fichier plugin est corrompu et il est fortement recommandé de le "
+"désactiver"
 
 msgid "禁用的插件"
-msgstr ""
+msgstr "Plugins désactivé"
 
 msgid "启用"
-msgstr ""
+msgstr "Activer"
 
 msgid "没有安装插件"
-msgstr ""
+msgstr "Plugins désinstallé"
 
 msgid "在 Gravatar 上修改头像"
-msgstr ""
+msgstr "Modifier l'avatar sur Gravatar"
 
 #, php-format
 msgid ""
 "目前有 <em>%s</em> 篇日志, 并有 <em>%s</em> 条关于你的评论在 <em>%s</em> "
 "个分类中."
 msgstr ""
+"Actuellement, il y a <em>%s</em>post sur le blog, <em>%s</em> "
+"commentaires à propos de vous souls les suivants categories <em>%s</em>."
 
 msgid "个人资料"
-msgstr ""
+msgstr "Profil"
 
 msgid "撰写设置"
-msgstr ""
+msgstr "Écrire les paramètres"
 
 msgid "密码修改"
-msgstr ""
+msgstr "Changer le mot de passe"
 
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 msgid "注册"
-msgstr ""
+msgstr "S'enregistrer"
 
 msgid "用户登录"
-msgstr ""
+msgstr "Commencer la session"
 
 #, php-format
 msgid "编辑%s外观"
-msgstr ""
+msgstr "Modifier l'apparence de %s"
 
 msgid "编辑源码"
-msgstr ""
+msgstr "Modifier la police"
 
 msgid "保存文件"
-msgstr ""
+msgstr "Sauvegarder le fichier"
 
 msgid "此文件无法写入"
-msgstr ""
+msgstr "Impossible d'écrire ce fichier"
 
 msgid "截图"
-msgstr ""
+msgstr "Capture d'écran"
 
 msgid "详情"
-msgstr ""
+msgstr "Détails"
 
 msgid "发现安全问题"
-msgstr ""
+msgstr "Découvrir les problèmes de sécurité"
 
 msgid "解决完毕 &raquo;"
-msgstr ""
+msgstr "Résolu &raquo;"
 
 msgid "检测到新版本!"
-msgstr ""
+msgstr "Nouvelle versión détectée!"
 
 msgid "您已经更新了系统程序, 我们还需要执行一些后续步骤来完成升级"
 msgstr ""
+"Vous avez mis à jour le programme et nous devons encore effectuer les "
+"étapes suivantes pour terminer la mise à niveau"
 
 #, php-format
 msgid "此程序将把您的系统从 <strong>%s</strong> 升级到 <strong>%s</strong>"
 msgstr ""
+"Votre système sera mis à jour de <strong>%s</strong> à <strong>%s</strong>"
 
 #, php-format
 msgid "在升级之前强烈建议先<a href=\"%s\">备份您的数据</a>"
 msgstr ""
+"Il est fortement recommandé de <a href=\"%s\"> sauvegarder vos données </"
+"a> avant de procéder à la mise à niveau"
 
 msgid "完成升级 &raquo;"
-msgstr ""
+msgstr "Mise à jour terminée;"
 
 #, php-format
 msgid "欢迎您使用 \"%s\" 管理后台: "
-msgstr ""
+msgstr "Bienvenue \"%s\" au panneau de contrôle: "
 
 msgid "强烈建议更改你的默认密码"
 msgstr ""
+"Il est fortement recommandé de changer votre mot de passe par défaut"
 
 msgid "撰写第一篇日志"
-msgstr ""
+msgstr "Écrire mon premier post"
 
 msgid "查看我的站点"
-msgstr ""
+msgstr "Voir mon blog"
 
 msgid "让我直接开始使用吧 &raquo;"
-msgstr ""
+msgstr "Je veux commencer à utiliser &raquo;"
 
 msgid "现在"
-msgstr ""
+msgstr "Maintenant"
 
 msgid "上一月"
-msgstr ""
+msgstr "Le mois dernier"
 
 msgid "下一月"
-msgstr ""
+msgstr "Le mois prochain"
 
 msgid "一月"
-msgstr ""
+msgstr "Jan"
 
 msgid "二月"
-msgstr ""
+msgstr "Fév"
 
 msgid "三月"
-msgstr ""
+msgstr "Mar"
 
 msgid "四月"
-msgstr ""
+msgstr "Avr"
 
 msgid "五月"
-msgstr ""
+msgstr "Mai"
 
 msgid "六月"
-msgstr ""
+msgstr "Jun"
 
 msgid "七月"
-msgstr ""
+msgstr "Jui"
 
 msgid "八月"
-msgstr ""
+msgstr "Août"
 
 msgid "九月"
-msgstr ""
+msgstr "Sept"
 
 msgid "十月"
-msgstr ""
+msgstr "Oct"
 
 msgid "十一月"
-msgstr ""
+msgstr "Nov"
 
 msgid "十二月"
-msgstr ""
+msgstr "Déc"
 
 msgid "星期日"
-msgstr ""
+msgstr "Dim"
 
 msgid "星期一"
-msgstr ""
+msgstr "Lun"
 
 msgid "星期二"
-msgstr ""
+msgstr "Mar"
 
 msgid "星期三"
-msgstr ""
+msgstr "Mer"
 
 msgid "星期四"
-msgstr ""
+msgstr "Jeu"
 
 msgid "星期五"
-msgstr ""
+msgstr "Ven"
 
 msgid "星期六"
-msgstr ""
+msgstr "Sam"
 
 msgid "周日"
-msgstr ""
+msgstr "Dim"
 
 msgid "周一"
-msgstr ""
+msgstr "Lun"
 
 msgid "周二"
-msgstr ""
+msgstr "Mar"
 
 msgid "周三"
-msgstr ""
+msgstr "Mer"
 
 msgid "周四"
-msgstr ""
+msgstr "Jeu"
 
 msgid "周五"
-msgstr ""
+msgstr "Ven"
 
 msgid "周六"
-msgstr ""
+msgstr "Sam"
 
 msgid "日"
-msgstr ""
+msgstr "Dim"
 
 msgid "一"
-msgstr ""
+msgstr "Lun"
 
 msgid "二"
-msgstr ""
+msgstr "Mar"
 
 msgid "三"
-msgstr ""
+msgstr "Mer"
 
 msgid "四"
-msgstr ""
+msgstr "Jeu"
 
 msgid "五"
-msgstr ""
+msgstr "Ven"
 
 msgid "六"
-msgstr ""
+msgstr "Sam"
 
 msgid "完成"
-msgstr ""
+msgstr "Prêt"
 
 msgid "选择时间"
-msgstr ""
+msgstr "Choisissez l'heure"
 
 msgid "时间"
-msgstr ""
+msgstr "Heure"
 
 msgid "时"
-msgstr ""
+msgstr "heure"
 
 msgid "上午"
-msgstr ""
+msgstr "a.m"
 
 msgid "下午"
-msgstr ""
+msgstr "p.m"
 
 msgid "分"
-msgstr ""
+msgstr "min"
 
 msgid "秒"
-msgstr ""
+msgstr "sec"
 
 msgid "请输入标签名"
-msgstr ""
+msgstr "Veuillez entrer le nom du tag"
 
 msgid "此标签不存在, 按回车创建"
-msgstr ""
+msgstr "Cette étiquette n'existe pas, appuyez sur Entrée pour créer"
 
 msgid "已保存"
-msgstr ""
+msgstr "Sauver"
 
 msgid "正在保存"
-msgstr ""
+msgstr "Sauvé"
 
 msgid "尚未保存"
-msgstr ""
+msgstr "Pas encore enregistré"
 
 msgid "上次保存时间"
-msgstr ""
+msgstr "Dernier sauvegarde"
 
 msgid "内容已经改变尚未保存, 您确认要离开此页面吗?"
 msgstr ""
+"Le contenu n'a pas encore changé. Êtes-vous sûr de vouloir quitter cette "
+"page?"
 
 msgid "修改后的内容需要保存后才能预览, 是否保存?"
-msgstr ""
+msgstr "Le contenu révisé doit être enregistré avant l'aperçu, enregistrer?"
 
 msgid "您确认要删除这份草稿吗?"
-msgstr ""
+msgstr "Êtes-vous sûr de vouloir supprimer ce brouillon?"
 
 #, php-format
 msgid "当前正在编辑的是保存于%s的草稿, 你可以<a href=\"%s\">删除它</a>"
 msgstr ""
+"En cours de modification d'un brouillon enregistré dans %s, vous pouvez "
+"<a href=\"%s\"> supprimer-le </a>"
 
 msgid "当前正在编辑的是未发布的草稿"
-msgstr ""
+msgstr "En cours de modification d'un brouillon n'a pas été enregistré"
 
 msgid "网址缩略名"
-msgstr ""
+msgstr "Abréviation"
 
 msgid "页面内容"
-msgstr ""
+msgstr "Contenu de la page"
 
 msgid "取消预览"
-msgstr ""
+msgstr "Annuler l'aperçu"
 
 msgid "预览页面"
-msgstr ""
+msgstr "Page d'aperçu"
 
 msgid "保存草稿"
-msgstr ""
+msgstr "Sauver le boruillon"
 
 msgid "发布页面"
-msgstr ""
+msgstr "Publier la page"
 
 msgid "选项"
-msgstr ""
+msgstr "Options"
 
 msgid "页面顺序"
-msgstr ""
+msgstr "Ordre des pages"
 
 msgid "为你的自定义页面设定一个序列值以后, 能够使得它们按此值从小到大排列"
 msgstr ""
+"Après avoir défini une valeur de séquence pour votre page personnalisée, "
+"vous pouvez les organiser dans l'ordre croissant"
 
 msgid "自定义模板"
-msgstr ""
+msgstr "Modèle personnalisé"
 
 msgid "不选择"
-msgstr ""
+msgstr "Désélectionner"
 
 msgid "如果你为此页面选择了一个自定义模板, 系统将按照你选择的模板文件展现它"
 msgstr ""
+"Si vous sélectionnez un modèle personnalisé pour cette page, le système "
+"l'affichera dans le fichier modèle de votre choix"
 
 msgid "高级选项"
-msgstr ""
+msgstr "Options avancées"
 
 msgid "公开度"
-msgstr ""
+msgstr "Publicité"
 
 msgid "公开"
-msgstr ""
+msgstr "Publique"
 
 msgid "权限控制"
-msgstr ""
+msgstr "Autorisations"
 
 msgid "允许评论"
-msgstr ""
+msgstr "Autoriser les commentaires"
 
 msgid "允许被引用"
-msgstr ""
+msgstr "Autoriser les citations"
 
 msgid "允许在聚合中出现"
-msgstr ""
+msgstr "Autoriser les agrégats"
 
 #, php-format
 msgid "本页面由 <a href=\"%s\">%s</a> 创建"
-msgstr ""
+msgstr "Cette page a été créée par <a href=\"%s\">%s</a>"
 
 #, php-format
 msgid "最后更新于 %s"
-msgstr ""
+msgstr "Dernière mise à jour le %s"
 
 #, php-format
 msgid "你正在编辑的是保存于 %s 的草稿, 你也可以 <a href=\"%s\">删除它</a>"
 msgstr ""
+"Vous modifiez un brouillon enregistré dans %s, vous pouvez également <a "
+"href=\"%s\">supprimer-le</a>"
 
 msgid "文章内容"
-msgstr ""
+msgstr "Contenu du post"
 
 msgid "预览文章"
-msgstr ""
+msgstr "Publier"
 
 msgid "发布文章"
-msgstr ""
+msgstr "Publier le post"
 
 msgid "标签"
-msgstr ""
+msgstr "Étiquettes"
 
 msgid "内容密码"
-msgstr ""
+msgstr "Mot de passe du contenu"
 
 msgid "引用通告"
-msgstr ""
+msgstr "Notification de citation"
 
 msgid "每一行一个引用地址, 用回车隔开"
 msgstr ""
+"Chaque ligne une adresse de référence, séparés par un retour chariot"
 
 #, php-format
 msgid "本文由 <a href=\"%s\">%s</a> 撰写"
-msgstr ""
+msgstr "Cet article a été écrit par <a href=\"%s\">% s </a>"
 
 #, php-format
 msgid "系统将为您自动匹配 %s 环境的安装选项"
 msgstr ""
+"Le système correspondra automatiquement à vos options d'installation de "
+"l'environnement %s"
 
 msgid "应用API Key"
-msgstr ""
+msgstr "Appliquer la clé de l'API"
 
 msgid "应用Secret Key"
-msgstr ""
+msgstr "Appliquer la clé de Secret"
 
 msgid "数据库名"
-msgstr ""
+msgstr "Nom de la base de données"
 
 msgid "可以在MySQL服务的管理页面看到您创建的数据库名称"
 msgstr ""
+"Vous pouvez voir le nom de la base de données que vous avez créée dans la "
+"page de gestion du service MySQL"
 
 msgid "数据库实例名"
-msgstr ""
+msgstr "Adresse de la base de données"
 
 #, php-format
 msgid "请填入您在Cloud SQL面板中创建的数据库实例名称, 示例: %s"
 msgstr ""
+"Entrez le nom de l'instance de base de données que vous avez créée dans "
+"le panneau Cloud SQL, par exemple: %s"
 
 msgid "数据库用户名"
-msgstr ""
+msgstr "Nom d'utilisateur de la base de données"
 
 msgid "数据库密码"
-msgstr ""
+msgstr "Mot de passe de la base de données"
 
 msgid "请填入您在Cloud SQL的实例中创建的数据库名称"
 msgstr ""
+"Veuillez renseigner le nom de la base de données que vous avez créée dans "
+"l'instance de Cloud SQL"
 
 msgid "数据库地址"
-msgstr ""
+msgstr "Adresse de la base de données"
 
 #, php-format
 msgid "您可能会使用 \"%s\""
-msgstr ""
+msgstr "Vous pouvez utiliser \"%s\""
 
 msgid "数据库端口"
-msgstr ""
+msgstr "Port de la base de données"
 
 msgid "如果您不知道此选项的意义, 请保留默认设置"
 msgstr ""
+"Si vous ne connaissez pas la signification de cette option, laissez le "
+"paramètre par défaut"
 
 msgid "请您指定数据库名称"
-msgstr ""
+msgstr "Veuillez spécifier le nom de la base de données"
 
 msgid "utf8"
-msgstr ""
+msgstr "utf8"
 
 msgid "数据库编码"
-msgstr ""
+msgstr "Mot de passe de la base de données"
 
 msgid "选择 utf8mb4 编码至少需要 MySQL 5.5.3 版本"
 msgstr ""
+"Sélectionnez l'encodage utf8mb4 nécessite au moins la version MySQL 5.5.3"
 
 msgid "数据库引擎"
-msgstr ""
+msgstr "Moteur de la base de données"
 
 msgid "数据库文件路径"
-msgstr ""
+msgstr "Adresse des fichiers de la base de données"
 
 #, php-format
 msgid "\"%s\" 是我们为您自动生成的地址"
 msgstr ""
+"\"% s\" est l'adresse que nous avons générée pour vous automatiquement"
 
 msgid "说点什么"
-msgstr ""
+msgstr "Dis quelque chose"
 
 msgid "页面没找到"
-msgstr ""
+msgstr "Page non trouvée"
 
 msgid "你想查看的页面已被转移或删除了, 要不要搜索看看: "
 msgstr ""
+"La page que vous voulez voir a été déplacée ou supprimée. Voulez-vous le "
+"chercher? "
 
 msgid "搜索"
-msgstr ""
+msgstr "Chercher"
 
 #, php-format
 msgid "分类 %s 下的文章"
-msgstr ""
+msgstr "Posts dans la catégorie %s"
 
 #, php-format
 msgid "包含关键字 %s 的文章"
-msgstr ""
+msgstr "Posts incluant le mot clé %s"
 
 #, php-format
 msgid "标签 %s 下的文章"
-msgstr ""
+msgstr "Posts tagués aver %s"
 
 #, php-format
 msgid "%s 发布的文章"
-msgstr ""
+msgstr "Posts publié par %s"
 
 msgid "作者: "
-msgstr ""
+msgstr "Auteur: "
 
 msgid "时间: "
-msgstr ""
+msgstr "Heure: "
 
 msgid "分类: "
-msgstr ""
+msgstr "Catégorie: "
 
 msgid "没有找到内容"
-msgstr ""
+msgstr "N'a pas trouvé le contenu"
 
 msgid "暂无评论"
-msgstr ""
+msgstr "Aucun commentaire pour le moment"
 
 msgid "仅有一条评论"
-msgstr ""
+msgstr "Un seul commentaire"
 
 #, php-format
 msgid "已有 %d 条评论"
-msgstr ""
+msgstr "%d commentaires"
 
 msgid "添加新评论"
-msgstr ""
+msgstr "Ajouter un nouveau commentaire"
 
 msgid "登录身份: "
-msgstr ""
+msgstr "Identité de connexion: "
 
 msgid "退出"
-msgstr ""
+msgstr "Sortir"
 
 msgid "称呼"
-msgstr ""
+msgstr "Nom"
 
 msgid "http://"
-msgstr ""
+msgstr "http://"
 
 msgid "提交评论"
-msgstr ""
+msgstr "Envoyer un commentaire"
 
 msgid "评论已关闭"
-msgstr ""
+msgstr "Les commentaires sont désactivés"
 
 msgid "由 <a href=\"http://www.typecho.org\">Typecho</a> 强力驱动"
-msgstr ""
+msgstr "Propulsé par <a href=\"http://www.typecho.org\">Typecho</a>"
 
 msgid "站点 LOGO 地址"
-msgstr ""
+msgstr "URL du LOGO du site web"
 
 msgid "在这里填入一个图片 URL 地址, 以在网站标题前加上一个 LOGO"
 msgstr ""
+"Remplissez une adresse URL ici pour ajouter un LOGO devant le titre du "
+"site"
 
 msgid "显示最新文章"
-msgstr ""
+msgstr "Afficher les derniers posts"
 
 msgid "显示最近回复"
-msgstr ""
+msgstr "Afficher les derniers commentaires"
 
 msgid "显示分类"
-msgstr ""
+msgstr "Afficher les catégories"
 
 msgid "显示归档"
-msgstr ""
+msgstr "Afficher le fichier"
 
 msgid "显示其它杂项"
-msgstr ""
+msgstr "Afficher les autres éléments"
 
 msgid "侧边栏显示"
-msgstr ""
+msgstr "Afficher la barre latérale"
 
 msgid "搜索关键字"
-msgstr ""
+msgstr "Chercher des mot clés"
 
 msgid "输入关键字搜索"
-msgstr ""
+msgstr "Entrez une recherche par mot clé"
 
 msgid "首页"
-msgstr ""
+msgstr "page d'index"
 
 msgid "标签: "
-msgstr ""
+msgstr "Étiquettes: "
 
 msgid "最新文章"
-msgstr ""
+msgstr "Posts récents"
 
 msgid "最近回复"
-msgstr ""
+msgstr "Réponses récentes"
 
 msgid "归档"
-msgstr ""
+msgstr "Archives"
 
 msgid "其它"
-msgstr ""
+msgstr "Autres"
 
 msgid "进入后台"
-msgstr ""
+msgstr "Entrez dans le panneau de contrôle"
 
 msgid "文章 RSS"
-msgstr ""
+msgstr "RSS pour posts"
 
 msgid "评论 RSS"
-msgstr ""
+msgstr "RSS pour commentaires"
 
 msgid "无法禁用插件"
-msgstr ""
+msgstr "Impossible de désactiver le plug-in"
 
 msgid "config.inc.php 文件无法写入, 请将它的权限设置为可写"
 msgstr ""
+"le fichier config.inc.php ne peut pas être écrit, veuillez définir ses "
+"permissions sur"
 
 #, php-format
 msgid ""
 "上传目录无法写入, 请手动将安装目录下的 %s 目录的权限设置为可写然后继续升级"
 msgstr ""
+"Le répertoire de téléchargement ne peut pas être écrit, installez "
+"manuellement les permissions du répertoire %s dans writable, puis "
+"continuez la mise à jour"
 
 #, php-format
 msgid ""
 "上传目录无法创建, 请手动创建安装目录下的 %s 目录, 并将它的权限设置为可写然"
 "后继续升级"
 msgstr ""
+"Impossible de créer le répertoire de téléchargement, veuillez créer "
+"manuellement le répertoire% s sous le répertoire d'installation et "
+"définir ses autorisations sur writable, puis continuer à mettre à niveau"
 
 msgid ""
 "建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"http://"
 "typecho.org/upgrade/9.7.2\">以下优化步骤</a>"
 msgstr ""
+"Nous vous recommandons <a href=\"http://typecho.org/upgrade/9.7.2\"> les "
+"étapes d'optimisation suivantes </a> une fois la mise à niveau vers une "
+"version de Typecho 0.7 / 9.7.2 et ultérieure"
 
 msgid "刚刚"
-msgstr ""
+msgstr "Maintenant"
 
 #, php-format
 msgid "一秒前"
 msgid_plural "%d秒前"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Il y a une seconde"
+msgstr[1] "Il y a %d secondes"
 
 #, php-format
 msgid "一分钟前"
 msgid_plural "%d分钟前"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Il y a une minute"
+msgstr[1] "Il y a %d minutes"
 
 #, php-format
 msgid "一小时前"
 msgid_plural "%d小时前"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Il y a une heure"
+msgstr[1] "Il y a %d heures"
 
 #, php-format
 msgid "昨天 %s"
-msgstr ""
+msgstr "Hier %s"
 
 #, php-format
 msgid "一天前"
 msgid_plural "%d天前"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Il y a un jour"
+msgstr[1] "Il y a %d jours"
 
 msgid "n月j日"
-msgstr ""
+msgstr "n - j"
 
 msgid "Y年m月d日"
-msgstr ""
+msgstr "M - j -A"
 
 msgid "禁止访问"
-msgstr ""
+msgstr "Accès refusé"
 
 msgid "聚合页不存在"
-msgstr ""
+msgstr "La page d'agrégation n'existe pas"
 
 msgid "zh-CN"
-msgstr ""
+msgstr "fr-FR"
 
 msgid "请求的地址不存在"
-msgstr ""
+msgstr "La URL solicité n'existe pas"
 
 msgid "分类不存在"
-msgstr ""
+msgstr "Cette catégorie n'existe pas"
 
 msgid "父级分类不存在"
 msgstr ""
