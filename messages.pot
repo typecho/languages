@@ -2779,3 +2779,24 @@ msgstr ""
 #, php-format
 msgid "%s 设置已经保存"
 msgstr ""
+
+msgid "上传"
+msgstr ""
+
+msgid "从服务器"
+msgstr ""
+
+msgid "G - 普通"
+msgstr ""
+
+msgid "PG - 13岁以上"
+msgstr ""
+
+msgid "R - 17岁以上成人"
+msgstr ""
+
+msgid "X - 限制级"
+msgstr ""
+
+msgid "参与用户调查, 帮助我们完善产品"
+msgstr ""
