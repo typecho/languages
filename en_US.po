@@ -3,25 +3,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Typecho 0.9/13.12.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-18 00:20+0800\n"
+"POT-Creation-Date: 2018-02-23 13:58+0200\n"
+"PO-Revision-Date: 2018-02-23 14:40+0200\n"
+"Last-Translator: Jakukyo Friel <weakish@gmail.com>\n"
+"Language-Team: typecho\n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2013-12-17 08:48-0500\n"
-"Last-Translator: Jakukyo Friel <weakish@gmail.com>\n"
-"Language-Team: typecho\n"
-"Language: en-US\n"
 "X-Poedit-KeywordsList: _t;_e;_n\n"
-"X-Poedit-Basepath: /home/weakish/typecho/\n"
-"X-Poedit-Language: English\n"
-"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-Basepath: /home/weakish/typecho\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.8.12\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
-"X-Generator: Zanata 3.0.3\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-
-msgid "lang"
-msgstr "English"
 
 msgid "UTF-8"
 msgstr "UTF-8"
@@ -44,11 +39,18 @@ msgstr "Successfully installed."
 msgid "安装失败!"
 msgstr "installation Failled!"
 
-msgid "您没有上传 config.inc.php 文件，请您重新安装！"
-msgstr "You have not uploaded config.inc.php, please reinstall typecho."
+msgid "您没有上传 config.inc.php 文件, 请您重新安装!"
+msgstr "File config.inc.php not found! Please check your installation"
 
 msgid "重新安装 &raquo;"
 msgstr "reinstall &raquo;"
+
+msgid "没有安装!"
+msgstr "Installation failed!"
+
+msgid "您没有执行安装步骤, 请您重新安装!"
+msgstr ""
+"You did not follow the recommended installation steps, please try again!"
 
 msgid "安装成功!"
 msgstr "Successfully installed！"
@@ -147,10 +149,10 @@ msgstr "Your username is too long, please limit it within 32 characters"
 msgid "邮箱长度超过限制, 请不要超过 200 个字符"
 msgstr "Your email address is too long, please limit it within 200 characters"
 
-msgid "对不起，无法连接数据库，请先检查数据库配置再继续进行安装"
+msgid "对不起, 无法连接数据库, 请先检查数据库配置再继续进行安装"
 msgstr ""
-"Sorry, typecho cannot connect to database. Please check your database "
-"configuration before continuing."
+"We could not connect to the database. Please check your settings before "
+"continuing with the installation"
 
 #, php-format
 msgid "安装程序捕捉到以下错误: \" %s \". 程序被终止, 请检查您的配置信息."
@@ -162,10 +164,12 @@ msgid "安装程序无法自动创建 <strong>config.inc.php</strong> 文件"
 msgstr ""
 "Installer cannot create <strong>config.inc.php</strong> file automatically."
 
-msgid "您可以在网站根目录下手动创建 <strong>config.inc.php</strong> 文件, 并复制如下代码至其中"
+msgid ""
+"您可以在网站根目录下手动创建 <strong>config.inc.php</strong> 文件, 并复制如下"
+"代码至其中"
 msgstr ""
-"You can manually create  <strong>config.inc.php</strong>  file under the root "
-"directory of the website, and add the following code in it"
+"You can manually create  <strong>config.inc.php</strong>  file under the "
+"root directory of the website, and add the following code in it"
 
 msgid "数据库适配器"
 msgstr "Database adapter"
@@ -204,7 +208,8 @@ msgid "网站地址"
 msgstr "website URL"
 
 msgid "这是程序自动匹配的网站路径, 如果不正确请修改它"
-msgstr "This is the auto matched website URL. If it is incorrect, please edit it."
+msgstr ""
+"This is the auto matched website URL. If it is incorrect, please edit it."
 
 msgid "用户名"
 msgstr "username"
@@ -230,35 +235,40 @@ msgid "安装说明"
 msgstr "Installation instructions"
 
 msgid ""
-"本安装程序将自动检测服务器环境是否符合最低配置需求. 如果不符合, 将在上方出现提示信息, 请按照提示信息检查您的主机配置. 如果服务器环境符合要求, "
-"将在下方出现 \"开始下一步\" 的按钮, 点击此按钮即可一步完成安装."
+"本安装程序将自动检测服务器环境是否符合最低配置需求. 如果不符合, 将在上方出现"
+"提示信息, 请按照提示信息检查您的主机配置. 如果服务器环境符合要求, 将在下方出"
+"现 \"开始下一步\" 的按钮, 点击此按钮即可一步完成安装."
 msgstr ""
 "This installer will auto examine if the server environment meet the minimum "
-"requirements. If not, you will be notified at the header of the "
-"page. Please check your host configuration according to the notification. If "
-"your server environment meets the requirements, a \"next step\" button will "
-"appear below. Click it to finish your one-step installation. "
+"requirements. If not, you will be notified at the header of the page. Please "
+"check your host configuration according to the notification. If your server "
+"environment meets the requirements, a \"next step\" button will appear "
+"below. Click it to finish your one-step installation. "
 
 msgid "许可及协议"
 msgstr "Terms and license"
 
 msgid ""
-"Typecho 基于 <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> 协议发布, "
-"我们允许用户在 GPL 协议许可的范围内使用, 拷贝, 修改和分发此程序."
+"Typecho 基于 <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> 协议发"
+"布, 我们允许用户在 GPL 协议许可的范围内使用, 拷贝, 修改和分发此程序."
 msgstr ""
-"Typecho is licensed under <a href=\"http://www.gnu.org/copyleft/gpl."
-"html\">GPL</a> . We allow users to use, copy, modify and redistribute this "
+"Typecho is licensed under <a href=\"http://www.gnu.org/copyleft/gpl.html"
+"\">GPL</a> . We allow users to use, copy, modify and redistribute this "
 "program under GPL."
 
-msgid "在GPL许可的范围内，您可以自由地将其用于商业以及非商业用途."
-msgstr "You can use it commercially and non-commercially under the permission of GPL."
+msgid "在GPL许可的范围内, 您可以自由地将其用于商业以及非商业用途."
+msgstr "The GPL License allows both commercial and non-commercial use."
 
-msgid "Typecho 软件由其社区提供支持, 核心开发团队负责维护程序日常开发工作以及新特性的制定."
+msgid ""
+"Typecho 软件由其社区提供支持, 核心开发团队负责维护程序日常开发工作以及新特性"
+"的制定."
 msgstr ""
 "Typecho is supported by its community. The core developers are responsible "
 "for the routine development and new features planing."
 
-msgid "如果您遇到使用上的问题, 程序中的 BUG, 以及期许的新功能, 欢迎您在社区中交流或者直接向我们贡献代码."
+msgid ""
+"如果您遇到使用上的问题, 程序中的 BUG, 以及期许的新功能, 欢迎您在社区中交流或"
+"者直接向我们贡献代码."
 msgstr ""
 "If you have problems in using typecho, find bugs in the program, or have a "
 "idea of new features, we welcome you to communicate in community or "
@@ -269,6 +279,51 @@ msgstr " Pre-eminent contributors will be credited."
 
 msgid "我准备好了, 开始下一步 &raquo;"
 msgstr "I am ready. Begin next step &raquo;"
+
+msgid "备份您的数据"
+msgstr "Create backup."
+
+msgid ""
+"此备份操作仅包含<strong>内容数据</strong>, 并不会涉及任何<strong>设置信息</"
+"strong>"
+msgstr ""
+"The backup will save <strong> only your content </strong>. Your "
+"<strong>settings will not be saved</strong>."
+
+msgid ""
+"如果您的数据量过大, 为了避免操作超时, 建议您直接使用数据库提供的备份工具备份"
+"数据"
+msgstr ""
+"If you have a large amount of data, it is recommended to use the backup tool "
+"of your database, in order to avoid connection timeouts."
+
+msgid "为了缩小备份文件体积, 建议您在备份前删除不必要的数据"
+msgstr "We recommend to delete any unnecessary data before backing up."
+
+msgid "开始备份 &raquo;"
+msgstr "Start backup &raquo;"
+
+msgid "恢复数据"
+msgstr "Recover data from backup."
+
+msgid "上传并恢复 &raquo;"
+msgstr "Use a backup file"
+
+#, php-format
+msgid "将备份文件手动上传至服务器的 %s 目录下后, 这里会出现文件选项"
+msgstr ""
+"File options appear when you manually upload the backup files to the server's"
+"%s directory"
+
+msgid "选择一个备份文件恢复数据"
+msgstr "Select a backup file"
+
+msgid "选择并恢复 &raquo;"
+msgstr "Select and Restore &raquo;"
+
+msgid "恢复操作将清除所有现有数据, 是否继续?"
+msgstr ""
+"The restore operation clears all existing data, do you want to continue?"
 
 #, php-format
 msgid "由 <a href=\"http://typecho.org\">%s</a> 强力驱动, 版本 %s (%s)"
@@ -318,11 +373,12 @@ msgid "+添加字段"
 msgstr "+Add a field"
 
 msgid ""
-"自定义字段可以扩展你的模板功能, 使用方法参见 <a href=\"http://docs.typecho.org/help/custom-"
-"fields\">帮助文档</a>"
+"自定义字段可以扩展你的模板功能, 使用方法参见 <a href=\"http://docs.typecho."
+"org/help/custom-fields\">帮助文档</a>"
 msgstr ""
-"Customized fields can extend your template's functions. Refer to <a href=\"http://docs."
-"typecho.org/help/custom-fields\">documentation</a> for more information."
+"Customized fields can extend your template's functions. Refer to <a href="
+"\"http://docs.typecho.org/help/custom-fields\">documentation</a> for more "
+"information."
 
 msgid "加粗"
 msgstr "Bold"
@@ -402,10 +458,9 @@ msgstr "Insert images."
 msgid "请在下方的输入框内输入要插入的远程图片地址"
 msgstr "Please enter the image URL:"
 
-msgid "您也可以使用编辑器下方的文件上传功能插入本地图片"
+msgid "您也可以使用附件功能插入上传的本地图片"
 msgstr ""
-"You can also use the upload function below the editor to insert local images."
-""
+"You can also use a locally uploaded picture with the attachment feature"
 
 msgid "插入链接"
 msgstr "Insert a link."
@@ -422,20 +477,44 @@ msgstr "Cancel"
 msgid "Markdown语法帮助"
 msgstr "Markdown syntax help"
 
+msgid "附件"
+msgstr "Attachments"
+
 msgid "撰写"
 msgstr "Write"
 
 msgid "预览"
 msgstr "Preview"
 
+msgid "这篇文章不是由Markdown语法创建的, 继续使用Markdown编辑它吗?"
+msgstr ""
+"This article was not created with Markdown. Do you want to continue using "
+"Markdown to edit it?"
+
+msgid "是"
+msgstr "Is"
+
+msgid "否"
+msgstr "Whether"
+
 msgid "页面不存在"
 msgstr "Page does not exist."
 
+msgid "文件大小超过限制"
+msgstr "File size exceeds limit"
+
+msgid "文件扩展名不被支持"
+msgstr "File extension not supported"
+
+msgid "文件已经上传过"
+msgstr "The file has been uploaded."
+
+msgid "上传出现错误"
+msgstr "Error while uploading"
+
 #, php-format
-msgid "文件上传失败, 请确认文件尺寸没有超过 %s 并且服务器文件目录可以写入"
-msgstr ""
-"Failed to upload the file. Please make sure that the size of the file does "
-"not exceed %s,  and the file directory on server is writable."
+msgid "%s 上传失败"
+msgstr "%s Upload failed"
 
 msgid "点击插入文件"
 msgstr "Click to insert a file."
@@ -443,20 +522,8 @@ msgstr "Click to insert a file."
 msgid "编辑"
 msgstr "Editors"
 
-#, php-format
-msgid "文件 %s 的类型不被支持"
-msgstr "File type %s is not supported."
-
-msgid "浏览器不支持拖拽上传"
-msgstr "You browser does not support drag and drop."
-
-#, php-format
-msgid "一次上传的文件不能多于%d个"
-msgstr "Cannot upload more than %d files at once."
-
-#, php-format
-msgid "文件尺寸不能超过 %s"
-msgstr "File size cannot exceed %s ."
+msgid "允许上传的文件"
+msgstr "File extensions allowed to upload"
 
 #, php-format
 msgid "确认要删除文件 %s 吗?"
@@ -471,20 +538,22 @@ msgid "%s - %s - Powered by Typecho"
 msgstr "%s - %s - Powered by Typecho"
 
 msgid ""
-"当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href=\"http://browsehappy."
-"com/\">升级你的浏览器</a>"
+"当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a "
+"href=\"http://browsehappy.com/\">升级你的浏览器</a>"
 msgstr ""
 "Your browser <strong>is not supported</strong> . Please <a href=\"http://"
 "browsehappy.com/\">update your browser</a>."
 
 #, php-format
-msgid "目前有 <em>%s</em> 篇日志, 并有 <em>%s</em> 条关于你的评论在 <em>%s</em> 个分类中."
+msgid ""
+"目前有 <em>%s</em> 篇文章, 并有 <em>%s</em> 条关于你的评论在 <em>%s</em> 个分"
+"类中."
 msgstr ""
-"Currently there are <em>%s</em> posts, and  <em>%s</em> comments about "
-"you under category <em>%s</em> ."
+"Overview: <em>%s </em> article(s) with <em>%s </em> comments in  <em>%s </"
+"em> category(ies)."
 
-msgid "使用下面的链接开始你的故事吧:"
-msgstr "Use the following link to begin your story."
+msgid "点击下面的链接快速开始:"
+msgstr "Quick start (link below):"
 
 msgid "撰写新文章"
 msgstr "Write a new post"
@@ -500,6 +569,9 @@ msgstr "Spam"
 
 msgid "更换外观"
 msgstr "Change appearance"
+
+msgid "插件管理"
+msgstr "manage plugins"
 
 msgid "系统设置"
 msgstr "System settings"
@@ -545,14 +617,69 @@ msgstr "Password"
 msgid "登录"
 msgstr "Login"
 
-msgid "记住我"
-msgstr "Remember me"
+msgid "下次自动登录"
+msgstr "Save password"
 
 msgid "返回首页"
 msgstr "Return to index page"
 
 msgid "用户注册"
 msgstr "Register"
+
+msgid "全选"
+msgstr "Select all"
+
+msgid "操作"
+msgstr "Operations"
+
+msgid "选中项"
+msgstr "Selected"
+
+msgid "此分类下的所有内容将被删除, 你确认要删除这些分类吗?"
+msgstr "All contents under these categories will be deleted, are you sure?"
+
+msgid "刷新分类可能需要等待较长时间, 你确认要刷新这些分类吗?"
+msgstr "Refresh these categories may take a long time, are you sure?"
+
+msgid "刷新"
+msgstr "Refresh"
+
+msgid "合并到"
+msgstr "Combine to"
+
+msgid "名称"
+msgstr "Name"
+
+msgid "子分类"
+msgstr "Subcategory"
+
+msgid "缩略名"
+msgstr "Abbreviation"
+
+msgid "文章数"
+msgstr "Number of posts"
+
+#, php-format
+msgid "浏览 %s"
+msgstr "View %s"
+
+#, php-format
+msgid "一个分类"
+msgid_plural "%d个分类"
+msgstr[0] "one category"
+msgstr[1] "%d categories"
+
+msgid "新增"
+msgstr "Add"
+
+msgid "默认"
+msgstr "default"
+
+msgid "设为默认"
+msgstr "set to default"
+
+msgid "没有任何分类"
+msgstr "No category."
 
 msgid "所有"
 msgstr "All"
@@ -568,15 +695,6 @@ msgstr "Awaiting approval"
 
 msgid "垃圾"
 msgstr "Spam"
-
-msgid "全选"
-msgstr "Select all"
-
-msgid "操作"
-msgstr "Operations"
-
-msgid "选中项"
-msgstr "Selected"
 
 msgid "通过"
 msgstr "Pass"
@@ -630,6 +748,12 @@ msgstr "Submit"
 msgid "你确认要删除这些文件吗?"
 msgstr "Are you sure to delete these files?"
 
+msgid "您确认要清理未归档的文件吗?"
+msgstr "Are you sure you want to clean up files that are not archived?"
+
+msgid "清理未归档文件"
+msgstr "Clean up archived file"
+
 msgid "文件名"
 msgstr "Filename"
 
@@ -642,66 +766,20 @@ msgstr "Accompanying post "
 msgid "发布日期"
 msgstr "Publish date"
 
-#, php-format
-msgid "浏览 %s"
-msgstr "View %s"
-
 msgid "未归档"
 msgstr "Unarchived"
 
 msgid "没有任何文件"
 msgstr "No file"
 
-msgid "分类"
-msgstr "Category"
-
-msgid "标签"
-msgstr "Tag"
-
-msgid "此分类下的所有内容将被删除, 你确认要删除这些分类吗?"
-msgstr "All contents under these categories will be deleted, are you sure?"
-
-msgid "刷新分类可能需要等待较长时间, 你确认要刷新这些分类吗?"
-msgstr "Refresh these categories may take a long time, are you sure?"
-
-msgid "刷新"
-msgstr "Refresh"
-
-msgid "合并到"
-msgstr "Combine to"
-
-msgid "名称"
-msgstr "Name"
-
-msgid "缩略名"
-msgstr "Abbreviation"
-
-msgid "文章数"
-msgstr "Number of posts"
-
-msgid "默认"
-msgstr "default"
-
-msgid "设为默认"
-msgstr "set to default"
-
-msgid "没有任何分类"
-msgstr "No category."
-
-msgid "你确认要删除这些标签吗?"
-msgstr "Delete these tags?"
-
-msgid "刷新标签可能需要等待较长时间, 你确认要刷新这些标签吗?"
-msgstr "Refresh these tags may take a long time, are you sure?"
-
-msgid "没有任何标签"
-msgstr "No tag."
-
 msgid "你确认要删除这些页面吗?"
 msgstr "Are you sure to delete thiese pages?"
 
 msgid "日期"
 msgstr "Date"
+
+msgid "评论"
+msgstr "Comments"
 
 msgid "草稿"
 msgstr "Drafts"
@@ -710,17 +788,27 @@ msgid "隐藏"
 msgstr "Hide"
 
 #, php-format
+msgid "编辑 %s"
+msgstr "Edit %s"
+
+#, php-format
 msgid "保存于 %s"
 msgstr "Saved  at %s"
 
 msgid "没有任何页面"
 msgstr "No page."
 
+msgid "可用"
+msgstr "Available"
+
 msgid "你确认要删除这些文章吗?"
 msgstr "Are you sure to delete these posts?"
 
 msgid "所有分类"
 msgstr "All categories"
+
+msgid "分类"
+msgstr "Category"
 
 msgid "私密"
 msgstr "Private"
@@ -730,6 +818,15 @@ msgstr "Protected by password"
 
 msgid "没有任何文章"
 msgstr "No post"
+
+msgid "你确认要删除这些标签吗?"
+msgstr "Delete these tags?"
+
+msgid "刷新标签可能需要等待较长时间, 你确认要刷新这些标签吗?"
+msgstr "Refresh these tags may take a long time, are you sure?"
+
+msgid "没有任何标签"
+msgstr "No tag."
 
 msgid "你确认要删除这些用户吗?"
 msgstr "Are you sure to delete these users?"
@@ -763,13 +860,6 @@ msgid "文件 %s 已经替换"
 msgstr "File %s replaced."
 
 #, php-format
-msgid "文件 %s 的类型与要替换的原文件不一致"
-msgstr "The type of file %s is different from the original file."
-
-msgid "一次只能上传一个文件"
-msgstr "You can only upload one file at a time."
-
-#, php-format
 msgid "最后登录: %s"
 msgstr "Last login: %s"
 
@@ -787,9 +877,6 @@ msgstr "Edit current appearance"
 
 msgid "设置外观"
 msgstr "Setup Appearance"
-
-msgid "新增"
-msgstr "Add"
 
 msgid "启用的插件"
 msgstr "Enabled plugins"
@@ -814,9 +901,6 @@ msgstr "Are you sure to disable plugin %s ?"
 msgid "禁用"
 msgstr "Disable"
 
-msgid "启用"
-msgstr "Enable."
-
 msgid "即插即用"
 msgstr "Plug and play."
 
@@ -828,6 +912,9 @@ msgstr ""
 msgid "禁用的插件"
 msgstr "Disabled plugins."
 
+msgid "启用"
+msgstr "Enable."
+
 msgid "没有安装插件"
 msgstr "Uninstalled plugins."
 
@@ -835,10 +922,12 @@ msgid "在 Gravatar 上修改头像"
 msgstr "Edit your avatar on Gravatar."
 
 #, php-format
-msgid "目前有 <em>%s</em> 篇 Blog,并有 <em>%s</em> 条关于你的评论在已设定的 <em>%s</em> 个分类中."
+msgid ""
+"目前有 <em>%s</em> 篇日志, 并有 <em>%s</em> 条关于你的评论在 <em>%s</em> 个分"
+"类中."
 msgstr ""
-"Currently there are <em>%s</em>  blog posts, and  <em>%s</em> comments about "
-"you under established <em>%s</em> catagories."
+"Currently there are <em>%s</em> posts, and  <em>%s</em> comments about you "
+"under category <em>%s</em> ."
 
 msgid "个人资料"
 msgstr "Profile"
@@ -871,6 +960,18 @@ msgstr "Save file."
 msgid "此文件无法写入"
 msgstr "Cannot write this file."
 
+msgid "截图"
+msgstr "Screenshot"
+
+msgid "详情"
+msgstr "Details"
+
+msgid "发现安全问题"
+msgstr "Find security issues"
+
+msgid "解决完毕 &raquo;"
+msgstr "Completed &raquo;"
+
 msgid "检测到新版本!"
 msgstr "A newer version has been detected."
 
@@ -884,8 +985,10 @@ msgid "此程序将把您的系统从 <strong>%s</strong> 升级到 <strong>%s</
 msgstr ""
 "Your system will be upgrade from <strong>%s</strong> to <strong>%s</strong>."
 
-msgid "在升级之前强烈建议先备份您的数据"
-msgstr "Backup your data before upgrade is strongly recommended."
+#, php-format
+msgid "在升级之前强烈建议先<a href=\"%s\">备份您的数据</a>"
+msgstr ""
+"Attention - please backup your files <a href=\"%s\">before upgrading</a>"
 
 msgid "完成升级 &raquo;"
 msgstr "Finish upgrade &raquo;"
@@ -1044,20 +1147,23 @@ msgstr "Please enter tag name"
 msgid "此标签不存在, 按回车创建"
 msgstr "This tag does not exist. Press enter to create it."
 
+msgid "已保存"
+msgstr "Saved"
+
 msgid "正在保存"
 msgstr "Saving..."
 
-msgid "内容已经保存"
-msgstr "Saved."
-
-msgid "内容尚未保存"
-msgstr "Unsaved."
+msgid "尚未保存"
+msgstr "Not saved"
 
 msgid "上次保存时间"
 msgstr "Last save"
 
 msgid "内容已经改变尚未保存, 您确认要离开此页面吗?"
 msgstr "Changes are not saved. Are you sure to leave this page?"
+
+msgid "修改后的内容需要保存后才能预览, 是否保存?"
+msgstr "To preview, you need to save the content. Continue?"
 
 msgid "您确认要删除这份草稿吗?"
 msgstr "Delete this draft?"
@@ -1067,11 +1173,20 @@ msgid "当前正在编辑的是保存于%s的草稿, 你可以<a href=\"%s\">删
 msgstr ""
 "You are editing a draft saved at  %s , you may <a href=\"%s\">delete it</a>."
 
+msgid "当前正在编辑的是未发布的草稿"
+msgstr "Unpublished drafts currently being edited"
+
 msgid "网址缩略名"
 msgstr "URL abbreviation"
 
 msgid "页面内容"
 msgstr "Page content"
+
+msgid "取消预览"
+msgstr "Cancel Preview"
+
+msgid "预览页面"
+msgstr "Preview page"
 
 msgid "保存草稿"
 msgstr "Save draft"
@@ -1081,9 +1196,6 @@ msgstr "Publish page"
 
 msgid "选项"
 msgstr "Options"
-
-msgid "附件"
-msgstr "Attachments"
 
 msgid "页面顺序"
 msgstr "Page order"
@@ -1141,8 +1253,14 @@ msgstr ""
 msgid "文章内容"
 msgstr "Post content"
 
+msgid "预览文章"
+msgstr "Preview article"
+
 msgid "发布文章"
 msgstr "publish"
+
+msgid "标签"
+msgstr "Tag"
 
 msgid "内容密码"
 msgstr "Content password"
@@ -1162,9 +1280,6 @@ msgid "系统将为您自动匹配 %s 环境的安装选项"
 msgstr ""
 "We will match installation options for your %s  environment automatically."
 
-msgid "utf8"
-msgstr "utf8"
-
 msgid "应用API Key"
 msgstr "Application API Key"
 
@@ -1182,9 +1297,11 @@ msgstr ""
 msgid "数据库实例名"
 msgstr "Database instance name."
 
-msgid "请填入您在Cloud SQL面板中创建的数据库实例名称"
+#, php-format
+msgid "请填入您在Cloud SQL面板中创建的数据库实例名称, 示例: %s"
 msgstr ""
-"Please enter the database instance name you created in Cloud SQL panel."
+"Please enter the name of the database instance you created in the cloud SQL "
+"panel, example:%s"
 
 msgid "数据库用户名"
 msgstr "Database username"
@@ -1211,6 +1328,18 @@ msgstr "If you do not understand this option, please keep the default setting."
 msgid "请您指定数据库名称"
 msgstr "Please specify the database name."
 
+msgid "utf8"
+msgstr "utf8"
+
+msgid "数据库编码"
+msgstr "Database encoding"
+
+msgid "选择 utf8mb4 编码至少需要 MySQL 5.5.3 版本"
+msgstr "UTF8MB4 encoding requires at least MySQL version 5.5.3"
+
+msgid "数据库引擎"
+msgstr "Database engine"
+
 msgid "数据库文件路径"
 msgstr "Database file path"
 
@@ -1224,9 +1353,9 @@ msgstr "Say something"
 msgid "页面没找到"
 msgstr "Page not found."
 
-msgid "你想查看的页面已被转移或删除了，要不要搜索看看："
+msgid "你想查看的页面已被转移或删除了, 要不要搜索看看: "
 msgstr ""
-"The page you want to view has been moved or deleted. Try searching it?"
+"The page you requested has been moved or deleted. Do you want to use search?"
 
 msgid "搜索"
 msgstr "search"
@@ -1247,13 +1376,13 @@ msgstr "Posts tagged with %s"
 msgid "%s 发布的文章"
 msgstr "%s published posts"
 
-msgid "作者："
+msgid "作者: "
 msgstr "Author:"
 
-msgid "时间："
+msgid "时间: "
 msgstr "Time:"
 
-msgid "分类："
+msgid "分类: "
 msgstr "Category:"
 
 msgid "没有找到内容"
@@ -1272,8 +1401,8 @@ msgstr "%d comments."
 msgid "添加新评论"
 msgstr "Add a new comment."
 
-msgid "登录身份："
-msgstr "Login as:"
+msgid "登录身份: "
+msgstr "Logged in as:"
 
 msgid "退出"
 msgstr "Quit"
@@ -1293,13 +1422,11 @@ msgstr "Comments are disabled."
 msgid "由 <a href=\"http://www.typecho.org\">Typecho</a> 强力驱动"
 msgstr "Proudly powered by <a href=\"http://www.typecho.org\">Typecho</a>."
 
-msgid "站点LOGO地址"
-msgstr "website logo URL"
+msgid "站点 LOGO 地址"
+msgstr "Site LOGO Address"
 
-msgid "在这里填入一个图片URL地址, 以在网站标题前加上一个LOGO"
-msgstr ""
-"Enter the URL for the logo which will appear before the title of the website."
-""
+msgid "在这里填入一个图片 URL 地址, 以在网站标题前加上一个 LOGO"
+msgstr "The picture URL address of your logo"
 
 msgid "显示最新文章"
 msgstr "show recent posts"
@@ -1328,8 +1455,8 @@ msgstr "Enter keywords to search:"
 msgid "首页"
 msgstr "Index page"
 
-msgid "标签："
-msgstr "Tags:"
+msgid "标签: "
+msgstr "Tag:"
 
 msgid "最新文章"
 msgstr "Recent posts"
@@ -1356,28 +1483,32 @@ msgid "无法禁用插件"
 msgstr "Cannot disable the plugin."
 
 msgid "config.inc.php 文件无法写入, 请将它的权限设置为可写"
-msgstr "Can not write to config.inc.php, please set its permission to writable."
+msgstr ""
+"Can not write to config.inc.php, please set its permission to writable."
 
 #, php-format
-msgid "上传目录无法写入, 请手动将安装目录下的 %s 目录的权限设置为可写然后继续升级"
+msgid ""
+"上传目录无法写入, 请手动将安装目录下的 %s 目录的权限设置为可写然后继续升级"
 msgstr ""
 "Cannot write into upload directory. Please set the permission of %s "
 "directory (under installation directory) to writable before continuing to "
 "upgrade."
 
 #, php-format
-msgid "上传目录无法创建, 请手动创建安装目录下的 %s 目录, 并将它的权限设置为可写然后继续升级"
+msgid ""
+"上传目录无法创建, 请手动创建安装目录下的 %s 目录, 并将它的权限设置为可写然后"
+"继续升级"
 msgstr ""
 "Cannot create upload directory. Please create %s directory under "
-"installation directory manually, and set its permission to writable before"
-"continuing to upgrade."
+"installation directory manually, and set its permission to writable "
+"beforecontinuing to upgrade."
 
 msgid ""
-"建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"http://typecho.org/upgrade/9."
-"7.2\">以下优化步骤</a>"
+"建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"http://"
+"typecho.org/upgrade/9.7.2\">以下优化步骤</a>"
 msgstr ""
-"After upgrading to  Typecho 0.7/9.7.2 + ,  we recommend that you follow the <a "
-"href=\"http://typecho.org/upgrade/9.7.2\"> steps for optimization</a> "
+"After upgrading to  Typecho 0.7/9.7.2 + ,  we recommend that you follow the "
+"<a href=\"http://typecho.org/upgrade/9.7.2\"> steps for optimization</a> "
 "immediately."
 
 msgid "刚刚"
@@ -1405,6 +1536,7 @@ msgstr[1] "%d hours ago"
 msgid "昨天 %s"
 msgstr "yesterday %s"
 
+#, php-format
 msgid "一天前"
 msgid_plural "%d天前"
 msgstr[0] "one day ago"
@@ -1431,6 +1563,9 @@ msgstr "Requested URL does not exist."
 msgid "分类不存在"
 msgstr "This category does not exist."
 
+msgid "父级分类不存在"
+msgstr ""
+
 msgid "标签不存在"
 msgstr "This tag does not exist."
 
@@ -1453,6 +1588,31 @@ msgstr "%d"
 msgid "%s 的评论"
 msgstr "Comments to %s"
 
+msgid "无法读取备份文件"
+msgstr ""
+
+msgid "备份文件格式错误"
+msgstr ""
+
+msgid "恢复数据出现错误"
+msgstr ""
+
+msgid "数据恢复完成"
+msgstr ""
+
+#, php-format
+msgid "恢复过程中遇到如下错误: %s"
+msgstr ""
+
+msgid "备份文件上传失败"
+msgstr ""
+
+msgid "没有选择任何备份文件"
+msgstr ""
+
+msgid "备份文件不存在"
+msgstr ""
+
 msgid "父级评论不存在"
 msgstr "Parent comment does not exist."
 
@@ -1465,8 +1625,8 @@ msgstr "Please do not include special characters in username."
 msgid "您所使用的用户名已经被注册,请登录后再次提交"
 msgstr "Your username is already used. Please login and re-submit."
 
-msgid "用户名最多包含200个字符"
-msgstr "A username can contain a maximum of 200 characters."
+msgid "用户名最多包含150个字符"
+msgstr ""
 
 msgid "必须填写电子邮箱地址"
 msgstr "You must enter an email address."
@@ -1474,8 +1634,8 @@ msgstr "You must enter an email address."
 msgid "邮箱地址不合法"
 msgstr "Email address is invalid."
 
-msgid "电子邮箱最多包含200个字符"
-msgstr "Email address can contain a maximum of 200 characters."
+msgid "电子邮箱最多包含150个字符"
+msgstr ""
 
 msgid "必须填写个人主页"
 msgstr "You must enter your homepage."
@@ -1483,8 +1643,8 @@ msgstr "You must enter your homepage."
 msgid "个人主页地址格式错误"
 msgstr "Invalid omepage URL format"
 
-msgid "个人主页地址最多包含200个字符"
-msgstr "Homepage URL can contain a maximum of 200 characters."
+msgid "个人主页地址最多包含255个字符"
+msgstr ""
 
 msgid "必须填写评论内容"
 msgstr "You must enter comment content."
@@ -1542,14 +1702,14 @@ msgstr "Preferences"
 msgid "插件"
 msgstr "Plugins"
 
-msgid "插件管理"
-msgstr "manage plugins"
-
 msgid "外观"
 msgstr "Appearance"
 
 msgid "网站外观"
 msgstr "Website appearances"
+
+msgid "备份"
+msgstr ""
 
 msgid "升级"
 msgstr "Upgrade"
@@ -1581,14 +1741,17 @@ msgstr "Pages"
 msgid "管理独立页面"
 msgstr "Manage pages"
 
-msgid "评论"
-msgstr "Comments"
-
 msgid "管理评论"
 msgstr "Manage comments."
 
-msgid "标签和分类"
-msgstr "Tags and categories."
+msgid "管理分类"
+msgstr ""
+
+msgid "新增分类"
+msgstr ""
+
+msgid "管理标签"
+msgstr ""
 
 msgid "文件"
 msgstr "Files."
@@ -1651,6 +1814,9 @@ msgstr "Email address already exists."
 msgid "电子邮箱格式错误"
 msgstr "Invalid Email address"
 
+msgid "电子邮箱最多包含64个字符"
+msgstr ""
+
 msgid "必须填写密码"
 msgstr "You must enter a password."
 
@@ -1661,8 +1827,8 @@ msgstr ""
 
 msgid "为了便于记忆, 密码长度请不要超过十八位"
 msgstr ""
-"For the convenience of memory, please choose a password containing at "
-"most 18 characters."
+"For the convenience of memory, please choose a password containing at most "
+"18 characters."
 
 msgid "两次输入的密码不一致"
 msgstr "Passwords do not match."
@@ -1672,6 +1838,16 @@ msgid "用户 <strong>%s</strong> 已经成功注册, 密码为 <strong>%s</stro
 msgstr ""
 "User <strong>%s</strong> registered successfully, password is <strong>%s</"
 "strong>."
+
+#, php-format
+msgid ""
+"您正在运行一个不安全的安装脚本 <strong>%s</strong>, 请用新版中的对应文件替代"
+"或者直接删除它"
+msgstr ""
+
+#, php-format
+msgid "当前网站的入口文件 <strong>%s</strong> 与最新版中的不一致, 请更新"
+msgstr ""
 
 msgid "升级已经完成"
 msgstr "Upgrade completed."
@@ -1684,6 +1860,18 @@ msgstr "Software version"
 
 msgid "博客地址"
 msgstr "Blog URL"
+
+msgid "博客首页地址"
+msgstr ""
+
+msgid "登录地址"
+msgstr ""
+
+msgid "管理区域的地址"
+msgstr ""
+
+msgid "文章缩略图"
+msgstr ""
 
 msgid "时区"
 msgstr "Timezone"
@@ -1706,8 +1894,14 @@ msgstr "Whether Allow registration"
 msgid "权限不足"
 msgstr "Permission is too low."
 
-msgid "无法登录, 密码错误"
-msgstr "Cannot login. Wrong password."
+msgid "无法登陆, 密码错误"
+msgstr ""
+
+msgid "无法添加分类"
+msgstr ""
+
+msgid "标准"
+msgstr ""
 
 msgid "已发布"
 msgstr "Published"
@@ -1726,6 +1920,9 @@ msgstr "Cannot edit this comment."
 
 msgid "这个目标地址不存在"
 msgstr "Target URL does not exist."
+
+msgid "无法添加评论"
+msgstr ""
 
 msgid "未命名文档"
 msgstr "Unnamed document"
@@ -1757,8 +1954,8 @@ msgstr "Sorry, the entered password is wrong."
 msgid "请输入密码访问"
 msgstr "Please enter the password to access:"
 
-msgid "此内ucceed to delete the c容被密码保护"
-msgstr "The content is protected by a password."
+msgid "此内容被密码保护"
+msgstr ""
 
 #, php-format
 msgid "%s的评论"
@@ -1773,8 +1970,8 @@ msgstr "&laquo;"
 msgid "&raquo;"
 msgstr "&raquo;"
 
-msgid "您的评论正等待审核！"
-msgstr "Your comment is awaiting review!"
+msgid "您的评论正等待审核!"
+msgstr ""
 
 msgid "取消回复"
 msgstr "Cancel the comment"
@@ -1875,6 +2072,12 @@ msgstr "File deleted."
 msgid "没有文件被删除"
 msgstr "No file to be deleted."
 
+msgid "未归档文件已经被清理"
+msgstr ""
+
+msgid "没有未归档文件被清理"
+msgstr ""
+
 msgid "未命名页面"
 msgstr "Unnamed page."
 
@@ -1912,10 +2115,6 @@ msgid "文章不存在"
 msgstr "Post does not exist."
 
 #, php-format
-msgid "编辑 %s"
-msgstr "Edit %s"
-
-#, php-format
 msgid "文章 \"<a href=\"%s\">%s</a>\" 已经发布"
 msgstr "Post \"<a href=\"%s\">%s</a>\" published."
 
@@ -1929,23 +2128,33 @@ msgstr "Post deleted."
 msgid "没有文章被删除"
 msgstr "No post to delete."
 
+msgid "返回父级分类"
+msgstr ""
+
+#, php-format
+msgid "管理 %s 的子分类"
+msgstr ""
+
 msgid "分类名称 *"
 msgstr "Category name*"
 
 msgid "分类缩略名"
 msgstr "Category abbreviation"
 
-msgid "分类缩略名用于创建友好的链接形式,建议使用字母,数字,下划线和横杠."
+msgid "分类缩略名用于创建友好的链接形式, 建议使用字母, 数字, 下划线和横杠."
 msgstr ""
-"Category abbreviation is used to create friendly url, we recommend you use "
-"alphanumerics, underlines, and dashes."
+
+msgid "父级分类"
+msgstr ""
+
+msgid "此分类将归档在您选择的父级分类下."
+msgstr ""
 
 msgid "分类描述"
 msgstr "Category description."
 
-msgid "此文字用于描述分类,在有的主题中它会被显示."
+msgid "此文字用于描述分类, 在有的主题中它会被显示."
 msgstr ""
-"This text is used to describe category, it will be displayed in certain themes."
 
 msgid "编辑分类"
 msgstr "Edit a category."
@@ -1961,6 +2170,12 @@ msgstr "Category already exists."
 
 msgid "分类名称无法被转换为缩略名"
 msgstr "This category name cannot be converted to an abbreviation."
+
+msgid "请不要在分类名称中使用特殊字符"
+msgstr ""
+
+msgid "请不要在缩略名中使用特殊字符"
+msgstr ""
 
 msgid "分类主键不存在"
 msgstr "Category key does not exist."
@@ -1998,6 +2213,18 @@ msgstr "Categories refreshed."
 msgid "<a href=\"%s\">%s</a> 已经被设为默认分类"
 msgstr "<a href=\"%s\">%s</a> has been set to the default category."
 
+#, php-format
+msgid "编辑分类 %s"
+msgstr ""
+
+#, php-format
+msgid "新增 %s 的子分类"
+msgstr ""
+
+#, php-format
+msgid "编辑标签 %s"
+msgstr ""
+
 msgid "标签名称 *"
 msgstr "Tag name *"
 
@@ -2026,6 +2253,9 @@ msgstr "Tag already exists."
 
 msgid "标签名称无法被转换为缩略名"
 msgstr "Tag name cannot be converted to an abbreviation."
+
+msgid "请不要标签名称中使用特殊字符"
+msgstr ""
 
 msgid "标签主键不存在"
 msgstr "Tag key does not exist."
@@ -2062,14 +2292,16 @@ msgstr "Tags refreshed."
 msgid "评论日期格式"
 msgstr "Comment date format"
 
-msgid "这是一个默认的格式,当你在模板中调用显示评论日期方法时, 如果没有指定日期格式, 将按照此格式输出."
+msgid ""
+"这是一个默认的格式,当你在模板中调用显示评论日期方法时, 如果没有指定日期格式, "
+"将按照此格式输出."
 msgstr ""
 "This is a default format. When you call the show comment date method in "
 "templates, this format will be adopted if you do not specify any date format."
 
 msgid ""
-"具体写法请参考 <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP "
-"日期格式写法</a>."
+"具体写法请参考 <a href=\"http://www.php.net/manual/zh/function.date.php"
+"\">PHP 日期格式写法</a>."
 msgstr ""
 "Refer to <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP date "
 "format</a> for details."
@@ -2088,21 +2320,23 @@ msgstr "Please enter a number"
 msgid "仅显示评论, 不显示 Pingback 和 Trackback"
 msgstr "Display comments without Pingback and Trackback"
 
-msgid "在评论中使用Markdown语法"
-msgstr "Allow markdown syntax in comments."
+msgid "在评论中使用 Markdown 语法"
+msgstr ""
 
 msgid "评论者名称显示时自动加上其个人主页链接"
 msgstr "Automatically link commentators to their personal homepage URL."
 
 msgid ""
-"对评论者个人主页链接使用 <a href=\"http://en.wikipedia.org/wiki/Nofollow\">nofollow 属性</"
-"a>"
+"对评论者个人主页链接使用 <a href=\"http://en.wikipedia.org/wiki/Nofollow"
+"\">nofollow 属性</a>"
 msgstr ""
 "Use <a href=\"http://en.wikipedia.org/wiki/Nofollow\">nofollow attribute</a> "
 "for links to commentators' homepage. "
 
 #, php-format
-msgid "启用 <a href=\"http://gravatar.com\">Gravatar</a> 头像服务, 最高显示评级为 %s 的头像"
+msgid ""
+"启用 <a href=\"http://gravatar.com\">Gravatar</a> 头像服务, 最高显示评级为 "
+"%s 的头像"
 msgstr ""
 "Enable <a href=\"http://gravatar.com\">Gravatar</a> avatar service. Display "
 "avatars rated above %s."
@@ -2149,8 +2383,10 @@ msgid "必须填写网址"
 msgstr "You must enter a website URL."
 
 msgid "检查评论来源页 URL 是否与文章链接一致"
+msgstr "Check if the source URL of the comment is coherent with the post link."
+
+msgid "开启反垃圾保护"
 msgstr ""
-"Check if the source URL of the comment is coherent with the post link."
 
 #, php-format
 msgid "在文章发布 %s 天以后自动关闭评论"
@@ -2166,7 +2402,8 @@ msgstr "Submit comment."
 msgid "允许使用的HTML标签和属性"
 msgstr "Allowed HTML tags and attributes"
 
-msgid "默认的用户评论不允许填写任何的HTML标签, 你可以在这里填写允许使用的HTML标签."
+msgid ""
+"默认的用户评论不允许填写任何的HTML标签, 你可以在这里填写允许使用的HTML标签."
 msgstr ""
 "By default, in comments users are not allowed to use any HTML tags. You can "
 "enter allowed HTML tags here:"
@@ -2187,17 +2424,45 @@ msgstr "Site name"
 msgid "站点的名称将显示在网页的标题处."
 msgstr "Site name will be displayed in the title of the web page."
 
+msgid "请填写站点名称"
+msgstr ""
+
+msgid "请不要在站点名称中使用特殊字符"
+msgstr ""
+
+msgid "站点地址"
+msgstr ""
+
+msgid "站点地址主要用于生成内容的永久链接."
+msgstr ""
+
+#, php-format
+msgid "当前地址 <strong>%s</strong> 与上述设定值不一致"
+msgstr ""
+
+msgid "请填写站点地址"
+msgstr ""
+
+msgid "请填写一个合法的URL地址"
+msgstr ""
+
 msgid "站点描述"
 msgstr "Site description"
 
 msgid "站点描述将显示在网页代码的头部."
 msgstr "Site description will be displayed in the header of the web page."
 
+msgid "请不要在站点描述中使用特殊字符"
+msgstr ""
+
 msgid "关键词"
 msgstr "Keywords"
 
 msgid "请以半角逗号 \",\" 分割多个关键字."
 msgstr "Please split multiple keywords with comma \",\"."
+
+msgid "请不要在关键词中使用特殊字符"
+msgstr ""
 
 msgid "不允许"
 msgstr "Forbid"
@@ -2209,6 +2474,27 @@ msgid "允许访问者注册到你的网站, 默认的注册用户不享有任�
 msgstr ""
 "Allow users to register at your site. By default registered users cannot "
 "post."
+
+msgid "关闭"
+msgstr "Close."
+
+msgid "仅关闭 Pingback 接口"
+msgstr ""
+
+msgid "打开"
+msgstr "Open"
+
+msgid "XMLRPC 接口"
+msgstr ""
+
+msgid "lang"
+msgstr "English"
+
+msgid "语言"
+msgstr ""
+
+msgid "所选择的语言包不存在"
+msgstr ""
 
 msgid "格林威治(子午线)标准时间 (GMT)"
 msgstr "Greenwich Mean Time （GMT）"
@@ -2253,8 +2539,7 @@ msgid "惠灵顿时间 新西兰,斐济群岛 (GMT +12)"
 msgstr "New Zealand Time, Fiji Time, Kamchatka Standard Time (GMT +12)"
 
 msgid "佛德尔群岛 亚速尔群岛,葡属几内亚 (GMT -1)"
-msgstr ""
-"Azores Standard Time, Cape Verde Time, Eastern Greenland Time (GMT -1)"
+msgstr "Azores Standard Time, Cape Verde Time, Eastern Greenland Time (GMT -1)"
 
 msgid "大西洋中部时间 格陵兰 (GMT -2)"
 msgstr ""
@@ -2318,7 +2603,9 @@ msgid "是否使用地址重写功能"
 msgstr "Use URL rewrite or not."
 
 msgid "地址重写即 rewrite 功能是某些服务器软件提供的优化内部连接的功能."
-msgstr "URL rewrite function is provided by certain servers to optimize internal connections."
+msgstr ""
+"URL rewrite function is provided by certain servers to optimize internal "
+"connections."
 
 msgid "打开此功能可以让你的链接看上去完全是静态地址."
 msgstr "By enable this function you can make your links appear as static path."
@@ -2328,20 +2615,20 @@ msgstr ""
 "Unable to detect the rewrite function, please check your server "
 "configuration."
 
-msgid "我们检测到你使用了apache服务器, 但是程序无法在根目录创建.htaccess文件, 这可能是产生这个错误的原因."
+msgid ""
+"我们检测到你使用了apache服务器, 但是程序无法在根目录创建.htaccess文件, 这可能"
+"是产生这个错误的原因."
 msgstr ""
 "We detected that you are using Apache, but typecho cannot create .htaccess "
 "file under the root directory, which may be the cause of this error."
 
 msgid "请调整你的目录权限, 或者手动创建一个.htaccess文件."
 msgstr ""
-"Please adjust your directory permissions, or create a .htaccess file manually."
+"Please adjust your directory permissions, or create a .htaccess file "
+"manually."
 
-#, php-format
-msgid "如果你仍然想启用此功能, <a href=\"%s\">请点击这里</a>"
+msgid "如果你仍然想启用此功能, 请勾选这里"
 msgstr ""
-"If you still want to enable this function, <a href=\"%s\">please click here</"
-"a>."
 
 msgid "默认风格"
 msgstr "Default style"
@@ -2362,13 +2649,10 @@ msgid "自定义文章路径"
 msgstr "Customize post path."
 
 msgid ""
-"可用参数: <code>{cid}</code> 日志 ID, <code>{slug}</code> 日志缩略名, <code>{category}</"
-"code> 分类, <code>{year}</code> 年, <code>{month}</code> 月, <code>{day}</code> "
-"日"
+"可用参数: <code>{cid}</code> 日志 ID, <code>{slug}</code> 日志缩略名, "
+"<code>{category}</code> 分类, <code>{directory}</code> 多级分类, <code>{year}"
+"</code> 年, <code>{month}</code> 月, <code>{day}</code> 日"
 msgstr ""
-"Available parameters: <code>{cid}</code> post ID, <code>{slug}</code> "
-"<code>{category}</code> , <code>{year}</code> , <code>{month}</code> , "
-"<code>{day}</code> "
 
 msgid "选择一种合适的文章静态路径风格, 使得你的网站链接更加友好."
 msgstr "Use a static path style to make links of your site more friendly."
@@ -2379,8 +2663,8 @@ msgstr "Do not edit it once a style has been chosen."
 msgid "独立页面路径"
 msgstr "Page path"
 
-msgid "可用参数: <code>{cid}</code> 页面 ID、<code>{slug}</code> 页面缩略名"
-msgstr "Available parameters: <code>{cid}</code> page ID、<code>{slug}</code>."
+msgid "可用参数: <code>{cid}</code> 页面 ID, <code>{slug}</code> 页面缩略名"
+msgstr ""
 
 msgid "请在路径中至少包含上述的一项参数."
 msgstr "Please include at least one parameter in path."
@@ -2391,17 +2675,19 @@ msgstr "No {cid} or {slug}  found in page path."
 msgid "分类路径"
 msgstr "Category path"
 
-msgid "可用参数: <code>{mid}</code> 分类 ID、<code>{slug}</code> 分类缩略名"
+msgid ""
+"可用参数: <code>{mid}</code> 分类 ID, <code>{slug}</code> 分类缩略名, "
+"<code>{directory}</code> 多级分类"
 msgstr ""
-"Available parameters: <code>{mid}</code> category ID、<code>{slug}</code>."
 
 msgid "分类路径中没有包含 {mid} 或者 {slug} "
 msgstr "No {mid} or {slug}  found in category path."
 
-msgid "自定义链接与现有规则存在冲突! 它可能影响解析效率, 建议你重新分配一个规则."
+msgid ""
+"自定义链接与现有规则存在冲突! 它可能影响解析效率, 建议你重新分配一个规则."
 msgstr ""
-"Customized URL conflicts with existent rule. It may affect the parsing efficiency. We "
-"recommend that you assign a new rule."
+"Customized URL conflicts with existent rule. It may affect the parsing "
+"efficiency. We recommend that you assign a new rule."
 
 msgid "文章日期格式"
 msgstr "Post date format"
@@ -2417,11 +2703,14 @@ msgstr ""
 "use customized date formats. "
 
 msgid ""
-"请参考 <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP 日期格式写法</"
-"a>."
+"请参考 <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP 日期格"
+"式写法</a>."
 msgstr ""
 "Please refer <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP "
 "date format</a>."
+
+msgid "请不要在日期格式中使用特殊字符"
+msgstr ""
 
 msgid "显示最新发布的文章"
 msgstr "Display recent posts."
@@ -2501,10 +2790,6 @@ msgstr "Plugin settings saved."
 msgid "外观配置功能不存在"
 msgstr "Appearance configuration does not exist."
 
-#, php-format
-msgid "设置外观 %s"
-msgstr "Setup appearance %s"
-
 msgid "外观已经改变"
 msgstr "Appearance changed."
 
@@ -2555,7 +2840,9 @@ msgid "用户昵称"
 msgstr "Nickname"
 
 msgid "用户昵称可以与用户名不同, 用于前台显示."
-msgstr "Nickname can be different from username. It will be shown on website front end."
+msgstr ""
+"Nickname can be different from username. It will be shown on website front "
+"end."
 
 msgid "如果你将此项留空, 将默认使用用户名."
 msgstr "If you leave this blank, typecho will use your username by default."
@@ -2576,7 +2863,8 @@ msgstr "Confirm your password."
 
 msgid "请确认你的密码, 与上面输入的密码保持一致."
 msgstr ""
-"Please confirm your password. It should be the same as the one you typed above."
+"Please confirm your password. It should be the same as the one you typed "
+"above."
 
 msgid "个人主页地址"
 msgstr "Homepage"
@@ -2587,7 +2875,9 @@ msgstr "User's homepage, beginning with <code>http://</code> ."
 msgid "不同的用户组拥有不同的权限."
 msgstr "Different user groups have different permissions."
 
-msgid "具体的权限分配表请<a href=\"http://docs.typecho.org/develop/acl\">参考这里</a>."
+msgid ""
+"具体的权限分配表请<a href=\"http://docs.typecho.org/develop/acl\">参考这里</"
+"a>."
 msgstr ""
 "Please <a href=\"http://docs.typecho.org/develop/acl\">refer to this</a> for "
 "details on permissions."
@@ -2600,6 +2890,9 @@ msgstr "Add a user"
 
 msgid "昵称已经存在"
 msgstr "Nickname already exists."
+
+msgid "请不要在昵称中使用特殊字符"
+msgstr ""
 
 msgid "用户密码 *"
 msgstr "Password *"
@@ -2627,18 +2920,12 @@ msgstr "No user to delete."
 msgid "更新我的档案"
 msgstr "Update my profile."
 
-msgid "关闭"
-msgstr "Close."
-
-msgid "打开"
-msgstr "Open"
-
 msgid "使用 Markdown 语法编辑和解析内容"
 msgstr "Edit and parse content in Markdown syntax"
 
 msgid ""
-"使用 <a href=\"http://daringfireball.net/projects/markdown/\">Markdown</a> "
-"语法能够使您的撰写过程更加简便直观."
+"使用 <a href=\"http://daringfireball.net/projects/markdown/\">Markdown</a> 语"
+"法能够使您的撰写过程更加简便直观."
 msgstr ""
 "Use <a href=\"http://daringfireball.net/projects/markdown/\">Markdown</a> "
 "for a more convenient and straightforward writing experience."
@@ -2647,6 +2934,14 @@ msgid "此功能开启不会影响以前没有使用 Markdown 语法编辑的内
 msgstr ""
 "Enabling this function will not affect contents previously edited without "
 "Markdown syntax."
+
+msgid "在 XMLRPC 接口中使用 Markdown 语法"
+msgstr ""
+
+msgid ""
+"对于完全支持 <a href=\"http://daringfireball.net/projects/markdown/"
+"\">Markdown</a> 语法写作的离线编辑器, 打开此选项后将避免内容被转换为 HTML."
+msgstr ""
 
 msgid "自动保存"
 msgstr "Auto save."
@@ -2681,3 +2976,177 @@ msgstr "Password has been edited successfully."
 #, php-format
 msgid "%s 设置已经保存"
 msgstr "Settings of %s  saved."
+
+msgid "上传"
+msgstr ""
+
+msgid "从服务器"
+msgstr ""
+
+msgid "G - 普通"
+msgstr ""
+
+msgid "PG - 13岁以上"
+msgstr ""
+
+msgid "R - 17岁以上成人"
+msgstr ""
+
+msgid "X - 限制级"
+msgstr ""
+
+msgid "参与用户调查, 帮助我们完善产品"
+msgstr ""
+
+#~ msgid "您没有上传 config.inc.php 文件，请您重新安装！"
+#~ msgstr "You have not uploaded config.inc.php, please reinstall typecho."
+
+#~ msgid "对不起，无法连接数据库，请先检查数据库配置再继续进行安装"
+#~ msgstr ""
+#~ "Sorry, typecho cannot connect to database. Please check your database "
+#~ "configuration before continuing."
+
+#~ msgid "在GPL许可的范围内，您可以自由地将其用于商业以及非商业用途."
+#~ msgstr ""
+#~ "You can use it commercially and non-commercially under the permission of "
+#~ "GPL."
+
+#~ msgid "您也可以使用编辑器下方的文件上传功能插入本地图片"
+#~ msgstr ""
+#~ "You can also use the upload function below the editor to insert local "
+#~ "images."
+
+#~ msgid "文件上传失败, 请确认文件尺寸没有超过 %s 并且服务器文件目录可以写入"
+#~ msgstr ""
+#~ "Failed to upload the file. Please make sure that the size of the file "
+#~ "does not exceed %s,  and the file directory on server is writable."
+
+#~ msgid "文件 %s 的类型不被支持"
+#~ msgstr "File type %s is not supported."
+
+#~ msgid "浏览器不支持拖拽上传"
+#~ msgstr "You browser does not support drag and drop."
+
+#~ msgid "一次上传的文件不能多于%d个"
+#~ msgstr "Cannot upload more than %d files at once."
+
+#~ msgid "文件尺寸不能超过 %s"
+#~ msgstr "File size cannot exceed %s ."
+
+#~ msgid "使用下面的链接开始你的故事吧:"
+#~ msgstr "Use the following link to begin your story."
+
+#~ msgid "记住我"
+#~ msgstr "Remember me"
+
+#~ msgid "文件 %s 的类型与要替换的原文件不一致"
+#~ msgstr "The type of file %s is different from the original file."
+
+#~ msgid "一次只能上传一个文件"
+#~ msgstr "You can only upload one file at a time."
+
+#~ msgid ""
+#~ "目前有 <em>%s</em> 篇 Blog,并有 <em>%s</em> 条关于你的评论在已设定的 <em>"
+#~ "%s</em> 个分类中."
+#~ msgstr ""
+#~ "Currently there are <em>%s</em>  blog posts, and  <em>%s</em> comments "
+#~ "about you under established <em>%s</em> catagories."
+
+#~ msgid "在升级之前强烈建议先备份您的数据"
+#~ msgstr "Backup your data before upgrade is strongly recommended."
+
+#~ msgid "内容已经保存"
+#~ msgstr "Saved."
+
+#~ msgid "内容尚未保存"
+#~ msgstr "Unsaved."
+
+#~ msgid "请填入您在Cloud SQL面板中创建的数据库实例名称"
+#~ msgstr ""
+#~ "Please enter the database instance name you created in Cloud SQL panel."
+
+#~ msgid "你想查看的页面已被转移或删除了，要不要搜索看看："
+#~ msgstr ""
+#~ "The page you want to view has been moved or deleted. Try searching it?"
+
+#~ msgid "作者："
+#~ msgstr "Author:"
+
+#~ msgid "时间："
+#~ msgstr "Time:"
+
+#~ msgid "分类："
+#~ msgstr "Category:"
+
+#~ msgid "登录身份："
+#~ msgstr "Login as:"
+
+#~ msgid "站点LOGO地址"
+#~ msgstr "website logo URL"
+
+#~ msgid "在这里填入一个图片URL地址, 以在网站标题前加上一个LOGO"
+#~ msgstr ""
+#~ "Enter the URL for the logo which will appear before the title of the "
+#~ "website."
+
+#~ msgid "标签："
+#~ msgstr "Tags:"
+
+#~ msgid "用户名最多包含200个字符"
+#~ msgstr "A username can contain a maximum of 200 characters."
+
+#~ msgid "电子邮箱最多包含200个字符"
+#~ msgstr "Email address can contain a maximum of 200 characters."
+
+#~ msgid "个人主页地址最多包含200个字符"
+#~ msgstr "Homepage URL can contain a maximum of 200 characters."
+
+#~ msgid "标签和分类"
+#~ msgstr "Tags and categories."
+
+#~ msgid "无法登录, 密码错误"
+#~ msgstr "Cannot login. Wrong password."
+
+#~ msgid "此内ucceed to delete the c容被密码保护"
+#~ msgstr "The content is protected by a password."
+
+#~ msgid "您的评论正等待审核！"
+#~ msgstr "Your comment is awaiting review!"
+
+#~ msgid "分类缩略名用于创建友好的链接形式,建议使用字母,数字,下划线和横杠."
+#~ msgstr ""
+#~ "Category abbreviation is used to create friendly url, we recommend you "
+#~ "use alphanumerics, underlines, and dashes."
+
+#~ msgid "此文字用于描述分类,在有的主题中它会被显示."
+#~ msgstr ""
+#~ "This text is used to describe category, it will be displayed in certain "
+#~ "themes."
+
+#~ msgid "在评论中使用Markdown语法"
+#~ msgstr "Allow markdown syntax in comments."
+
+#~ msgid "如果你仍然想启用此功能, <a href=\"%s\">请点击这里</a>"
+#~ msgstr ""
+#~ "If you still want to enable this function, <a href=\"%s\">please click "
+#~ "here</a>."
+
+#~ msgid ""
+#~ "可用参数: <code>{cid}</code> 日志 ID, <code>{slug}</code> 日志缩略名, "
+#~ "<code>{category}</code> 分类, <code>{year}</code> 年, <code>{month}</"
+#~ "code> 月, <code>{day}</code> 日"
+#~ msgstr ""
+#~ "Available parameters: <code>{cid}</code> post ID, <code>{slug}</code> "
+#~ "<code>{category}</code> , <code>{year}</code> , <code>{month}</code> , "
+#~ "<code>{day}</code> "
+
+#~ msgid "可用参数: <code>{cid}</code> 页面 ID、<code>{slug}</code> 页面缩略名"
+#~ msgstr ""
+#~ "Available parameters: <code>{cid}</code> page ID、<code>{slug}</code>."
+
+#~ msgid "可用参数: <code>{mid}</code> 分类 ID、<code>{slug}</code> 分类缩略名"
+#~ msgstr ""
+#~ "Available parameters: <code>{mid}</code> category ID、<code>{slug}</code>."
+
+#~ msgid "设置外观 %s"
+#~ msgstr "Setup appearance %s"
