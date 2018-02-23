@@ -18,3 +18,4 @@
 3. Push update to your forked repo, and then pull a request to offical languages repo: named `typecho/languages`.
 
 Also please see http://docs.typecho.org/translate/start
+
