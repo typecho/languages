@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Typecho 1.2/18.1.29\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-25 15:11+0800\n"
-"PO-Revision-Date: 2018-02-25 17:26+0800\n"
+"PO-Revision-Date: 2018-03-10 12:30-0500\n"
 "Last-Translator: EAimTY <ea.imty@gmail.com>\n"
 "Language-Team: typecho\n"
 "Language: en_US\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Poedit-KeywordsList: _t;_e;_n\n"
 "X-Poedit-Basepath: /home/weakish/typecho\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.2\n"
+"X-Generator: Poedit 2.0.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
 
@@ -495,7 +495,7 @@ msgstr "Preview"
 
 msgid "这篇文章不是由Markdown语法创建的, 继续使用Markdown编辑它吗?"
 msgstr ""
-"This article was not created by the Markdown syntax, do you want to use "
+"This post was not created by the Markdown syntax, do you want to use "
 "Markdown to edit it?"
 
 msgid "是"
@@ -556,8 +556,8 @@ msgid ""
 "目前有 <em>%s</em> 篇文章, 并有 <em>%s</em> 条关于你的评论在 <em>%s</em> 个分"
 "类中."
 msgstr ""
-"There's currently <em>%s</em> article and <em>%s</em> comment about your  in "
-"<em>%s</em> category."
+"There are currently <em>%s</em> posts and <em>%s</em> comments about your  in "
+"<em>%s</em> categories."
 
 msgid "点击下面的链接快速开始:"
 msgstr "Click on the link below to start quickly:"
@@ -578,7 +578,7 @@ msgid "更换外观"
 msgstr "Change appearance"
 
 msgid "插件管理"
-msgstr "manage plugins"
+msgstr "Manage plugins"
 
 msgid "系统设置"
 msgstr "System settings"
@@ -596,19 +596,19 @@ msgid "最近发布的文章"
 msgstr "Recent posts"
 
 msgid "暂时没有文章"
-msgstr "No post yet."
+msgstr "No posts"
 
 msgid "最近得到的回复"
 msgstr "Recent comments"
 
 msgid "暂时没有回复"
-msgstr "No comments yet."
+msgstr "No comments"
 
 msgid "官方最新日志"
-msgstr "Latest official blog posts."
+msgstr "Latest official blog posts"
 
 msgid "读取中..."
-msgstr "Reading..."
+msgstr "Loading..."
 
 #, php-format
 msgid "您当前使用的版本是 %s"
@@ -628,7 +628,7 @@ msgid "下次自动登录"
 msgstr "Remember me"
 
 msgid "返回首页"
-msgstr "Return to index page"
+msgstr "Return to home page"
 
 msgid "用户注册"
 msgstr "Register"
@@ -686,7 +686,7 @@ msgid "设为默认"
 msgstr "set to default"
 
 msgid "没有任何分类"
-msgstr "No category."
+msgstr "No category"
 
 msgid "所有"
 msgstr "All"
@@ -821,19 +821,19 @@ msgid "私密"
 msgstr "Private"
 
 msgid "密码保护"
-msgstr "Protected by password"
+msgstr "Password protected"
 
 msgid "没有任何文章"
-msgstr "No post"
+msgstr "No posts"
 
 msgid "你确认要删除这些标签吗?"
 msgstr "Delete these tags?"
 
 msgid "刷新标签可能需要等待较长时间, 你确认要刷新这些标签吗?"
-msgstr "Refresh these tags may take a long time, are you sure?"
+msgstr "Refresh tags may take a long time, are you sure?"
 
 msgid "没有任何标签"
-msgstr "No tag."
+msgstr "No tags"
 
 msgid "你确认要删除这些用户吗?"
 msgstr "Are you sure to delete these users?"
@@ -864,7 +864,7 @@ msgstr "Visitors"
 
 #, php-format
 msgid "文件 %s 已经替换"
-msgstr "File %s replaced."
+msgstr "File %s is replaced"
 
 #, php-format
 msgid "最后登录: %s"
@@ -940,7 +940,7 @@ msgid "个人资料"
 msgstr "Profile"
 
 msgid "撰写设置"
-msgstr "Composing settings."
+msgstr "Composing settings"
 
 msgid "密码修改"
 msgstr "Change password"
@@ -1012,7 +1012,7 @@ msgid "撰写第一篇日志"
 msgstr "Write my first post."
 
 msgid "查看我的站点"
-msgstr "View my blog."
+msgstr "Visit my site"
 
 msgid "让我直接开始使用吧 &raquo;"
 msgstr "I want to start to use it immediately &raquo;"
@@ -1123,7 +1123,7 @@ msgid "五"
 msgstr "Fri"
 
 msgid "六"
-msgstr "S"
+msgstr "Sat"
 
 msgid "完成"
 msgstr "Done"
@@ -1150,7 +1150,7 @@ msgid "秒"
 msgstr "sec"
 
 msgid "请输入标签名"
-msgstr "Please enter tag name"
+msgstr "Please enter a tag name"
 
 msgid "此标签不存在, 按回车创建"
 msgstr "This tag does not exist. Press enter to create it."
@@ -1165,7 +1165,7 @@ msgid "尚未保存"
 msgstr "Not saved yet"
 
 msgid "上次保存时间"
-msgstr "Last save"
+msgstr "Last saved at"
 
 msgid "内容已经改变尚未保存, 您确认要离开此页面吗?"
 msgstr "Changes are not saved. Are you sure to leave this page?"
@@ -1197,10 +1197,10 @@ msgid "预览页面"
 msgstr "Preview"
 
 msgid "保存草稿"
-msgstr "Save draft"
+msgstr "Save as draft"
 
 msgid "发布页面"
-msgstr "Publish page"
+msgstr "Publish"
 
 msgid "选项"
 msgstr "Options"
@@ -1465,7 +1465,7 @@ msgid "首页"
 msgstr "Index page"
 
 msgid "标签: "
-msgstr "Tag: "
+msgstr "Tags: "
 
 msgid "最新文章"
 msgstr "Recent posts"
@@ -1480,7 +1480,7 @@ msgid "其它"
 msgstr "Other"
 
 msgid "进入后台"
-msgstr "Enter the control panel"
+msgstr "Manage"
 
 msgid "文章 RSS"
 msgstr "RSS for posts"
@@ -1558,7 +1558,7 @@ msgid "Y年m月d日"
 msgstr "m - d - Y"
 
 msgid "禁止访问"
-msgstr "Access denied."
+msgstr "Access denied"
 
 msgid "聚合页不存在"
 msgstr "Aggregation page does not exist."
@@ -1632,7 +1632,7 @@ msgid "请不要在用户名中使用特殊字符"
 msgstr "Please do not include special characters in username."
 
 msgid "您所使用的用户名已经被注册,请登录后再次提交"
-msgstr "Your username is already used. Please login and re-submit."
+msgstr "Your username is already used. Please resubmit after login."
 
 msgid "用户名最多包含150个字符"
 msgstr "Username should contain at most 150 characters."
@@ -1641,7 +1641,7 @@ msgid "必须填写电子邮箱地址"
 msgstr "You must enter an email address."
 
 msgid "邮箱地址不合法"
-msgstr "Email address is invalid."
+msgstr "Invalid Email address"
 
 msgid "电子邮箱最多包含150个字符"
 msgstr "Email address should contain at most 150 characters."
@@ -1650,10 +1650,10 @@ msgid "必须填写个人主页"
 msgstr "You must enter your homepage."
 
 msgid "个人主页地址格式错误"
-msgstr "Invalid omepage URL format"
+msgstr "Invalid website URL"
 
 msgid "个人主页地址最多包含255个字符"
-msgstr "Personel website URL should contain at most 255 characters."
+msgstr "Website URL should contain at most 255 characters."
 
 msgid "必须填写评论内容"
 msgstr "You must enter comment content."
@@ -1671,7 +1671,7 @@ msgid "评论来源页错误."
 msgstr "The source of comments is wrong."
 
 msgid "对不起, 您的发言过于频繁, 请稍侯再次发布."
-msgstr "Sorry, you are commenting too frequently. Please re-post it later."
+msgstr "Sorry, you are commenting too frequently. Please wait a while."
 
 msgid "对不起,此内容的引用被禁止."
 msgstr "Sorry, citation of this content is not allowed."
@@ -2491,7 +2491,7 @@ msgstr "Allow"
 msgid "允许访问者注册到你的网站, 默认的注册用户不享有任何写入权限."
 msgstr ""
 "Allow users to register at your site. By default registered users cannot "
-"post."
+"write posts."
 
 msgid "关闭"
 msgstr "Close."
@@ -2751,13 +2751,13 @@ msgstr "Use %s as the front page."
 
 #, php-format
 msgid "直接调用 %s 模板文件"
-msgstr "Use %s template files."
+msgstr "Use %s template files"
 
 msgid "站点首页"
-msgstr "Front page of site."
+msgstr "Front page of site"
 
 msgid "文章列表数目"
-msgstr "Length of post list."
+msgstr "Length of post list"
 
 msgid "此数目用于指定显示在侧边栏中的文章列表数目."
 msgstr ""
@@ -2765,76 +2765,76 @@ msgstr ""
 "the sidebar."
 
 msgid "每页文章数目"
-msgstr "number of posts per page."
+msgstr "number of posts per page"
 
 msgid "此数目用于指定文章归档输出时每页显示的文章数目."
 msgstr "This number specifies number of posts to be displayed in each page."
 
 msgid "仅输出摘要"
-msgstr "Only abstracts."
+msgstr "Only abstracts"
 
 msgid "全文输出"
-msgstr "Full text."
+msgstr "Full text"
 
 msgid "聚合全文输出"
 msgstr "Aggregated full text"
 
 msgid "如果你不希望在聚合中输出文章全文,请使用仅输出摘要选项."
 msgstr ""
-"If you do not want to show full text in aggregations, please choose \"Only "
+"If you do not want to show full text in aggregations, please choose \"only "
 "abstracts\"."
 
 msgid "摘要的文字取决于你在文章中使用分隔符的位置."
 msgstr "Abstracts depend on the separating tag used in the post."
 
 msgid "插件不存在"
-msgstr "Plugin does not exist."
+msgstr "Plugin does not exist"
 
 #, php-format
 msgid "设置插件 %s"
 msgstr "Setup plugin %s"
 
 msgid "无法配置插件"
-msgstr "Cannot configure plugin."
+msgstr "Cannot configure the plugin"
 
 msgid "无法启用插件"
-msgstr "Cannot enable plugins."
+msgstr "Cannot enable the plugin"
 
 #, php-format
 msgid "<a href=\"%s\">%s</a> 无法在此版本的typecho下正常工作"
 msgstr "<a href=\"%s\">%s</a> cannot work under this version of typecho."
 
 msgid "插件已经被启用"
-msgstr "Plugin enabled."
+msgstr "Plugin is enabled"
 
 msgid "插件已经被禁用"
-msgstr "Plugin disabled."
+msgstr "Plugin is disabled"
 
 msgid "插件设置已经保存"
-msgstr "Plugin settings saved."
+msgstr "Plugin settings saved"
 
 msgid "外观配置功能不存在"
-msgstr "Appearance configuration does not exist."
+msgstr "Appearance configuration does not exist"
 
 msgid "外观已经改变"
-msgstr "Appearance changed."
+msgstr "Appearance changed"
 
 msgid "您选择的风格不存在"
-msgstr "The chosen style does not exist."
+msgstr "The chosen style does not exist"
 
 #, php-format
 msgid "文件 %s 的更改已经保存"
-msgstr "File %s saved."
+msgstr "File %s is saved"
 
 #, php-format
 msgid "文件 %s 无法被写入"
-msgstr "Cannot write file %s."
+msgstr "Cannot write file %s"
 
 msgid "您编辑的文件不存在"
 msgstr "The file you are editing does not exist."
 
 msgid "外观设置已经保存"
-msgstr "Appearance settings saved."
+msgstr "Appearance settings saved"
 
 #, php-format
 msgid "编辑文件 %s"
@@ -2867,14 +2867,13 @@ msgstr "Nickname"
 
 msgid "用户昵称可以与用户名不同, 用于前台显示."
 msgstr ""
-"Nickname can be different from username. It will be shown on website front "
-"end."
+"Nickname can be different from username. It is shown to other users."
 
 msgid "如果你将此项留空, 将默认使用用户名."
 msgstr "If you leave this blank, typecho will use your username by default."
 
 msgid "用户密码"
-msgstr "User password."
+msgstr "Password"
 
 msgid "为此用户分配一个密码."
 msgstr "Give this user a password."
@@ -2931,20 +2930,20 @@ msgstr "User key does not exist."
 
 #, php-format
 msgid "用户 %s 已经被增加"
-msgstr "User %s added."
+msgstr "Added user %s"
 
 #, php-format
 msgid "用户 %s 已经被更新"
-msgstr "User %s updated."
+msgstr "Updated user %s"
 
 msgid "用户已经删除"
-msgstr "User deleted."
+msgstr "The user is deleted"
 
 msgid "没有用户被删除"
-msgstr "No user to delete."
+msgstr "No users are deleted"
 
 msgid "更新我的档案"
-msgstr "Update my profile."
+msgstr "Update my profile"
 
 msgid "使用 Markdown 语法编辑和解析内容"
 msgstr "Edit and parse content in Markdown syntax"
@@ -3004,7 +3003,7 @@ msgstr "Password has been edited successfully."
 
 #, php-format
 msgid "%s 设置已经保存"
-msgstr "Settings of %s  saved."
+msgstr "Settings of %s has been saved"
 
 #~ msgid "您没有上传 config.inc.php 文件，请您重新安装！"
 #~ msgstr "You have not uploaded config.inc.php, please reinstall typecho."
