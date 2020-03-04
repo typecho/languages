@@ -706,6 +706,9 @@ msgstr ""
 msgid "你确认要删除这些页面吗?"
 msgstr ""
 
+msgid "标记为<strong>%s</strong>"
+msgstr ""
+
 msgid "日期"
 msgstr ""
 
