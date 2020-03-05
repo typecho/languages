@@ -171,6 +171,9 @@ msgstr ""
 "You can manually create  <strong>config.inc.php</strong>  file under the "
 "root directory of the website, and add the following code in it"
 
+msgid "创建完毕, 继续安装"
+msgstr "Created, resume installation"
+
 msgid "数据库适配器"
 msgstr "Database adapter"
 
