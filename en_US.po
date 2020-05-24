@@ -1760,7 +1760,7 @@ msgid "管理标签"
 msgstr "Manage tags"
 
 msgid "文件"
-msgstr "Files."
+msgstr "Files"
 
 msgid "管理文件"
 msgstr "Manage files."
