@@ -1748,22 +1748,22 @@ msgid "管理独立页面"
 msgstr "Manage pages"
 
 msgid "管理评论"
-msgstr "Manage comments."
+msgstr "Manage comments"
 
 msgid "管理分类"
 msgstr "Manage categories"
 
 msgid "新增分类"
-msgstr "New category."
+msgstr "New category"
 
 msgid "管理标签"
 msgstr "Manage tags"
 
 msgid "文件"
-msgstr "Files."
+msgstr "Files"
 
 msgid "管理文件"
-msgstr "Manage files."
+msgstr "Manage files"
 
 msgid "用户"
 msgstr "Users"
@@ -1778,16 +1778,16 @@ msgid "基本"
 msgstr "Basic"
 
 msgid "基本设置"
-msgstr "Basic settings."
+msgstr "Basic settings"
 
 msgid "评论设置"
-msgstr "Comments settings."
+msgstr "Comments settings"
 
 msgid "阅读"
 msgstr "Read"
 
 msgid "阅读设置"
-msgstr "Reading settings."
+msgstr "Reading settings"
 
 msgid "永久链接"
 msgstr "Permalink"
