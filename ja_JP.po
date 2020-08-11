@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 2.4.1\n"
-"Last-Translator: Salschoka <salschoka@hotmail.co.jp>\n"
+"Last-Translator: TakaSoap <TakaSoap@outlook.com>\n"
 "Language: ja_JP\n"
 
 msgid "UTF-8"
