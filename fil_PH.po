@@ -1390,9 +1390,9 @@ msgstr "Magsumite ng mga komento"
 msgid "评论已关闭"
 msgstr "Ang mga komento ay naisarado"
 
-msgid "由 <a href=\"http://www.typecho.org\">Typecho</a> 强力驱动"
+msgid "由 <a href=\"https://typecho.org\">Typecho</a> 强力驱动"
 msgstr ""
-"Buong papuring pinatatakbo ng <a href=\"http://www.typecho.org"
+"Buong papuring pinatatakbo ng <a href=\"https://typecho.org"
 "\">Typecho</a>"
 
 msgid "站点LOGO地址"

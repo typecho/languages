@@ -1411,8 +1411,8 @@ msgstr "コメントを提出"
 msgid "评论已关闭"
 msgstr "コメントを閉じる"
 
-msgid "由 <a href=\"http://www.typecho.org\">Typecho</a> 强力驱动"
-msgstr "Powered by<a href=\"http://www.typecho.org\">Typecho</a>"
+msgid "由 <a href=\"https://typecho.org\">Typecho</a> 强力驱动"
+msgstr "Powered by<a href=\"https://typecho.org\">Typecho</a>"
 
 msgid "站点 LOGO 地址"
 msgstr "サイト LOGO アドレス"

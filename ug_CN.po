@@ -1359,8 +1359,8 @@ msgstr "باھا يوللاش"
 msgid "评论已关闭"
 msgstr "باھا يېزىش ئېتىۋېتىلگەن"
 
-msgid "由 <a href=\"http://www.typecho.org\">Typecho</a> 强力驱动"
-msgstr "بېكەت <a href=\"http://www.typecho.org\">Typecho</a>دا قۇرۇلدى."
+msgid "由 <a href=\"https://typecho.org\">Typecho</a> 强力驱动"
+msgstr "بېكەت <a href=\"https://typecho.org\">Typecho</a>دا قۇرۇلدى."
 
 msgid "站点LOGO地址"
 msgstr "بېكەت LOGO سى"

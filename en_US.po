@@ -1428,8 +1428,8 @@ msgstr "Submit comment."
 msgid "评论已关闭"
 msgstr "Comments are disabled."
 
-msgid "由 <a href=\"http://www.typecho.org\">Typecho</a> 强力驱动"
-msgstr "Proudly powered by <a href=\"http://www.typecho.org\">Typecho</a>."
+msgid "由 <a href=\"https://typecho.org\">Typecho</a> 强力驱动"
+msgstr "Proudly powered by <a href=\"https://typecho.org\">Typecho</a>."
 
 msgid "站点 LOGO 地址"
 msgstr "Site LOGO Address"

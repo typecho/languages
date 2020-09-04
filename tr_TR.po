@@ -1286,8 +1286,8 @@ msgstr "Yorum Gönder."
 msgid "评论已关闭"
 msgstr "Yorumlar devre dışı bırakılmış."
 
-msgid "由 <a href=\"http://www.typecho.org\">Typecho</a> 强力驱动"
-msgstr "<a href=\"http://www.typecho.org\">Typecho</a> tarafından gururla desteklenmektedir."
+msgid "由 <a href=\"https://typecho.org\">Typecho</a> 强力驱动"
+msgstr "<a href=\"https://typecho.org\">Typecho</a> tarafından gururla desteklenmektedir."
 
 msgid "站点LOGO地址"
 msgstr "website logo URL"

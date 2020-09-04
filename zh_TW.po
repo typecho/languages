@@ -1304,8 +1304,8 @@ msgstr "送出評論"
 msgid "评论已关闭"
 msgstr "評論已關閉"
 
-msgid "由 <a href=\"http://www.typecho.org\">Typecho</a> 强力驱动"
-msgstr "由 <a href=\"http://www.typecho.org\">Typecho</a> 強力驅動"
+msgid "由 <a href=\"https://typecho.org\">Typecho</a> 强力驱动"
+msgstr "由 <a href=\"https://typecho.org\">Typecho</a> 強力驅動"
 
 msgid "站点LOGO地址"
 msgstr "網站 LOGO 網址"

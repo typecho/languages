@@ -1469,8 +1469,8 @@ msgstr "Envoyer un commentaire"
 msgid "评论已关闭"
 msgstr "Les commentaires sont désactivés"
 
-msgid "由 <a href=\"http://www.typecho.org\">Typecho</a> 强力驱动"
-msgstr "Propulsé par <a href=\"http://www.typecho.org\">Typecho</a>"
+msgid "由 <a href=\"https://typecho.org\">Typecho</a> 强力驱动"
+msgstr "Propulsé par <a href=\"https://typecho.org\">Typecho</a>"
 
 msgid "站点 LOGO 地址"
 msgstr "URL du LOGO du site web"

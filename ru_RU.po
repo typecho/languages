@@ -1340,8 +1340,8 @@ msgstr "Отправить"
 msgid "评论已关闭"
 msgstr "Комментарии отключены"
 
-msgid "由 <a href=\"http://www.typecho.org\">Typecho</a> 强力驱动"
-msgstr "Сайт работает на <a href=\"http://www.typecho.org\">Typecho</a>"
+msgid "由 <a href=\"https://typecho.org\">Typecho</a> 强力驱动"
+msgstr "Сайт работает на <a href=\"https://typecho.org\">Typecho</a>"
 
 msgid "站点LOGO地址"
 msgstr "URL логотипа сайта"

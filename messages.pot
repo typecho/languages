@@ -1297,7 +1297,7 @@ msgstr ""
 msgid "评论已关闭"
 msgstr ""
 
-msgid "由 <a href=\"http://www.typecho.org\">Typecho</a> 强力驱动"
+msgid "由 <a href=\"https://typecho.org\">Typecho</a> 强力驱动"
 msgstr ""
 
 msgid "站点 LOGO 地址"

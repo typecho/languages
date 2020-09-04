@@ -1337,8 +1337,8 @@ msgstr "Enviar comentário"
 msgid "评论已关闭"
 msgstr "Os comentários estão desativos"
 
-msgid "由 <a href=\"http://www.typecho.org\">Typecho</a> 强力驱动"
-msgstr "Orgulhosamente desenvolvido com <a href=\"http://www.typecho.org\">Typecho</a>"
+msgid "由 <a href=\"https://typecho.org\">Typecho</a> 强力驱动"
+msgstr "Orgulhosamente desenvolvido com <a href=\"https://typecho.org\">Typecho</a>"
 
 msgid "站点 LOGO 地址"
 msgstr "Endereço do LOGO do site"

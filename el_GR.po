@@ -1474,9 +1474,9 @@ msgstr "Υποβολή σχολίου"
 msgid "评论已关闭"
 msgstr "Δεν επιτρέπονται σχόλια"
 
-msgid "由 <a href=\"http://www.typecho.org\">Typecho</a> 强力驱动"
+msgid "由 <a href=\"https://typecho.org\">Typecho</a> 强力驱动"
 msgstr ""
-"Ευχαριστούμε που χρησιμοποιείτε το <a href=\"http://www.typecho.org"
+"Ευχαριστούμε που χρησιμοποιείτε το <a href=\"https://typecho.org"
 "\">Typecho</a>"
 
 msgid "站点 LOGO 地址"
