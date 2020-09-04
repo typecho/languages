@@ -278,7 +278,7 @@ msgstr ""
 msgid "恢复操作将清除所有现有数据, 是否继续?"
 msgstr ""
 
-msgid "由 <a href=\"http://typecho.org\">%s</a> 强力驱动, 版本 %s (%s)"
+msgid "由 <a href=\"https://typecho.org\">%s</a> 强力驱动, 版本 %s (%s)"
 msgstr ""
 
 msgid "帮助文档"
@@ -323,7 +323,7 @@ msgstr ""
 msgid "+添加字段"
 msgstr ""
 
-msgid "自定义字段可以扩展你的模板功能, 使用方法参见 <a href=\"http://docs.typecho.org/help/custom-fields\">帮助文档</a>"
+msgid "自定义字段可以扩展你的模板功能, 使用方法参见 <a href=\"https://docs.typecho.org/help/custom-fields\">帮助文档</a>"
 msgstr ""
 
 msgid "加粗"
@@ -1366,7 +1366,7 @@ msgstr ""
 msgid "上传目录无法创建, 请手动创建安装目录下的 %s 目录, 并将它的权限设置为可写然后继续升级"
 msgstr ""
 
-msgid "建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"http://typecho.org/upgrade/9.7.2\">以下优化步骤</a>"
+msgid "建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"https://typecho.org/upgrade/9.7.2\">以下优化步骤</a>"
 msgstr ""
 
 msgid "刚刚"
@@ -2625,7 +2625,7 @@ msgstr ""
 msgid "不同的用户组拥有不同的权限."
 msgstr ""
 
-msgid "具体的权限分配表请<a href=\"http://docs.typecho.org/develop/acl\">参考这里</a>."
+msgid "具体的权限分配表请<a href=\"https://docs.typecho.org/develop/acl\">参考这里</a>."
 msgstr ""
 
 msgid "编辑用户"

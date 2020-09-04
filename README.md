@@ -17,5 +17,5 @@
 2. Start your translation road by using [PoEdit](http://poedit.net/) or other gettext software. The `message.pot` file contains all recent translation strings, but it is in Chinese, so you might want to start with the English translation file `en_US.po` and update the missing messages from `messages.pot`.
 3. Push update to your forked repo, and then pull a request to offical languages repo: named `typecho/languages`.
 
-Also please see http://docs.typecho.org/translate/start
+Also please see https://docs.typecho.org/translate/start
 

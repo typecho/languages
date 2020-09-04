@@ -298,9 +298,9 @@ msgid "我准备好了, 开始下一步 &raquo;"
 msgstr "تەييار بولدۇم، باشلايلى!"
 
 #, php-format
-msgid "由 <a href=\"http://typecho.org\">%s</a> 强力驱动, 版本 %s (%s)"
+msgid "由 <a href=\"https://typecho.org\">%s</a> 强力驱动, 版本 %s (%s)"
 msgstr ""
-"بېكەت <a href=\"http://typecho.org\">%s</a> دا قۇرۇلدى، سىستېما نەشرى :  %s "
+"بېكەت <a href=\"https://typecho.org\">%s</a> دا قۇرۇلدى، سىستېما نەشرى :  %s "
 "(%s)"
 
 msgid "帮助文档"
@@ -350,7 +350,7 @@ msgid ""
 "org/help/custom-fields\">帮助文档</a>"
 msgstr ""
 "ئۆزى بەلگىلەش بۆلىكىنى يازمىغا كېڭەيتىلگەن مېتا سانلىق مەلۇماتلىرىنى قوشۇشتا "
-"ئىشلىتىشكە بولىدۇ. سىز ئۇلارنى <a href=\"http://docs.typecho.org/help/custom-"
+"ئىشلىتىشكە بولىدۇ. سىز ئۇلارنى <a href=\"https://docs.typecho.org/help/custom-"
 "fields\"> ئۇسلۇب ئىچىدە ئىشلىتەلەيسىز.</a>"
 
 msgid "加粗"
@@ -2780,10 +2780,10 @@ msgid "不同的用户组拥有不同的权限."
 msgstr "ئوخشىمىغان ئىشلەتكۈچى گۇرۇپپىسىنىڭ ھوقۇقى ئوخشىمايدۇ."
 
 msgid ""
-"具体的权限分配表请<a href=\"http://docs.typecho.org/develop/acl\">参考这里</"
+"具体的权限分配表请<a href=\"https://docs.typecho.org/develop/acl\">参考这里</"
 "a>."
 msgstr ""
-"<a href=\"http://docs.typecho.org/develop/acl\">ھوقۇق تەقسىمات جەدۋىلى</a>  "
+"<a href=\"https://docs.typecho.org/develop/acl\">ھوقۇق تەقسىمات جەدۋىلى</a>  "
 "نىڭ تەپسىلاتىدىن پايدىلىنىڭ."
 
 msgid "编辑用户"

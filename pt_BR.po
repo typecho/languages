@@ -277,8 +277,8 @@ msgid "恢复操作将清除所有现有数据, 是否继续?"
 msgstr "A operação de restauração apagará todos os dados existentes. Deseja continuar?"
 
 #, php-format
-msgid "由 <a href=\"http://typecho.org\">%s</a> 强力驱动, 版本 %s (%s)"
-msgstr "Orgulhosamente desenvolvido com <a href=\"http://typecho.org\">%s</a> versão %s (%s)"
+msgid "由 <a href=\"https://typecho.org\">%s</a> 强力驱动, 版本 %s (%s)"
+msgstr "Orgulhosamente desenvolvido com <a href=\"https://typecho.org\">%s</a> versão %s (%s)"
 
 msgid "帮助文档"
 msgstr "Documentação"
@@ -322,8 +322,8 @@ msgstr "Tipo de campo"
 msgid "+添加字段"
 msgstr "+ Adicionar campo"
 
-msgid "自定义字段可以扩展你的模板功能, 使用方法参见 <a href=\"http://docs.typecho.org/help/custom-fields\">帮助文档</a>"
-msgstr "Campos personalizados podem estender a função do seu modelo, consulte a <a href=\"http://docs.typecho.org/help/custom-fields\">documentação</a>"
+msgid "自定义字段可以扩展你的模板功能, 使用方法参见 <a href=\"https://docs.typecho.org/help/custom-fields\">帮助文档</a>"
+msgstr "Campos personalizados podem estender a função do seu modelo, consulte a <a href=\"https://docs.typecho.org/help/custom-fields\">documentação</a>"
 
 msgid "加粗"
 msgstr "Negrito"
@@ -1408,8 +1408,8 @@ msgstr "O diretório de upload não pode ser escrito. Defina manualmente a permi
 msgid "上传目录无法创建, 请手动创建安装目录下的 %s 目录, 并将它的权限设置为可写然后继续升级"
 msgstr "O diretório de upload não pode ser criado, crie manualmente o diretório %s na pasta de instalação e defina permissões de escrita e leitura, em seguida, continue a atualização"
 
-msgid "建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"http://typecho.org/upgrade/9.7.2\">以下优化步骤</a>"
-msgstr "Após a atualização do Typecho 0.7 para 9.7.2+, recomendamos que você siga as <a href=\"http://typecho.org/upgrade/9.7.2\">etapas de otimização</a> imediatamente"
+msgid "建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"https://typecho.org/upgrade/9.7.2\">以下优化步骤</a>"
+msgstr "Após a atualização do Typecho 0.7 para 9.7.2+, recomendamos que você siga as <a href=\"https://typecho.org/upgrade/9.7.2\">etapas de otimização</a> imediatamente"
 
 msgid "刚刚"
 msgstr "Agora"
@@ -2696,8 +2696,8 @@ msgstr "Página pessoa do usuário, começa com <code>http://</code>"
 msgid "不同的用户组拥有不同的权限."
 msgstr "Grupos de usuários diferentes têm permissões diferentes."
 
-msgid "具体的权限分配表请<a href=\"http://docs.typecho.org/develop/acl\">参考这里</a>."
-msgstr "Para consultar a tabela de permissões, <a href=\"http://docs.typecho.org/develop/acl\">clique aqui</a>."
+msgid "具体的权限分配表请<a href=\"https://docs.typecho.org/develop/acl\">参考这里</a>."
+msgstr "Para consultar a tabela de permissões, <a href=\"https://docs.typecho.org/develop/acl\">clique aqui</a>."
 
 msgid "编辑用户"
 msgstr "Editar usuário"
