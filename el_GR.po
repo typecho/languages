@@ -1465,6 +1465,9 @@ msgstr "Όνομα"
 msgid "http://"
 msgstr "http://"
 
+msgid "https://"
+msgstr "https://"
+
 msgid "提交评论"
 msgstr "Υποβολή σχολίου"
 
@@ -1557,7 +1560,7 @@ msgstr ""
 "Μετά μπορείτε να συνεχίσετε με την αναβάθμιση."
 
 msgid ""
-"建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"http://"
+"建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"https://"
 "typecho.org/upgrade/9.7.2\">以下优化步骤</a>"
 msgstr ""
 "Αφού αναβαθμίσετε στην νέα έκδοση του Typecho, <a href=\"https://typecho.org"

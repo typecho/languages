@@ -1288,6 +1288,9 @@ msgstr ""
 msgid "http://"
 msgstr ""
 
+msgid "https://"
+msgstr ""
+
 msgid "提交评论"
 msgstr ""
 

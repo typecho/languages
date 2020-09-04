@@ -1277,6 +1277,9 @@ msgstr " İsim"
 msgid "http://"
 msgstr "http://"
 
+msgid "https://"
+msgstr "https://"
+
 msgid "提交评论"
 msgstr "Yorum Gönder."
 
@@ -1367,7 +1370,7 @@ msgid ""
 "建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"https://typecho.org/"
 "upgrade/9.7.2\">以下优化步骤</a>"
 msgstr ""
-"Typecho 0.7/9.7.2 + güncellemesi sonrası verimlilik açısından derhal <a href=\"http://"
+"Typecho 0.7/9.7.2 + güncellemesi sonrası verimlilik açısından derhal <a href=\"https://"
 "typecho.org/upgrade/9.7.2\">bu adımları</a> takip etmenizi öneririz.."
 
 msgid "刚刚"

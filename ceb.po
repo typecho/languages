@@ -1466,6 +1466,9 @@ msgstr "Pasalamat"
 msgid "http://"
 msgstr "http://"
 
+msgid "https://"
+msgstr "https://"
+
 msgid "提交评论"
 msgstr "Pagsumiter og usa ka komentaryo"
 
@@ -1554,7 +1557,7 @@ msgid ""
 msgstr "Ang pag-upload sa direktoryo dili mahimong gimugna, palihug manwal nga paghimo sa direktoryo sa %s ubos sa direktoryo sa instalasyon, ug i-set ang mga permiso niini aron masulat ug dayon ipadayon ang pag-upgrade"
 
 msgid ""
-"建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"http://"
+"建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"https://"
 "typecho.org/upgrade/9.7.2\">以下优化步骤</a>"
 msgstr "Among girekomendar nga ikaw <a href="https://typecho.org/upgrade/9.7.2"> ang mga mosunod nga mga lakang sa pag-optimize </a> sa higayon nga mag-upgrade ka sa bersyon sa Typecho 0.7 / 9.7.2 ug unya"
 

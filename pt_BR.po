@@ -1328,6 +1328,9 @@ msgstr "Nome"
 msgid "http://"
 msgstr "http://"
 
+msgid "https://"
+msgstr "https://"
+
 msgid "提交评论"
 msgstr "Enviar comentário"
 

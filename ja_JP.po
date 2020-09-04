@@ -1402,6 +1402,9 @@ msgstr "呼び方"
 msgid "http://"
 msgstr "http://"
 
+msgid "https://"
+msgstr "https://"
+
 msgid "提交评论"
 msgstr "コメントを提出"
 
@@ -1486,7 +1489,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"http://"
+"建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"https://"
 "typecho.org/upgrade/9.7.2\">以下优化步骤</a>"
 msgstr "Typecho 0.7 / 9.7.2以降にアップグレードした直後に、次の<a href=\"https://typecho.org/upgrade/9.7.2\">最適化手順</a>を実行することをお勧めします"
 

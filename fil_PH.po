@@ -1381,6 +1381,9 @@ msgstr "Tawagan"
 msgid "http://"
 msgstr "http://"
 
+msgid "https://"
+msgstr "https://"
+
 msgid "提交评论"
 msgstr "Magsumite ng mga komento"
 
@@ -1479,7 +1482,7 @@ msgstr ""
 "sa pag-upgrade"
 
 msgid ""
-"建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"http://"
+"建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"https://"
 "typecho.org/upgrade/9.7.2\">以下优化步骤</a>"
 msgstr ""
 "Pagkatapos mong mag-upgrade sa Typecho 0.7/9.7.2, nirerekomenda namin na "
