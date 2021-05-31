@@ -2711,3 +2711,6 @@ msgstr ""
 
 msgid "%s 设置已经保存"
 msgstr ""
+
+msgid "菜单"
+msgstr ""
