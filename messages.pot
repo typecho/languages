@@ -2714,3 +2714,6 @@ msgstr ""
 
 msgid "菜单"
 msgstr ""
+
+msgid "模板文件"
+msgstr ""

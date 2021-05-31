@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Typecho 0.9/13.12.12\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-23 13:58+0200\n"
-"PO-Revision-Date: 2021-05-31 09:15+0700\n"
+"PO-Revision-Date: 2021-05-31 09:23+0700\n"
 "Last-Translator: Jakukyo Friel <weakish@gmail.com>\n"
 "Language-Team: typecho\n"
 "Language: en_US\n"
@@ -115,6 +115,12 @@ msgstr "or"
 
 msgid "使用原有数据"
 msgstr "use original data"
+
+msgid "菜单"
+msgstr "Menu"
+
+msgid "模板文件"
+msgstr "Template"
 
 #, php-format
 msgid "安装程序捕捉到以下错误: \"%s\". 程序被终止, 请检查您的配置信息."
@@ -3006,9 +3012,6 @@ msgstr "X - Inappropriate for minors"
 
 msgid "参与用户调查, 帮助我们完善产品"
 msgstr "Help us improve Typecho - participate in the survey"
-
-msgid "菜单"
-msgstr "Menu"
 
 #~ msgid "您没有上传 config.inc.php 文件，请您重新安装！"
 #~ msgstr "You have not uploaded config.inc.php, please reinstall typecho."
