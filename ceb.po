@@ -1556,7 +1556,7 @@ msgstr "Ang pag-upload sa direktoryo dili mahimong gimugna, palihug manwal nga p
 msgid ""
 "建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"http://"
 "typecho.org/upgrade/9.7.2\">以下优化步骤</a>"
-msgstr "Among girekomendar nga ikaw <a href="http://typecho.org/upgrade/9.7.2"> ang mga mosunod nga mga lakang sa pag-optimize </a> sa higayon nga mag-upgrade ka sa bersyon sa Typecho 0.7 / 9.7.2 ug unya"
+msgstr "Among girekomendar nga ikaw <a href=\"http://typecho.org/upgrade/9.7.2\"> ang mga mosunod nga mga lakang sa pag-optimize </a> sa higayon nga mag-upgrade ka sa bersyon sa Typecho 0.7 / 9.7.2 ug unya"
 
 msgid "刚刚"
 msgstr "Karon lang"
@@ -2098,7 +2098,7 @@ msgstr "Ang abbreviated nga ngalan anaa na"
 
 #, php-format
 msgid "文件 <a href=\"%s\">%s</a> 已经被更新"
-msgstr "Ang file nga <a href="%s">%s</a> na-update"
+msgstr "Ang file nga <a href=\"%s\">%s</a> na-update"
 
 #, php-format
 msgid "未归档文件 %s 已经被更新"
@@ -2121,11 +2121,11 @@ msgstr "Wala'y ngalan nga panid"
 
 #, php-format
 msgid "页面 \"<a href=\"%s\">%s</a>\" 已经发布"
-msgstr "Ang panid nga "<a href="%s">%s</a>" gipaskil"
+msgstr "Ang panid nga \"<a href=\"%s\">%s</a>\" gipaskil"
 
 #, php-format
 msgid "草稿 \"%s\" 已经被保存"
-msgstr "Draft ang "%s" naluwas"
+msgstr "Draft ang \"%s\" naluwas"
 
 msgid "页面已经被删除"
 msgstr "Ang panid gitangtang"
@@ -2154,11 +2154,11 @@ msgstr "Ang artikulo wala maglungtad"
 
 #, php-format
 msgid "文章 \"<a href=\"%s\">%s</a>\" 已经发布"
-msgstr "Ang artikulong "<a href="%s">%s</a>" gimantala"
+msgstr "Ang artikulong \"<a href=\"%s\">%s</a>\" gimantala"
 
 #, php-format
 msgid "文章 \"%s\" 等待审核"
-msgstr "Ang artikulo "%s" naghulat sa pagrepaso"
+msgstr "Ang artikulo \"%s\" naghulat sa pagrepaso"
 
 msgid "文章已经被删除"
 msgstr "Ang artikulo gipapas na"
@@ -2220,11 +2220,11 @@ msgstr "Ang pangunang yawe wala maglungtad"
 
 #, php-format
 msgid "分类 <a href=\"%s\">%s</a> 已经被增加"
-msgstr "Gipadugang ang <a href="%s">%s</a> sa kategoriya"
+msgstr "Gipadugang ang <a href=\"%s\">%s</a> sa kategoriya"
 
 #, php-format
 msgid "分类 <a href=\"%s\">%s</a> 已经被更新"
-msgstr "Na-update ang klase nga <a href="%s">%s</a>"
+msgstr "Na-update ang klase nga <a href=\"%s\">%s</a>"
 
 msgid "分类已经删除"
 msgstr "Gikuha ang kategoriya"
@@ -2249,7 +2249,7 @@ msgstr "Nakompleto na ang refresh sa kategoriya"
 
 #, php-format
 msgid "<a href=\"%s\">%s</a> 已经被设为默认分类"
-msgstr "<a href="%s">%s</a> Gitakda nga default category"
+msgstr "<a href=\"%s\">%s</a> Gitakda nga default category"
 
 #, php-format
 msgid "编辑分类 %s"
@@ -2267,7 +2267,7 @@ msgid "标签名称 *"
 msgstr "Ngalan sa tag *"
 
 msgid "这是标签在站点中显示的名称.可以使用中文,如 \"地球\"."
-msgstr "Kini ang ngalan sa label nga gipakita sa site. Mahimo gamiton ang Intsik, sama sa "Earth"."
+msgstr "Kini ang ngalan sa label nga gipakita sa site. Mahimo gamiton ang Intsik, sama sa \"Earth\"."
 
 msgid "标签缩略名"
 msgstr "Ang abbreviation sa label"
@@ -2298,11 +2298,11 @@ msgstr "Ang nag-unang hinungdan nga marka wala maglungtad"
 
 #, php-format
 msgid "标签 <a href=\"%s\">%s</a> 已经被增加"
-msgstr "Ang marka nga <a href="%s">%s</a> nadugang"
+msgstr "Ang marka nga <a href=\"%s\">%s</a> nadugang"
 
 #, php-format
 msgid "标签 <a href=\"%s\">%s</a> 已经被更新"
-msgstr "Ang label nga <a href="%s">%s</a> na-update"
+msgstr "Ang label nga <a href=\"%s\">%s</a> na-update"
 
 msgid "标签已经删除"
 msgstr "Ang label gipapas na"
@@ -2336,7 +2336,7 @@ msgstr "Kini usa ka default nga format, sa diha nga ikaw nagtawag sa template ng
 msgid ""
 "具体写法请参考 <a href=\"http://www.php.net/manual/zh/function.date.php"
 "\">PHP 日期格式写法</a>."
-msgstr "Palihug i-refer ang mga piho nga mga pulong sa paggamit sa format sa petsa sa PHP nga <a href="http://www.php.net/manual/zh/function.date.php">."
+msgstr "Palihug i-refer ang mga piho nga mga pulong sa paggamit sa format sa petsa sa PHP nga <a href=\"http://www.php.net/manual/zh/function.date.php\">."
 
 msgid "评论列表数目"
 msgstr "Ang listahan sa mga komentaryo"
@@ -2359,13 +2359,13 @@ msgstr "Ang ngalan sa awtoridad awtomatikong idugang uban ang link sa iyang kaug
 msgid ""
 "对评论者个人主页链接使用 <a href=\"http://en.wikipedia.org/wiki/Nofollow"
 "\">nofollow 属性</a>"
-msgstr "Gamita ang <a href="http://en.wikipedia.org/wiki/Nofollow"> nofollow property </a> alang sa mga link sa personal nga homepage sa mga reviewer"
+msgstr "Gamita ang <a href=\"http://en.wikipedia.org/wiki/Nofollow\"> nofollow property </a> alang sa mga link sa personal nga homepage sa mga reviewer"
 
 #, php-format
 msgid ""
 "启用 <a href=\"http://gravatar.com\">Gravatar</a> 头像服务, 最高显示评级"
 "为 %s 的头像"
-msgstr "Pag-enable sa <a href="http://gravatar.com"> Gravatar </a> nga serbisyo sa avatar ug ipakita ang avatar sa %s"
+msgstr "Pag-enable sa <a href=\"http://gravatar.com\"> Gravatar </a> nga serbisyo sa avatar ug ipakita ang avatar sa %s"
 
 msgid "第一页"
 msgstr "Unang pahina"
@@ -2482,7 +2482,7 @@ msgid "关键词"
 msgstr "Mga pulong"
 
 msgid "请以半角逗号 \",\" 分割多个关键字."
-msgstr "Palihog gamita ang comma "," aron mabahin ang daghang mga keyword."
+msgstr "Palihog gamita ang comma \",\" aron mabahin ang daghang mga keyword."
 
 msgid "请不要在关键词中使用特殊字符"
 msgstr "Palihug ayaw gamita ang espesyal nga mga karakter sa mga keyword"
@@ -2610,7 +2610,7 @@ msgstr "Ang mga tipo sa file nga gitugutan nga i-upload"
 
 #, php-format
 msgid "用逗号 \",\" 将后缀名隔开, 例如: %s"
-msgstr "Gamita ang koma "," ngalan sa suffix, pananglitan: %s"
+msgstr "Gamita ang koma \",\" ngalan sa suffix, pananglitan: %s"
 
 msgid "不启用"
 msgstr "Dili mahimo"
@@ -2707,7 +2707,7 @@ msgstr "Kini nga format dili mahimo sa pipila ka mga hilisgutan tungod kay ang s
 msgid ""
 "请参考 <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP 日期"
 "格式写法</a>."
-msgstr "Palihug pag-refer sa <a href="http://www.php.net/manual/en/function.date.php"> PHP Date Formatting </a>."
+msgstr "Palihug pag-refer sa <a href=\"http://www.php.net/manual/en/function.date.php\"> PHP Date Formatting </a>."
 
 msgid "请不要在日期格式中使用特殊字符"
 msgstr "Palihug ayaw gamita ang espesyal nga mga karakter sa format sa date"
@@ -2772,7 +2772,7 @@ msgstr "Dili mahimo ang plugin"
 
 #, php-format
 msgid "<a href=\"%s\">%s</a> 无法在此版本的typecho下正常工作"
-msgstr "Ang <a href="%s">%s</a> wala magtrabaho uban niining bersyon sa typecho"
+msgstr "Ang <a href=\"%s\">%s</a> wala magtrabaho uban niining bersyon sa typecho"
 
 msgid "插件已经被启用"
 msgstr "Gipasayon ang mga plug-in"
@@ -2868,7 +2868,7 @@ msgstr "Ang nagkalainlain nga grupo sa tiggamit adunay lain-laing mga permiso."
 msgid ""
 "具体的权限分配表请<a href=\"http://docs.typecho.org/develop/acl\">参考这里"
 "</a>."
-msgstr "Piho nga lote sa allocation sa katungod palihug <a href="http://docs.typecho.org/develop/acl"> paghisgot dinhi </a>."
+msgstr "Piho nga lote sa allocation sa katungod palihug <a href=\"http://docs.typecho.org/develop/acl\"> paghisgot dinhi </a>."
 
 msgid "编辑用户"
 msgstr "I-edit ang user"
@@ -2914,7 +2914,7 @@ msgstr "Usba ug i-parse ang sulod gamit ang Markdown syntax"
 msgid ""
 "使用 <a href=\"http://daringfireball.net/projects/markdown/\">Markdown</"
 "a> 语法能够使您的撰写过程更加简便直观."
-msgstr "Gamita ang syntax sa <a href="http://daringfireball.net/projects/markdown/"> Markdown </a> aron sa paghimo sa imong proseso sa pagsulat nga mas sayon ​​ug mas mahanduraw."
+msgstr "Gamita ang syntax sa <a href=\"http://daringfireball.net/projects/markdown/\"> Markdown </a> aron sa paghimo sa imong proseso sa pagsulat nga mas sayon ​​ug mas mahanduraw."
 
 msgid "此功能开启不会影响以前没有使用 Markdown 语法编辑的内容."
 msgstr "Kini nga bahin wala mag-apekto sa sulod nga wala pa ma-edit gamit ang Markdown syntax."
