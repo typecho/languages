@@ -16,7 +16,7 @@ jobs:
       run: sudo apt install gettext
     - name: Build
       run: |
-        for i in `find . -name '*.po'`; do echo `basename $$i` && msgfmt -o `basename $$i .po`.mo `basename $$i`; done;
+        for i in `find . -name '*.po'`; do echo `basename $i` && msgfmt -o `basename $i .po`.mo `basename $i`; done;
         mkdir langs
         cp *.mo langs/
         tree -d langs
