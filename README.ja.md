@@ -1,6 +1,6 @@
 *Read this in other languages: [English](README.md), [日本語](README.ja.md), [简体中文](README.zh-cn.md).*
 
-# Typechoへのインストール
+## Typechoへのインストール
 
 1. 利用したい言語の`.po`ファイルがここに存在することを確認する
 

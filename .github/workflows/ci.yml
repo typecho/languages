@@ -1,0 +1,27 @@
+name: Build mo files
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Install gettext
+      run: sudo apt install gettext
+    - name: Build
+      run: |
+        for i in `find . -name '*.po'`; do echo `basename $$i` && msgfmt -o `basename $$i .po`.mo `basename $$i`; done;
+        mkdir langs
+        cp *.mo langs/
+        tree -d langs
+    - name: Upload a Langs Artifact
+      uses: actions/upload-artifact@v2
+      with:
+          name: langs
+          path: ./langs/

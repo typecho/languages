@@ -1,19 +1,14 @@
 *Read this in other languages: [English](README.md), [日本語](README.ja.md), [简体中文](README.zh-cn.md).*
 
-# How to install language for your Typecho
+## Install
 
-1. Check if the `.po` file for your language already exists.
+1. [Download latest version](https://nightly.link/typecho/languages/workflows/ci/master/langs.zip).
 
-2. Download the `.po` file you need and convert it to machine-readable `.mo` file. You can do this with:
-  + Using [poedit](https://github.com/vslavik/poedit/releases) software
-  + Using `gettext` command: `msgfmt <LANG>.po -o <LANG>.mo`
-  + Using any other gettext software
+2. Upload all `*.mo` files to `<Your Typecho Directory>/usr/langs` . If that directory doesn't exist, you can create it before upload it.
 
-3. Upload it to path `/usr/langs` in your Typecho. If that folder doesn't exist, you can create it before upload it.
+3. Go to control panel of Typecho to switch to your language. It often locates at `https://<your-blog-url>/admin/options-general.php`
 
-4. Go to control panel of Typecho to switch to your language. It often locates at `http://your-blog-url.com/admin/options-general.php`
-
-# Multi-language Translation to Typecho
+## How-to
 
 1. [Fork](https://github.com/typecho/languages/fork) this repo and clone to local.
 2. Start your translation road by using [PoEdit](http://poedit.net/) or other gettext software. The `message.pot` file contains all recent translation strings, but it is in Chinese, so you might want to start with the English translation file `en_US.po` and update the missing messages from `messages.pot`.
