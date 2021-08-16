@@ -2,11 +2,11 @@
 
 ## Install
 
-1. [Download latest version](https://nightly.link/typecho/languages/workflows/ci/master/langs.zip).
+1. [Download the latest version](https://nightly.link/typecho/languages/workflows/ci/master/langs.zip) and uncompress it.
 
-2. Upload all `*.mo` files to `<Your Typecho Directory>/usr/langs` . If that directory doesn't exist, you can create it before upload it.
+2. Upload all `*.mo` files to `<Your Typecho Directory>/usr/langs` . If that directory doesn't exist, you can create one before uploading.
 
-3. Go to control panel of Typecho to switch to your language. It often locates at `https://<your-blog-url>/admin/options-general.php`
+3. Go to `admin > options > genral options`, there will be a language selector shows below.
 
 ## How-to
 
