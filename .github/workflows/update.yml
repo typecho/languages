@@ -1,0 +1,28 @@
+name: Auto-update messages.pot
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Checkout typecho
+      uses: actions/checkout@v2
+      with:
+        repository: typecho/typecho
+        path: './typecho'
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '7.4'
+    - name: Update po file
+      run: |
+        php ./typecho/tools/build_pot.php > messages.pot
+        rm -rf ./typecho
+        git config --global user.name 'joyqi'
+        git config --global user.email 'joyqi@users.noreply.github.com'
+        git commit -am "Automated update"
+        git push

@@ -2509,7 +2509,7 @@ msgid "XMLRPC 接口"
 msgstr "Interface sa XMLRPC"
 
 msgid "lang"
-msgstr "lang"
+msgstr "Cebuano"
 
 msgid "语言"
 msgstr "Pinulongan"
