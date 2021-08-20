@@ -1,13 +1,10 @@
-# Copyright (C) 2021 Typecho
+# Copyright (C) Typecho
 # This file is distributed under the same license as the Typecho Project.
-# FIRST AUTHOR <joyqi@typecho.org>, 2021.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.2/18.10.23\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-20 05:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Typecho Dev <team@typecho.org>\n"
@@ -16,6 +13,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid "UTF-8"
+msgstr ""
 
 msgid "Pdo 驱动 Mysql 适配器"
 msgstr ""
@@ -206,9 +206,6 @@ msgstr ""
 msgid "本页面由 Typecho 创建, 这只是个测试页面."
 msgstr ""
 
-msgid "UTF-8"
-msgstr ""
-
 msgid "Typecho 安装程序"
 msgstr ""
 
@@ -254,7 +251,7 @@ msgstr ""
 msgid "返回"
 msgstr ""
 
-msgid "由 <a href=\"http://typecho.org\">%s</a> 强力驱动, 版本 %s (%s)"
+msgid "由 <a href=\"http://typecho.org\">%s</a> 强力驱动, 版本 %s"
 msgstr ""
 
 msgid "帮助文档"
@@ -1365,6 +1362,9 @@ msgstr ""
 msgid "zh-CN"
 msgstr ""
 
+msgid "%s 的评论"
+msgstr ""
+
 msgid "请求的地址不存在"
 msgstr ""
 
@@ -1392,7 +1392,13 @@ msgstr ""
 msgid "%d年"
 msgstr ""
 
-msgid "%s 的评论"
+msgid "备份文件上传失败"
+msgstr ""
+
+msgid "没有选择任何备份文件"
+msgstr ""
+
+msgid "备份文件不存在"
 msgstr ""
 
 msgid "无法读取备份文件"
@@ -1410,13 +1416,19 @@ msgstr ""
 msgid "恢复过程中遇到如下错误: %s"
 msgstr ""
 
-msgid "备份文件上传失败"
+msgid "对不起,此内容的反馈被禁止."
 msgstr ""
 
-msgid "没有选择任何备份文件"
+msgid "评论来源页错误."
 msgstr ""
 
-msgid "备份文件不存在"
+msgid "对不起, 您的发言过于频繁, 请稍侯再次发布."
+msgstr ""
+
+msgid "对不起,此内容的引用被禁止."
+msgstr ""
+
+msgid "找不到内容"
 msgstr ""
 
 msgid "父级评论不存在"
@@ -1452,22 +1464,7 @@ msgstr ""
 msgid "必须填写评论内容"
 msgstr ""
 
-msgid "找不到内容"
-msgstr ""
-
 msgid "禁止重复提交"
-msgstr ""
-
-msgid "对不起,此内容的反馈被禁止."
-msgstr ""
-
-msgid "评论来源页错误."
-msgstr ""
-
-msgid "对不起, 您的发言过于频繁, 请稍侯再次发布."
-msgstr ""
-
-msgid "对不起,此内容的引用被禁止."
 msgstr ""
 
 msgid "请输入用户名"
@@ -1680,6 +1677,9 @@ msgstr ""
 msgid "无法登陆, 密码错误"
 msgstr ""
 
+msgid "未命名文档"
+msgstr ""
+
 msgid "无法添加分类"
 msgstr ""
 
@@ -1705,9 +1705,6 @@ msgid "这个目标地址不存在"
 msgstr ""
 
 msgid "无法添加评论"
-msgstr ""
-
-msgid "未命名文档"
 msgstr ""
 
 msgid "上传失败"
@@ -1806,6 +1803,12 @@ msgstr ""
 msgid "没有编辑权限"
 msgstr ""
 
+msgid "文件 <a href=\"%s\">%s</a> 已经被更新"
+msgstr ""
+
+msgid "未归档文件 %s 已经被更新"
+msgstr ""
+
 msgid "文件缩略名用于创建友好的链接形式,建议使用字母,数字,下划线和横杠."
 msgstr ""
 
@@ -1828,12 +1831,6 @@ msgid "文件标题无法被转换为缩略名"
 msgstr ""
 
 msgid "缩略名已经存在"
-msgstr ""
-
-msgid "文件 <a href=\"%s\">%s</a> 已经被更新"
-msgstr ""
-
-msgid "未归档文件 %s 已经被更新"
 msgstr ""
 
 msgid "文件已经被删除"
@@ -1911,6 +1908,9 @@ msgstr ""
 msgid "管理 %s 的子分类"
 msgstr ""
 
+msgid "分类 <a href=\"%s\">%s</a> 已经被增加"
+msgstr ""
+
 msgid "分类名称"
 msgstr ""
 
@@ -1956,9 +1956,6 @@ msgstr ""
 msgid "分类主键不存在"
 msgstr ""
 
-msgid "分类 <a href=\"%s\">%s</a> 已经被增加"
-msgstr ""
-
 msgid "分类 <a href=\"%s\">%s</a> 已经被更新"
 msgstr ""
 
@@ -1995,6 +1992,9 @@ msgstr ""
 msgid "编辑标签 %s"
 msgstr ""
 
+msgid "标签 <a href=\"%s\">%s</a> 已经被增加"
+msgstr ""
+
 msgid "标签名称"
 msgstr ""
 
@@ -2028,9 +2028,6 @@ msgstr ""
 msgid "标签主键不存在"
 msgstr ""
 
-msgid "标签 <a href=\"%s\">%s</a> 已经被增加"
-msgstr ""
-
 msgid "标签 <a href=\"%s\">%s</a> 已经被更新"
 msgstr ""
 
@@ -2053,6 +2050,9 @@ msgid "没有选择任何标签"
 msgstr ""
 
 msgid "标签刷新已经完成"
+msgstr ""
+
+msgid "设置已经保存"
 msgstr ""
 
 msgid "评论日期格式"
@@ -2161,9 +2161,6 @@ msgid "比如: %s"
 msgstr ""
 
 msgid "保存设置"
-msgstr ""
-
-msgid "设置已经保存"
 msgstr ""
 
 msgid "站点名称"
@@ -2328,6 +2325,9 @@ msgstr ""
 msgid "用逗号 \",\" 将后缀名隔开, 例如: %s"
 msgstr ""
 
+msgid "自定义链接与现有规则存在冲突! 它可能影响解析效率, 建议你重新分配一个规则."
+msgstr ""
+
 msgid "不启用"
 msgstr ""
 
@@ -2398,9 +2398,6 @@ msgid "可用参数: <code>{mid}</code> 分类 ID, <code>{slug}</code> 分类缩
 msgstr ""
 
 msgid "分类路径中没有包含 {mid} 或者 {slug} "
-msgstr ""
-
-msgid "自定义链接与现有规则存在冲突! 它可能影响解析效率, 建议你重新分配一个规则."
 msgstr ""
 
 msgid "文章日期格式"
@@ -2511,6 +2508,9 @@ msgstr ""
 msgid "编辑用户 %s"
 msgstr ""
 
+msgid "用户 %s 已经被增加"
+msgstr ""
+
 msgid "此用户名将作为用户登录时所用的名称."
 msgstr ""
 
@@ -2574,9 +2574,6 @@ msgstr ""
 msgid "用户主键不存在"
 msgstr ""
 
-msgid "用户 %s 已经被增加"
-msgstr ""
-
 msgid "用户 %s 已经被更新"
 msgstr ""
 
@@ -2584,9 +2581,6 @@ msgid "用户已经删除"
 msgstr ""
 
 msgid "没有用户被删除"
-msgstr ""
-
-msgid "更新我的档案"
 msgstr ""
 
 msgid "使用 Markdown 语法编辑和解析内容"
@@ -2625,13 +2619,16 @@ msgstr ""
 msgid "设置你经常使用的默认允许权限"
 msgstr ""
 
-msgid "更新密码"
-msgstr ""
-
 msgid "您的档案已经更新"
 msgstr ""
 
+msgid "更新我的档案"
+msgstr ""
+
 msgid "密码已经成功修改"
+msgstr ""
+
+msgid "更新密码"
 msgstr ""
 
 msgid "%s 设置已经保存"
