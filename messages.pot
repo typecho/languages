@@ -14,13 +14,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-msgid "UTF-8"
-msgstr ""
-
 msgid "Pdo 驱动 Mysql 适配器"
 msgstr ""
 
-msgid "Pdo 驱动 SQLite 适配器 (SQLite 3.x)"
+msgid "Pdo 驱动 SQLite 适配器"
 msgstr ""
 
 msgid "Pdo 驱动 PostgreSql 适配器"
@@ -29,7 +26,7 @@ msgstr ""
 msgid "Mysql 原生函数适配器"
 msgstr ""
 
-msgid "SQLite 原生函数适配器 (SQLite 2.x)"
+msgid "SQLite 原生函数适配器"
 msgstr ""
 
 msgid "Pgsql 原生函数适配器"
@@ -55,6 +52,11 @@ msgstr ""
 
 msgid "希望您能尽情享用 Typecho 带来的乐趣!"
 msgstr ""
+
+msgid "缺少PHP扩展"
+msgid_plural "请在服务器上安装以下PHP扩展中的至少一个"
+msgstr[0] ""
+msgstr[1] ""
 
 msgid "欢迎使用 Typecho"
 msgstr ""
@@ -84,6 +86,9 @@ msgid "对于贡献突出者, 他的名字将出现在贡献者名单中."
 msgstr ""
 
 msgid "我准备好了, 开始下一步 &raquo;"
+msgstr ""
+
+msgid "上传目录无法写入, 请手动将安装目录下的 %s 目录的权限设置为可写然后继续升级"
 msgstr ""
 
 msgid "初始化配置"
@@ -204,6 +209,9 @@ msgid "关于"
 msgstr ""
 
 msgid "本页面由 Typecho 创建, 这只是个测试页面."
+msgstr ""
+
+msgid "UTF-8"
 msgstr ""
 
 msgid "Typecho 安装程序"
@@ -447,9 +455,6 @@ msgid "拖放文件到这里<br>或者 %s选择文件上传%s"
 msgstr ""
 
 msgid "%s - %s - Powered by Typecho"
-msgstr ""
-
-msgid "当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href=\"http://browsehappy.com/\">升级你的浏览器</a>"
 msgstr ""
 
 msgid "目前有 <em>%s</em> 篇文章, 并有 <em>%s</em> 条关于你的评论在 <em>%s</em> 个分类中."
@@ -851,12 +856,6 @@ msgid "截图"
 msgstr ""
 
 msgid "详情"
-msgstr ""
-
-msgid "发现安全问题"
-msgstr ""
-
-msgid "解决完毕 &raquo;"
 msgstr ""
 
 msgid "检测到新版本!"
@@ -1306,21 +1305,6 @@ msgstr ""
 msgid "评论 RSS"
 msgstr ""
 
-msgid "无法禁用插件"
-msgstr ""
-
-msgid "config.inc.php 文件无法写入, 请将它的权限设置为可写"
-msgstr ""
-
-msgid "上传目录无法写入, 请手动将安装目录下的 %s 目录的权限设置为可写然后继续升级"
-msgstr ""
-
-msgid "上传目录无法创建, 请手动创建安装目录下的 %s 目录, 并将它的权限设置为可写然后继续升级"
-msgstr ""
-
-msgid "建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"http://typecho.org/upgrade/9.7.2\">以下优化步骤</a>"
-msgstr ""
-
 msgid "刚刚"
 msgstr ""
 
@@ -1353,6 +1337,21 @@ msgstr ""
 msgid "Y年m月d日"
 msgstr ""
 
+msgid "无法禁用插件"
+msgstr ""
+
+msgid "config.inc.php 文件无法写入, 请将它的权限设置为可写"
+msgstr ""
+
+msgid "上传目录无法创建, 请手动创建安装目录下的 %s 目录, 并将它的权限设置为可写然后继续升级"
+msgstr ""
+
+msgid "建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"http://typecho.org/upgrade/9.7.2\">以下优化步骤</a>"
+msgstr ""
+
+msgid "请求的地址不存在"
+msgstr ""
+
 msgid "禁止访问"
 msgstr ""
 
@@ -1362,10 +1361,10 @@ msgstr ""
 msgid "zh-CN"
 msgstr ""
 
-msgid "%s 的评论"
+msgid "文件不存在"
 msgstr ""
 
-msgid "请求的地址不存在"
+msgid "%s 的评论"
 msgstr ""
 
 msgid "对不起,您输入的密码错误"
@@ -1623,12 +1622,6 @@ msgstr ""
 msgid "用户 <strong>%s</strong> 已经成功注册, 密码为 <strong>%s</strong>"
 msgstr ""
 
-msgid "您正在运行一个不安全的安装脚本 <strong>%s</strong>, 请用新版中的对应文件替代或者直接删除它"
-msgstr ""
-
-msgid "当前网站的入口文件 <strong>%s</strong> 与最新版中的不一致, 请更新"
-msgstr ""
-
 msgid "升级已经完成"
 msgstr ""
 
@@ -1680,9 +1673,6 @@ msgstr ""
 msgid "未命名文档"
 msgstr ""
 
-msgid "无法添加分类"
-msgstr ""
-
 msgid "标准"
 msgstr ""
 
@@ -1698,25 +1688,10 @@ msgstr ""
 msgid "没有获取评论的权限"
 msgstr ""
 
-msgid "无法编辑此评论"
-msgstr ""
-
-msgid "这个目标地址不存在"
-msgstr ""
-
-msgid "无法添加评论"
-msgstr ""
-
-msgid "上传失败"
-msgstr ""
-
 msgid "源地址服务器错误"
 msgstr ""
 
-msgid "源地址不支持PingBack"
-msgstr ""
-
-msgid "源地址中不包括目标地址"
+msgid "这个目标地址不存在"
 msgstr ""
 
 msgid "PingBack已经存在"
@@ -1795,9 +1770,6 @@ msgid "修评论失败"
 msgstr ""
 
 msgid "回复评论失败"
-msgstr ""
-
-msgid "文件不存在"
 msgstr ""
 
 msgid "没有编辑权限"
