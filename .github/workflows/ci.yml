@@ -20,8 +20,8 @@ jobs:
         mkdir langs
         cp *.mo langs/
         cd langs && zip -q -r langs.zip * && mv langs.zip ../ && cd -
-    - name: Upload a Langs Artifact
-      uses: actions/upload-artifact@v2
+    - name: Upload langs package
+      uses: WebFreak001/deploy-nightly@v1.1.0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
