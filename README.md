@@ -2,7 +2,7 @@
 
 ## Install
 
-1. [Download the latest version](https://nightly.link/typecho/languages/workflows/ci/master/langs.zip) and uncompress it.
+1. [Download the latest version](https://github.com/typecho/languages/releases/tag/ci) and uncompress it.
 
 2. Upload all `*.mo` files to `<Your Typecho Directory>/usr/langs` . If that directory doesn't exist, you can create one before uploading.
 
