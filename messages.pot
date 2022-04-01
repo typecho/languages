@@ -855,6 +855,15 @@ msgstr ""
 msgid "详情"
 msgstr ""
 
+msgid "检测到您之前使用的 \"%s\" 外观文件不存在，您可以重新上传此外观或者启用其他外观。"
+msgstr ""
+
+msgid "重新上传此外观后刷新当前页面，此提示将会消失。"
+msgstr ""
+
+msgid "启用新外观后，当前外观的设置数据将被删除。"
+msgstr ""
+
 msgid "检测到新版本!"
 msgstr ""
 
