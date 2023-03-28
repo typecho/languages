@@ -70,7 +70,7 @@ msgstr ""
 msgid "许可及协议"
 msgstr ""
 
-msgid "Typecho 基于 <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> 协议发布, 我们允许用户在 GPL 协议许可的范围内使用, 拷贝, 修改和分发此程序."
+msgid "Typecho 基于 <a href=\"https://www.gnu.org/copyleft/gpl.html\">GPL</a> 协议发布, 我们允许用户在 GPL 协议许可的范围内使用, 拷贝, 修改和分发此程序."
 msgstr ""
 
 msgid "在GPL许可的范围内, 您可以自由地将其用于商业以及非商业用途."
@@ -256,7 +256,7 @@ msgstr ""
 msgid "返回"
 msgstr ""
 
-msgid "由 <a href=\"http://typecho.org\">%s</a> 强力驱动, 版本 %s"
+msgid "由 <a href=\"https://typecho.org\">%s</a> 强力驱动, 版本 %s"
 msgstr ""
 
 msgid "帮助文档"
@@ -301,7 +301,7 @@ msgstr ""
 msgid "+添加字段"
 msgstr ""
 
-msgid "自定义字段可以扩展你的模板功能, 使用方法参见 <a href=\"http://docs.typecho.org/help/custom-fields\">帮助文档</a>"
+msgid "自定义字段可以扩展你的模板功能, 使用方法参见 <a href=\"https://docs.typecho.org/help/custom-fields\">帮助文档</a>"
 msgstr ""
 
 msgid "加粗"
@@ -891,6 +891,9 @@ msgstr ""
 msgid "查看我的站点"
 msgstr ""
 
+msgid "查看网站"
+msgstr ""
+
 msgid "让我直接开始使用吧 &raquo;"
 msgstr ""
 
@@ -1251,7 +1254,7 @@ msgstr ""
 msgid "评论已关闭"
 msgstr ""
 
-msgid "由 <a href=\"http://www.typecho.org\">Typecho</a> 强力驱动"
+msgid "由 <a href=\"https://typecho.org\">Typecho</a> 强力驱动"
 msgstr ""
 
 msgid "站点 LOGO 地址"
@@ -1352,7 +1355,7 @@ msgstr ""
 msgid "上传目录无法创建, 请手动创建安装目录下的 %s 目录, 并将它的权限设置为可写然后继续升级"
 msgstr ""
 
-msgid "建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"http://typecho.org/upgrade/9.7.2\">以下优化步骤</a>"
+msgid "建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"https://typecho.org/upgrade/9.7.2\">以下优化步骤</a>"
 msgstr ""
 
 msgid "请求的地址不存在"
@@ -1397,10 +1400,10 @@ msgstr ""
 msgid "%d年"
 msgstr ""
 
-msgid "备份文件上传失败"
+msgid "没有选择任何备份文件"
 msgstr ""
 
-msgid "没有选择任何备份文件"
+msgid "备份文件上传失败"
 msgstr ""
 
 msgid "备份文件不存在"
@@ -2039,7 +2042,7 @@ msgstr ""
 msgid "这是一个默认的格式,当你在模板中调用显示评论日期方法时, 如果没有指定日期格式, 将按照此格式输出."
 msgstr ""
 
-msgid "具体写法请参考 <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP 日期格式写法</a>."
+msgid "具体写法请参考 <a href=\"https://www.php.net/manual/zh/function.date.php\">PHP 日期格式写法</a>."
 msgstr ""
 
 msgid "评论列表数目"
@@ -2060,10 +2063,10 @@ msgstr ""
 msgid "评论者名称显示时自动加上其个人主页链接"
 msgstr ""
 
-msgid "对评论者个人主页链接使用 <a href=\"http://en.wikipedia.org/wiki/Nofollow\">nofollow 属性</a>"
+msgid "对评论者个人主页链接使用 <a href=\"https://en.wikipedia.org/wiki/Nofollow\">nofollow 属性</a>"
 msgstr ""
 
-msgid "启用 <a href=\"http://gravatar.com\">Gravatar</a> 头像服务, 最高显示评级为 %s 的头像"
+msgid "启用 <a href=\"https://gravatar.com\">Gravatar</a> 头像服务, 最高显示评级为 %s 的头像"
 msgstr ""
 
 msgid "G - 普通"
@@ -2387,7 +2390,7 @@ msgstr ""
 msgid "在某些主题中这个格式可能不会生效, 因为主题作者可以自定义日期格式."
 msgstr ""
 
-msgid "请参考 <a href=\"http://www.php.net/manual/zh/function.date.php\">PHP 日期格式写法</a>."
+msgid "请参考 <a href=\"https://www.php.net/manual/zh/function.date.php\">PHP 日期格式写法</a>."
 msgstr ""
 
 msgid "请不要在日期格式中使用特殊字符"
@@ -2534,7 +2537,7 @@ msgstr ""
 msgid "不同的用户组拥有不同的权限."
 msgstr ""
 
-msgid "具体的权限分配表请<a href=\"http://docs.typecho.org/develop/acl\">参考这里</a>."
+msgid "具体的权限分配表请<a href=\"https://docs.typecho.org/develop/acl\">参考这里</a>."
 msgstr ""
 
 msgid "编辑用户"
@@ -2564,7 +2567,7 @@ msgstr ""
 msgid "使用 Markdown 语法编辑和解析内容"
 msgstr ""
 
-msgid "使用 <a href=\"http://daringfireball.net/projects/markdown/\">Markdown</a> 语法能够使您的撰写过程更加简便直观."
+msgid "使用 <a href=\"https://daringfireball.net/projects/markdown/\">Markdown</a> 语法能够使您的撰写过程更加简便直观."
 msgstr ""
 
 msgid "此功能开启不会影响以前没有使用 Markdown 语法编辑的内容."
@@ -2573,7 +2576,7 @@ msgstr ""
 msgid "在 XMLRPC 接口中使用 Markdown 语法"
 msgstr ""
 
-msgid "对于完全支持 <a href=\"http://daringfireball.net/projects/markdown/\">Markdown</a> 语法写作的离线编辑器, 打开此选项后将避免内容被转换为 HTML."
+msgid "对于完全支持 <a href=\"https://daringfireball.net/projects/markdown/\">Markdown</a> 语法写作的离线编辑器, 打开此选项后将避免内容被转换为 HTML."
 msgstr ""
 
 msgid "自动保存"
