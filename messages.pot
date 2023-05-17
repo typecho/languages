@@ -118,7 +118,10 @@ msgstr ""
 msgid "没有检测到您手动创建的配置文件, 请检查后再次创建"
 msgstr ""
 
-msgid "对不起, 无法连接数据库, 请先检查数据库配置再继续进行安装"
+msgid "数据库: \"%s\"不存在，请手动创建后重试"
+msgstr ""
+
+msgid "对不起, 无法连接数据库, 请先检查数据库配置再继续进行安装: \"%s\""
 msgstr ""
 
 msgid "安装程序捕捉到以下错误: \"%s\". 程序被终止, 请检查您的配置信息."
@@ -296,6 +299,9 @@ msgid "自定义字段"
 msgstr ""
 
 msgid "字段类型"
+msgstr ""
+
+msgid "JSON 结构"
 msgstr ""
 
 msgid "+添加字段"
@@ -1180,6 +1186,18 @@ msgid "选择 utf8mb4 编码至少需要 MySQL 5.5.3 版本"
 msgstr ""
 
 msgid "数据库引擎"
+msgstr ""
+
+msgid "数据库 SSL 证书"
+msgstr ""
+
+msgid "如果您的数据库启用了 SSL，请填写 CA 证书路径，否则请留空"
+msgstr ""
+
+msgid "启用数据库 SSL 服务端证书验证"
+msgstr ""
+
+msgid "不启用"
 msgstr ""
 
 msgid "数据库文件路径"
@@ -2307,9 +2325,6 @@ msgid "用逗号 \",\" 将后缀名隔开, 例如: %s"
 msgstr ""
 
 msgid "自定义链接与现有规则存在冲突! 它可能影响解析效率, 建议你重新分配一个规则."
-msgstr ""
-
-msgid "不启用"
 msgstr ""
 
 msgid "是否使用地址重写功能"
