@@ -211,6 +211,9 @@ msgstr ""
 msgid "本页面由 Typecho 创建, 这只是个测试页面."
 msgstr ""
 
+msgid "欢迎加入 Typecho 大家族"
+msgstr ""
+
 msgid "UTF-8"
 msgstr ""
 
@@ -427,6 +430,9 @@ msgstr ""
 msgid "页面不存在"
 msgstr ""
 
+msgid "上传出现错误"
+msgstr ""
+
 msgid "文件大小超过限制"
 msgstr ""
 
@@ -436,9 +442,6 @@ msgstr ""
 msgid "文件已经上传过"
 msgstr ""
 
-msgid "上传出现错误"
-msgstr ""
-
 msgid "%s 上传失败"
 msgstr ""
 
@@ -446,9 +449,6 @@ msgid "点击插入文件"
 msgstr ""
 
 msgid "编辑"
-msgstr ""
-
-msgid "允许上传的文件"
 msgstr ""
 
 msgid "确认要删除文件 %s 吗?"
@@ -512,6 +512,9 @@ msgid "您当前使用的版本是 %s"
 msgstr ""
 
 msgid "官方最新版本是 %s"
+msgstr ""
+
+msgid "用户名或邮箱"
 msgstr ""
 
 msgid "密码"
@@ -684,6 +687,9 @@ msgstr ""
 msgid "隐藏"
 msgstr ""
 
+msgid "子页面"
+msgstr ""
+
 msgid "日期"
 msgstr ""
 
@@ -693,8 +699,16 @@ msgstr ""
 msgid "草稿"
 msgstr ""
 
+msgid "有修订版"
+msgstr ""
+
 msgid "编辑 %s"
 msgstr ""
+
+msgid "一个页面"
+msgid_plural "%d个页面"
+msgstr[0] ""
+msgstr[1] ""
 
 msgid "保存于 %s"
 msgstr ""
@@ -1041,10 +1055,16 @@ msgstr ""
 msgid "此标签不存在, 按回车创建"
 msgstr ""
 
+msgid "内容已经改变尚未保存, 您确认要离开此页面吗?"
+msgstr ""
+
 msgid "已保存"
 msgstr ""
 
 msgid "正在保存"
+msgstr ""
+
+msgid "保存失败, 请重试"
 msgstr ""
 
 msgid "尚未保存"
@@ -1053,16 +1073,16 @@ msgstr ""
 msgid "上次保存时间"
 msgstr ""
 
-msgid "内容已经改变尚未保存, 您确认要离开此页面吗?"
-msgstr ""
-
 msgid "修改后的内容需要保存后才能预览, 是否保存?"
 msgstr ""
 
 msgid "您确认要删除这份草稿吗?"
 msgstr ""
 
-msgid "当前正在编辑的是保存于%s的草稿, 你可以<a href=\"%s\">删除它</a>"
+msgid "不选择"
+msgstr ""
+
+msgid "你正在编辑的是保存于 %s 的修订版, 你也可以 <a href=\"%s\">删除它</a>"
 msgstr ""
 
 msgid "当前正在编辑的是未发布的草稿"
@@ -1098,10 +1118,13 @@ msgstr ""
 msgid "自定义模板"
 msgstr ""
 
-msgid "不选择"
+msgid "如果你为此页面选择了一个自定义模板, 系统将按照你选择的模板文件展现它"
 msgstr ""
 
-msgid "如果你为此页面选择了一个自定义模板, 系统将按照你选择的模板文件展现它"
+msgid "父级页面"
+msgstr ""
+
+msgid "如果你设定了父级页面, 此页面将作为子页面呈现"
 msgstr ""
 
 msgid "高级选项"
@@ -1126,9 +1149,6 @@ msgid "本页面由 <a href=\"%s\">%s</a> 创建"
 msgstr ""
 
 msgid "最后更新于 %s"
-msgstr ""
-
-msgid "你正在编辑的是保存于 %s 的草稿, 你也可以 <a href=\"%s\">删除它</a>"
 msgstr ""
 
 msgid "文章内容"
@@ -1209,13 +1229,70 @@ msgstr ""
 msgid "说点什么"
 msgstr ""
 
-msgid "页面没找到"
+msgid "回首页"
 msgstr ""
 
-msgid "你想查看的页面已被转移或删除了, 要不要搜索看看: "
+msgid "暂无评论"
 msgstr ""
 
-msgid "搜索"
+msgid "1 条评论"
+msgstr ""
+
+msgid "%d 条评论"
+msgstr ""
+
+msgid "你的评论正等待审核"
+msgstr ""
+
+msgid "你的评论"
+msgstr ""
+
+msgid "评论内容..."
+msgstr ""
+
+msgid "登录身份："
+msgstr ""
+
+msgid "退出"
+msgstr ""
+
+msgid "名字"
+msgstr ""
+
+msgid "网站 http://"
+msgstr ""
+
+msgid "（选填）"
+msgstr ""
+
+msgid "https://"
+msgstr ""
+
+msgid "提交评论"
+msgstr ""
+
+msgid "评论已关闭"
+msgstr ""
+
+msgid "RSS"
+msgstr ""
+
+msgid "由 <a href=\"https://typecho.org\">Typecho</a> 强力驱动"
+msgstr ""
+
+msgid "自动"
+msgstr ""
+
+msgid "浅色"
+msgstr ""
+
+msgid "深色"
+msgstr ""
+
+msgid "外观风格"
+msgstr ""
+
+msgid "首页"
 msgstr ""
 
 msgid "分类 %s 下的文章"
@@ -1230,19 +1307,31 @@ msgstr ""
 msgid "%s 发布的文章"
 msgstr ""
 
-msgid "作者: "
+msgid "阅读全文"
 msgstr ""
 
-msgid "时间: "
+msgid "前一页"
 msgstr ""
 
-msgid "分类: "
+msgid "后一页"
 msgstr ""
 
-msgid "没有找到内容"
+msgid "无"
 msgstr ""
 
-msgid "暂无评论"
+msgid "没有了"
+msgstr ""
+
+msgid "搜索"
+msgstr ""
+
+msgid "搜索关键字"
+msgstr ""
+
+msgid "页面没找到"
+msgstr ""
+
+msgid "你想查看的页面已被转移或删除了, 要不要搜索看看: "
 msgstr ""
 
 msgid "仅有一条评论"
@@ -1254,25 +1343,13 @@ msgstr ""
 msgid "添加新评论"
 msgstr ""
 
-msgid "登录身份: "
-msgstr ""
-
-msgid "退出"
+msgid "登录身份"
 msgstr ""
 
 msgid "称呼"
 msgstr ""
 
 msgid "http://"
-msgstr ""
-
-msgid "提交评论"
-msgstr ""
-
-msgid "评论已关闭"
-msgstr ""
-
-msgid "由 <a href=\"https://typecho.org\">Typecho</a> 强力驱动"
 msgstr ""
 
 msgid "站点 LOGO 地址"
@@ -1299,16 +1376,13 @@ msgstr ""
 msgid "侧边栏显示"
 msgstr ""
 
-msgid "搜索关键字"
-msgstr ""
-
 msgid "输入关键字搜索"
 msgstr ""
 
-msgid "首页"
+msgid "阅读剩余部分"
 msgstr ""
 
-msgid "标签: "
+msgid "没有找到内容"
 msgstr ""
 
 msgid "最新文章"
@@ -1367,31 +1441,10 @@ msgstr ""
 msgid "无法禁用插件"
 msgstr ""
 
-msgid "config.inc.php 文件无法写入, 请将它的权限设置为可写"
-msgstr ""
-
-msgid "上传目录无法创建, 请手动创建安装目录下的 %s 目录, 并将它的权限设置为可写然后继续升级"
-msgstr ""
-
-msgid "建议您在升级到 Typecho 0.7/9.7.2 以后的版本后, 立刻执行<a href=\"https://typecho.org/upgrade/9.7.2\">以下优化步骤</a>"
-msgstr ""
-
 msgid "请求的地址不存在"
 msgstr ""
 
-msgid "禁止访问"
-msgstr ""
-
-msgid "聚合页不存在"
-msgstr ""
-
-msgid "zh-CN"
-msgstr ""
-
 msgid "文件不存在"
-msgstr ""
-
-msgid "%s 的评论"
 msgstr ""
 
 msgid "对不起,您输入的密码错误"
@@ -1440,6 +1493,15 @@ msgid "数据恢复完成"
 msgstr ""
 
 msgid "恢复过程中遇到如下错误: %s"
+msgstr ""
+
+msgid "zh-CN"
+msgstr ""
+
+msgid "聚合页不存在"
+msgstr ""
+
+msgid "%s 的评论"
 msgstr ""
 
 msgid "对不起,此内容的反馈被禁止."
@@ -1649,6 +1711,12 @@ msgstr ""
 msgid "用户 <strong>%s</strong> 已经成功注册, 密码为 <strong>%s</strong>"
 msgstr ""
 
+msgid "禁止访问"
+msgstr ""
+
+msgid "请先升级至版本 %s"
+msgstr ""
+
 msgid "升级已经完成"
 msgstr ""
 
@@ -1694,7 +1762,7 @@ msgstr ""
 msgid "权限不足"
 msgstr ""
 
-msgid "无法登陆, 密码错误"
+msgid "无法登录, 密码错误"
 msgstr ""
 
 msgid "未命名文档"
@@ -1730,10 +1798,10 @@ msgstr ""
 msgid "内容被隐藏"
 msgstr ""
 
-msgid "请输入密码访问"
+msgid "此内容被密码保护"
 msgstr ""
 
-msgid "此内容被密码保护"
+msgid "请输入密码访问"
 msgstr ""
 
 msgid "%s的评论"
@@ -1844,6 +1912,12 @@ msgstr ""
 msgid "没有未归档文件被清理"
 msgstr ""
 
+msgid "返回父级页面"
+msgstr ""
+
+msgid "管理 %s 的子页面"
+msgstr ""
+
 msgid "未命名页面"
 msgstr ""
 
@@ -1874,13 +1948,13 @@ msgstr ""
 msgid "页面排序已经完成"
 msgstr ""
 
+msgid "新增 %s 的子页面"
+msgstr ""
+
 msgid "%s的文章"
 msgstr ""
 
 msgid "用户不存在"
-msgstr ""
-
-msgid "文章不存在"
 msgstr ""
 
 msgid "文章 \"<a href=\"%s\">%s</a>\" 已经发布"
@@ -1899,6 +1973,9 @@ msgid "文章已经被删除"
 msgstr ""
 
 msgid "没有文章被删除"
+msgstr ""
+
+msgid "文章不存在"
 msgstr ""
 
 msgid "返回父级分类"
@@ -2378,7 +2455,7 @@ msgstr ""
 msgid "独立页面路径"
 msgstr ""
 
-msgid "可用参数: <code>{cid}</code> 页面 ID, <code>{slug}</code> 页面缩略名"
+msgid "可用参数: <code>{cid}</code> 页面 ID, <code>{slug}</code> 页面缩略名, <code>{directory}</code> 多级页面"
 msgstr ""
 
 msgid "请在路径中至少包含上述的一项参数."
@@ -2546,7 +2623,7 @@ msgstr ""
 msgid "个人主页地址"
 msgstr ""
 
-msgid "此用户的个人主页地址, 请用 <code>http://</code> 开头."
+msgid "此用户的个人主页地址, 请用 <code>https://</code> 开头."
 msgstr ""
 
 msgid "不同的用户组拥有不同的权限."
@@ -2630,5 +2707,3 @@ msgstr ""
 msgid "%s 设置已经保存"
 msgstr ""
 
-msgid "欢迎加入 Typecho 大家族"
-msgstr ""
