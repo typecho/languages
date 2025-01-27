@@ -1716,7 +1716,7 @@ msgstr "Désolé, les commentaires sur ce contenu sont interdits."
 msgid "评论来源页错误."
 msgstr "L'origine du commentaire est fausse."
 
-msgid "对不起, 您的发言过于频繁, 请稍侯再次发布."
+msgid "对不起, 您的发言过于频繁, 请稍候再次发布."
 msgstr ""
 "Je suis désolé, vous commentez très fréquemment, s'il vous plaît poster "
 "après."

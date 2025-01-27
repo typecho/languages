@@ -1703,7 +1703,7 @@ msgstr "Lo sentimos, el feedback de este contenido no está permitido."
 msgid "评论来源页错误."
 msgstr "El origen del comentario está mal."
 
-msgid "对不起, 您的发言过于频繁, 请稍侯再次发布."
+msgid "对不起, 您的发言过于频繁, 请稍候再次发布."
 msgstr ""
 "Lo sentimos, estás comentando muy frecuentemente. Por favor, re-postéalo "
 "después."
