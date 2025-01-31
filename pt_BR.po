@@ -1561,7 +1561,7 @@ msgstr "Desculpe, o feedback sobre este conteúdo não é permitido."
 msgid "评论来源页错误."
 msgstr "Erro na página de origem do comentário."
 
-msgid "对不起, 您的发言过于频繁, 请稍侯再次发布."
+msgid "对不起, 您的发言过于频繁, 请稍候再次发布."
 msgstr "Você está comentando com muita frequência. Volte mais tarde para comentar novamente."
 
 msgid "对不起,此内容的引用被禁止."

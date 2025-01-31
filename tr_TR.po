@@ -1492,7 +1492,7 @@ msgstr "Hata, bu içeriğin geri bildirimine izin verilmemektedir."
 msgid "评论来源页错误."
 msgstr "Yorumların kaynağı hatalı."
 
-msgid "对不起, 您的发言过于频繁, 请稍侯再次发布."
+msgid "对不起, 您的发言过于频繁, 请稍候再次发布."
 msgstr "Hata, çok sık yorum yapıyorsunuz. Lütfen daha sonra tekrar göndermeyi deneyiniz."
 
 msgid "对不起,此内容的引用被禁止."
