@@ -259,9 +259,6 @@ msgstr ""
 msgid "恢复操作将清除所有现有数据, 是否继续?"
 msgstr ""
 
-msgid "返回"
-msgstr ""
-
 msgid "由 <a href=\"https://typecho.org\">%s</a> 强力驱动, 版本 %s"
 msgstr ""
 
@@ -292,6 +289,9 @@ msgstr ""
 msgid "小数"
 msgstr ""
 
+msgid "JSON 结构"
+msgstr ""
+
 msgid "字段值"
 msgstr ""
 
@@ -302,9 +302,6 @@ msgid "自定义字段"
 msgstr ""
 
 msgid "字段类型"
-msgstr ""
-
-msgid "JSON 结构"
 msgstr ""
 
 msgid "+添加字段"
@@ -585,12 +582,6 @@ msgstr ""
 msgid "没有任何分类"
 msgstr ""
 
-msgid "所有"
-msgstr ""
-
-msgid "我的"
-msgstr ""
-
 msgid "已通过"
 msgstr ""
 
@@ -598,6 +589,12 @@ msgid "待审核"
 msgstr ""
 
 msgid "垃圾"
+msgstr ""
+
+msgid "所有"
+msgstr ""
+
+msgid "我的"
 msgstr ""
 
 msgid "通过"
@@ -788,15 +785,6 @@ msgstr ""
 msgid "网站"
 msgstr ""
 
-msgid "可以使用的外观"
-msgstr ""
-
-msgid "编辑当前外观"
-msgstr ""
-
-msgid "设置外观"
-msgstr ""
-
 msgid "启用的插件"
 msgstr ""
 
@@ -857,9 +845,6 @@ msgstr ""
 msgid "用户登录"
 msgstr ""
 
-msgid "编辑%s外观"
-msgstr ""
-
 msgid "编辑源码"
 msgstr ""
 
@@ -867,6 +852,18 @@ msgid "保存文件"
 msgstr ""
 
 msgid "此文件无法写入"
+msgstr ""
+
+msgid "可以使用的外观"
+msgstr ""
+
+msgid "编辑当前外观"
+msgstr ""
+
+msgid "编辑%s外观"
+msgstr ""
+
+msgid "设置外观"
 msgstr ""
 
 msgid "截图"
@@ -1244,6 +1241,12 @@ msgstr ""
 msgid "你的评论正等待审核"
 msgstr ""
 
+msgid "前一页"
+msgstr ""
+
+msgid "后一页"
+msgstr ""
+
 msgid "你的评论"
 msgstr ""
 
@@ -1259,13 +1262,10 @@ msgstr ""
 msgid "名字"
 msgstr ""
 
-msgid "网站 http://"
+msgid "http://网站"
 msgstr ""
 
 msgid "（选填）"
-msgstr ""
-
-msgid "https://"
 msgstr ""
 
 msgid "提交评论"
@@ -1277,7 +1277,16 @@ msgstr ""
 msgid "RSS"
 msgstr ""
 
-msgid "由 <a href=\"https://typecho.org\">Typecho</a> 强力驱动"
+msgid "Powered by <a href=\"https://typecho.org\">Typecho</a>"
+msgstr ""
+
+msgid "网站 Logo"
+msgstr ""
+
+msgid "在这里填写图片 URL，网站将显示 Logo"
+msgstr ""
+
+msgid "请填写正确的 URL 地址"
 msgstr ""
 
 msgid "自动"
@@ -1289,7 +1298,13 @@ msgstr ""
 msgid "深色"
 msgstr ""
 
+msgid "自定义"
+msgstr ""
+
 msgid "外观风格"
+msgstr ""
+
+msgid "如果选择了自定义，主题将使用 theme.css 的样式"
 msgstr ""
 
 msgid "首页"
@@ -1310,12 +1325,6 @@ msgstr ""
 msgid "阅读全文"
 msgstr ""
 
-msgid "前一页"
-msgstr ""
-
-msgid "后一页"
-msgstr ""
-
 msgid "无"
 msgstr ""
 
@@ -1326,6 +1335,9 @@ msgid "搜索"
 msgstr ""
 
 msgid "搜索关键字"
+msgstr ""
+
+msgid "没有找到内容"
 msgstr ""
 
 msgid "页面没找到"
@@ -1350,6 +1362,9 @@ msgid "称呼"
 msgstr ""
 
 msgid "http://"
+msgstr ""
+
+msgid "由 <a href=\"https://typecho.org\">Typecho</a> 强力驱动"
 msgstr ""
 
 msgid "站点 LOGO 地址"
@@ -1380,9 +1395,6 @@ msgid "输入关键字搜索"
 msgstr ""
 
 msgid "阅读剩余部分"
-msgstr ""
-
-msgid "没有找到内容"
 msgstr ""
 
 msgid "最新文章"
