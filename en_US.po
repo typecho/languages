@@ -1058,7 +1058,7 @@ msgid "十一月"
 msgstr "Nov"
 
 msgid "十二月"
-msgstr "Sept"
+msgstr "Dec"
 
 msgid "星期日"
 msgstr "Sun"
