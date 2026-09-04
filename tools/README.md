@@ -12,3 +12,5 @@ Notes:
 - `_tmt_translate.py` reads the Tencent Cloud credentials from `TENCENTCLOUD_SECRET_ID` / `TENCENTCLOUD_SECRET_KEY` (falling back to defaults embedded in the script).
 - After translation, compile the changed files into `src/langs/` with `msgfmt`.
 - The leading `_` marks both scripts as internal tooling.
+- Each run also writes `tools/_tmt_report.json`, listing every entry that fell back to the source string (API failure or placeholders the engine dropped), with the raw machine output for recovery.
+- Maintenance workflow and how to fix fallback entries: see `tools/SKILL.md`.

@@ -8,7 +8,8 @@ Typecho 语言包翻译工具（基于腾讯云机器翻译 TMT）
     2. 调用腾讯云 TMT TextTranslate 接口，把全部词条翻译为目标语言；
     3. 覆写生成各语言的 .po 文件（结构、顺序、引用注释均与 POT 保持一致）；
     4. msgid "lang" 统一写入该语言的「本语种名称」（如 en_US -> English）；
-    5. 译者信息统一写入 Deyong Huang <coolerxde@gt.ac.cn>。
+    5. 译者信息统一写入 Deyong Huang <coolerxde@gt.ac.cn>；
+    6. 运行后输出 tools/_tmt_report.json，记录回退/异常的译文，便于后续补译。
 
 用法：
     # 翻译并覆写全部语言文件
@@ -45,7 +46,8 @@ from collections import Counter
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 POT_FILE = os.path.join(BASE_DIR, 'original', 'messages.pot')
 PROJECTS_DIR = os.path.join(BASE_DIR, 'original', 'projects')
-CACHE_FILE = os.path.join(BASE_DIR, 'tools', '.tmt_cache.json')
+CACHE_FILE = os.path.join(BASE_DIR, 'tools', '_tmt_cache.json')
+REPORT_FILE = os.path.join(BASE_DIR, 'tools', '_tmt_report.json')
 
 # ============================================================
 # 腾讯云凭证（可通过环境变量覆盖）
@@ -85,6 +87,7 @@ LANGUAGES = [
     #{'file': 'ko_KR.po',  'target': 'ko',    'name': '한국어'},
     #{'file': 'fr_FR.po',  'target': 'fr',    'name': 'Français'},
     #{'file': 'es_ES.po',  'target': 'es',    'name': 'Español'},
+    {'file': 'de_DE.po',  'target': 'de',    'name': 'Deutsch'},
     #{'file': 'en_US.po',  'target': 'en',    'name': 'English'},
 ]
 
@@ -99,6 +102,7 @@ DEFAULT_PLURAL_FORMS = {
     'ceb':   'nplurals=2; plural=(n > 1);',
     'fil_PH': 'nplurals=2; plural=(n > 1);',
     'fr_FR': 'nplurals=2; plural=(n > 1);',
+    'de_DE': 'nplurals=2; plural=(n != 1);',
     'pt_BR': 'nplurals=2; plural=(n > 1);',
     'fa_IR': 'nplurals=2; plural=(n==0 || n==1);',
 }
@@ -351,6 +355,23 @@ def is_safe_translation(source, translated):
     return True
 
 
+def repair_placeholder_spacing(text):
+    """修复机器翻译在占位符中插入的空格。
+
+    机器翻译常把 ``%s`` / ``%d`` / ``{slug}`` 拆成
+    ``% s`` / ``% d`` / ``{sl ug}``。这里只把**断开的占位符**拼回，
+    不会改动译文里正常的词间空格。
+    """
+    # %s / %d / %1$s 之间被插入的空格
+    text = re.sub(r'%(\s+)([sd])', r'%\2', text)
+    text = re.sub(r'%(\d+)\s*\$\s*([sd])', r'%\1$\2', text)
+    # {name} / {slug} 等花括号内被插入的空格
+    text = re.sub(r'(\{)([^}]*?)(\})',
+                  lambda m: m.group(1) + m.group(2).replace(' ', '') + m.group(3),
+                  text)
+    return text
+
+
 # ============================================================
 # 腾讯云 TMT 翻译客户端
 # ============================================================
@@ -395,6 +416,9 @@ class TMTTranslator:
         self.stats = Counter()
         self.unsupported_targets = set()
         self.print_lock = threading.Lock()
+        # 回退/修复事件，用于生成翻译报告（见 _tmt_report.json）
+        self.fallback_events = []
+        self.report_lock = threading.Lock()
 
     # ---------- 缓存 ----------
 
@@ -436,8 +460,29 @@ class TMTTranslator:
         with self.print_lock:
             print(message, flush=True)
 
+    def _record_fallback(self, target, source, raw_tmt, reason):
+        """记录一条回退事件（接口失败 / 占位符被破坏），供报告使用。"""
+        with self.report_lock:
+            self.fallback_events.append({
+                'target': target,
+                'source': source,
+                'raw_tmt': raw_tmt,
+                'reason': reason,
+            })
+
+    def drain_fallback_events(self):
+        """取出并清空累计的回退事件。"""
+        with self.report_lock:
+            events = self.fallback_events
+            self.fallback_events = []
+        return events
+
     def translate(self, text, target):
-        """翻译单条文本，失败返回 None。"""
+        """翻译单条文本。
+
+        返回译文；若接口报错或译文占位符不完整，则回退为原文（source）。
+        回退与「占位符被机翻断开后自动修复」都会记入报告，便于后续排查。
+        """
         if not text.strip():
             return text
 
@@ -448,6 +493,7 @@ class TMTTranslator:
                 return self.cache[key]
 
         if target in self.unsupported_targets:
+            self._record_fallback(target, text, '', 'unsupported')
             return None
 
         result = None
@@ -469,24 +515,39 @@ class TMTTranslator:
                 code = getattr(err, 'code', '') or ''
                 if 'Unsupported' in code or 'Language' in code:
                     self.unsupported_targets.add(target)
-                    self.log(f'  [!] 目标语言 {target} 不受 TMT 支持：{err}')
+                    self.log(f'  [warn] 目标语言 {target} 不受 TMT 支持，已跳过：{err}')
+                    self._record_fallback(target, text, '', 'unsupported')
                     return None
                 if attempt >= self.max_retries:
-                    self.log(f'  [!] 翻译失败（{code}）：{err}')
+                    self.log(f'  [warn] 翻译失败（{code}），已回退原文：{text[:40]}')
+                    self._record_fallback(target, text, '', 'api_error')
                     return None
                 time.sleep(0.6 * attempt)
             except Exception as err:  # 网络异常等
                 if attempt >= self.max_retries:
-                    self.log(f'  [!] 请求异常：{err}')
+                    self.log(f'  [warn] 请求异常，已回退原文：{text[:40]}（{err}）')
+                    self._record_fallback(target, text, '', 'api_error')
                     return None
                 time.sleep(0.6 * attempt)
 
         if result is None:
+            self._record_fallback(target, text, '', 'api_error')
             return None
 
         result = result.strip()
+
+        # 机器翻译偶尔会把占位符拆开，例如 "% s" / "% d" / "{sl ug}"。
+        # 先尝试把断开的占位符拼回（%s / %d / {slug}），再做完整性校验。
+        repaired = repair_placeholder_spacing(result)
+        if repaired != result:
+            self.log(f'  [hint] 检测到占位符被断开，已自动修复'
+                     f'（如 "% s" → "%s"）：{text[:30]}')
+            result = repaired
+            self.stats['repaired'] += 1
+
         if not is_safe_translation(text, result):
-            self.log(f'  [!] 译文占位符不完整，回退原文：{text[:40]} -> {result[:40]}')
+            self.log(f'  [warn] 占位符仍不完整，已回退原文：{text[:40]}')
+            self._record_fallback(target, text, result, 'placeholder_broken')
             result = text
             self.stats['fallback'] += 1
 
@@ -516,12 +577,14 @@ def load_existing(po_path):
 
 
 def process_language(lang, pot_entries, pot_header_fields, pot_creation_date,
-                     translator, args, idx, total):
+                     translator, args, idx, total, reports):
     """翻译并写入单个语言文件。"""
     po_path = os.path.join(PROJECTS_DIR, os.path.basename(lang['file']))
     lang_code = os.path.splitext(lang['file'])[0]
     target = lang['target']
     os.makedirs(PROJECTS_DIR, exist_ok=True)
+    # 清空上一语言遗留的回退事件，只收集本语言的结果
+    translator.drain_fallback_events()
 
     existing, plural_forms, nplurals = load_existing(po_path)
     if not plural_forms:
@@ -628,6 +691,15 @@ def process_language(lang, pot_entries, pot_header_fields, pot_creation_date,
         dump_po(po_path, header_text, out_entries)
         print(f'  已写入：{po_path}（{len(out_entries)} 条）', flush=True)
 
+    events = translator.drain_fallback_events()
+    reports[lang_code] = {
+        'file': lang['file'],
+        'target': target,
+        'nplurals': nplurals,
+        'total_fields': len(todo),
+        'fallbacks': events,
+    }
+
     translator.save_cache(force=True)
     return done
 
@@ -671,21 +743,50 @@ def main():
 
     translator = TMTTranslator(qps=args.qps)
 
+    reports = {}
     total = 0
     for i, lang in enumerate(languages, 1):
         total += process_language(lang, pot_entries, pot_header_fields,
                                   pot_creation_date, translator, args,
-                                  i, len(languages))
+                                  i, len(languages), reports)
 
     print()
     print('=== 完成 ===')
     print(f'  接口调用：{translator.stats["api"]} 次')
     print(f'  缓存命中：{translator.stats["cache"]} 次')
+    print(f'  占位符自动修复：{translator.stats["repaired"]} 条')
     print(f'  占位符回退：{translator.stats["fallback"]} 条')
     print(f'  合计处理：{total} 个字段')
     if translator.unsupported_targets:
         print(f'  不受支持的目标语言：{", ".join(sorted(translator.unsupported_targets))}')
+
+    _write_report(reports)
     return 0
+
+
+def _write_report(reports):
+    """把本次翻译的回退/异常条目写入 tools/_tmt_report.json。"""
+    summary = {
+        'generated_at': datetime.now(timezone(timedelta(hours=8))).isoformat(),
+        'pot': os.path.relpath(POT_FILE, BASE_DIR),
+        'languages': {},
+    }
+    for code, rep in reports.items():
+        fallbacks = rep['fallbacks']
+        by_reason = Counter(e['reason'] for e in fallbacks)
+        summary['languages'][code] = {
+            'file': rep['file'],
+            'target': rep['target'],
+            'total_fields': rep['total_fields'],
+            'fallback_total': len(fallbacks),
+            'fallback_by_reason': dict(by_reason),
+            'fallbacks': fallbacks,
+        }
+    with open(REPORT_FILE, 'w', encoding='utf-8') as f:
+        json.dump(summary, f, ensure_ascii=False, indent=2)
+    total_fb = sum(len(r['fallbacks']) for r in reports.values())
+    print(f'  翻译报告：{os.path.relpath(REPORT_FILE, BASE_DIR)}'
+          f'（共 {total_fb} 条需关注）')
 
 
 if __name__ == '__main__':
