@@ -1,17 +1,33 @@
-*用其他语言阅读：[英语](README.md) [日本语](README.ja.md) [简体中文](README.zh-cn.md) *
+# Typecho 语言包
+
+*其他语言版本：[English](README.md), [繁體中文](README.zh-cht.md), [日本語](README.ja-jp.md)*
+
+**Typecho 1.3.0** 的多语言语言包。译文由简体中文源词条（`original/messages.pot`）经机器翻译自动生成，并随 Typecho 源码更新同步。
 
 ## 安装
 
-1.[下载最新版本](https://github.com/typecho/languages/releases/tag/ci)并将其解压缩.
+1. 克隆或下载本仓库，并复制 `src/langs/` 目录。
+2. 将其中所有 `*.mo` 上传到 `<你的 Typecho>/usr/langs/`（若不存在请先创建）。
+3. 在 `管理后台 > 设置 > 基本设置` 中选择所需语言。
 
-2.将所有`*.mo`文件上载到`<Your Typecho Directory>/usr/langs`.如果该目录不存在，您可以在上传之前创建一个目录.
+## 目录结构
 
-3.转到“admin”>“options”>“genral options”，下面将显示一个语言选择器.
+```
+original/messages.pot   翻译模板：从 Typecho 1.3.0 源码提取的简体中文词条
+original/projects/      各语言的 .po 源文件（机器翻译生成，与模板一一对应）
+original/achieves/      官方仓库遗留的历史语言包（2018 年人工翻译，未同步，仅作参考）
+src/langs/              编译完成的 .mo 文件（安装时使用）
+tools/                  扫描模板与批量翻译脚本（详见 tools/README.md）
+```
 
-## 如何
-1.[Fork](https://github.com/typecho/languages/fork)此仓库和克隆到本地.
-2.使用[PoEdit]开始您的翻译之路(http://poedit.net/)或其他gettext软件。“message.pot”文件包含所有最近的翻译字符串，但它是中文的，因此您可能希望从英文翻译文件“en_US.po”开始，并从“messages.pot”更新丢失的消息.
-3.将更新推送到您的分支仓库，然后将请求拉到正式语言仓库：命名为“typecho/languages”.
+## 更新翻译
 
-另请参阅http://docs.typecho.org/translate/start
+```
+python tools/_i18n_analyze.py               # 扫描 Typecho 源码 → 重新生成 messages.pot
+python tools/_tmt_translate.py              # 机器翻译全部语言 → 重新生成 projects/*.po
+msgfmt original/projects/xx_XX.po -o src/langs/xx_XX.mo   # 编译变更的语言文件
+```
 
+译文由 AI 机器生成，欢迎通过 Pull Request 修订 `original/projects/` 下的译文。
+
+另请参阅：http://docs.typecho.org/translate/start

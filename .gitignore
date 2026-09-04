@@ -18,10 +18,13 @@
 *.exp
 *.pdb
 *.rar
-*.mo
+/original/projects/*.mo
+/original/achieves/*.mo
 .smbdelete*
 *.sublime*
 .sass-cache
 config.rb
 /config.inc.php
 /usr/uploads/
+/Typecho/
+/tools/__pycache__/
