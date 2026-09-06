@@ -1,0 +1,3833 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Typecho 1.3.0\n"
+"POT-Creation-Date: 2026-09-04 09:59\n"
+"PO-Revision-Date: 2026-09-06 08:17+0800\n"
+"Last-Translator: Deyong Huang <coolerxde@gt.ac.cn>\n"
+"Language-Team: Deyong Huang <coolerxde@gt.ac.cn>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.9\n"
+
+#: Typecho/install/SQLite.php:7
+msgid "\"%s\" 是我们为您自动生成的地址"
+msgstr "\"%s\" 是我們為您自動生成的地址"
+
+#: Typecho/usr/themes/classic-22/comments.php:5
+#: Typecho/usr/themes/classic-22/functions.php:46
+#: Typecho/usr/themes/default/functions.php:57
+msgid "%d 条评论"
+msgstr "%d 條評論"
+
+#: Typecho/var/Widget/Archive.php:2008
+msgid "%d年"
+msgstr "%d年"
+
+#: Typecho/var/Widget/Archive.php:1997
+msgid "%d年%d月"
+msgstr "%d年%d月"
+
+#: Typecho/var/Widget/Archive.php:1986
+msgid "%d年%d月%d日"
+msgstr "%d年%d月%d日"
+
+#: Typecho/admin/header.php:19
+msgid "%s - %s - Powered by Typecho"
+msgstr "%s - %s - powered by typecho"
+
+#: Typecho/admin/file-upload-js.php:112
+msgid "%s 上传失败"
+msgstr "%s 上傳失敗"
+
+#: Typecho/usr/themes/classic-22/index.php:23
+#: Typecho/usr/themes/default/header.php:12
+#: Typecho/usr/themes/default/index.php:21
+msgid "%s 发布的文章"
+msgstr "%s 發布的文章"
+
+#: Typecho/admin/plugins.php:37
+msgid "%s 无法在此版本的typecho下正常工作"
+msgstr "%s 無法在此版本的typecho下正常工作"
+
+#: Typecho/var/Widget/Feed.php:127
+msgid "%s 的评论"
+msgstr "%s 的評論"
+
+#: Typecho/var/Widget/Users/Profile.php:421
+msgid "%s 设置已经保存"
+msgstr "%s 設置已經保存"
+
+#: Typecho/var/Widget/Contents/Post/Admin.php:37
+msgid "%s的文章"
+msgstr "%s的文章"
+
+#: Typecho/var/Widget/Comments/Admin.php:64
+msgid "%s的评论"
+msgstr "%s的評論"
+
+#: Typecho/var/Widget/Comments/Admin.php:140
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: Typecho/admin/manage-comments.php:70 Typecho/admin/manage-medias.php:35
+#: Typecho/admin/manage-pages.php:39 Typecho/admin/manage-posts.php:91
+#: Typecho/admin/manage-users.php:30
+msgid "&laquo; 取消筛选"
+msgstr "&laquo;取消篩選"
+
+#: Typecho/var/Widget/Comments/Admin.php:140
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: Typecho/admin/custom-fields.php:67
+msgid "+添加字段"
+msgstr "+添加欄位"
+
+#: Typecho/usr/themes/classic-22/comments.php:5
+#: Typecho/usr/themes/classic-22/functions.php:46
+#: Typecho/usr/themes/default/functions.php:57
+msgid "1 条评论"
+msgstr "1 條評論"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:455
+msgid "<a href=\"%s\">%s</a> 已经被设为默认分类"
+msgstr "<a href=\"%s\">%s</a>已經被設為默認分類"
+
+#: Typecho/var/Widget/Plugins/Edit.php:94
+msgid "<a href=\"%s\">%s</a> 无法在此版本的typecho下正常工作"
+msgstr "<a href=\"%s\">%s</a>無法在此版本的typecho下正常工作"
+
+#: Typecho/admin/register.php:25 Typecho/admin/register.php:26
+#: Typecho/usr/themes/classic-22/comments.php:36
+#: Typecho/usr/themes/default/comments.php:34
+msgid "Email"
+msgstr "email"
+
+#: Typecho/var/Widget/Options/Discussion.php:155
+msgid "G - 普通"
+msgstr "g - 普通"
+
+#: Typecho/admin/custom-fields-js.php:27 Typecho/admin/custom-fields.php:32
+#: Typecho/admin/custom-fields.php:54
+msgid "JSON 结构"
+msgstr "json 結構"
+
+#: Typecho/admin/editor-js.php:86
+msgid "Markdown语法帮助"
+msgstr "markdown語法幫助"
+
+#: Typecho/install.php:353
+msgid "Mysql 原生函数适配器"
+msgstr "mysql 原生函數適配器"
+
+#: Typecho/var/Widget/Options/Discussion.php:156
+msgid "PG - 13岁以上"
+msgstr "pg - 13歲以上"
+
+#: Typecho/install.php:341
+msgid "Pdo 驱动 Mysql 适配器"
+msgstr "pdo 驅動 mysql 適配器"
+
+#: Typecho/install.php:349
+msgid "Pdo 驱动 PostgreSql 适配器"
+msgstr "pdo 驅動 postgresql 適配器"
+
+#: Typecho/install.php:345
+msgid "Pdo 驱动 SQLite 适配器"
+msgstr "pdo 驅動 sqlite 適配器"
+
+#: Typecho/install.php:361
+msgid "Pgsql 原生函数适配器"
+msgstr "pgsql 原生函數適配器"
+
+#: Typecho/var/Widget/XmlRpc.php:1735
+msgid "PingBack已经存在"
+msgstr "pingback已經存在"
+
+#: Typecho/usr/themes/classic-22/footer.php:10
+msgid "Powered by <a href=\"https://typecho.org\">Typecho</a>"
+msgstr "powered by <a href=\"https://typecho.org\">typecho</a>"
+
+#: Typecho/var/Widget/Options/Discussion.php:157
+msgid "R - 17岁以上成人"
+msgstr "r - 17歲以上成人"
+
+#: Typecho/usr/themes/classic-22/footer.php:6
+msgid "RSS"
+msgstr "rss"
+
+#: Typecho/install.php:357
+msgid "SQLite 原生函数适配器"
+msgstr "sqlite 原生函數適配器"
+
+#: Typecho/install.php:717
+msgid "Typecho 基于 <a href=\"https://www.gnu.org/copyleft/gpl.html\">GPL</a> 协议发布, 我们允许用户在 GPL 协议许可的范围内使用, 拷贝, 修改和分发此程序."
+msgstr "typecho 基於<a href=\"https://www.gnu.org/copyleft/gpl.html\">gpl</a>協議發布, 我們允許用戶在 gpl 協議許可的範圍內使用, 拷貝, 修改和分發此程式."
+
+#: Typecho/install.php:1486
+msgid "Typecho 安装程序"
+msgstr "typecho 安裝程式"
+
+#: Typecho/install.php:719
+msgid "Typecho 软件由其社区提供支持, 核心开发团队负责维护程序日常开发工作以及新特性的制定."
+msgstr "typecho 軟體由其社區提供支持, 核心開發團隊負責維護程式日常開發工作以及新特性的制定."
+
+#: Typecho/install.php:1484
+msgid "UTF-8"
+msgstr "utf-8"
+
+#: Typecho/var/Widget/Options/Discussion.php:158
+msgid "X - 限制级"
+msgstr "x - 限制級"
+
+#: Typecho/var/Widget/Options/General.php:205
+msgid "XMLRPC 接口"
+msgstr "xmlrpc 接口"
+
+#: Typecho/var/Typecho/I18n.php:128
+msgid "Y年m月d日"
+msgstr "y年m月d日"
+
+#: Typecho/usr/themes/default/comments.php:41
+msgid "http://"
+msgstr "http://"
+
+#: Typecho/usr/themes/classic-22/comments.php:37
+msgid "http://网站"
+msgstr "http://網站"
+
+#: Typecho/var/Widget/Options/General.php:211
+msgid "lang"
+msgstr "繁體中文"
+
+#: Typecho/var/Typecho/I18n.php:125
+msgid "n月j日"
+msgstr "n月j日"
+
+#: Typecho/var/Widget/Options/Permalink.php:241
+msgid "wordpress风格"
+msgstr "wordpress風格"
+
+#: Typecho/var/Widget/Feed.php:74
+msgid "zh-CN"
+msgstr "zh-cn"
+
+#: Typecho/admin/write-js.php:21
+msgid "一"
+msgstr "一"
+
+#: Typecho/admin/manage-categories.php:81
+msgid "一个分类"
+msgid_plural "一个分类"
+msgstr[0] "一個分類"
+
+#: Typecho/admin/manage-pages.php:102
+msgid "一个页面"
+msgid_plural "一个页面"
+msgstr[0] "一個頁面"
+
+#: Typecho/var/Typecho/I18n.php:100
+msgid "一分钟前"
+msgid_plural "一分钟前"
+msgstr[0] "一分鐘前"
+
+#: Typecho/var/Typecho/I18n.php:120
+msgid "一天前"
+msgid_plural "一天前"
+msgstr[0] "一天前"
+
+#: Typecho/var/Typecho/I18n.php:104
+msgid "一小时前"
+msgid_plural "一小时前"
+msgstr[0] "一小時前"
+
+#: Typecho/var/Widget/Options/Permalink.php:270
+msgid "一旦你选择了某种链接风格请不要轻易修改它."
+msgstr "一旦你選擇了某種連結風格請不要輕易修改它."
+
+#: Typecho/admin/write-js.php:14
+msgid "一月"
+msgstr "一月"
+
+#: Typecho/var/Typecho/I18n.php:95
+msgid "一秒前"
+msgid_plural "一秒前"
+msgstr[0] "一秒前"
+
+#: Typecho/admin/write-js.php:15
+msgid "七月"
+msgstr "七月"
+
+#: Typecho/admin/write-js.php:21
+msgid "三"
+msgstr "三"
+
+#: Typecho/admin/write-js.php:14
+msgid "三月"
+msgstr "三月"
+
+#: Typecho/admin/write-js.php:12
+msgid "上一月"
+msgstr "上一月"
+
+#: Typecho/admin/backup.php:35
+msgid "上传"
+msgstr "上傳"
+
+#: Typecho/admin/file-upload-js.php:95
+msgid "上传出现错误"
+msgstr "上傳出現錯誤"
+
+#: Typecho/admin/backup.php:47
+msgid "上传并恢复 &raquo;"
+msgstr "上傳並恢復&raquo;"
+
+#: Typecho/install.php:783
+msgid "上传目录无法写入, 请手动将安装目录下的 %s 目录的权限设置为可写然后继续升级"
+msgstr "上傳目錄無法寫入, 請手動將安裝目錄下的 %s 目錄的權限設置為可寫然後繼續升級"
+
+#: Typecho/admin/manage-medias.php:58
+msgid "上传者"
+msgstr "上傳者"
+
+#: Typecho/admin/write-js.php:27
+msgid "上午"
+msgstr "上午"
+
+#: Typecho/admin/write-js.php:225
+msgid "上次保存时间"
+msgstr "上次保存時間"
+
+#: Typecho/admin/write-js.php:13
+msgid "下一月"
+msgstr "下一月"
+
+#: Typecho/admin/write-js.php:28
+msgid "下午"
+msgstr "下午"
+
+#: Typecho/admin/login.php:32
+msgid "下次自动登录"
+msgstr "下次自動登錄"
+
+#: Typecho/var/Widget/Options/General.php:193
+msgid "不允许"
+msgstr "不允許"
+
+#: Typecho/var/Widget/Users/Edit.php:160
+msgid "不同的用户组拥有不同的权限."
+msgstr "不同的用戶組擁有不同的權限."
+
+#: Typecho/install/Mysql.php:79 Typecho/install/Pgsql.php:49
+#: Typecho/var/Widget/Options/Permalink.php:208
+msgid "不启用"
+msgstr "不啟用"
+
+#: Typecho/admin/write-page.php:9 Typecho/admin/write-page.php:121
+#: Typecho/var/Widget/Metas/Category/Edit.php:189
+msgid "不选择"
+msgstr "不選擇"
+
+#: Typecho/var/Widget/Options/General.php:231
+msgid "东京平壤时间 西伊里安,摩鹿加群岛 (GMT +9)"
+msgstr "東京平壤時間 西伊里安,摩鹿加群島 (gmt +9)"
+
+#: Typecho/var/Widget/Options/General.php:224
+msgid "东欧标准时间 布加勒斯特,塞浦路斯,希腊 (GMT +2)"
+msgstr "東歐標準時間 布加勒斯特,賽普勒斯,希臘 (gmt +2)"
+
+#: Typecho/var/Widget/Options/General.php:245
+msgid "东萨摩亚群岛 (GMT -11)"
+msgstr "東薩摩亞群島 (gmt -11)"
+
+#: Typecho/var/Widget/Register.php:61 Typecho/var/Widget/Users/Edit.php:206
+#: Typecho/var/Widget/Users/Profile.php:359
+msgid "两次输入的密码不一致"
+msgstr "兩次輸入的密碼不一致"
+
+#: Typecho/admin/manage-comments.php:305
+msgid "个人主页"
+msgstr "個人主頁"
+
+#: Typecho/var/Widget/Users/Edit.php:148
+#: Typecho/var/Widget/Users/Profile.php:225
+msgid "个人主页地址"
+msgstr "個人主頁地址"
+
+#: Typecho/var/Widget/Feedback.php:198
+msgid "个人主页地址最多包含255个字符"
+msgstr "個人主頁地址最多包含255個字符"
+
+#: Typecho/var/Widget/Feedback.php:197 Typecho/var/Widget/Users/Edit.php:201
+#: Typecho/var/Widget/Users/Profile.php:249
+msgid "个人主页地址格式错误"
+msgstr "個人主頁地址格式錯誤"
+
+#: Typecho/var/Widget/Menu.php:91
+msgid "个人设置"
+msgstr "個人設置"
+
+#: Typecho/admin/profile.php:31
+msgid "个人资料"
+msgstr "個人資料"
+
+#: Typecho/var/Widget/Options/Permalink.php:260
+msgid "个性化定义"
+msgstr "個性化定義"
+
+#: Typecho/var/Widget/Options/General.php:223
+msgid "中欧标准时间 阿姆斯特丹,荷兰,法国 (GMT +1)"
+msgstr "中歐標準時間 阿姆斯特丹,荷蘭,法國 (gmt +1)"
+
+#: Typecho/var/Widget/Register.php:60
+msgid "为了便于记忆, 密码长度请不要超过十八位"
+msgstr "為了便於記憶, 密碼長度請不要超過十八位"
+
+#: Typecho/var/Widget/Register.php:59 Typecho/var/Widget/Users/Edit.php:205
+#: Typecho/var/Widget/Users/Profile.php:358
+msgid "为了保证账户安全, 请输入至少六位的密码"
+msgstr "為了保證帳戶安全, 請輸入至少六位的密碼"
+
+#: Typecho/admin/backup.php:24
+msgid "为了缩小备份文件体积, 建议您在备份前删除不必要的数据"
+msgstr "為了縮小備份文件體積, 建議您在備份前刪除不必要的數據"
+
+#: Typecho/admin/write-page.php:114
+msgid "为你的自定义页面设定一个序列值以后, 能够使得它们按此值从小到大排列"
+msgstr "為你的自定義頁面設定一個序列值以後, 能夠使得它們按此值從小到大排列"
+
+#: Typecho/var/Widget/Users/Edit.php:137
+#: Typecho/var/Widget/Users/Profile.php:338
+msgid "为此用户分配一个密码."
+msgstr "為此用戶分配一個密碼."
+
+#: Typecho/admin/write-js.php:16
+msgid "九月"
+msgstr "九月"
+
+#: Typecho/admin/write-js.php:21
+msgid "二"
+msgstr "二"
+
+#: Typecho/admin/write-js.php:14
+msgid "二月"
+msgstr "二月"
+
+#: Typecho/admin/write-js.php:22
+msgid "五"
+msgstr "五"
+
+#: Typecho/admin/write-js.php:15
+msgid "五月"
+msgstr "五月"
+
+#: Typecho/var/Widget/Options/General.php:203
+msgid "仅关闭 Pingback 接口"
+msgstr "僅關閉 pingback 接口"
+
+#: Typecho/var/Widget/Options/Discussion.php:149
+msgid "仅显示评论, 不显示 Pingback 和 Trackback"
+msgstr "僅顯示評論, 不顯示 pingback 和 trackback"
+
+#: Typecho/usr/themes/default/comments.php:5
+msgid "仅有一条评论"
+msgstr "僅有一條評論"
+
+#: Typecho/var/Widget/Options/Reading.php:222
+msgid "仅输出摘要"
+msgstr "僅輸出摘要"
+
+#: Typecho/admin/backup.php:36
+msgid "从服务器"
+msgstr "從伺服器"
+
+#: Typecho/admin/editor-js.php:56
+msgid "代码"
+msgstr "代碼"
+
+#: Typecho/var/Widget/Options/General.php:235
+msgid "佛德尔群岛 亚速尔群岛,葡属几内亚 (GMT -1)"
+msgstr "佛德爾群島 亞速爾群島,葡屬幾內亞 (gmt -1)"
+
+#: Typecho/admin/manage-comments.php:94 Typecho/admin/manage-pages.php:63
+#: Typecho/admin/manage-posts.php:130 Typecho/admin/plugins.php:27
+#: Typecho/admin/plugins.php:92 Typecho/admin/themes.php:45
+#: Typecho/usr/themes/default/functions.php:46
+msgid "作者"
+msgstr "作者"
+
+#: Typecho/var/Widget/Archive.php:1921
+msgid "作者不存在"
+msgstr "作者不存在"
+
+#: Typecho/usr/themes/default/404.php:8
+msgid "你想查看的页面已被转移或删除了, 要不要搜索看看: "
+msgstr "你想查看的頁面已被轉移或刪除了, 要不要搜索看看:"
+
+#: Typecho/admin/write-page.php:28 Typecho/admin/write-post.php:17
+msgid "你正在编辑的是保存于 %s 的修订版, 你也可以 <a href=\"%s\">删除它</a>"
+msgstr "你正在編輯的是保存於 %s 的修訂版, 你也可以<a href=\"%s\">刪除它</a>"
+
+#: Typecho/usr/themes/classic-22/comments.php:23
+msgid "你的评论"
+msgstr "你的評論"
+
+#: Typecho/usr/themes/classic-22/comments.php:8
+msgid "你的评论正等待审核"
+msgstr "你的評論正等待審核"
+
+#: Typecho/var/Widget/Contents/Attachment/Edit.php:180
+msgid "你确认删除文件 %s 吗?"
+msgstr "你確認刪除文件 %s 嗎?"
+
+#: Typecho/admin/manage-comments.php:169
+msgid "你确认要删除%s的评论吗?"
+msgstr "你確認要刪除%s的評論嗎?"
+
+#: Typecho/admin/manage-comments.php:61 Typecho/admin/manage-comments.php:199
+msgid "你确认要删除所有垃圾评论吗?"
+msgstr "你確認要刪除所有垃圾評論嗎?"
+
+#: Typecho/admin/manage-medias.php:24 Typecho/admin/manage-medias.php:111
+msgid "你确认要删除这些文件吗?"
+msgstr "你確認要刪除這些文件嗎?"
+
+#: Typecho/admin/manage-posts.php:66 Typecho/admin/manage-posts.php:215
+msgid "你确认要删除这些文章吗?"
+msgstr "你確認要刪除這些文章嗎?"
+
+#: Typecho/admin/manage-tags.php:26
+msgid "你确认要删除这些标签吗?"
+msgstr "你確認要刪除這些標籤嗎?"
+
+#: Typecho/admin/manage-users.php:22 Typecho/admin/manage-users.php:111
+msgid "你确认要删除这些用户吗?"
+msgstr "你確認要刪除這些用戶嗎?"
+
+#: Typecho/admin/manage-comments.php:58 Typecho/admin/manage-comments.php:196
+msgid "你确认要删除这些评论吗?"
+msgstr "你確認要刪除這些評論嗎?"
+
+#: Typecho/admin/manage-pages.php:23
+msgid "你确认要删除这些页面吗?"
+msgstr "你確認要刪除這些頁面嗎?"
+
+#: Typecho/admin/plugins.php:50 Typecho/admin/plugins.php:65
+msgid "你确认要禁用插件 %s 吗?"
+msgstr "你確認要禁用插件 %s 嗎?"
+
+#: Typecho/var/Widget/Options/Reading.php:149
+msgid "使用 %s 页面作为首页"
+msgstr "使用 %s 頁面作為首頁"
+
+#: Typecho/var/Widget/Users/Profile.php:59
+msgid "使用 <a href=\"https://daringfireball.net/projects/markdown/\">Markdown</a> 语法能够使您的撰写过程更加简便直观."
+msgstr "使用<a href=\"https://daringfireball.net/projects/markdown/\">markdown</a>語法能夠使您的撰寫過程更加簡便直觀."
+
+#: Typecho/var/Widget/Users/Profile.php:58
+msgid "使用 Markdown 语法编辑和解析内容"
+msgstr "使用 markdown 語法編輯和解析內容"
+
+#: Typecho/install.php:1185
+msgid "使用原有数据"
+msgstr "使用原有數據"
+
+#: Typecho/usr/themes/default/functions.php:26
+msgid "侧边栏显示"
+msgstr "側邊欄顯示"
+
+#: Typecho/admin/manage-pages.php:112 Typecho/admin/manage-posts.php:189
+msgid "保存于 %s"
+msgstr "保存於 %s"
+
+#: Typecho/admin/write-js.php:210
+msgid "保存失败, 请重试"
+msgstr "保存失敗, 請重試"
+
+#: Typecho/admin/theme-editor.php:24
+msgid "保存文件"
+msgstr "保存文件"
+
+#: Typecho/admin/write-page.php:85 Typecho/admin/write-post.php:69
+msgid "保存草稿"
+msgstr "保存草稿"
+
+#: Typecho/var/Widget/Options/Discussion.php:282
+#: Typecho/var/Widget/Options/General.php:297
+#: Typecho/var/Widget/Options/Permalink.php:302
+#: Typecho/var/Widget/Options/Reading.php:231
+#: Typecho/var/Widget/Plugins/Config.php:108
+#: Typecho/var/Widget/Themes/Config.php:85
+#: Typecho/var/Widget/Users/Profile.php:111
+#: Typecho/var/Widget/Users/Profile.php:175
+msgid "保存设置"
+msgstr "保存設置"
+
+#: Typecho/admin/write-js.php:300
+msgid "修改后的内容需要保存后才能预览, 是否保存?"
+msgstr "修改後的內容需要保存後才能預覽, 是否保存?"
+
+#: Typecho/var/Widget/Comments/Edit.php:323
+msgid "修评论失败"
+msgstr "修評論失敗"
+
+#: Typecho/var/Widget/Options/General.php:193
+msgid "允许"
+msgstr "允許"
+
+#: Typecho/var/Widget/Options/General.php:291
+msgid "允许上传的文件类型"
+msgstr "允許上傳的文件類型"
+
+#: Typecho/var/Widget/Options/Discussion.php:274
+msgid "允许使用的HTML标签和属性"
+msgstr "允許使用的html標籤和屬性"
+
+#: Typecho/admin/write-page.php:173 Typecho/admin/write-post.php:163
+msgid "允许在聚合中出现"
+msgstr "允許在聚合中出現"
+
+#: Typecho/admin/write-page.php:170 Typecho/admin/write-post.php:160
+msgid "允许被引用"
+msgstr "允許被引用"
+
+#: Typecho/var/Widget/Options/General.php:196
+msgid "允许访问者注册到你的网站, 默认的注册用户不享有任何写入权限."
+msgstr "允許訪問者註冊到你的網站, 默認的註冊用戶不享有任何寫入權限."
+
+#: Typecho/admin/write-page.php:167 Typecho/admin/write-post.php:157
+msgid "允许评论"
+msgstr "允許評論"
+
+#: Typecho/admin/editor-js.php:76
+msgid "全屏"
+msgstr "全屏"
+
+#: Typecho/var/Widget/Options/Reading.php:222
+msgid "全文输出"
+msgstr "全文輸出"
+
+#: Typecho/admin/manage-categories.php:19 Typecho/admin/manage-comments.php:51
+#: Typecho/admin/manage-comments.php:189 Typecho/admin/manage-medias.php:17
+#: Typecho/admin/manage-medias.php:104 Typecho/admin/manage-pages.php:16
+#: Typecho/admin/manage-posts.php:59 Typecho/admin/manage-posts.php:208
+#: Typecho/admin/manage-tags.php:19 Typecho/admin/manage-users.php:15
+#: Typecho/admin/manage-users.php:104
+msgid "全选"
+msgstr "全選"
+
+#: Typecho/admin/write-js.php:15
+msgid "八月"
+msgstr "八月"
+
+#: Typecho/admin/manage-pages.php:27 Typecho/admin/manage-posts.php:71
+#: Typecho/admin/manage-posts.php:220 Typecho/admin/write-page.php:155
+#: Typecho/admin/write-post.php:131
+#: Typecho/var/Widget/Contents/Page/Edit.php:140
+#: Typecho/var/Widget/Contents/Post/Edit.php:152
+msgid "公开"
+msgstr "公開"
+
+#: Typecho/admin/write-page.php:151 Typecho/admin/write-post.php:126
+msgid "公开度"
+msgstr "公開度"
+
+#: Typecho/admin/write-js.php:22
+msgid "六"
+msgstr "六"
+
+#: Typecho/admin/write-js.php:15
+msgid "六月"
+msgstr "六月"
+
+#: Typecho/install.php:1347
+msgid "关于"
+msgstr "關於"
+
+#: Typecho/admin/manage-users.php:88 Typecho/var/Widget/Users/Edit.php:155
+msgid "关注者"
+msgstr "關注者"
+
+#: Typecho/var/Widget/Options/General.php:185
+msgid "关键词"
+msgstr "關鍵詞"
+
+#: Typecho/var/Widget/Options/General.php:203
+#: Typecho/var/Widget/Users/Profile.php:56
+#: Typecho/var/Widget/Users/Profile.php:66
+#: Typecho/var/Widget/Users/Profile.php:76
+msgid "关闭"
+msgstr "關閉"
+
+#: Typecho/var/Widget/Options/General.php:280
+msgid "其他格式 %s"
+msgstr "其他格式 %s"
+
+#: Typecho/usr/themes/default/sidebar.php:46
+msgid "其它"
+msgstr "其它"
+
+#: Typecho/var/Widget/Options/Discussion.php:132
+msgid "具体写法请参考 <a href=\"https://www.php.net/manual/zh/function.date.php\">PHP 日期格式写法</a>."
+msgstr "具體寫法請參考<a href=\"https://www.php.net/manual/zh/function.date.php\">php 日期格式寫法</a>."
+
+#: Typecho/var/Widget/Users/Edit.php:160
+msgid "具体的权限分配表请<a href=\"https://docs.typecho.org/develop/acl\">参考这里</a>."
+msgstr "具體的權限分配表請<a href=\"https://docs.typecho.org/develop/acl\">參考這裡</a>."
+
+#: Typecho/admin/manage-comments.php:96 Typecho/admin/manage-comments.php:264
+#: Typecho/admin/manage-comments.php:308
+#: Typecho/usr/themes/default/comments.php:46
+msgid "内容"
+msgstr "內容"
+
+#: Typecho/var/Widget/Comments/Admin.php:67
+msgid "内容不存在"
+msgstr "內容不存在"
+
+#: Typecho/admin/write-post.php:147
+msgid "内容密码"
+msgstr "內容密碼"
+
+#: Typecho/admin/write-js.php:174
+msgid "内容已经改变尚未保存, 您确认要离开此页面吗?"
+msgstr "內容已經改變尚未保存, 您確認要離開此頁面嗎?"
+
+#: Typecho/var/Widget/Base/Comments.php:484
+msgid "内容被隐藏"
+msgstr "內容被隱藏"
+
+#: Typecho/var/Widget/Users/Profile.php:99
+msgid "出现在聚合中"
+msgstr "出現在聚合中"
+
+#: Typecho/admin/write-js.php:29
+msgid "分"
+msgstr "分"
+
+#: Typecho/admin/editor-js.php:69
+msgid "分割线"
+msgstr "分割線"
+
+#: Typecho/admin/manage-posts.php:131 Typecho/admin/write-post.php:97
+#: Typecho/usr/themes/default/functions.php:53
+#: Typecho/usr/themes/default/sidebar.php:29 Typecho/var/Widget/Menu.php:115
+msgid "分类"
+msgstr "分類"
+
+#: Typecho/usr/themes/classic-22/index.php:20
+#: Typecho/usr/themes/default/header.php:9
+#: Typecho/usr/themes/default/index.php:18
+msgid "分类 %s 下的文章"
+msgstr "分類 %s 下的文章"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:153
+msgid "分类 <a href=\"%s\">%s</a> 已经被增加"
+msgstr "分類<a href=\"%s\">%s</a>已經被增加"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:318
+msgid "分类 <a href=\"%s\">%s</a> 已经被更新"
+msgstr "分類<a href=\"%s\">%s</a>已經被更新"
+
+#: Typecho/var/Widget/Archive.php:1781 Typecho/var/Widget/XmlRpc.php:462
+#: Typecho/var/Widget/Metas/Category/Admin.php:83
+#: Typecho/var/Widget/Metas/Category/Edit.php:271
+#: Typecho/var/Widget/Metas/Category/Edit.php:438
+#: Typecho/var/Widget/Metas/Category/Edit.php:492
+msgid "分类不存在"
+msgstr "分類不存在"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:270
+#: Typecho/var/Widget/Metas/Category/Edit.php:363
+#: Typecho/var/Widget/Metas/Category/Edit.php:437
+msgid "分类主键不存在"
+msgstr "分類主鍵不存在"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:419
+msgid "分类刷新已经完成"
+msgstr "分類刷新已經完成"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:175
+msgid "分类名称"
+msgstr "分類名稱"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:262
+msgid "分类名称已经存在"
+msgstr "分類名稱已經存在"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:263
+msgid "分类名称无法被转换为缩略名"
+msgstr "分類名稱無法被轉換為縮略名"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:349
+msgid "分类已经删除"
+msgstr "分類已經刪除"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:378
+msgid "分类已经合并"
+msgstr "分類已經合併"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:402
+msgid "分类排序已经完成"
+msgstr "分類排序已經完成"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:213
+msgid "分类描述"
+msgstr "分類描述"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:183
+msgid "分类缩略名"
+msgstr "分類縮略名"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:184
+msgid "分类缩略名用于创建友好的链接形式, 建议使用字母, 数字, 下划线和横杠."
+msgstr "分類縮略名用於創建友好的連結形式, 建議使用字母, 數字, 下劃線和橫槓."
+
+#: Typecho/var/Widget/Options/Permalink.php:294
+msgid "分类路径"
+msgstr "分類路徑"
+
+#: Typecho/var/Widget/Options/Permalink.php:299
+msgid "分类路径中没有包含 {mid} 或者 {slug} "
+msgstr "分類路徑中沒有包含 {mid} 或者 {slug}"
+
+#: Typecho/admin/editor-js.php:64
+msgid "列表项目"
+msgstr "列表項目"
+
+#: Typecho/var/Typecho/I18n.php:93
+msgid "刚刚"
+msgstr "剛剛"
+
+#: Typecho/install.php:858
+msgid "创建完毕, 继续安装 &raquo;"
+msgstr "創建完畢, 繼續安裝&raquo;"
+
+#: Typecho/install.php:1208
+msgid "创建您的管理员帐号"
+msgstr "創建您的管理員帳號"
+
+#: Typecho/var/Widget/Menu.php:104
+msgid "创建新页面"
+msgstr "創建新頁面"
+
+#: Typecho/var/Widget/Menu.php:104
+msgid "创建页面"
+msgstr "創建頁面"
+
+#: Typecho/install.php:813
+msgid "初始化配置"
+msgstr "初始化配置"
+
+#: Typecho/admin/custom-fields-js.php:30 Typecho/admin/custom-fields.php:39
+#: Typecho/admin/custom-fields.php:61 Typecho/admin/file-upload-js.php:135
+#: Typecho/admin/file-upload.php:26 Typecho/admin/manage-categories.php:27
+#: Typecho/admin/manage-comments.php:58 Typecho/admin/manage-comments.php:169
+#: Typecho/admin/manage-comments.php:196 Typecho/admin/manage-medias.php:25
+#: Typecho/admin/manage-medias.php:112 Typecho/admin/manage-pages.php:24
+#: Typecho/admin/manage-posts.php:67 Typecho/admin/manage-posts.php:216
+#: Typecho/admin/manage-tags.php:27 Typecho/admin/manage-users.php:23
+#: Typecho/admin/manage-users.php:112
+msgid "删除"
+msgstr "刪除"
+
+#: Typecho/install.php:1184
+msgid "删除原有数据"
+msgstr "刪除原有數據"
+
+#: Typecho/admin/manage-comments.php:61 Typecho/admin/manage-comments.php:199
+msgid "删除所有垃圾评论"
+msgstr "刪除所有垃圾評論"
+
+#: Typecho/var/Widget/Contents/Attachment/Edit.php:182
+msgid "删除文件"
+msgstr "刪除文件"
+
+#: Typecho/var/Widget/Comments/Edit.php:212
+msgid "删除评论失败"
+msgstr "刪除評論失敗"
+
+#: Typecho/var/Widget/Comments/Edit.php:207
+msgid "删除评论成功"
+msgstr "刪除評論成功"
+
+#: Typecho/admin/manage-categories.php:30 Typecho/admin/manage-tags.php:30
+msgid "刷新"
+msgstr "刷新"
+
+#: Typecho/admin/manage-categories.php:29
+msgid "刷新分类可能需要等待较长时间, 你确认要刷新这些分类吗?"
+msgstr "刷新分類可能需要等待較長時間, 你確認要刷新這些分類嗎?"
+
+#: Typecho/admin/manage-tags.php:29
+msgid "刷新标签可能需要等待较长时间, 你确认要刷新这些标签吗?"
+msgstr "刷新標籤可能需要等待較長時間, 你確認要刷新這些標籤嗎?"
+
+#: Typecho/usr/themes/classic-22/comments.php:13
+#: Typecho/usr/themes/classic-22/index.php:39
+#: Typecho/usr/themes/default/index.php:39
+msgid "前一页"
+msgstr "前一頁"
+
+#: Typecho/admin/editor-js.php:44
+msgid "加粗"
+msgstr "加粗"
+
+#: Typecho/admin/editor-js.php:45
+msgid "加粗文字"
+msgstr "加粗文字"
+
+#: Typecho/usr/themes/classic-22/index.php:21
+#: Typecho/usr/themes/default/header.php:10
+#: Typecho/usr/themes/default/index.php:19
+msgid "包含关键字 %s 的文章"
+msgstr "包含關鍵字 %s 的文章"
+
+#: Typecho/var/Widget/Options/General.php:230
+msgid "北京时间 香港,新加坡,越南 (GMT +8)"
+msgstr "北京時間 香港,新加坡,越南 (gmt +8)"
+
+#: Typecho/admin/write-js.php:16
+msgid "十一月"
+msgstr "十一月"
+
+#: Typecho/admin/write-js.php:16
+msgid "十二月"
+msgstr "十二月"
+
+#: Typecho/admin/write-js.php:16
+msgid "十月"
+msgstr "十月"
+
+#: Typecho/var/Widget/Menu.php:98
+msgid "升级"
+msgstr "升級"
+
+#: Typecho/var/Widget/Upgrade.php:86
+msgid "升级已经完成"
+msgstr "升級已經完成"
+
+#: Typecho/var/Widget/Menu.php:98
+msgid "升级程序"
+msgstr "升級程式"
+
+#: Typecho/var/Widget/XmlRpc.php:119
+msgid "博客关键字"
+msgstr "博客關鍵字"
+
+#: Typecho/var/Widget/XmlRpc.php:81
+msgid "博客地址"
+msgstr "博客地址"
+
+#: Typecho/var/Widget/XmlRpc.php:114
+msgid "博客标题"
+msgstr "博客標題"
+
+#: Typecho/var/Widget/XmlRpc.php:86
+msgid "博客首页地址"
+msgstr "博客首頁地址"
+
+#: Typecho/admin/plugins.php:53
+msgid "即插即用"
+msgstr "即插即用"
+
+#: Typecho/admin/write-post.php:71
+msgid "发布文章"
+msgstr "發布文章"
+
+#: Typecho/admin/manage-medias.php:60 Typecho/admin/write-page.php:104
+#: Typecho/admin/write-post.php:90
+msgid "发布日期"
+msgstr "發布日期"
+
+#: Typecho/admin/write-page.php:87
+msgid "发布页面"
+msgstr "發布頁面"
+
+#: Typecho/admin/editor-js.php:84 Typecho/admin/manage-comments.php:265
+#: Typecho/admin/manage-comments.php:311
+msgid "取消"
+msgstr "取消"
+
+#: Typecho/var/Widget/Comments/Archive.php:456
+msgid "取消回复"
+msgstr "取消回復"
+
+#: Typecho/admin/write-page.php:77 Typecho/admin/write-post.php:61
+msgid "取消预览"
+msgstr "取消預覽"
+
+#: Typecho/install.php:1320
+msgid "只是一个默认分类"
+msgstr "只是一個默認分類"
+
+#: Typecho/admin/theme-tabs.php:3
+msgid "可以使用的外观"
+msgstr "可以使用的外觀"
+
+#: Typecho/var/Widget/Users/Profile.php:99
+msgid "可以被引用"
+msgstr "可以被引用"
+
+#: Typecho/var/Widget/Users/Profile.php:99
+msgid "可以被评论"
+msgstr "可以被評論"
+
+#: Typecho/admin/manage-posts.php:19
+msgid "可用"
+msgstr "可用"
+
+#: Typecho/var/Widget/Options/Permalink.php:268
+msgid "可用参数: <code>{cid}</code> 日志 ID, <code>{slug}</code> 日志缩略名, <code>{category}</code> 分类, <code>{directory}</code> 多级分类, <code>{year}</code> 年, <code>{month}</code> 月, <code>{day}</code> 日"
+msgstr "可用參數:<code>{cid}</code>日誌 id,<code>{slug}</code>日誌縮略名,<code>{category}</code>分類,<code>{directory}</code>多級分類,<code>{year}</code>年,<code>{month}</code>月,<code>{day}</code>日"
+
+#: Typecho/var/Widget/Options/Permalink.php:283
+msgid "可用参数: <code>{cid}</code> 页面 ID, <code>{slug}</code> 页面缩略名, <code>{directory}</code> 多级页面"
+msgstr "可用參數:<code>{cid}</code>頁面 id,<code>{slug}</code>頁面縮略名,<code>{directory}</code>多級頁面"
+
+#: Typecho/var/Widget/Options/Permalink.php:295
+msgid "可用参数: <code>{mid}</code> 分类 ID, <code>{slug}</code> 分类缩略名, <code>{directory}</code> 多级分类"
+msgstr "可用參數:<code>{mid}</code>分類 id,<code>{slug}</code>分類縮略名,<code>{directory}</code>多級分類"
+
+#: Typecho/admin/manage-categories.php:34 Typecho/admin/manage-tags.php:34
+msgid "合并到"
+msgstr "合併到"
+
+#: Typecho/var/Widget/Metas/Tag/Edit.php:319
+msgid "合并到的标签名不合法"
+msgstr "合併到的標籤名不合法"
+
+#: Typecho/var/Widget/Options/Discussion.php:223
+msgid "同一 IP 发布评论的时间间隔限制为 %s 分钟"
+msgstr "同一 ip 發布評論的時間間隔限制為 %s 分鐘"
+
+#: Typecho/var/Widget/Options/Reading.php:125
+msgid "同时将文章列表页路径更改为 %s"
+msgstr "同時將文章列表頁路徑更改為 %s"
+
+#: Typecho/usr/themes/classic-22/comments.php:35
+msgid "名字"
+msgstr "名字"
+
+#: Typecho/admin/manage-categories.php:59 Typecho/admin/plugins.php:24
+#: Typecho/admin/plugins.php:89
+msgid "名称"
+msgstr "名稱"
+
+#: Typecho/usr/themes/classic-22/comments.php:13
+#: Typecho/usr/themes/classic-22/index.php:39
+#: Typecho/usr/themes/default/index.php:39
+msgid "后一页"
+msgstr "後一頁"
+
+#: Typecho/admin/editor-js.php:267
+msgid "否"
+msgstr "否"
+
+#: Typecho/admin/plugins.php:106 Typecho/admin/themes.php:56
+#: Typecho/install/Mysql.php:80 Typecho/install/Pgsql.php:50
+#: Typecho/var/Widget/Options/Permalink.php:208
+msgid "启用"
+msgstr "啟用"
+
+#: Typecho/var/Widget/Options/Discussion.php:153
+msgid "启用 <a href=\"https://gravatar.com\">Gravatar</a> 头像服务, 最高显示评级为 %s 的头像"
+msgstr "啟用<a href=\"https://gravatar.com\">gravatar</a>頭像服務, 最高顯示評級為 %s 的頭像"
+
+#: Typecho/var/Widget/Options/Discussion.php:160
+msgid "启用分页, 并且每页显示 %s 篇评论, 在列出时将 %s 作为默认显示"
+msgstr "啟用分頁, 並且每頁顯示 %s 篇評論, 在列出時將 %s 作為默認顯示"
+
+#: Typecho/install/Mysql.php:77 Typecho/install/Pgsql.php:47
+msgid "启用数据库 SSL 服务端证书验证"
+msgstr "啟用資料庫 ssl 服務端證書驗證"
+
+#: Typecho/admin/themes.php:31
+msgid "启用新外观后，当前外观的设置数据将被删除。"
+msgstr "啟用新外觀後，當前外觀的設置數據將被刪除。"
+
+#: Typecho/admin/plugins.php:13
+msgid "启用的插件"
+msgstr "啟用的插件"
+
+#: Typecho/var/Widget/Options/Discussion.php:167
+msgid "启用评论回复, 以 %s 层作为每个评论最多的回复层数"
+msgstr "啟用評論回復, 以 %s 層作為每個評論最多的回覆層數"
+
+#: Typecho/admin/write-js.php:19
+msgid "周一"
+msgstr "周一"
+
+#: Typecho/admin/write-js.php:19
+msgid "周三"
+msgstr "周三"
+
+#: Typecho/admin/write-js.php:19
+msgid "周二"
+msgstr "周二"
+
+#: Typecho/admin/write-js.php:20
+msgid "周五"
+msgstr "周五"
+
+#: Typecho/admin/write-js.php:20
+msgid "周六"
+msgstr "周六"
+
+#: Typecho/admin/write-js.php:20
+msgid "周四"
+msgstr "周四"
+
+#: Typecho/admin/write-js.php:19
+msgid "周日"
+msgstr "周日"
+
+#: Typecho/admin/write-js.php:22
+msgid "四"
+msgstr "四"
+
+#: Typecho/admin/write-js.php:14
+msgid "四月"
+msgstr "四月"
+
+#: Typecho/admin/manage-comments.php:166 Typecho/admin/manage-comments.php:265
+#: Typecho/var/Widget/Comments/Archive.php:289
+#: Typecho/var/Widget/Comments/Archive.php:410
+msgid "回复"
+msgstr "回復"
+
+#: Typecho/var/Widget/Comments/Edit.php:376
+msgid "回复评论失败"
+msgstr "回複評論失敗"
+
+#: Typecho/usr/themes/classic-22/404.php:15
+msgid "回首页"
+msgstr "回首頁"
+
+#: Typecho/admin/editor-js.php:59
+msgid "图片"
+msgstr "圖片"
+
+#: Typecho/var/Widget/Options/General.php:277
+msgid "图片文件"
+msgstr "圖片文件"
+
+#: Typecho/admin/profile.php:15
+msgid "在 Gravatar 上修改头像"
+msgstr "在 gravatar 上修改頭像"
+
+#: Typecho/var/Widget/Users/Profile.php:68
+msgid "在 XMLRPC 接口中使用 Markdown 语法"
+msgstr "在 xmlrpc 接口中使用 markdown 語法"
+
+#: Typecho/install.php:718
+msgid "在GPL许可的范围内, 您可以自由地将其用于商业以及非商业用途."
+msgstr "在gpl許可的範圍內, 您可以自由地將其用於商業以及非商業用途."
+
+#: Typecho/admin/upgrade.php:21
+msgid "在升级之前强烈建议先<a href=\"%s\">备份您的数据</a>"
+msgstr "在升級之前強烈建議先<a href=\"%s\">備份您的數據</a>"
+
+#: Typecho/var/Widget/Options/Discussion.php:220
+msgid "在文章发布 %s 天以后自动关闭评论"
+msgstr "在文章發布 %s 天以後自動關閉評論"
+
+#: Typecho/var/Widget/Options/Reading.php:107
+msgid "在某些主题中这个格式可能不会生效, 因为主题作者可以自定义日期格式."
+msgstr "在某些主題中這個格式可能不會生效, 因為主題作者可以自定義日期格式."
+
+#: Typecho/var/Widget/Options/Discussion.php:150
+msgid "在评论中使用 Markdown 语法"
+msgstr "在評論中使用 markdown 語法"
+
+#: Typecho/usr/themes/default/functions.php:11
+msgid "在这里填入一个图片 URL 地址, 以在网站标题前加上一个 LOGO"
+msgstr "在這裡填入一個圖片 url 地址, 以在網站標題前加上一個 logo"
+
+#: Typecho/usr/themes/classic-22/functions.php:11
+msgid "在这里填写图片 URL，网站将显示 Logo"
+msgstr "在這裡填寫圖片 url，網站將顯示 logo"
+
+#: Typecho/var/Widget/Options/Permalink.php:211
+msgid "地址重写即 rewrite 功能是某些服务器软件提供的优化内部连接的功能."
+msgstr "地址重寫即 rewrite 功能是某些伺服器軟體提供的優化內部連接的功能."
+
+#: Typecho/admin/manage-comments.php:30 Typecho/admin/manage-comments.php:158
+#: Typecho/admin/manage-comments.php:160 Typecho/var/Widget/XmlRpc.php:838
+msgid "垃圾"
+msgstr "垃圾"
+
+#: Typecho/admin/index.php:33 Typecho/admin/index.php:38
+msgid "垃圾评论"
+msgstr "垃圾評論"
+
+#: Typecho/var/Widget/Menu.php:129
+msgid "基本"
+msgstr "基本"
+
+#: Typecho/var/Widget/Menu.php:129
+msgid "基本设置"
+msgstr "基本設置"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:251
+msgid "增加分类"
+msgstr "增加分類"
+
+#: Typecho/var/Widget/Metas/Tag/Edit.php:217
+msgid "增加标签"
+msgstr "增加標籤"
+
+#: Typecho/var/Widget/Users/Edit.php:188
+msgid "增加用户"
+msgstr "增加用戶"
+
+#: Typecho/var/Widget/Options/General.php:240
+msgid "墨西哥城时间 洪都拉斯,危地马拉,哥斯达黎加 (GMT -6)"
+msgstr "墨西哥城時間 宏都拉斯,瓜地馬拉,哥斯大黎加 (gmt -6)"
+
+#: Typecho/var/Widget/Menu.php:97
+msgid "备份"
+msgstr "備份"
+
+#: Typecho/admin/backup.php:20
+msgid "备份您的数据"
+msgstr "備份您的數據"
+
+#: Typecho/var/Widget/Backup.php:200
+msgid "备份文件上传失败"
+msgstr "備份文件上傳失敗"
+
+#: Typecho/var/Widget/Backup.php:212
+msgid "备份文件不存在"
+msgstr "備份文件不存在"
+
+#: Typecho/var/Widget/Backup.php:240 Typecho/var/Widget/Backup.php:248
+#: Typecho/var/Widget/Backup.php:257
+msgid "备份文件格式错误"
+msgstr "備份文件格式錯誤"
+
+#: Typecho/var/Widget/Options/General.php:244
+msgid "夏威夷群岛 (GMT -10)"
+msgstr "夏威夷群島 (gmt -10)"
+
+#: Typecho/var/Widget/Menu.php:94
+msgid "外观"
+msgstr "外觀"
+
+#: Typecho/var/Widget/Themes/Edit.php:72
+msgid "外观已经改变"
+msgstr "外觀已經改變"
+
+#: Typecho/var/Widget/Themes/Edit.php:161
+msgid "外观设置已经保存"
+msgstr "外觀設置已經保存"
+
+#: Typecho/var/Widget/Themes/Config.php:36
+msgid "外观配置功能不存在"
+msgstr "外觀配置功能不存在"
+
+#: Typecho/usr/themes/classic-22/functions.php:25
+msgid "外观风格"
+msgstr "外觀風格"
+
+#: Typecho/var/Widget/Options/General.php:278
+msgid "多媒体文件"
+msgstr "多媒體文件"
+
+#: Typecho/var/Widget/Options/General.php:236
+msgid "大西洋中部时间 格陵兰 (GMT -2)"
+msgstr "大西洋中部時間 格陵蘭 (gmt -2)"
+
+#: Typecho/var/Widget/Options/Reading.php:225
+msgid "如果你不希望在聚合中输出文章全文,请使用仅输出摘要选项."
+msgstr "如果你不希望在聚合中輸出文章全文,請使用僅輸出摘要選項."
+
+#: Typecho/admin/write-page.php:129
+msgid "如果你为此页面选择了一个自定义模板, 系统将按照你选择的模板文件展现它"
+msgstr "如果你為此頁面選擇了一個自定義模板, 系統將按照你選擇的模板文件展現它"
+
+#: Typecho/var/Widget/Options/Permalink.php:231
+msgid "如果你仍然想启用此功能, 请勾选这里"
+msgstr "如果你仍然想啟用此功能, 請勾選這裡"
+
+#: Typecho/var/Widget/Users/Edit.php:133
+#: Typecho/var/Widget/Users/Profile.php:221
+msgid "如果你将此项留空, 将默认使用用户名."
+msgstr "如果你將此項留空, 將默認使用用戶名."
+
+#: Typecho/admin/write-page.php:142
+msgid "如果你设定了父级页面, 此页面将作为子页面呈现"
+msgstr "如果你設定了父級頁面, 此頁面將作為子頁面呈現"
+
+#: Typecho/install/Mysql.php:42 Typecho/install/Pgsql.php:39
+msgid "如果您不知道此选项的意义, 请保留默认设置"
+msgstr "如果您不知道此選項的意義, 請保留默認設置"
+
+#: Typecho/install/Mysql.php:71
+msgid "如果您的数据库启用了 SSL，请填写 CA 证书路径，否则请留空"
+msgstr "如果您的資料庫啟用了 ssl，請填寫 ca 證書路徑，否則請留空"
+
+#: Typecho/admin/backup.php:23
+msgid "如果您的数据量过大, 为了避免操作超时, 建议您直接使用数据库提供的备份工具备份数据"
+msgstr "如果您的數據量過大, 為了避免操作超時, 建議您直接使用資料庫提供的備份工具備份數據"
+
+#: Typecho/install.php:1333
+msgid "如果您看到这篇文章,表示您的 blog 已经安装成功."
+msgstr "如果您看到這篇文章,表示您的 blog 已經安裝成功."
+
+#: Typecho/install.php:720
+msgid "如果您遇到使用上的问题, 程序中的 BUG, 以及期许的新功能, 欢迎您在社区中交流或者直接向我们贡献代码."
+msgstr "如果您遇到使用上的問題, 程式中的 bug, 以及期許的新功能, 歡迎您在社區中交流或者直接向我們貢獻代碼."
+
+#: Typecho/usr/themes/classic-22/functions.php:26
+msgid "如果选择了自定义，主题将使用 theme.css 的样式"
+msgstr "如果選擇了自定義，主題將使用 theme.css 的樣式"
+
+#: Typecho/admin/manage-categories.php:60
+msgid "子分类"
+msgstr "子分類"
+
+#: Typecho/admin/manage-pages.php:62
+msgid "子页面"
+msgstr "子頁面"
+
+#: Typecho/admin/custom-fields-js.php:29 Typecho/admin/custom-fields.php:36
+#: Typecho/admin/custom-fields.php:58 Typecho/admin/custom-fields.php:59
+msgid "字段值"
+msgstr "欄位值"
+
+#: Typecho/admin/custom-fields-js.php:22 Typecho/admin/custom-fields.php:20
+#: Typecho/admin/custom-fields.php:46 Typecho/admin/custom-fields.php:47
+msgid "字段名称"
+msgstr "欄位名稱"
+
+#: Typecho/admin/custom-fields.php:23 Typecho/admin/custom-fields.php:49
+msgid "字段类型"
+msgstr "欄位類型"
+
+#: Typecho/admin/custom-fields-js.php:24 Typecho/admin/custom-fields.php:26
+#: Typecho/admin/custom-fields.php:51
+msgid "字符"
+msgstr "字符"
+
+#: Typecho/install.php:535 Typecho/install.php:581
+msgid "安装成功"
+msgstr "安裝成功"
+
+#: Typecho/install.php:1101 Typecho/install.php:1142 Typecho/install.php:1191
+msgid "安装程序捕捉到以下错误: \"%s\". 程序被终止, 请检查您的配置信息."
+msgstr "安裝程式捕捉到以下錯誤: \"%s\".程式被終止, 請檢查您的配置信息."
+
+#: Typecho/install.php:1108
+msgid "安装程序无法自动创建 <strong>config.inc.php</strong> 文件"
+msgstr "安裝程式無法自動創建<strong>config.inc.php</strong>文件"
+
+#: Typecho/install.php:1183
+msgid "安装程序检查到原有数据表已经存在."
+msgstr "安裝程式檢查到原有數據表已經存在."
+
+#: Typecho/install.php:711
+msgid "安装说明"
+msgstr "安裝說明"
+
+#: Typecho/admin/write-js.php:23
+msgid "完成"
+msgstr "完成"
+
+#: Typecho/admin/upgrade.php:25
+msgid "完成升级 &raquo;"
+msgstr "完成升級&raquo;"
+
+#: Typecho/admin/index.php:95
+msgid "官方最新日志"
+msgstr "官方最新日誌"
+
+#: Typecho/admin/index.php:139
+msgid "官方最新版本是 %s"
+msgstr "官方最新版本是 %s"
+
+#: Typecho/admin/login.php:23 Typecho/admin/login.php:24
+msgid "密码"
+msgstr "密碼"
+
+#: Typecho/admin/manage-posts.php:162 Typecho/admin/write-post.php:135
+msgid "密码保护"
+msgstr "密碼保護"
+
+#: Typecho/admin/profile.php:46
+msgid "密码修改"
+msgstr "密碼修改"
+
+#: Typecho/var/Widget/Users/Profile.php:321
+msgid "密码已经成功修改"
+msgstr "密碼已經成功修改"
+
+#: Typecho/var/Widget/Feedback.php:128
+msgid "对不起, 您的发言过于频繁, 请稍候再次发布."
+msgstr "對不起, 您的發言過於頻繁, 請稍候再次發布."
+
+#: Typecho/install.php:1098
+msgid "对不起, 无法连接数据库, 请先检查数据库配置再继续进行安装: \"%s\""
+msgstr "對不起, 無法連接資料庫, 請先檢查資料庫配置再繼續進行安裝: \"%s\""
+
+#: Typecho/var/Widget/Archive.php:1683
+msgid "对不起,您输入的密码错误"
+msgstr "對不起,您輸入的密碼錯誤"
+
+#: Typecho/var/Widget/Feedback.php:80
+msgid "对不起,此内容的反馈被禁止."
+msgstr "對不起,此內容的反饋被禁止."
+
+#: Typecho/var/Widget/Feedback.php:135
+msgid "对不起,此内容的引用被禁止."
+msgstr "對不起,此內容的引用被禁止."
+
+#: Typecho/var/Widget/Users/Profile.php:69
+msgid "对于完全支持 <a href=\"https://daringfireball.net/projects/markdown/\">Markdown</a> 语法写作的离线编辑器, 打开此选项后将避免内容被转换为 HTML."
+msgstr "對於完全支持<a href=\"https://daringfireball.net/projects/markdown/\">markdown</a>語法寫作的離線編輯器, 打開此選項後將避免內容被轉換為 html."
+
+#: Typecho/install.php:721
+msgid "对于贡献突出者, 他的名字将出现在贡献者名单中."
+msgstr "對於貢獻突出者, 他的名字將出現在貢獻者名單中."
+
+#: Typecho/var/Widget/Options/Discussion.php:152
+msgid "对评论者个人主页链接使用 <a href=\"https://en.wikipedia.org/wiki/Nofollow\">nofollow 属性</a>"
+msgstr "對評論者個人主頁連結使用<a href=\"https://en.wikipedia.org/wiki/Nofollow\">nofollow 屬性</a>"
+
+#: Typecho/var/Widget/Options/Discussion.php:170
+msgid "将 %s 的评论显示在前面"
+msgstr "將 %s 的評論顯示在前面"
+
+#: Typecho/admin/backup.php:57
+msgid "将备份文件手动上传至服务器的 %s 目录下后, 这里会出现文件选项"
+msgstr "將備份文件手動上傳至伺服器的 %s 目錄下後, 這裡會出現文件選項"
+
+#: Typecho/admin/custom-fields-js.php:26 Typecho/admin/custom-fields.php:30
+#: Typecho/admin/custom-fields.php:53
+msgid "小数"
+msgstr "小數"
+
+#: Typecho/admin/write-js.php:225
+msgid "尚未保存"
+msgstr "尚未保存"
+
+#: Typecho/admin/write-js.php:190
+msgid "已保存"
+msgstr "已保存"
+
+#: Typecho/var/Widget/XmlRpc.php:805 Typecho/var/Widget/XmlRpc.php:821
+msgid "已发布"
+msgstr "已發布"
+
+#: Typecho/usr/themes/default/comments.php:5
+msgid "已有 %d 条评论"
+msgstr "已有 %d 條評論"
+
+#: Typecho/admin/manage-comments.php:18
+msgid "已通过"
+msgstr "已通過"
+
+#: Typecho/var/Widget/Options/General.php:237
+msgid "布宜诺斯艾利斯 乌拉圭,法属圭亚那 (GMT -3)"
+msgstr "布宜諾斯艾利斯 烏拉圭,法屬蓋亞那 (gmt -3)"
+
+#: Typecho/install.php:595
+msgid "希望您能尽情享用 Typecho 带来的乐趣!"
+msgstr "希望您能盡情享用 typecho 帶來的樂趣!"
+
+#: Typecho/admin/copyright.php:8
+msgid "帮助文档"
+msgstr "幫助文檔"
+
+#: Typecho/var/Widget/Options/General.php:279
+msgid "常用档案文件"
+msgstr "常用檔案文件"
+
+#: Typecho/var/Widget/Users/Edit.php:138
+#: Typecho/var/Widget/Users/Profile.php:339
+msgid "建议使用特殊字符与字母、数字的混编样式,以增加系统安全性."
+msgstr "建議使用特殊字符與字母、數字的混編樣式,以增加系統安全性."
+
+#: Typecho/var/Widget/Options/Discussion.php:219
+msgid "开启反垃圾保护"
+msgstr "開啟反垃圾保護"
+
+#: Typecho/admin/backup.php:26
+msgid "开始备份 &raquo;"
+msgstr "開始備份&raquo;"
+
+#: Typecho/admin/editor-js.php:53 Typecho/admin/manage-comments.php:124
+#: Typecho/admin/manage-comments.php:343
+msgid "引用"
+msgstr "引用"
+
+#: Typecho/admin/editor-js.php:54
+msgid "引用文字"
+msgstr "引用文字"
+
+#: Typecho/admin/write-post.php:168
+msgid "引用通告"
+msgstr "引用通告"
+
+#: Typecho/admin/welcome.php:16
+msgid "强烈建议更改你的默认密码"
+msgstr "強烈建議更改你的默認密碼"
+
+#: Typecho/usr/themes/default/sidebar.php:36
+msgid "归档"
+msgstr "歸檔"
+
+#: Typecho/var/Widget/Options/General.php:163
+msgid "当前地址 <strong>%s</strong> 与上述设定值不一致"
+msgstr "當前地址<strong>%s</strong>與上述設定值不一致"
+
+#: Typecho/admin/write-page.php:31 Typecho/admin/write-post.php:20
+msgid "当前正在编辑的是未发布的草稿"
+msgstr "當前正在編輯的是未發布的草稿"
+
+#: Typecho/admin/manage-comments.php:20 Typecho/admin/manage-comments.php:56
+#: Typecho/admin/manage-comments.php:152 Typecho/admin/manage-comments.php:154
+#: Typecho/admin/manage-comments.php:194 Typecho/admin/manage-posts.php:23
+#: Typecho/admin/manage-posts.php:74 Typecho/admin/manage-posts.php:158
+#: Typecho/admin/manage-posts.php:223 Typecho/admin/write-post.php:140
+#: Typecho/var/Widget/XmlRpc.php:804 Typecho/var/Widget/XmlRpc.php:836
+#: Typecho/var/Widget/Contents/Post/Edit.php:155
+msgid "待审核"
+msgstr "待審核"
+
+#: Typecho/admin/index.php:22
+msgid "待审核的评论"
+msgstr "待審核的評論"
+
+#: Typecho/admin/index.php:27
+msgid "待审核评论"
+msgstr "待審核評論"
+
+#: Typecho/var/Widget/Feedback.php:195
+msgid "必须填写个人主页"
+msgstr "必須填寫個人主頁"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:261
+msgid "必须填写分类名称"
+msgstr "必須填寫分類名稱"
+
+#: Typecho/var/Widget/Register.php:58 Typecho/var/Widget/Users/Edit.php:215
+#: Typecho/var/Widget/Users/Profile.php:357
+msgid "必须填写密码"
+msgstr "必須填寫密碼"
+
+#: Typecho/var/Widget/Contents/Attachment/Edit.php:185
+msgid "必须填写文件标题"
+msgstr "必須填寫文件標題"
+
+#: Typecho/var/Widget/Metas/Tag/Edit.php:227
+msgid "必须填写标签名称"
+msgstr "必須填寫標籤名稱"
+
+#: Typecho/var/Widget/Feedback.php:182
+msgid "必须填写用户名"
+msgstr "必須填寫用戶名"
+
+#: Typecho/install.php:1282 Typecho/var/Widget/Register.php:46
+#: Typecho/var/Widget/Users/Edit.php:210
+msgid "必须填写用户名称"
+msgstr "必須填寫用戶名稱"
+
+#: Typecho/install.php:1285 Typecho/var/Widget/Register.php:51
+#: Typecho/var/Widget/Users/Edit.php:202
+#: Typecho/var/Widget/Users/Profile.php:250
+msgid "必须填写电子邮箱"
+msgstr "必須填寫電子郵箱"
+
+#: Typecho/var/Widget/Feedback.php:188
+msgid "必须填写电子邮箱地址"
+msgstr "必須填寫電子郵箱地址"
+
+#: Typecho/var/Widget/Options/Discussion.php:217
+msgid "必须填写网址"
+msgstr "必須填寫網址"
+
+#: Typecho/var/Widget/Feedback.php:200
+msgid "必须填写评论内容"
+msgstr "必須填寫評論內容"
+
+#: Typecho/var/Widget/Options/Discussion.php:216
+msgid "必须填写邮箱"
+msgstr "必須填寫郵箱"
+
+#: Typecho/admin/backup.php:102
+msgid "恢复操作将清除所有现有数据, 是否继续?"
+msgstr "恢復操作將清除所有現有數據, 是否繼續?"
+
+#: Typecho/admin/backup.php:33
+msgid "恢复数据"
+msgstr "恢復數據"
+
+#: Typecho/var/Widget/Backup.php:269
+msgid "恢复数据出现错误"
+msgstr "恢復數據出現錯誤"
+
+#: Typecho/var/Widget/Backup.php:358
+msgid "恢复过程中遇到如下错误: %s"
+msgstr "恢復過程中遇到如下錯誤: %s"
+
+#: Typecho/var/Widget/Options/General.php:232
+msgid "悉尼关岛时间 塔斯马尼亚岛,新几内亚 (GMT +10)"
+msgstr "雪梨關島時間 塔斯馬尼亞島,紐幾內亞 (gmt +10)"
+
+#: Typecho/admin/editor-js.php:80
+msgid "您也可以使用附件功能插入上传的本地图片"
+msgstr "您也可以使用附件功能插入上傳的本地圖片"
+
+#: Typecho/install.php:1109
+msgid "您可以在网站根目录下手动创建 <strong>config.inc.php</strong> 文件, 并复制如下代码至其中"
+msgstr "您可以在網站根目錄下手動創建<strong>config.inc.php</strong>文件, 並複製如下代碼至其中"
+
+#: Typecho/install/Mysql.php:7 Typecho/install/Mysql.php:15
+#: Typecho/install/Pgsql.php:6 Typecho/install/Pgsql.php:13
+msgid "您可能会使用 \"%s\""
+msgstr "您可能會使用 \"%s\""
+
+#: Typecho/admin/upgrade.php:18
+msgid "您已经更新了系统程序, 我们还需要执行一些后续步骤来完成升级"
+msgstr "您已經更新了系統程式, 我們還需要執行一些後續步驟來完成升級"
+
+#: Typecho/admin/index.php:137
+msgid "您当前使用的版本是 %s"
+msgstr "您當前使用的版本是 %s"
+
+#: Typecho/var/Widget/Feedback.php:184
+msgid "您所使用的用户名已经被注册,请登录后再次提交"
+msgstr "您所使用的用戶名已經被註冊,請登錄後再次提交"
+
+#: Typecho/install.php:537 Typecho/install.php:589
+msgid "您的密码是"
+msgstr "您的密碼是"
+
+#: Typecho/var/Widget/Users/Profile.php:203
+msgid "您的档案已经更新"
+msgstr "您的檔案已經更新"
+
+#: Typecho/install.php:536 Typecho/install.php:588
+msgid "您的用户名是"
+msgstr "您的用戶名是"
+
+#: Typecho/var/Widget/Comments/Archive.php:290
+msgid "您的评论正等待审核!"
+msgstr "您的評論正等待審核!"
+
+#: Typecho/admin/write-js.php:336
+msgid "您确认要删除这份草稿吗?"
+msgstr "您確認要刪除這份草稿嗎?"
+
+#: Typecho/admin/manage-medias.php:30 Typecho/admin/manage-medias.php:118
+msgid "您确认要清理未归档的文件吗?"
+msgstr "您確認要清理未歸檔的文件嗎?"
+
+#: Typecho/var/Widget/Themes/Edit.php:120
+msgid "您编辑的文件不存在"
+msgstr "您編輯的文件不存在"
+
+#: Typecho/install.php:585
+msgid "您选择了使用原有的数据, 您的用户名和密码和原来的一致"
+msgstr "您選擇了使用原有的數據, 您的用戶名和密碼和原來的一致"
+
+#: Typecho/var/Widget/Themes/Edit.php:75
+msgid "您选择的风格不存在"
+msgstr "您選擇的風格不存在"
+
+#: Typecho/var/Widget/Options/General.php:234
+msgid "惠灵顿时间 新西兰,斐济群岛 (GMT +12)"
+msgstr "惠靈頓時間 紐西蘭,斐濟群島 (gmt +12)"
+
+#: Typecho/var/Widget/Options/Permalink.php:225
+msgid "我们检测到你使用了apache服务器, 但是程序无法在根目录创建.htaccess文件, 这可能是产生这个错误的原因."
+msgstr "我們檢測到你使用了apache伺服器, 但是程式無法在根目錄創建.htaccess文件, 這可能是產生這個錯誤的原因."
+
+#: Typecho/install.php:725
+msgid "我准备好了, 开始下一步 &raquo;"
+msgstr "我準備好了, 開始下一步&raquo;"
+
+#: Typecho/admin/manage-comments.php:44 Typecho/admin/manage-posts.php:51
+msgid "我的"
+msgstr "我的"
+
+#: Typecho/admin/themes.php:20
+msgid "截图"
+msgstr "截圖"
+
+#: Typecho/admin/manage-medias.php:59
+msgid "所属文章"
+msgstr "所屬文章"
+
+#: Typecho/admin/manage-comments.php:43 Typecho/admin/manage-posts.php:48
+msgid "所有"
+msgstr "所有"
+
+#: Typecho/admin/manage-posts.php:96
+msgid "所有分类"
+msgstr "所有分類"
+
+#: Typecho/var/Widget/Comments/Edit.php:248
+msgid "所有垃圾评论已经被删除"
+msgstr "所有垃圾評論已經被刪除"
+
+#: Typecho/var/Widget/Options/Discussion.php:214
+msgid "所有评论必须经过审核"
+msgstr "所有評論必須經過審核"
+
+#: Typecho/var/Widget/Options/General.php:233
+msgid "所罗门群岛 库页岛 (GMT +11)"
+msgstr "索羅門群島 庫頁島 (gmt +11)"
+
+#: Typecho/var/Widget/Options/General.php:217
+msgid "所选择的语言包不存在"
+msgstr "所選擇的語言包不存在"
+
+#: Typecho/var/Widget/Options/General.php:203
+#: Typecho/var/Widget/Users/Profile.php:56
+#: Typecho/var/Widget/Users/Profile.php:66
+#: Typecho/var/Widget/Users/Profile.php:76
+msgid "打开"
+msgstr "打開"
+
+#: Typecho/var/Widget/Options/Permalink.php:212
+msgid "打开此功能可以让你的链接看上去完全是静态地址."
+msgstr "打開此功能可以讓你的連結看上去完全是靜態地址."
+
+#: Typecho/var/Widget/Feedback.php:141 Typecho/var/Widget/Feedback.php:298
+msgid "找不到内容"
+msgstr "找不到內容"
+
+#: Typecho/admin/copyright.php:10
+msgid "报告错误"
+msgstr "報告錯誤"
+
+#: Typecho/admin/file-upload.php:17 Typecho/admin/media.php:33
+msgid "拖放文件到这里<br>或者 %s选择文件上传%s"
+msgstr "拖放檔到這裡<br>或者 %s選擇檔案上傳%s"
+
+#: Typecho/var/Widget/Options/Permalink.php:245
+msgid "按分类归档"
+msgstr "按分類歸檔"
+
+#: Typecho/var/Widget/Options/Permalink.php:243
+msgid "按日期归档"
+msgstr "按日期歸檔"
+
+#: Typecho/var/Widget/Menu.php:82
+msgid "控制台"
+msgstr "控制台"
+
+#: Typecho/admin/plugins.php:25 Typecho/admin/plugins.php:90
+#: Typecho/var/Widget/Contents/Attachment/Edit.php:161
+msgid "描述"
+msgstr "描述"
+
+#: Typecho/admin/manage-comments.php:310
+#: Typecho/var/Widget/Base/Contents.php:573
+msgid "提交"
+msgstr "提交"
+
+#: Typecho/var/Widget/Contents/Attachment/Edit.php:175
+msgid "提交修改"
+msgstr "提交修改"
+
+#: Typecho/usr/themes/classic-22/comments.php:40
+#: Typecho/usr/themes/default/comments.php:51
+msgid "提交评论"
+msgstr "提交評論"
+
+#: Typecho/var/Widget/Menu.php:92
+msgid "插件"
+msgstr "插件"
+
+#: Typecho/var/Widget/Options.php:323 Typecho/var/Widget/Options.php:347
+msgid "插件%s的配置信息没有找到"
+msgstr "插件%s的配置信息沒有找到"
+
+#: Typecho/var/Widget/Plugins/Config.php:57
+msgid "插件不存在"
+msgstr "插件不存在"
+
+#: Typecho/var/Widget/Plugins/Edit.php:103
+msgid "插件已经被启用"
+msgstr "插件已經被啟用"
+
+#: Typecho/var/Widget/Plugins/Edit.php:266
+msgid "插件已经被禁用"
+msgstr "插件已經被禁用"
+
+#: Typecho/admin/index.php:44 Typecho/var/Widget/Menu.php:92
+msgid "插件管理"
+msgstr "插件管理"
+
+#: Typecho/var/Widget/Plugins/Edit.php:299
+msgid "插件设置已经保存"
+msgstr "插件設置已經保存"
+
+#: Typecho/admin/editor-js.php:80
+msgid "插入图片"
+msgstr "插入圖片"
+
+#: Typecho/admin/editor-js.php:81
+msgid "插入链接"
+msgstr "插入連結"
+
+#: Typecho/usr/themes/classic-22/search.php:7
+#: Typecho/usr/themes/default/404.php:12
+#: Typecho/usr/themes/default/header.php:42
+msgid "搜索"
+msgstr "搜索"
+
+#: Typecho/usr/themes/classic-22/search.php:10
+#: Typecho/usr/themes/default/header.php:40
+msgid "搜索关键字"
+msgstr "搜索關鍵字"
+
+#: Typecho/admin/editor-js.php:70
+msgid "摘要分割线"
+msgstr "摘要分割線"
+
+#: Typecho/var/Widget/Options/Reading.php:226
+msgid "摘要的文字取决于你在文章中使用分隔符的位置."
+msgstr "摘要的文字取決於你在文章中使用分隔符的位置."
+
+#: Typecho/admin/editor-js.php:72
+msgid "撤销"
+msgstr "撤銷"
+
+#: Typecho/admin/editor-js.php:217 Typecho/var/Widget/Menu.php:82
+msgid "撰写"
+msgstr "撰寫"
+
+#: Typecho/var/Widget/Menu.php:102
+msgid "撰写文章"
+msgstr "撰寫文章"
+
+#: Typecho/admin/index.php:19 Typecho/var/Widget/Menu.php:102
+msgid "撰写新文章"
+msgstr "撰寫新文章"
+
+#: Typecho/admin/welcome.php:18
+msgid "撰写第一篇日志"
+msgstr "撰寫第一篇日誌"
+
+#: Typecho/admin/profile.php:38
+msgid "撰写设置"
+msgstr "撰寫設置"
+
+#: Typecho/admin/manage-categories.php:23 Typecho/admin/manage-comments.php:53
+#: Typecho/admin/manage-comments.php:191 Typecho/admin/manage-medias.php:21
+#: Typecho/admin/manage-medias.php:108 Typecho/admin/manage-pages.php:20
+#: Typecho/admin/manage-posts.php:63 Typecho/admin/manage-posts.php:212
+#: Typecho/admin/manage-tags.php:23 Typecho/admin/manage-users.php:19
+#: Typecho/admin/manage-users.php:108 Typecho/admin/plugins.php:28
+#: Typecho/admin/plugins.php:93
+msgid "操作"
+msgstr "操作"
+
+#: Typecho/admin/copyright.php:9
+msgid "支持论坛"
+msgstr "支持論壇"
+
+#: Typecho/admin/editor-js.php:62
+msgid "数字列表"
+msgstr "數字列表"
+
+#: Typecho/install/Mysql.php:69
+msgid "数据库 SSL 证书"
+msgstr "資料庫 ssl 證書"
+
+#: Typecho/install.php:1096
+msgid "数据库: \"%s\"不存在，请手动创建后重试"
+msgstr "資料庫: \"%s\"不存在，請手動創建後重試"
+
+#: Typecho/install.php:832
+msgid "数据库前缀"
+msgstr "資料庫前綴"
+
+#: Typecho/install/Mysql.php:27 Typecho/install/Pgsql.php:24
+msgid "数据库名"
+msgstr "資料庫名"
+
+#: Typecho/install/Mysql.php:5 Typecho/install/Pgsql.php:4
+msgid "数据库地址"
+msgstr "資料庫地址"
+
+#: Typecho/install/Mysql.php:21 Typecho/install/Pgsql.php:18
+msgid "数据库密码"
+msgstr "資料庫密碼"
+
+#: Typecho/install/Mysql.php:59
+msgid "数据库引擎"
+msgstr "資料庫引擎"
+
+#: Typecho/install/SQLite.php:5
+msgid "数据库文件路径"
+msgstr "資料庫文件路徑"
+
+#: Typecho/install/Mysql.php:13 Typecho/install/Pgsql.php:11
+msgid "数据库用户名"
+msgstr "資料庫用戶名"
+
+#: Typecho/install/Mysql.php:40 Typecho/install/Pgsql.php:37
+msgid "数据库端口"
+msgstr "資料庫埠"
+
+#: Typecho/install/Mysql.php:48
+msgid "数据库编码"
+msgstr "資料庫編碼"
+
+#: Typecho/install.php:818
+msgid "数据库适配器"
+msgstr "資料庫適配器"
+
+#: Typecho/var/Widget/Backup.php:286
+msgid "数据恢复完成"
+msgstr "數據恢復完成"
+
+#: Typecho/admin/custom-fields-js.php:25 Typecho/admin/custom-fields.php:28
+#: Typecho/admin/custom-fields.php:52
+msgid "整数"
+msgstr "整數"
+
+#: Typecho/var/Widget/Menu.php:122
+msgid "文件"
+msgstr "文件"
+
+#: Typecho/admin/media.php:71
+msgid "文件 %s 已经替换"
+msgstr "文件 %s 已經替換"
+
+#: Typecho/var/Widget/Themes/Edit.php:116
+msgid "文件 %s 无法被写入"
+msgstr "文件 %s 無法被寫入"
+
+#: Typecho/var/Widget/Themes/Edit.php:114
+msgid "文件 %s 的更改已经保存"
+msgstr "文件 %s 的更改已經保存"
+
+#: Typecho/var/Widget/Contents/Attachment/Edit.php:123
+msgid "文件 <a href=\"%s\">%s</a> 已经被更新"
+msgstr "文件<a href=\"%s\">%s</a>已經被更新"
+
+#: Typecho/var/Widget/Archive.php:1383
+#: Typecho/var/Widget/Contents/Attachment/Edit.php:278
+msgid "文件不存在"
+msgstr "文件不存在"
+
+#: Typecho/admin/manage-medias.php:57
+msgid "文件名"
+msgstr "文件名"
+
+#: Typecho/admin/file-upload-js.php:99
+msgid "文件大小超过限制"
+msgstr "文件大小超過限制"
+
+#: Typecho/admin/file-upload-js.php:105
+msgid "文件已经上传过"
+msgstr "文件已經上傳過"
+
+#: Typecho/var/Widget/Contents/Attachment/Edit.php:224
+#: Typecho/var/Widget/Contents/Attachment/Edit.php:230
+msgid "文件已经被删除"
+msgstr "文件已經被刪除"
+
+#: Typecho/admin/file-upload-js.php:102
+msgid "文件扩展名不被支持"
+msgstr "文件擴展名不被支持"
+
+#: Typecho/var/Widget/Contents/Attachment/Edit.php:186
+msgid "文件标题无法被转换为缩略名"
+msgstr "文件標題無法被轉換為縮略名"
+
+#: Typecho/var/Widget/Contents/Attachment/Edit.php:152
+msgid "文件缩略名用于创建友好的链接形式,建议使用字母,数字,下划线和横杠."
+msgstr "文件縮略名用於創建友好的連結形式,建議使用字母,數字,下劃線和橫槓."
+
+#: Typecho/var/Widget/Menu.php:109
+msgid "文章"
+msgstr "文章"
+
+#: Typecho/var/Widget/Contents/Post/Edit.php:85
+msgid "文章 \"%s\" 等待审核"
+msgstr "文章 \"%s\" 等待審核"
+
+#: Typecho/var/Widget/Contents/Post/Edit.php:84
+msgid "文章 \"<a href=\"%s\">%s</a>\" 已经发布"
+msgstr "文章 \"<a href=\"%s\">%s</a> \" 已經發布"
+
+#: Typecho/usr/themes/default/sidebar.php:56
+msgid "文章 RSS"
+msgstr "文章 rss"
+
+#: Typecho/var/Widget/Contents/Post/Edit.php:346
+msgid "文章不存在"
+msgstr "文章不存在"
+
+#: Typecho/admin/write-post.php:51
+msgid "文章内容"
+msgstr "文章內容"
+
+#: Typecho/var/Widget/Options/Reading.php:202
+msgid "文章列表数目"
+msgstr "文章列表數目"
+
+#: Typecho/var/Widget/Contents/Post/Edit.php:296
+msgid "文章已经被删除"
+msgstr "文章已經被刪除"
+
+#: Typecho/var/Widget/Contents/Post/Edit.php:223
+msgid "文章已经被标记为<strong>%s</strong>"
+msgstr "文章已經被標記為<strong>%s</strong>"
+
+#: Typecho/admin/manage-categories.php:63
+msgid "文章数"
+msgstr "文章數"
+
+#: Typecho/var/Widget/Options/Reading.php:105
+msgid "文章日期格式"
+msgstr "文章日期格式"
+
+#: Typecho/var/Widget/XmlRpc.php:102
+msgid "文章缩略图"
+msgstr "文章縮略圖"
+
+#: Typecho/admin/editor-js.php:47
+msgid "斜体"
+msgstr "斜體"
+
+#: Typecho/admin/editor-js.php:48
+msgid "斜体文字"
+msgstr "斜體文字"
+
+#: Typecho/admin/manage-categories.php:83 Typecho/admin/manage-pages.php:104
+#: Typecho/admin/page-title.php:6
+msgid "新增"
+msgstr "新增"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:486
+msgid "新增 %s 的子分类"
+msgstr "新增 %s 的子分類"
+
+#: Typecho/var/Widget/Contents/Page/Edit.php:364
+msgid "新增 %s 的子页面"
+msgstr "新增 %s 的子頁面"
+
+#: Typecho/var/Widget/Menu.php:116
+msgid "新增分类"
+msgstr "新增分類"
+
+#: Typecho/var/Widget/Menu.php:125
+msgid "新增用户"
+msgstr "新增用戶"
+
+#: Typecho/var/Widget/Options/General.php:227
+msgid "新德里时间 巴基斯坦,马尔代夫 (GMT +5)"
+msgstr "新德里時間 巴基斯坦,馬爾地夫 (gmt +5)"
+
+#: Typecho/usr/themes/classic-22/post.php:11
+msgid "无"
+msgstr "無"
+
+#: Typecho/var/Widget/Plugins/Edit.php:61
+msgid "无法启用插件"
+msgstr "無法啟用插件"
+
+#: Typecho/var/Widget/XmlRpc.php:228
+msgid "无法登录, 密码错误"
+msgstr "無法登錄, 密碼錯誤"
+
+#: Typecho/var/Utils/Helper.php:109 Typecho/var/Widget/Plugins/Edit.php:229
+#: Typecho/var/Widget/Plugins/Edit.php:242
+msgid "无法禁用插件"
+msgstr "無法禁用插件"
+
+#: Typecho/var/Widget/Backup.php:231
+msgid "无法读取备份文件"
+msgstr "無法讀取備份文件"
+
+#: Typecho/var/Widget/Plugins/Config.php:92
+#: Typecho/var/Widget/Users/Profile.php:386
+msgid "无法配置插件"
+msgstr "無法配置插件"
+
+#: Typecho/admin/write-js.php:21
+msgid "日"
+msgstr "日"
+
+#: Typecho/admin/manage-pages.php:64 Typecho/admin/manage-posts.php:132
+msgid "日期"
+msgstr "日期"
+
+#: Typecho/var/Widget/XmlRpc.php:124
+msgid "日期格式"
+msgstr "日期格式"
+
+#: Typecho/admin/write-js.php:26
+msgid "时"
+msgstr "時"
+
+#: Typecho/var/Widget/XmlRpc.php:109 Typecho/var/Widget/Options/General.php:249
+msgid "时区"
+msgstr "時區"
+
+#: Typecho/admin/write-js.php:25 Typecho/usr/themes/default/functions.php:50
+msgid "时间"
+msgstr "時間"
+
+#: Typecho/var/Widget/XmlRpc.php:129
+msgid "时间格式"
+msgstr "時間格式"
+
+#: Typecho/admin/write-js.php:17
+msgid "星期一"
+msgstr "星期一"
+
+#: Typecho/admin/write-js.php:18
+msgid "星期三"
+msgstr "星期三"
+
+#: Typecho/admin/write-js.php:17
+msgid "星期二"
+msgstr "星期二"
+
+#: Typecho/admin/write-js.php:18
+msgid "星期五"
+msgstr "星期五"
+
+#: Typecho/admin/write-js.php:18
+msgid "星期六"
+msgstr "星期六"
+
+#: Typecho/admin/write-js.php:18
+msgid "星期四"
+msgstr "星期四"
+
+#: Typecho/admin/write-js.php:17
+msgid "星期日"
+msgstr "星期日"
+
+#: Typecho/var/Typecho/I18n.php:114
+msgid "昨天 %s"
+msgstr "昨天 %s"
+
+#: Typecho/admin/editor-js.php:266
+msgid "是"
+msgstr "是"
+
+#: Typecho/var/Widget/Options/Permalink.php:210
+msgid "是否使用地址重写功能"
+msgstr "是否使用地址重寫功能"
+
+#: Typecho/var/Widget/XmlRpc.php:134 Typecho/var/Widget/Options/General.php:195
+msgid "是否允许注册"
+msgstr "是否允許註冊"
+
+#: Typecho/admin/manage-users.php:53 Typecho/var/Widget/Users/Profile.php:220
+msgid "昵称"
+msgstr "暱稱"
+
+#: Typecho/var/Widget/Users/Edit.php:199
+#: Typecho/var/Widget/Users/Profile.php:247
+msgid "昵称已经存在"
+msgstr "暱稱已經存在"
+
+#: Typecho/var/Widget/XmlRpc.php:837
+msgid "显示"
+msgstr "顯示"
+
+#: Typecho/usr/themes/default/functions.php:23
+msgid "显示其它杂项"
+msgstr "顯示其它雜項"
+
+#: Typecho/usr/themes/default/functions.php:21
+msgid "显示分类"
+msgstr "顯示分類"
+
+#: Typecho/usr/themes/default/functions.php:22
+msgid "显示归档"
+msgstr "顯示歸檔"
+
+#: Typecho/var/Widget/Options/Reading.php:119
+msgid "显示最新发布的文章"
+msgstr "顯示最新發布的文章"
+
+#: Typecho/usr/themes/default/functions.php:19
+msgid "显示最新文章"
+msgstr "顯示最新文章"
+
+#: Typecho/usr/themes/default/functions.php:20
+msgid "显示最近回复"
+msgstr "顯示最近回復"
+
+#: Typecho/admin/editor-js.php:63
+msgid "普通列表"
+msgstr "普通列表"
+
+#: Typecho/var/Widget/Options/General.php:238
+msgid "智利巴西 委内瑞拉,玻利维亚 (GMT -4)"
+msgstr "智利巴西 委內瑞拉,玻利維亞 (gmt -4)"
+
+#: Typecho/admin/manage-users.php:75
+msgid "暂无"
+msgstr "暫無"
+
+#: Typecho/usr/themes/classic-22/comments.php:5
+#: Typecho/usr/themes/classic-22/functions.php:46
+#: Typecho/usr/themes/default/comments.php:5
+#: Typecho/usr/themes/default/functions.php:57
+msgid "暂无评论"
+msgstr "暫無評論"
+
+#: Typecho/admin/index.php:87
+msgid "暂时没有回复"
+msgstr "暫時沒有回覆"
+
+#: Typecho/admin/index.php:66
+msgid "暂时没有文章"
+msgstr "暫時沒有文章"
+
+#: Typecho/admin/index.php:43
+msgid "更换外观"
+msgstr "更換外觀"
+
+#: Typecho/var/Widget/Users/Profile.php:353
+msgid "更新密码"
+msgstr "更新密碼"
+
+#: Typecho/var/Widget/Users/Profile.php:238
+msgid "更新我的档案"
+msgstr "更新我的檔案"
+
+#: Typecho/admin/index.php:49
+msgid "更新我的资料"
+msgstr "更新我的資料"
+
+#: Typecho/var/Widget/Options/General.php:229
+msgid "曼谷雅加达 柬埔寨,苏门答腊,老挝 (GMT +7)"
+msgstr "曼谷雅加達 柬埔寨,蘇門答臘,寮國 (gmt +7)"
+
+#: Typecho/var/Widget/Options/Discussion.php:165
+msgid "最后一页"
+msgstr "最後一頁"
+
+#: Typecho/admin/write-page.php:187 Typecho/admin/write-post.php:184
+msgid "最后更新于 %s"
+msgstr "最後更新於 %s"
+
+#: Typecho/admin/menu.php:13 Typecho/admin/profile.php:24
+msgid "最后登录: %s"
+msgstr "最後登錄: %s"
+
+#: Typecho/usr/themes/default/sidebar.php:5
+msgid "最新文章"
+msgstr "最新文章"
+
+#: Typecho/admin/index.php:55
+msgid "最近发布的文章"
+msgstr "最近發布的文章"
+
+#: Typecho/usr/themes/default/sidebar.php:15
+msgid "最近回复"
+msgstr "最近回復"
+
+#: Typecho/admin/index.php:74
+msgid "最近得到的回复"
+msgstr "最近得到的回覆"
+
+#: Typecho/admin/manage-pages.php:84 Typecho/admin/manage-posts.php:152
+msgid "有修订版"
+msgstr "有修訂版"
+
+#: Typecho/var/Widget/XmlRpc.php:331
+#: Typecho/var/Widget/Contents/Post/Edit.php:59
+msgid "未命名文档"
+msgstr "未命名文檔"
+
+#: Typecho/var/Widget/Contents/Page/Edit.php:60
+msgid "未命名页面"
+msgstr "未命名頁面"
+
+#: Typecho/admin/manage-medias.php:87
+msgid "未归档"
+msgstr "未歸檔"
+
+#: Typecho/var/Widget/Contents/Attachment/Edit.php:124
+msgid "未归档文件 %s 已经被更新"
+msgstr "未歸檔文件 %s 已經被更新"
+
+#: Typecho/var/Widget/Contents/Attachment/Edit.php:263
+msgid "未归档文件已经被清理"
+msgstr "未歸檔文件已經被清理"
+
+#: Typecho/install.php:713
+msgid "本安装程序将自动检测服务器环境是否符合最低配置需求. 如果不符合, 将在上方出现提示信息, 请按照提示信息检查您的主机配置. 如果服务器环境符合要求, 将在下方出现 \"开始下一步\" 的按钮, 点击此按钮即可一步完成安装."
+msgstr "本安裝程式將自動檢測伺服器環境是否符合最低配置需求.如果不符合, 將在上方出現提示信息, 請按照提示信息檢查您的主機配置.如果伺服器環境符合要求, 將在下方出現 \"開始下一步\" 的按鈕, 點擊此按鈕即可一步完成安裝."
+
+#: Typecho/admin/write-post.php:181
+msgid "本文由 <a href=\"%s\">%s</a> 撰写"
+msgstr "本文由<a href=\"%s\">%s</a>撰寫"
+
+#: Typecho/admin/write-page.php:184
+msgid "本页面由 <a href=\"%s\">%s</a> 创建"
+msgstr "本頁面由<a href=\"%s\">%s</a>創建"
+
+#: Typecho/install.php:1351
+msgid "本页面由 Typecho 创建, 这只是个测试页面."
+msgstr "本頁面由 typecho 創建, 這只是個測試頁面."
+
+#: Typecho/var/Widget/XmlRpc.php:225
+msgid "权限不足"
+msgstr "權限不足"
+
+#: Typecho/admin/write-page.php:163 Typecho/admin/write-post.php:153
+msgid "权限控制"
+msgstr "權限控制"
+
+#: Typecho/admin/welcome.php:19
+msgid "查看我的站点"
+msgstr "查看我的站點"
+
+#: Typecho/admin/welcome.php:19 Typecho/admin/welcome.php:21
+msgid "查看网站"
+msgstr "查看網站"
+
+#: Typecho/var/Widget/XmlRpc.php:788
+msgid "标准"
+msgstr "標準"
+
+#: Typecho/admin/write-post.php:114 Typecho/usr/themes/classic-22/post.php:11
+#: Typecho/usr/themes/default/post.php:10 Typecho/var/Widget/Menu.php:120
+msgid "标签"
+msgstr "標籤"
+
+#: Typecho/usr/themes/classic-22/index.php:22
+#: Typecho/usr/themes/default/header.php:11
+#: Typecho/usr/themes/default/index.php:20
+msgid "标签 %s 下的文章"
+msgstr "標籤 %s 下的文章"
+
+#: Typecho/var/Widget/Metas/Tag/Edit.php:146
+msgid "标签 <a href=\"%s\">%s</a> 已经被增加"
+msgstr "標籤<a href=\"%s\">%s</a>已經被增加"
+
+#: Typecho/var/Widget/Metas/Tag/Edit.php:268
+msgid "标签 <a href=\"%s\">%s</a> 已经被更新"
+msgstr "標籤<a href=\"%s\">%s</a>已經被更新"
+
+#: Typecho/var/Widget/Archive.php:1863
+#: Typecho/var/Widget/Metas/Tag/Admin.php:52
+#: Typecho/var/Widget/Metas/Tag/Edit.php:237
+msgid "标签不存在"
+msgstr "標籤不存在"
+
+#: Typecho/var/Widget/Metas/Tag/Edit.php:236
+msgid "标签主键不存在"
+msgstr "標籤主鍵不存在"
+
+#: Typecho/var/Widget/Metas/Tag/Edit.php:356
+msgid "标签刷新已经完成"
+msgstr "標籤刷新已經完成"
+
+#: Typecho/var/Widget/Metas/Tag/Edit.php:171
+msgid "标签名称"
+msgstr "標籤名稱"
+
+#: Typecho/var/Widget/Metas/Tag/Edit.php:228
+msgid "标签名称已经存在"
+msgstr "標籤名稱已經存在"
+
+#: Typecho/var/Widget/Metas/Tag/Edit.php:229
+msgid "标签名称无法被转换为缩略名"
+msgstr "標籤名稱無法被轉換為縮略名"
+
+#: Typecho/var/Widget/Metas/Tag/Edit.php:297
+msgid "标签已经删除"
+msgstr "標籤已經刪除"
+
+#: Typecho/var/Widget/Metas/Tag/Edit.php:329
+msgid "标签已经合并"
+msgstr "標籤已經合併"
+
+#: Typecho/var/Widget/Metas/Tag/Edit.php:181
+msgid "标签缩略名"
+msgstr "標籤縮略名"
+
+#: Typecho/var/Widget/Metas/Tag/Edit.php:182
+msgid "标签缩略名用于创建友好的链接形式, 如果留空则默认使用标签名称."
+msgstr "標籤縮略名用於創建友好的連結形式, 如果留空則默認使用標籤名稱."
+
+#: Typecho/admin/manage-pages.php:27 Typecho/admin/manage-pages.php:30
+#: Typecho/admin/manage-posts.php:71 Typecho/admin/manage-posts.php:74
+#: Typecho/admin/manage-posts.php:77 Typecho/admin/manage-posts.php:80
+#: Typecho/admin/manage-posts.php:220 Typecho/admin/manage-posts.php:223
+#: Typecho/admin/manage-posts.php:226 Typecho/admin/manage-posts.php:229
+msgid "标记为<strong>%s</strong>"
+msgstr "標記為<strong>%s</strong>"
+
+#: Typecho/admin/manage-comments.php:57 Typecho/admin/manage-comments.php:195
+msgid "标记垃圾"
+msgstr "標記垃圾"
+
+#: Typecho/admin/editor-js.php:66 Typecho/admin/manage-pages.php:61
+#: Typecho/admin/manage-posts.php:129 Typecho/admin/write-page.php:37
+#: Typecho/admin/write-page.php:39 Typecho/admin/write-post.php:26
+#: Typecho/admin/write-post.php:28
+#: Typecho/var/Widget/Contents/Attachment/Edit.php:143
+msgid "标题"
+msgstr "標題"
+
+#: Typecho/admin/editor-js.php:67
+msgid "标题文字"
+msgstr "標題文字"
+
+#: Typecho/var/Widget/Options/General.php:222
+msgid "格林威治(子午线)标准时间 (GMT)"
+msgstr "格林威治(子午線)標準時間 (gmt)"
+
+#: Typecho/var/Widget/Options/Discussion.php:218
+msgid "检查评论来源页 URL 是否与文章链接一致"
+msgstr "檢查評論來源頁 url 是否與文章連結一致"
+
+#: Typecho/admin/themes.php:28
+msgid "检测到您之前使用的 \"%s\" 外观文件不存在，您可以重新上传此外观或者启用其他外观。"
+msgstr "檢測到您之前使用的 \"%s\" 外觀文件不存在，您可以重新上傳此外觀或者啟用其他外觀。"
+
+#: Typecho/admin/upgrade.php:16
+msgid "检测到新版本!"
+msgstr "檢測到新版本!"
+
+#: Typecho/var/Widget/Menu.php:90
+msgid "概要"
+msgstr "概要"
+
+#: Typecho/var/Widget/Menu.php:99
+msgid "欢迎"
+msgstr "歡迎"
+
+#: Typecho/var/Widget/Menu.php:99
+msgid "欢迎使用"
+msgstr "歡迎使用"
+
+#: Typecho/install.php:707 Typecho/install.php:1330
+msgid "欢迎使用 Typecho"
+msgstr "歡迎使用 typecho"
+
+#: Typecho/install.php:1373
+msgid "欢迎加入 Typecho 大家族"
+msgstr "歡迎加入 typecho 大家族"
+
+#: Typecho/admin/welcome.php:14
+msgid "欢迎您使用 \"%s\" 管理后台: "
+msgstr "歡迎您使用 \"%s\" 管理後台:"
+
+#: Typecho/admin/write-js.php:196
+msgid "正在保存"
+msgstr "正在保存"
+
+#: Typecho/var/Widget/Base/Contents.php:551
+msgid "此内容被密码保护"
+msgstr "此內容被密碼保護"
+
+#: Typecho/admin/manage-categories.php:26
+msgid "此分类下的所有内容将被删除, 你确认要删除这些分类吗?"
+msgstr "此分類下的所有內容將被刪除, 你確認要刪除這些分類嗎?"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:204
+msgid "此分类将归档在您选择的父级分类下."
+msgstr "此分類將歸檔在您選擇的父級分類下."
+
+#: Typecho/var/Widget/Users/Profile.php:60
+msgid "此功能开启不会影响以前没有使用 Markdown 语法编辑的内容."
+msgstr "此功能開啟不會影響以前沒有使用 markdown 語法編輯的內容."
+
+#: Typecho/admin/backup.php:22
+msgid "此备份操作仅包含<strong>内容数据</strong>, 并不会涉及任何<strong>设置信息</strong>"
+msgstr "此備份操作僅包含<strong>內容數據</strong>, 並不會涉及任何<strong>設置信息</strong>"
+
+#: Typecho/admin/plugins.php:64
+msgid "此插件文件已经损坏或者被不安全移除, 强烈建议你禁用它"
+msgstr "此插件文件已經損壞或者被不安全移除, 強烈建議你禁用它"
+
+#: Typecho/var/Widget/Options/Reading.php:214
+msgid "此数目用于指定文章归档输出时每页显示的文章数目."
+msgstr "此數目用於指定文章歸檔輸出時每頁顯示的文章數目."
+
+#: Typecho/var/Widget/Options/Reading.php:203
+msgid "此数目用于指定显示在侧边栏中的文章列表数目."
+msgstr "此數目用於指定顯示在側邊欄中的文章列表數目."
+
+#: Typecho/var/Widget/Options/Discussion.php:143
+msgid "此数目用于指定显示在侧边栏中的评论列表数目."
+msgstr "此數目用於指定顯示在側邊欄中的評論列表數目."
+
+#: Typecho/admin/theme-editor.php:26
+msgid "此文件无法写入"
+msgstr "此文件無法寫入"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:214
+msgid "此文字用于描述分类, 在有的主题中它会被显示."
+msgstr "此文字用於描述分類, 在有的主題中它會被顯示."
+
+#: Typecho/var/Widget/Contents/Attachment/Edit.php:162
+msgid "此文字用于描述文件,在有的主题中它会被显示."
+msgstr "此文字用於描述文件,在有的主題中它會被顯示."
+
+#: Typecho/admin/write-js.php:78
+msgid "此标签不存在, 按回车创建"
+msgstr "此標籤不存在, 按回車創建"
+
+#: Typecho/var/Widget/Options/Reading.php:106
+msgid "此格式用于指定显示在文章归档中的日期默认显示格式."
+msgstr "此格式用於指定顯示在文章歸檔中的日期默認顯示格式."
+
+#: Typecho/admin/editor-js.php:78
+msgid "此浏览器不支持全屏操作"
+msgstr "此瀏覽器不支持全屏操作"
+
+#: Typecho/var/Widget/Users/Edit.php:122
+msgid "此用户名将作为用户登录时所用的名称."
+msgstr "此用戶名將作為用戶登錄時所用的名稱."
+
+#: Typecho/var/Widget/Users/Edit.php:148
+#: Typecho/var/Widget/Users/Profile.php:225
+msgid "此用户的个人主页地址, 请用 <code>https://</code> 开头."
+msgstr "此用戶的個人主頁地址, 請用<code>https://</code>開頭."
+
+#: Typecho/admin/upgrade.php:19
+msgid "此程序将把您的系统从 <strong>%s</strong> 升级到 <strong>%s</strong>"
+msgstr "此程式將把您的系統從<strong>%s</strong>升級到<strong>%s</strong>"
+
+#: Typecho/admin/write-post.php:170
+msgid "每一行一个引用地址, 用回车隔开"
+msgstr "每一行一個引用地址, 用回車隔開"
+
+#: Typecho/var/Widget/Options/Reading.php:213
+msgid "每页文章数目"
+msgstr "每頁文章數目"
+
+#: Typecho/var/Widget/Options/Discussion.php:276
+msgid "比如: %s"
+msgstr "比如: %s"
+
+#: Typecho/var/Widget/Menu.php:132
+msgid "永久链接"
+msgstr "永久連結"
+
+#: Typecho/var/Widget/Menu.php:132
+msgid "永久链接设置"
+msgstr "永久連結設置"
+
+#: Typecho/usr/themes/classic-22/post.php:17
+#: Typecho/usr/themes/classic-22/post.php:18
+#: Typecho/usr/themes/default/post.php:16
+#: Typecho/usr/themes/default/post.php:17
+msgid "没有了"
+msgstr "沒有了"
+
+#: Typecho/admin/manage-categories.php:104
+msgid "没有任何分类"
+msgstr "沒有任何分類"
+
+#: Typecho/admin/manage-medias.php:95
+msgid "没有任何文件"
+msgstr "沒有任何文件"
+
+#: Typecho/admin/manage-posts.php:199
+msgid "没有任何文章"
+msgstr "沒有任何文章"
+
+#: Typecho/admin/manage-tags.php:57
+msgid "没有任何标签"
+msgstr "沒有任何標籤"
+
+#: Typecho/admin/manage-pages.php:122
+msgid "没有任何页面"
+msgstr "沒有任何頁面"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:349
+msgid "没有分类被删除"
+msgstr "沒有分類被刪除"
+
+#: Typecho/var/Widget/Comments/Edit.php:248
+msgid "没有垃圾评论被删除"
+msgstr "沒有垃圾評論被刪除"
+
+#: Typecho/admin/plugins.php:112
+msgid "没有安装插件"
+msgstr "沒有安裝插件"
+
+#: Typecho/usr/themes/classic-22/search.php:33
+#: Typecho/usr/themes/default/index.php:35
+msgid "没有找到内容"
+msgstr "沒有找到內容"
+
+#: Typecho/var/Widget/Contents/Attachment/Edit.php:225
+#: Typecho/var/Widget/Contents/Attachment/Edit.php:230
+msgid "没有文件被删除"
+msgstr "沒有文件被刪除"
+
+#: Typecho/var/Widget/Contents/Post/Edit.php:296
+msgid "没有文章被删除"
+msgstr "沒有文章被刪除"
+
+#: Typecho/var/Widget/Contents/Post/Edit.php:223
+msgid "没有文章被标记"
+msgstr "沒有文章被標記"
+
+#: Typecho/var/Widget/Contents/Attachment/Edit.php:263
+msgid "没有未归档文件被清理"
+msgstr "沒有未歸檔文件被清理"
+
+#: Typecho/var/Widget/Metas/Tag/Edit.php:297
+msgid "没有标签被删除"
+msgstr "沒有標籤被刪除"
+
+#: Typecho/install.php:1086
+msgid "没有检测到您手动创建的配置文件, 请检查后再次创建"
+msgstr "沒有檢測到您手動創建的配置文件, 請檢查後再次創建"
+
+#: Typecho/var/Widget/Users/Edit.php:297
+msgid "没有用户被删除"
+msgstr "沒有用戶被刪除"
+
+#: Typecho/var/Widget/Contents/PrepareEditTrait.php:64
+msgid "没有编辑权限"
+msgstr "沒有編輯權限"
+
+#: Typecho/var/Widget/Contents/Page/Edit.php:284
+#: Typecho/var/Widget/Contents/Post/Edit.php:331
+msgid "没有草稿被删除"
+msgstr "沒有草稿被刪除"
+
+#: Typecho/var/Widget/XmlRpc.php:944
+msgid "没有获取评论的权限"
+msgstr "沒有獲取評論的權限"
+
+#: Typecho/admin/manage-comments.php:176
+msgid "没有评论"
+msgstr "沒有評論"
+
+#: Typecho/var/Widget/Comments/Edit.php:219
+msgid "没有评论被删除"
+msgstr "沒有評論被刪除"
+
+#: Typecho/var/Widget/Comments/Edit.php:136
+msgid "没有评论被标记为垃圾"
+msgstr "沒有評論被標記為垃圾"
+
+#: Typecho/var/Widget/Comments/Edit.php:43
+msgid "没有评论被标记为待审核"
+msgstr "沒有評論被標記為待審核"
+
+#: Typecho/var/Widget/Comments/Edit.php:163
+msgid "没有评论被通过"
+msgstr "沒有評論被通過"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:380
+#: Typecho/var/Widget/Metas/Category/Edit.php:421
+msgid "没有选择任何分类"
+msgstr "沒有選擇任何分類"
+
+#: Typecho/var/Widget/Backup.php:193 Typecho/var/Widget/Backup.php:205
+msgid "没有选择任何备份文件"
+msgstr "沒有選擇任何備份文件"
+
+#: Typecho/var/Widget/Metas/Tag/Edit.php:331
+#: Typecho/var/Widget/Metas/Tag/Edit.php:358
+msgid "没有选择任何标签"
+msgstr "沒有選擇任何標籤"
+
+#: Typecho/var/Widget/Contents/Page/Edit.php:249
+msgid "没有页面被删除"
+msgstr "沒有頁面被刪除"
+
+#: Typecho/var/Widget/Contents/Page/Edit.php:180
+msgid "没有页面被标记"
+msgstr "沒有頁面被標記"
+
+#: Typecho/admin/register.php:29 Typecho/var/Widget/Menu.php:87
+msgid "注册"
+msgstr "註冊"
+
+#: Typecho/var/Widget/Menu.php:87
+msgid "注册到%s"
+msgstr "註冊到%s"
+
+#: Typecho/usr/themes/classic-22/functions.php:20
+msgid "浅色"
+msgstr "淺色"
+
+#: Typecho/admin/manage-categories.php:76 Typecho/admin/manage-medias.php:79
+#: Typecho/admin/manage-pages.php:96 Typecho/admin/manage-posts.php:170
+#: Typecho/admin/manage-users.php:70
+msgid "浏览 %s"
+msgstr "瀏覽 %s"
+
+#: Typecho/usr/themes/classic-22/functions.php:21
+msgid "深色"
+msgstr "深色"
+
+#: Typecho/usr/themes/default/comments.php:19
+msgid "添加新评论"
+msgstr "添加新評論"
+
+#: Typecho/admin/manage-medias.php:30 Typecho/admin/manage-medias.php:118
+msgid "清理未归档文件"
+msgstr "清理未歸檔文件"
+
+#: Typecho/var/Widget/XmlRpc.php:1678 Typecho/var/Widget/XmlRpc.php:1682
+#: Typecho/var/Widget/XmlRpc.php:1732
+msgid "源地址服务器错误"
+msgstr "源地址伺服器錯誤"
+
+#: Typecho/admin/index.php:15
+msgid "点击下面的链接快速开始:"
+msgstr "點擊下面的連結快速開始:"
+
+#: Typecho/admin/file-upload-js.php:131 Typecho/admin/file-upload.php:22
+msgid "点击插入文件"
+msgstr "點擊插入文件"
+
+#: Typecho/install.php:593
+msgid "点击这里查看您的 Blog"
+msgstr "點擊這裡查看您的 blog"
+
+#: Typecho/install.php:592
+msgid "点击这里访问您的控制面板"
+msgstr "點擊這裡訪問您的控制面板"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:203
+msgid "父级分类"
+msgstr "父級分類"
+
+#: Typecho/var/Widget/Archive.php:1785
+msgid "父级分类不存在"
+msgstr "父級分類不存在"
+
+#: Typecho/var/Widget/Feedback.php:176
+msgid "父级评论不存在"
+msgstr "父級評論不存在"
+
+#: Typecho/admin/write-page.php:133
+msgid "父级页面"
+msgstr "父級頁面"
+
+#: Typecho/admin/plugins.php:26 Typecho/admin/plugins.php:91
+#: Typecho/admin/themes.php:46
+msgid "版本"
+msgstr "版本"
+
+#: Typecho/var/Widget/Menu.php:111
+msgid "独立页面"
+msgstr "獨立頁面"
+
+#: Typecho/var/Widget/Options/Permalink.php:282
+msgid "独立页面路径"
+msgstr "獨立頁面路徑"
+
+#: Typecho/var/Widget/Options/Permalink.php:287
+msgid "独立页面路径中没有包含 {cid} 或者 {slug} "
+msgstr "獨立頁面路徑中沒有包含 {cid} 或者 {slug}"
+
+#: Typecho/admin/write-js.php:11
+msgid "现在"
+msgstr "現在"
+
+#: Typecho/var/Widget/Menu.php:124
+msgid "用户"
+msgstr "用戶"
+
+#: Typecho/var/Widget/Users/Edit.php:103
+msgid "用户 %s 已经被增加"
+msgstr "用戶 %s 已經被增加"
+
+#: Typecho/var/Widget/Users/Edit.php:255
+msgid "用户 %s 已经被更新"
+msgstr "用戶 %s 已經被更新"
+
+#: Typecho/var/Widget/Register.php:101
+msgid "用户 <strong>%s</strong> 已经成功注册, 密码为 <strong>%s</strong>"
+msgstr "用戶<strong>%s</strong>已經成功註冊, 密碼為<strong>%s</strong>"
+
+#: Typecho/var/Widget/Contents/Post/Admin.php:41
+#: Typecho/var/Widget/Users/Edit.php:46 Typecho/var/Widget/Users/Edit.php:221
+msgid "用户不存在"
+msgstr "用戶不存在"
+
+#: Typecho/var/Widget/Users/Edit.php:220
+msgid "用户主键不存在"
+msgstr "用戶主鍵不存在"
+
+#: Typecho/install.php:1220 Typecho/admin/manage-comments.php:301
+#: Typecho/admin/manage-users.php:52 Typecho/admin/register.php:21
+#: Typecho/admin/register.php:22 Typecho/var/Widget/Users/Edit.php:122
+msgid "用户名"
+msgstr "用戶名"
+
+#: Typecho/var/Widget/Register.php:50 Typecho/var/Widget/Users/Edit.php:212
+msgid "用户名已经存在"
+msgstr "用戶名已經存在"
+
+#: Typecho/var/Widget/Login.php:84
+msgid "用户名或密码无效"
+msgstr "用戶名或密碼無效"
+
+#: Typecho/admin/login.php:19 Typecho/admin/login.php:20
+msgid "用户名或邮箱"
+msgstr "用戶名或郵箱"
+
+#: Typecho/var/Widget/Feedback.php:185
+msgid "用户名最多包含150个字符"
+msgstr "用戶名最多包含150個字符"
+
+#: Typecho/var/Widget/Register.php:48
+msgid "用户名最多包含32个字符"
+msgstr "用戶名最多包含32個字符"
+
+#: Typecho/var/Widget/Register.php:47
+msgid "用户名至少包含2个字符"
+msgstr "用戶名至少包含2個字符"
+
+#: Typecho/install.php:1284
+msgid "用户名长度超过限制, 请不要超过 32 个字符"
+msgstr "用戶名長度超過限制, 請不要超過 32 個字符"
+
+#: Typecho/var/Widget/Users/Edit.php:137 Typecho/var/Widget/Users/Edit.php:213
+#: Typecho/var/Widget/Users/Profile.php:338
+msgid "用户密码"
+msgstr "用戶密碼"
+
+#: Typecho/var/Widget/Users/Edit.php:143 Typecho/var/Widget/Users/Edit.php:214
+#: Typecho/var/Widget/Users/Profile.php:344
+msgid "用户密码确认"
+msgstr "用戶密碼確認"
+
+#: Typecho/var/Widget/Users/Edit.php:297
+msgid "用户已经删除"
+msgstr "用戶已經刪除"
+
+#: Typecho/var/Widget/Users/Edit.php:132
+msgid "用户昵称"
+msgstr "用戶暱稱"
+
+#: Typecho/var/Widget/Users/Edit.php:132
+#: Typecho/var/Widget/Users/Profile.php:220
+msgid "用户昵称可以与用户名不同, 用于前台显示."
+msgstr "用戶暱稱可以與用戶名不同, 用於前台顯示."
+
+#: Typecho/admin/login.php:41
+msgid "用户注册"
+msgstr "用戶註冊"
+
+#: Typecho/admin/register.php:36
+msgid "用户登录"
+msgstr "用戶登錄"
+
+#: Typecho/admin/manage-users.php:55 Typecho/var/Widget/Users/Edit.php:159
+msgid "用户组"
+msgstr "用戶組"
+
+#: Typecho/var/Widget/Options/General.php:292
+msgid "用逗号 \",\" 将后缀名隔开, 例如: %s"
+msgstr "用逗號 \",\" 將後綴名隔開, 例如: %s"
+
+#: Typecho/admin/copyright.php:5
+msgid "由 <a href=\"https://typecho.org\">%s</a> 强力驱动, 版本 %s"
+msgstr "由<a href=\"https://typecho.org\">%s</a>強力驅動, 版本 %s"
+
+#: Typecho/usr/themes/default/footer.php:9
+msgid "由 <a href=\"https://typecho.org\">Typecho</a> 强力驱动"
+msgstr "由<a href=\"https://typecho.org\">typecho</a>強力驅動"
+
+#: Typecho/admin/manage-users.php:54
+msgid "电子邮件"
+msgstr "電子郵件"
+
+#: Typecho/admin/manage-comments.php:303
+msgid "电子邮箱"
+msgstr "電子郵箱"
+
+#: Typecho/var/Widget/Users/Edit.php:127
+#: Typecho/var/Widget/Users/Profile.php:229
+msgid "电子邮箱地址将作为此用户的主要联系方式."
+msgstr "電子郵箱地址將作為此用戶的主要聯繫方式."
+
+#: Typecho/var/Widget/Register.php:52 Typecho/var/Widget/Users/Edit.php:203
+#: Typecho/var/Widget/Users/Profile.php:251
+msgid "电子邮箱地址已经存在"
+msgstr "電子郵箱地址已經存在"
+
+#: Typecho/var/Widget/Feedback.php:192
+msgid "电子邮箱最多包含150个字符"
+msgstr "電子郵箱最多包含150個字符"
+
+#: Typecho/var/Widget/Register.php:54
+msgid "电子邮箱最多包含64个字符"
+msgstr "電子郵箱最多包含64個字符"
+
+#: Typecho/install.php:1286 Typecho/var/Widget/Register.php:53
+#: Typecho/var/Widget/Users/Edit.php:204
+#: Typecho/var/Widget/Users/Profile.php:252
+msgid "电子邮箱格式错误"
+msgstr "電子郵箱格式錯誤"
+
+#: Typecho/admin/menu.php:16
+msgid "登出"
+msgstr "登出"
+
+#: Typecho/admin/login.php:27 Typecho/usr/themes/default/sidebar.php:53
+#: Typecho/var/Widget/Menu.php:86
+msgid "登录"
+msgstr "登錄"
+
+#: Typecho/var/Widget/Menu.php:86
+msgid "登录到%s"
+msgstr "登錄到%s"
+
+#: Typecho/var/Widget/XmlRpc.php:91
+msgid "登录地址"
+msgstr "登錄地址"
+
+#: Typecho/install.php:1227
+msgid "登录密码"
+msgstr "登錄密碼"
+
+#: Typecho/usr/themes/default/comments.php:22
+msgid "登录身份"
+msgstr "登錄身份"
+
+#: Typecho/usr/themes/classic-22/comments.php:31
+msgid "登录身份："
+msgstr "登錄身份："
+
+#: Typecho/admin/index.php:13
+msgid "目前有 <em>%s</em> 篇文章, 并有 <em>%s</em> 条关于你的评论在 <em>%s</em> 个分类中."
+msgstr "目前有<em>%s</em>篇文章, 並有<em>%s</em>條關於你的評論在<em>%s</em>個分類中."
+
+#: Typecho/admin/profile.php:19
+msgid "目前有 <em>%s</em> 篇日志, 并有 <em>%s</em> 条关于你的评论在 <em>%s</em> 个分类中."
+msgstr "目前有<em>%s</em>篇日誌, 並有<em>%s</em>條關於你的評論在<em>%s</em>個分類中."
+
+#: Typecho/var/Widget/XmlRpc.php:1738
+msgid "目标地址禁止Ping"
+msgstr "目標地址禁止ping"
+
+#: Typecho/var/Widget/Options/Reading.php:176
+msgid "直接调用 %s 模板文件"
+msgstr "直接調用 %s 模板文件"
+
+#: Typecho/admin/editor-js.php:83
+msgid "确定"
+msgstr "確定"
+
+#: Typecho/install.php:842
+msgid "确认, 开始安装 &raquo;"
+msgstr "確認, 開始安裝&raquo;"
+
+#: Typecho/install.php:991 Typecho/install.php:992 Typecho/install.php:993
+#: Typecho/install.php:994 Typecho/install.php:995 Typecho/install.php:996
+#: Typecho/install.php:997 Typecho/install.php:998 Typecho/install.php:1015
+#: Typecho/install.php:1016 Typecho/install.php:1017 Typecho/install.php:1018
+#: Typecho/install.php:1019 Typecho/install.php:1020 Typecho/install.php:1021
+#: Typecho/install.php:1022 Typecho/install.php:1023 Typecho/install.php:1024
+#: Typecho/install.php:1025 Typecho/install.php:1030 Typecho/install.php:1031
+#: Typecho/install.php:1032 Typecho/install.php:1033 Typecho/install.php:1034
+#: Typecho/install.php:1035 Typecho/install.php:1036 Typecho/install.php:1037
+#: Typecho/install.php:1042 Typecho/install.php:1049 Typecho/install.php:1053
+msgid "确认您的配置"
+msgstr "確認您的配置"
+
+#: Typecho/admin/file-upload-js.php:224
+msgid "确认要删除文件 %s 吗?"
+msgstr "確認要刪除文件 %s 嗎?"
+
+#: Typecho/admin/custom-fields-js.php:7
+msgid "确认要删除此字段吗?"
+msgstr "確認要刪除此欄位嗎?"
+
+#: Typecho/var/Widget/Service.php:49 Typecho/var/Widget/Service.php:268
+#: Typecho/var/Widget/User.php:286
+msgid "禁止访问"
+msgstr "禁止訪問"
+
+#: Typecho/var/Widget/Feedback.php:340
+msgid "禁止重复提交"
+msgstr "禁止重複提交"
+
+#: Typecho/admin/plugins.php:51 Typecho/admin/plugins.php:66
+msgid "禁用"
+msgstr "禁用"
+
+#: Typecho/admin/plugins.php:78
+msgid "禁用的插件"
+msgstr "禁用的插件"
+
+#: Typecho/admin/manage-posts.php:80 Typecho/admin/manage-posts.php:160
+#: Typecho/admin/manage-posts.php:229 Typecho/admin/write-post.php:137
+#: Typecho/var/Widget/Contents/Post/Edit.php:153
+msgid "私密"
+msgstr "私密"
+
+#: Typecho/var/Widget/Options/General.php:228
+msgid "科伦坡时间 孟加拉 (GMT +6)"
+msgstr "科倫坡時間 孟加拉 (gmt +6)"
+
+#: Typecho/admin/write-js.php:30
+msgid "秒"
+msgstr "秒"
+
+#: Typecho/usr/themes/default/comments.php:28
+msgid "称呼"
+msgstr "稱呼"
+
+#: Typecho/usr/themes/default/functions.php:10
+msgid "站点 LOGO 地址"
+msgstr "站點 logo 地址"
+
+#: Typecho/var/Widget/Options/General.php:149
+msgid "站点名称"
+msgstr "站點名稱"
+
+#: Typecho/var/Widget/Options/General.php:160
+msgid "站点地址"
+msgstr "站點地址"
+
+#: Typecho/var/Widget/Options/General.php:161
+msgid "站点地址主要用于生成内容的永久链接."
+msgstr "站點地址主要用於生成內容的永久連結."
+
+#: Typecho/var/Widget/Options/General.php:175
+msgid "站点描述"
+msgstr "站點描述"
+
+#: Typecho/var/Widget/Options/General.php:176
+msgid "站点描述将显示在网页代码的头部."
+msgstr "站點描述將顯示在網頁代碼的頭部."
+
+#: Typecho/var/Widget/Options/General.php:149
+msgid "站点的名称将显示在网页的标题处."
+msgstr "站點的名稱將顯示在網頁的標題處."
+
+#: Typecho/var/Widget/Options/Reading.php:194
+msgid "站点首页"
+msgstr "站點首頁"
+
+#: Typecho/var/Widget/Options/Discussion.php:164
+msgid "第一页"
+msgstr "第一頁"
+
+#: Typecho/var/Widget/Options/General.php:226
+msgid "第比利斯时间 阿曼,毛里塔尼亚,留尼汪岛 (GMT +4)"
+msgstr "提比里西時間 阿曼,茅利塔尼亞,留尼旺島 (gmt +4)"
+
+#: Typecho/admin/manage-comments.php:79 Typecho/admin/manage-medias.php:39
+#: Typecho/admin/manage-pages.php:43 Typecho/admin/manage-posts.php:103
+#: Typecho/admin/manage-users.php:34
+msgid "筛选"
+msgstr "篩選"
+
+#: Typecho/var/Widget/Menu.php:82
+msgid "管理"
+msgstr "管理"
+
+#: Typecho/var/Widget/Metas/Category/Admin.php:77
+msgid "管理 %s 的子分类"
+msgstr "管理 %s 的子分類"
+
+#: Typecho/var/Widget/Contents/Page/Admin.php:101
+msgid "管理 %s 的子页面"
+msgstr "管理 %s 的子頁面"
+
+#: Typecho/var/Widget/Menu.php:115
+msgid "管理分类"
+msgstr "管理分類"
+
+#: Typecho/var/Widget/XmlRpc.php:96
+msgid "管理区域的地址"
+msgstr "管理區域的地址"
+
+#: Typecho/admin/manage-users.php:79 Typecho/var/Widget/Users/Edit.php:156
+msgid "管理员"
+msgstr "管理員"
+
+#: Typecho/var/Widget/Menu.php:122
+msgid "管理文件"
+msgstr "管理文件"
+
+#: Typecho/var/Widget/Menu.php:109
+msgid "管理文章"
+msgstr "管理文章"
+
+#: Typecho/var/Widget/Menu.php:120
+msgid "管理标签"
+msgstr "管理標籤"
+
+#: Typecho/var/Widget/Menu.php:111
+msgid "管理独立页面"
+msgstr "管理獨立頁面"
+
+#: Typecho/var/Widget/Menu.php:124
+msgid "管理用户"
+msgstr "管理用戶"
+
+#: Typecho/var/Widget/Menu.php:113
+msgid "管理评论"
+msgstr "管理評論"
+
+#: Typecho/admin/index.php:45
+msgid "系统设置"
+msgstr "系統設置"
+
+#: Typecho/var/Widget/Options/General.php:239
+msgid "纽约渥太华 古巴,哥伦比亚,牙买加 (GMT -5)"
+msgstr "紐約渥太華 古巴,哥倫比亞,牙買加 (gmt -5)"
+
+#: Typecho/install.php:1241
+msgid "继续安装 &raquo;"
+msgstr "繼續安裝&raquo;"
+
+#: Typecho/admin/file-upload-js.php:134 Typecho/admin/file-upload.php:25
+#: Typecho/admin/manage-comments.php:163 Typecho/admin/manage-users.php:82
+#: Typecho/admin/themes.php:53 Typecho/var/Widget/Users/Edit.php:156
+msgid "编辑"
+msgstr "編輯"
+
+#: Typecho/admin/manage-pages.php:92 Typecho/admin/manage-posts.php:166
+#: Typecho/var/Widget/Contents/PrepareEditTrait.php:83
+#: Typecho/var/Widget/Contents/Page/Edit.php:355
+msgid "编辑 %s"
+msgstr "編輯 %s"
+
+#: Typecho/admin/theme-tabs.php:9
+msgid "编辑%s外观"
+msgstr "編輯%s外觀"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:247
+msgid "编辑分类"
+msgstr "編輯分類"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:477
+msgid "编辑分类 %s"
+msgstr "編輯分類 %s"
+
+#: Typecho/admin/theme-tabs.php:7
+msgid "编辑当前外观"
+msgstr "編輯當前外觀"
+
+#: Typecho/var/Widget/Themes/Files.php:102
+msgid "编辑文件 %s"
+msgstr "編輯文件 %s"
+
+#: Typecho/var/Widget/Metas/Tag/Edit.php:213
+msgid "编辑标签"
+msgstr "編輯標籤"
+
+#: Typecho/var/Widget/Metas/Tag/Admin.php:46
+msgid "编辑标签 %s"
+msgstr "編輯標籤 %s"
+
+#: Typecho/admin/theme-editor.php:17
+msgid "编辑源码"
+msgstr "編輯源碼"
+
+#: Typecho/var/Widget/Users/Edit.php:178
+msgid "编辑用户"
+msgstr "編輯用戶"
+
+#: Typecho/var/Widget/Users/Edit.php:58
+msgid "编辑用户 %s"
+msgstr "編輯用戶 %s"
+
+#: Typecho/admin/manage-categories.php:61
+#: Typecho/var/Widget/Contents/Attachment/Edit.php:151
+msgid "缩略名"
+msgstr "縮略名"
+
+#: Typecho/var/Widget/Contents/Attachment/Edit.php:187
+#: Typecho/var/Widget/Metas/Category/Edit.php:265
+#: Typecho/var/Widget/Metas/Tag/Edit.php:231
+msgid "缩略名已经存在"
+msgstr "縮略名已經存在"
+
+#: Typecho/install.php:695
+msgid "缺少PHP扩展"
+msgid_plural "缺少PHP扩展"
+msgstr[0] "缺少php擴展"
+
+#: Typecho/admin/write-page.php:58 Typecho/admin/write-post.php:47
+msgid "网址缩略名"
+msgstr "網址縮略名"
+
+#: Typecho/admin/menu.php:17 Typecho/usr/themes/default/comments.php:40
+msgid "网站"
+msgstr "網站"
+
+#: Typecho/usr/themes/classic-22/functions.php:10
+msgid "网站 Logo"
+msgstr "網站 logo"
+
+#: Typecho/install.php:1213
+msgid "网站地址"
+msgstr "網站地址"
+
+#: Typecho/var/Widget/Menu.php:94
+msgid "网站外观"
+msgstr "網站外觀"
+
+#: Typecho/var/Widget/Menu.php:90
+msgid "网站概要"
+msgstr "網站概要"
+
+#: Typecho/var/Widget/Options/General.php:241
+msgid "美国丹佛时间 (GMT -7)"
+msgstr "美國丹佛時間 (gmt -7)"
+
+#: Typecho/var/Widget/Options/General.php:242
+msgid "美国旧金山时间 (GMT -8)"
+msgstr "美國舊金山時間 (gmt -8)"
+
+#: Typecho/var/Widget/Options/Reading.php:224
+msgid "聚合全文输出"
+msgstr "聚合全文輸出"
+
+#: Typecho/var/Widget/Feed.php:89
+msgid "聚合页不存在"
+msgstr "聚合頁不存在"
+
+#: Typecho/usr/themes/classic-22/functions.php:19
+msgid "自动"
+msgstr "自動"
+
+#: Typecho/var/Widget/Users/Profile.php:78
+msgid "自动保存"
+msgstr "自動保存"
+
+#: Typecho/var/Widget/Users/Profile.php:79
+msgid "自动保存功能可以更好地保护你的文章不会丢失."
+msgstr "自動保存功能可以更好地保護你的文章不會丟失."
+
+#: Typecho/usr/themes/classic-22/functions.php:22
+msgid "自定义"
+msgstr "自定義"
+
+#: Typecho/admin/custom-fields.php:8
+msgid "自定义字段"
+msgstr "自定義欄位"
+
+#: Typecho/admin/custom-fields.php:69
+msgid "自定义字段可以扩展你的模板功能, 使用方法参见 <a href=\"https://docs.typecho.org/help/custom-fields\">帮助文档</a>"
+msgstr "自定義欄位可以擴展你的模板功能, 使用方法參見<a href=\"https://docs.typecho.org/help/custom-fields\">幫助文檔</a>"
+
+#: Typecho/var/Widget/Options/Permalink.php:267
+msgid "自定义文章路径"
+msgstr "自定義文章路徑"
+
+#: Typecho/admin/write-page.php:118
+msgid "自定义模板"
+msgstr "自定義模板"
+
+#: Typecho/var/Widget/Options/Permalink.php:189
+msgid "自定义链接与现有规则存在冲突! 它可能影响解析效率, 建议你重新分配一个规则."
+msgstr "自定義連結與現有規則存在衝突!它可能影響解析效率, 建議你重新分配一個規則."
+
+#: Typecho/var/Widget/Options/General.php:246
+msgid "艾尼威托克岛 (GMT -12)"
+msgstr "艾尼威托克島 (gmt -12)"
+
+#: Typecho/admin/manage-pages.php:82 Typecho/admin/manage-posts.php:34
+#: Typecho/admin/manage-posts.php:150 Typecho/var/Widget/XmlRpc.php:803
+#: Typecho/var/Widget/XmlRpc.php:820
+msgid "草稿"
+msgstr "草稿"
+
+#: Typecho/var/Widget/Contents/Page/Edit.php:123
+#: Typecho/var/Widget/Contents/Post/Edit.php:116
+msgid "草稿 \"%s\" 已经被保存"
+msgstr "草稿 \"%s\" 已經被保存"
+
+#: Typecho/var/Widget/Contents/Page/Edit.php:284
+#: Typecho/var/Widget/Contents/Post/Edit.php:331
+msgid "草稿已经被删除"
+msgstr "草稿已經被刪除"
+
+#: Typecho/var/Widget/Options/General.php:225
+msgid "莫斯科时间 伊拉克,埃塞俄比亚,马达加斯加 (GMT +3)"
+msgstr "莫斯科時間 伊拉克,衣索比亞    衣索匹亚,馬達加斯加 (gmt +3)"
+
+#: Typecho/var/Widget/Comments/Edit.php:275
+msgid "获取评论失败"
+msgstr "獲取評論失敗"
+
+#: Typecho/admin/menu.php:5
+msgid "菜单"
+msgstr "菜單"
+
+#: Typecho/admin/welcome.php:24
+msgid "让我直接开始使用吧 &raquo;"
+msgstr "讓我直接開始使用吧&raquo;"
+
+#: Typecho/install.php:715
+msgid "许可及协议"
+msgstr "許可及協議"
+
+#: Typecho/admin/manage-categories.php:93
+msgid "设为默认"
+msgstr "設為默認"
+
+#: Typecho/admin/plugins.php:47 Typecho/var/Widget/Menu.php:82
+msgid "设置"
+msgstr "設置"
+
+#: Typecho/var/Widget/Users/Profile.php:102
+msgid "设置你经常使用的默认允许权限"
+msgstr "設置你經常使用的默認允許權限"
+
+#: Typecho/admin/theme-tabs.php:14 Typecho/var/Widget/Menu.php:96
+msgid "设置外观"
+msgstr "設置外觀"
+
+#: Typecho/var/Widget/Options/Discussion.php:111
+#: Typecho/var/Widget/Options/General.php:134
+#: Typecho/var/Widget/Options/Permalink.php:187
+#: Typecho/var/Widget/Options/Reading.php:86
+#: Typecho/var/Widget/Users/Profile.php:292
+msgid "设置已经保存"
+msgstr "設置已經保存"
+
+#: Typecho/var/Widget/Plugins/Config.php:72
+msgid "设置插件 %s"
+msgstr "設置插件 %s"
+
+#: Typecho/admin/manage-users.php:91
+msgid "访问者"
+msgstr "訪問者"
+
+#: Typecho/admin/manage-pages.php:76 Typecho/admin/manage-posts.php:144
+#: Typecho/var/Widget/Menu.php:113 Typecho/var/Widget/Menu.php:130
+msgid "评论"
+msgstr "評論"
+
+#: Typecho/usr/themes/default/sidebar.php:57
+msgid "评论 RSS"
+msgstr "評論 rss"
+
+#: Typecho/var/Widget/XmlRpc.php:940
+msgid "评论不存在"
+msgstr "評論不存在"
+
+#: Typecho/usr/themes/classic-22/comments.php:27
+msgid "评论内容..."
+msgstr "評論內容..."
+
+#: Typecho/var/Widget/Options/Discussion.php:142
+msgid "评论列表数目"
+msgstr "評論列表數目"
+
+#: Typecho/usr/themes/classic-22/comments.php:44
+#: Typecho/usr/themes/default/comments.php:56
+msgid "评论已关闭"
+msgstr "評論已關閉"
+
+#: Typecho/var/Widget/Comments/Edit.php:219
+msgid "评论已经被删除"
+msgstr "評論已經被刪除"
+
+#: Typecho/var/Widget/Comments/Edit.php:136
+msgid "评论已经被标记为垃圾"
+msgstr "評論已經被標記為垃圾"
+
+#: Typecho/var/Widget/Comments/Edit.php:43
+msgid "评论已经被标记为待审核"
+msgstr "評論已經被標記為待審核"
+
+#: Typecho/var/Widget/Comments/Edit.php:163
+msgid "评论已经被通过"
+msgstr "評論已經被通過"
+
+#: Typecho/var/Widget/Options/Discussion.php:265
+msgid "评论提交"
+msgstr "評論提交"
+
+#: Typecho/var/Widget/Options/Discussion.php:130
+msgid "评论日期格式"
+msgstr "評論日期格式"
+
+#: Typecho/var/Widget/Options/Discussion.php:208
+msgid "评论显示"
+msgstr "評論顯示"
+
+#: Typecho/var/Widget/Feedback.php:88 Typecho/var/Widget/Feedback.php:106
+#: Typecho/var/Widget/Feedback.php:109
+msgid "评论来源页错误."
+msgstr "評論來源頁錯誤."
+
+#: Typecho/var/Widget/Options/Discussion.php:215
+msgid "评论者之前须有评论通过了审核"
+msgstr "評論者之前須有評論通過了審核"
+
+#: Typecho/var/Widget/Options/Discussion.php:151
+msgid "评论者名称显示时自动加上其个人主页链接"
+msgstr "評論者名稱顯示時自動加上其個人主頁連結"
+
+#: Typecho/var/Widget/Menu.php:130
+msgid "评论设置"
+msgstr "評論設置"
+
+#: Typecho/admin/themes.php:21
+msgid "详情"
+msgstr "詳情"
+
+#: Typecho/var/Widget/Options/General.php:216
+msgid "语言"
+msgstr "語言"
+
+#: Typecho/usr/plugins/HelloWorld/Plugin.php:47
+msgid "说点什么"
+msgstr "說點什麼"
+
+#: Typecho/var/Widget/Users/Edit.php:123
+msgid "请不要与系统中现有的用户名重复."
+msgstr "請不要與系統中現有的用戶名重複."
+
+#: Typecho/var/Widget/Users/Edit.php:128
+#: Typecho/var/Widget/Users/Profile.php:230
+msgid "请不要与系统中现有的电子邮箱地址重复."
+msgstr "請不要與系統中現有的電子郵箱地址重複."
+
+#: Typecho/var/Widget/Options/General.php:188
+msgid "请不要在关键词中使用特殊字符"
+msgstr "請不要在關鍵詞中使用特殊字符"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:264
+msgid "请不要在分类名称中使用特殊字符"
+msgstr "請不要在分類名稱中使用特殊字符"
+
+#: Typecho/var/Widget/Options/Reading.php:111
+msgid "请不要在日期格式中使用特殊字符"
+msgstr "請不要在日期格式中使用特殊字符"
+
+#: Typecho/var/Widget/Users/Edit.php:200
+#: Typecho/var/Widget/Users/Profile.php:248
+msgid "请不要在昵称中使用特殊字符"
+msgstr "請不要在暱稱中使用特殊字符"
+
+#: Typecho/install.php:1283 Typecho/var/Widget/Feedback.php:183
+#: Typecho/var/Widget/Register.php:49 Typecho/var/Widget/Users/Edit.php:211
+msgid "请不要在用户名中使用特殊字符"
+msgstr "請不要在用戶名中使用特殊字符"
+
+#: Typecho/var/Widget/Options/General.php:152
+msgid "请不要在站点名称中使用特殊字符"
+msgstr "請不要在站點名稱中使用特殊字符"
+
+#: Typecho/var/Widget/Options/General.php:178
+msgid "请不要在站点描述中使用特殊字符"
+msgstr "請不要在站點描述中使用特殊字符"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:266
+#: Typecho/var/Widget/Metas/Tag/Edit.php:232
+msgid "请不要在缩略名中使用特殊字符"
+msgstr "請不要在縮略名中使用特殊字符"
+
+#: Typecho/var/Widget/Metas/Tag/Edit.php:230
+msgid "请不要标签名称中使用特殊字符"
+msgstr "請不要標籤名稱中使用特殊字符"
+
+#: Typecho/var/Widget/Options/General.php:186
+msgid "请以半角逗号 \",\" 分割多个关键字."
+msgstr "請以半角逗號 \",\" 分割多個關鍵字."
+
+#: Typecho/var/Widget/Upgrade.php:39
+msgid "请先升级至版本 %s"
+msgstr "請先升級至版本 %s"
+
+#: Typecho/var/Widget/Options/Reading.php:108
+msgid "请参考 <a href=\"https://www.php.net/manual/zh/function.date.php\">PHP 日期格式写法</a>."
+msgstr "請參考<a href=\"https://www.php.net/manual/zh/function.date.php\">php 日期格式寫法</a>."
+
+#: Typecho/admin/editor-js.php:80
+msgid "请在下方的输入框内输入要插入的远程图片地址"
+msgstr "請在下方的輸入框內輸入要插入的遠程圖片地址"
+
+#: Typecho/admin/editor-js.php:81
+msgid "请在下方的输入框内输入要插入的链接地址"
+msgstr "請在下方的輸入框內輸入要插入的連結地址"
+
+#: Typecho/var/Widget/Options/Permalink.php:284
+#: Typecho/var/Widget/Options/Permalink.php:296
+msgid "请在路径中至少包含上述的一项参数."
+msgstr "請在路徑中至少包含上述的一項參數."
+
+#: Typecho/var/Widget/Options/Discussion.php:146
+#: Typecho/var/Widget/Options/Reading.php:206
+#: Typecho/var/Widget/Options/Reading.php:217
+msgid "请填入一个数字"
+msgstr "請填入一個數字"
+
+#: Typecho/install.php:1281 Typecho/usr/themes/default/functions.php:14
+#: Typecho/var/Widget/Options/General.php:167
+msgid "请填写一个合法的URL地址"
+msgstr "請填寫一個合法的url地址"
+
+#: Typecho/install.php:1236
+msgid "请填写一个您的常用邮箱"
+msgstr "請填寫一個您的常用郵箱"
+
+#: Typecho/install.php:1222
+msgid "请填写您的用户名"
+msgstr "請填寫您的用戶名"
+
+#: Typecho/install.php:1229
+msgid "请填写您的登录密码, 如果留空系统将为您随机生成一个"
+msgstr "請填寫您的登錄密碼, 如果留空系統將為您隨機生成一個"
+
+#: Typecho/usr/themes/classic-22/functions.php:14
+msgid "请填写正确的 URL 地址"
+msgstr "請填寫正確的 url 地址"
+
+#: Typecho/var/Widget/Options/General.php:151
+msgid "请填写站点名称"
+msgstr "請填寫站點名稱"
+
+#: Typecho/install.php:1280 Typecho/var/Widget/Options/General.php:166
+msgid "请填写站点地址"
+msgstr "請填寫站點地址"
+
+#: Typecho/var/Widget/Metas/Tag/Edit.php:313
+msgid "请填写需要合并到的标签"
+msgstr "請填寫需要合併到的標籤"
+
+#: Typecho/install/Mysql.php:29 Typecho/install/Pgsql.php:26
+msgid "请您指定数据库名称"
+msgstr "請您指定資料庫名稱"
+
+#: Typecho/install.php:826
+msgid "请根据您的数据库类型选择合适的适配器"
+msgstr "請根據您的資料庫類型選擇合適的適配器"
+
+#: Typecho/var/Widget/Action.php:76 Typecho/var/Widget/Archive.php:694
+#: Typecho/var/Widget/Archive.php:1548 Typecho/var/Widget/Archive.php:1674
+#: Typecho/var/Widget/CommentPage.php:29 Typecho/var/Widget/XmlRpc.php:1753
+msgid "请求的地址不存在"
+msgstr "請求的地址不存在"
+
+#: Typecho/var/Widget/Users/Edit.php:143
+#: Typecho/var/Widget/Users/Profile.php:344
+msgid "请确认你的密码, 与上面输入的密码保持一致."
+msgstr "請確認你的密碼, 與上面輸入的密碼保持一致."
+
+#: Typecho/var/Widget/Options/Permalink.php:226
+msgid "请调整你的目录权限, 或者手动创建一个.htaccess文件."
+msgstr "請調整你的目錄權限, 或者手動創建一個.htaccess文件."
+
+#: Typecho/admin/editor-js.php:57
+msgid "请输入代码"
+msgstr "請輸入代碼"
+
+#: Typecho/admin/manage-comments.php:72 Typecho/admin/manage-medias.php:37
+#: Typecho/admin/manage-pages.php:41 Typecho/admin/manage-posts.php:93
+#: Typecho/admin/manage-users.php:32
+msgid "请输入关键字"
+msgstr "請輸入關鍵字"
+
+#: Typecho/admin/editor-js.php:60
+msgid "请输入图片描述"
+msgstr "請輸入圖片描述"
+
+#: Typecho/var/Widget/Login.php:43
+msgid "请输入密码"
+msgstr "請輸入密碼"
+
+#: Typecho/var/Widget/Base/Contents.php:570
+msgid "请输入密码访问"
+msgstr "請輸入密碼訪問"
+
+#: Typecho/admin/write-js.php:77
+msgid "请输入标签名"
+msgstr "請輸入標籤名"
+
+#: Typecho/var/Widget/Login.php:42
+msgid "请输入用户名"
+msgstr "請輸入用戶名"
+
+#: Typecho/admin/editor-js.php:51
+msgid "请输入链接描述"
+msgstr "請輸入連結描述"
+
+#: Typecho/var/Widget/Metas/Category/Edit.php:364
+msgid "请选择需要合并的分类"
+msgstr "請選擇需要合併的分類"
+
+#: Typecho/admin/index.php:98
+msgid "读取中..."
+msgstr "讀取中..."
+
+#: Typecho/admin/manage-users.php:85 Typecho/var/Widget/Users/Edit.php:156
+msgid "贡献者"
+msgstr "貢獻者"
+
+#: Typecho/admin/copyright.php:11
+msgid "资源下载"
+msgstr "資源下載"
+
+#: Typecho/var/Widget/XmlRpc.php:71
+msgid "软件名称"
+msgstr "軟體名稱"
+
+#: Typecho/var/Widget/XmlRpc.php:76
+msgid "软件版本"
+msgstr "軟體版本"
+
+#: Typecho/var/Widget/Options/Discussion.php:171
+msgid "较新的"
+msgstr "較新的"
+
+#: Typecho/var/Widget/Options/Discussion.php:172
+msgid "较旧的"
+msgstr "較舊的"
+
+#: Typecho/usr/themes/default/header.php:41
+msgid "输入关键字搜索"
+msgstr "輸入關鍵字搜索"
+
+#: Typecho/var/Widget/Metas/Category/Admin.php:59
+msgid "返回父级分类"
+msgstr "返回父級分類"
+
+#: Typecho/var/Widget/Contents/Page/Admin.php:83
+msgid "返回父级页面"
+msgstr "返回父級頁面"
+
+#: Typecho/admin/login.php:38 Typecho/admin/register.php:34
+msgid "返回首页"
+msgstr "返回首頁"
+
+#: Typecho/var/Widget/XmlRpc.php:1687 Typecho/var/Widget/XmlRpc.php:1741
+msgid "这个目标地址不存在"
+msgstr "這個目標地址不存在"
+
+#: Typecho/var/Widget/Options/Discussion.php:131
+msgid "这是一个默认的格式,当你在模板中调用显示评论日期方法时, 如果没有指定日期格式, 将按照此格式输出."
+msgstr "這是一個默認的格式,當你在模板中調用顯示評論日期方法時, 如果沒有指定日期格式, 將按照此格式輸出."
+
+#: Typecho/var/Widget/Metas/Tag/Edit.php:172
+msgid "这是标签在站点中显示的名称.可以使用中文,如 \"地球\"."
+msgstr "這是標籤在站點中顯示的名稱.可以使用中文,如 \"地球\"."
+
+#: Typecho/install.php:1215
+msgid "这是程序自动匹配的网站路径, 如果不正确请修改它"
+msgstr "這是程式自動匹配的網站路徑, 如果不正確請修改它"
+
+#: Typecho/admin/editor-js.php:265
+msgid "这篇文章不是由Markdown语法创建的, 继续使用Markdown编辑它吗?"
+msgstr "這篇文章不是由markdown語法創建的, 繼續使用markdown編輯它嗎?"
+
+#: Typecho/usr/themes/default/sidebar.php:49
+msgid "进入后台"
+msgstr "進入後台"
+
+#: Typecho/usr/themes/classic-22/comments.php:31
+#: Typecho/usr/themes/default/comments.php:24
+#: Typecho/usr/themes/default/sidebar.php:51
+msgid "退出"
+msgstr "退出"
+
+#: Typecho/admin/editor-js.php:77
+msgid "退出全屏"
+msgstr "退出全屏"
+
+#: Typecho/admin/manage-categories.php:23 Typecho/admin/manage-comments.php:53
+#: Typecho/admin/manage-comments.php:191 Typecho/admin/manage-medias.php:21
+#: Typecho/admin/manage-medias.php:108 Typecho/admin/manage-pages.php:20
+#: Typecho/admin/manage-posts.php:63 Typecho/admin/manage-posts.php:212
+#: Typecho/admin/manage-tags.php:23 Typecho/admin/manage-users.php:19
+#: Typecho/admin/manage-users.php:108
+msgid "选中项"
+msgstr "選中項"
+
+#: Typecho/install/Mysql.php:53
+msgid "选择 utf8mb4 编码至少需要 MySQL 5.5.3 版本"
+msgstr "選擇 utf8mb4 編碼至少需要 mysql 5.5.3 版本"
+
+#: Typecho/admin/backup.php:63
+msgid "选择一个备份文件恢复数据"
+msgstr "選擇一個備份文件恢復數據"
+
+#: Typecho/var/Widget/Options/Permalink.php:269
+msgid "选择一种合适的文章静态路径风格, 使得你的网站链接更加友好."
+msgstr "選擇一種合適的文章靜態路徑風格, 使得你的網站連結更加友好."
+
+#: Typecho/admin/backup.php:74
+msgid "选择并恢复 &raquo;"
+msgstr "選擇並恢復&raquo;"
+
+#: Typecho/admin/write-js.php:24
+msgid "选择时间"
+msgstr "選擇時間"
+
+#: Typecho/admin/write-page.php:98 Typecho/admin/write-post.php:83
+msgid "选项"
+msgstr "選項"
+
+#: Typecho/admin/manage-comments.php:55 Typecho/admin/manage-comments.php:146
+#: Typecho/admin/manage-comments.php:148 Typecho/admin/manage-comments.php:193
+msgid "通过"
+msgstr "通過"
+
+#: Typecho/install.php:1234 Typecho/var/Widget/Users/Edit.php:127
+#: Typecho/var/Widget/Users/Profile.php:229
+msgid "邮件地址"
+msgstr "郵件地址"
+
+#: Typecho/var/Widget/Feedback.php:191
+msgid "邮箱地址不合法"
+msgstr "郵箱地址不合法"
+
+#: Typecho/install.php:1287
+msgid "邮箱长度超过限制, 请不要超过 200 个字符"
+msgstr "郵箱長度超過限制, 請不要超過 200 個字符"
+
+#: Typecho/admin/editor-js.php:73 Typecho/admin/editor-js.php:74
+msgid "重做"
+msgstr "重做"
+
+#: Typecho/var/Widget/Options/Permalink.php:217
+msgid "重写功能检测失败, 请检查你的服务器设置"
+msgstr "重寫功能檢測失敗, 請檢查你的伺服器設置"
+
+#: Typecho/admin/themes.php:30
+msgid "重新上传此外观后刷新当前页面，此提示将会消失。"
+msgstr "重新上傳此外觀後刷新當前頁面，此提示將會消失。"
+
+#: Typecho/admin/editor-js.php:50
+msgid "链接"
+msgstr "連結"
+
+#: Typecho/var/Widget/Menu.php:131
+msgid "阅读"
+msgstr "閱讀"
+
+#: Typecho/usr/themes/classic-22/index.php:33
+msgid "阅读全文"
+msgstr "閱讀全文"
+
+#: Typecho/usr/themes/default/index.php:29
+msgid "阅读剩余部分"
+msgstr "閱讀剩餘部分"
+
+#: Typecho/var/Widget/Menu.php:131
+msgid "阅读设置"
+msgstr "閱讀設置"
+
+#: Typecho/var/Widget/Options/General.php:243
+msgid "阿拉斯加时间 (GMT -9)"
+msgstr "阿拉斯加時間 (gmt -9)"
+
+#: Typecho/admin/editor-js.php:144 Typecho/admin/write-page.php:99
+#: Typecho/admin/write-post.php:84
+msgid "附件"
+msgstr "附件"
+
+#: Typecho/admin/manage-pages.php:30 Typecho/admin/manage-pages.php:88
+#: Typecho/admin/manage-posts.php:77 Typecho/admin/manage-posts.php:156
+#: Typecho/admin/manage-posts.php:226 Typecho/admin/write-page.php:157
+#: Typecho/admin/write-post.php:133
+#: Typecho/var/Widget/Contents/Page/Edit.php:141
+#: Typecho/var/Widget/Contents/Post/Edit.php:154
+msgid "隐藏"
+msgstr "隱藏"
+
+#: Typecho/var/Widget/Archive.php:1393
+msgid "非法的模板路径"
+msgstr "非法的模板路徑"
+
+#: Typecho/var/Widget/Contents/Page/Edit.php:92
+msgid "页面 \"<a href=\"%s\">%s</a>\" 已经发布"
+msgstr "頁面 \"<a href=\"%s\">%s</a> \" 已經發布"
+
+#: Typecho/admin/extending.php:9 Typecho/var/Widget/Contents/Page/Admin.php:107
+#: Typecho/var/Widget/Contents/Page/Edit.php:323
+#: Typecho/var/Widget/Contents/Page/Edit.php:368
+msgid "页面不存在"
+msgstr "頁面不存在"
+
+#: Typecho/admin/write-page.php:68
+msgid "页面内容"
+msgstr "頁面內容"
+
+#: Typecho/var/Widget/Contents/Page/Edit.php:249
+msgid "页面已经被删除"
+msgstr "頁面已經被刪除"
+
+#: Typecho/var/Widget/Contents/Page/Edit.php:180
+msgid "页面已经被标记为<strong>%s</strong>"
+msgstr "頁面已經被標記為<strong>%s</strong>"
+
+#: Typecho/var/Widget/Contents/Page/Edit.php:312
+msgid "页面排序已经完成"
+msgstr "頁面排序已經完成"
+
+#: Typecho/usr/themes/default/404.php:7 Typecho/var/Widget/Archive.php:1563
+msgid "页面没找到"
+msgstr "頁面沒找到"
+
+#: Typecho/admin/write-page.php:111
+msgid "页面顺序"
+msgstr "頁面順序"
+
+#: Typecho/admin/editor-js.php:217
+msgid "预览"
+msgstr "預覽"
+
+#: Typecho/admin/write-post.php:67
+msgid "预览文章"
+msgstr "預覽文章"
+
+#: Typecho/admin/write-page.php:83
+msgid "预览页面"
+msgstr "預覽頁面"
+
+#: Typecho/usr/themes/classic-22/header.php:44
+#: Typecho/usr/themes/default/header.php:48
+msgid "首页"
+msgstr "首頁"
+
+#: Typecho/admin/write-page.php:148 Typecho/admin/write-post.php:122
+#: Typecho/install/Mysql.php:36 Typecho/install/Pgsql.php:33
+msgid "高级选项"
+msgstr "高級選項"
+
+#: Typecho/admin/manage-categories.php:89
+#: Typecho/admin/manage-categories.php:93
+msgid "默认"
+msgstr "默認"
+
+#: Typecho/var/Widget/Users/Profile.php:101
+msgid "默认允许"
+msgstr "默認允許"
+
+#: Typecho/install.php:1317
+msgid "默认分类"
+msgstr "默認分類"
+
+#: Typecho/install.php:834
+msgid "默认前缀是 \"typecho_\""
+msgstr "默認前綴是 \"typecho_\""
+
+#: Typecho/var/Widget/Options/Discussion.php:275
+msgid "默认的用户评论不允许填写任何的HTML标签, 你可以在这里填写允许使用的HTML标签."
+msgstr "默認的用戶評論不允許填寫任何的html標籤, 你可以在這裡填寫允許使用的html標籤."
+
+#: Typecho/var/Widget/Options/Permalink.php:239
+msgid "默认风格"
+msgstr "默認風格"
+
+#: Typecho/usr/themes/classic-22/comments.php:37
+msgid "（选填）"
+msgstr "（選填）"

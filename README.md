@@ -1,18 +1,50 @@
-*Read this in other languages: [English](README.md), [日本語](README.ja.md), [简体中文](README.zh-cn.md).*
+# Typecho Language Pack
+
+*Read this in other languages: [简体中文](README.zh-cn.md), [繁體中文](README.zh-cht.md), [日本語](README.ja-jp.md)*
+
+Multi-language language pack for **Typecho 1.3.0**. All translations are machine-generated from the Simplified-Chinese templates in `original/messages.pot` and kept in sync by the scripts under `tools/`.
 
 ## Install
 
-1. [Download the latest version](https://github.com/typecho/languages/releases/tag/ci) and uncompress it.
+1. Clone or download this repo, then copy the `src/langs/` folder.
+2. Upload all `*.mo` files to `<your Typecho>/usr/langs/` (create the folder if missing).
+3. In `Admin > Settings > General`, pick the language you need.
 
-2. Upload all `*.mo` files to `<Your Typecho Directory>/usr/langs` . If that directory doesn't exist, you can create one before uploading.
+## Repository layout
 
-3. Go to `admin > options > genral options`, there will be a language selector shows below.
+```
+original/messages.pot   Translation template: Simplified-Chinese strings extracted from Typecho 1.3.0 source
+original/projects/      Per-language .po files (machine-generated, one-to-one with the template)
+original/achieves/      Historical language packs from the upstream repo (hand-translated in 2018, not synced, reference only)
+src/langs/              Compiled .mo files (what you install)
+tools/                  Template-scan and batch-translation scripts (see tools/README.md)
+```
 
-## How-to
+## Update translations
 
-1. [Fork](https://github.com/typecho/languages/fork) this repo and clone to local.
-2. Start your translation road by using [PoEdit](http://poedit.net/) or other gettext software. The `message.pot` file contains all recent translation strings, but it is in Chinese, so you might want to start with the English translation file `en_US.po` and update the missing messages from `messages.pot`.
-3. Push update to your forked repo, and then pull a request to offical languages repo: named `typecho/languages`.
+Set up a virtual environment first (the scripts are plain Python, but the dependencies must not leak into your system interpreter):
 
-Also please see http://docs.typecho.org/translate/start
+```bash
+python -m venv .venv                 # create once
+.venv\Scripts\activate               # Windows (PowerShell)
+# source .venv/bin/activate          # macOS / Linux
+pip install tencentcloud-sdk-python-common opencc-python-reimplemented
+```
 
+Then:
+
+```bash
+python tools/_i18n_analyze.py             # scan Typecho source → regenerate messages.pot
+python tools/_tmt_translate.py            # machine-translate all languages → regenerate projects/*.po
+msgfmt original/projects/xx_XX.po -o src/langs/xx_XX.mo   # compile the changed language file
+```
+
+Translations are AI machine-generated; pull requests that improve them under `original/projects/` are welcome.
+
+> **After polishing any `.po` by hand, run `python tools/_build_tmt_cache.py`.**
+> `_tmt_translate.py` serves translations from `tools/runtime/_tmt_cache.json`; a hand-polished
+> string that is not in the cache will be **overwritten by the machine output** on the next run.
+> `_build_tmt_cache.py` re-seeds the whole cache from the current `original/projects/*.po`, so your
+> edits survive and later runs can work fully offline. Full order: edit `.po` → `_build_tmt_cache.py` → `msgfmt` → `_po_check.py`.
+
+See also: http://docs.typecho.org/translate/start

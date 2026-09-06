@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-09-06T08:05:02.677646+08:00",
+  "pot": "original\\messages.pot",
+  "languages": {
+    "zh_TW": {
+      "file": "zh_TW.po",
+      "target": "zh-TW",
+      "total_fields": 897,
+      "fallback_total": 0,
+      "fallback_by_reason": {},
+      "fallbacks": []
+    },
+    "tr_TR": {
+      "file": "tr_TR.po",
+      "target": "tr",
+      "total_fields": 904,
+      "fallback_total": 0,
+      "fallback_by_reason": {},
+      "fallbacks": []
+    },
+    "ru_RU": {
+      "file": "ru_RU.po",
+      "target": "ru",
+      "total_fields": 904,
+      "fallback_total": 0,
+      "fallback_by_reason": {},
+      "fallbacks": []
+    },
+    "pt_BR": {
+      "file": "pt_BR.po",
+      "target": "pt",
+      "total_fields": 904,
+      "fallback_total": 0,
+      "fallback_by_reason": {},
+      "fallbacks": []
+    },
+    "ja_JP": {
+      "file": "ja_JP.po",
+      "target": "ja",
+      "total_fields": 897,
+      "fallback_total": 0,
+      "fallback_by_reason": {},
+      "fallbacks": []
+    },
+    "ko_KR": {
+      "file": "ko_KR.po",
+      "target": "ko",
+      "total_fields": 897,
+      "fallback_total": 0,
+      "fallback_by_reason": {},
+      "fallbacks": []
+    },
+    "fr_FR": {
+      "file": "fr_FR.po",
+      "target": "fr",
+      "total_fields": 904,
+      "fallback_total": 0,
+      "fallback_by_reason": {},
+      "fallbacks": []
+    },
+    "es_ES": {
+      "file": "es_ES.po",
+      "target": "es",
+      "total_fields": 904,
+      "fallback_total": 0,
+      "fallback_by_reason": {},
+      "fallbacks": []
+    },
+    "de_DE": {
+      "file": "de_DE.po",
+      "target": "de",
+      "total_fields": 904,
+      "fallback_total": 0,
+      "fallback_by_reason": {},
+      "fallbacks": []
+    },
+    "en_US": {
+      "file": "en_US.po",
+      "target": "en",
+      "total_fields": 904,
+      "fallback_total": 0,
+      "fallback_by_reason": {},
+      "fallbacks": []
+    }
+  }
+}
