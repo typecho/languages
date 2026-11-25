@@ -1930,6 +1930,9 @@ msgstr ""
 msgid "管理 %s 的子页面"
 msgstr ""
 
+msgid "页面模板不存在"
+msgstr ""
+
 msgid "未命名页面"
 msgstr ""
 
